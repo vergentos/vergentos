@@ -1,10 +1,8 @@
 ---
 title: 'Proven results with measurable outcomes'
-thumbnail: '/images/ns-img-326.png'
+thumbnail: '/images/ns-img-408.jpg'
 description: 'Delivering data-backed performance improvements and tangible business growth through AI-driven analytics.'
 result: Improved operational efficiency by 50% and accelerated decision-making speed by 70%
-showHomePage: true
-
 before:
   - 'Unclear performance metrics'
   - 'Difficulty tracking ROI and impact'

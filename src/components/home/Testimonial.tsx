@@ -14,12 +14,11 @@ const Testimonial = () => {
       <div className="main-container">
         <div className="mb-10 flex flex-col items-center text-center md:mb-[70px]">
           <RevealAnimation delay={0.2}>
-            <h2 className="mx-auto mb-4 max-w-[750px]">What our clients are saying.</h2>
+            <h2 className="mx-auto mb-4 max-w-[750px]">Partnering for digital success.</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="mx-auto max-w-[872px]">
-              Trusted by businesses worldwide to drive efficiency, accuracy, and results. Hear from our clients how
-              NextSaaS helped them streamline operations, save time, and drive results through smart automation.
+              Trusted by industry leaders across the UK to deliver technical excellence. Discover how Mediatopia.agency empowers brands through bespoke web design, custom API integrations, and AI-driven automation that drives real commercial growth.
             </p>
           </RevealAnimation>
         </div>

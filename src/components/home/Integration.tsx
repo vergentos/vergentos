@@ -24,14 +24,14 @@ const Integration = () => {
           <div className="flex flex-col items-start gap-x-[140px] gap-y-24 lg:flex-row">
             <div className="mx-auto w-full max-w-[520px] text-center lg:sticky lg:top-28 lg:mx-0 lg:max-w-full lg:flex-1 lg:text-left">
               <RevealAnimation delay={0.2}>
-                <span className="badge badge-green mb-5">Process</span>
+                <span className="badge badge-green mb-5">Our Process</span>
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
-                <h2 className="mb-3 max-w-[529px]">Why thousands trust us for their apps.</h2>
+                <h2 className="mb-3 max-w-[529px]">Expert digital delivery from concept to launch.</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p className="mb-7 lg:max-w-[620px]">
-                  We streamline automation for a strategic and sustainable AI transition.
+                  Our structured approach ensures your web application or platform is built for speed, security, and long-term commercial success in an AI-driven market.
                 </p>
               </RevealAnimation>
               <RevealAnimation delay={0.5}>
@@ -40,7 +40,7 @@ const Integration = () => {
                     href="/process"
                     rel="noopener noreferrer"
                     className="btn btn-secondary hover:btn-primary dark:btn-transparent btn-md mx-auto w-[85%] md:w-auto">
-                    Get started
+                    Start Your Journey
                   </LinkButton>
                 </div>
               </RevealAnimation>
@@ -60,9 +60,9 @@ const Integration = () => {
                     </figure>
                     <figure className="dark:bg-background-5 space-y-6 rounded-xl bg-white p-8">
                       <figcaption className="space-y-2">
-                        <h5>Design tailored AI strategies.</h5>
+                        <h5>Strategic Discovery &amp; Planning.</h5>
                         <p className="max-w-[250px]">
-                          Tailored AI strategies align solutions to drive smarter decisions.
+                          We define your commercial objectives first, ensuring every technical decision serves your specific business goals and ROI.
                         </p>
                       </figcaption>
                       <figure className="w-full max-w-[385px]">
@@ -87,8 +87,8 @@ const Integration = () => {
                     </figure>
                     <figure className="dark:bg-background-5 space-y-6 rounded-xl bg-white p-8">
                       <figcaption className="space-y-2">
-                        <h5>Monitor and optimize results.</h5>
-                        <p className="max-w-[250px]">Track performance and fine-tune your strategy.</p>
+                        <h5>Bespoke UI/UX Design.</h5>
+                        <p className="max-w-[250px]">Crafting high-converting, mobile-first interfaces that embody your brand’s authority and deliver seamless user experiences.</p>
                       </figcaption>
                       <div className="w-full max-w-[400px] overflow-hidden rounded-2xl">
                         <Image
@@ -117,8 +117,8 @@ const Integration = () => {
                     </figure>
                     <figure className="dark:bg-background-5 space-y-6 rounded-xl bg-white p-8">
                       <figcaption className="space-y-2">
-                        <h5>Know your goals</h5>
-                        <p className="max-w-[250px]">When you know your goals, you own your path.</p>
+                        <h5>Development &amp; AI Integration.</h5>
+                        <p className="max-w-[250px]">Engineering robust platforms with custom CMS capabilities and intelligent automation to future-proof your digital infrastructure.</p>
                       </figcaption>
                       <div className="w-full max-w-[400px] overflow-hidden rounded-2xl">
                         <Image
@@ -147,9 +147,9 @@ const Integration = () => {
                     </figure>
                     <figure className="dark:bg-background-5 space-y-6 rounded-xl bg-white p-8">
                       <figcaption className="space-y-2">
-                        <h5>Use smart automation.</h5>
+                        <h5>Optimisation &amp; Continuous Growth.</h5>
                         <p className="max-w-[250px]">
-                          Let automation handle the routine, so you can focus on strategy.
+                          Beyond the launch, we provide proactive support and SEO-driven updates to keep your agency platform ranking and performing.
                         </p>
                       </figcaption>
                       <div className="w-full max-w-[400px] overflow-hidden rounded-2xl">

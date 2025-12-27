@@ -25,14 +25,16 @@ NextSaaS Buttons Styles
 
 /* btn color variants */
 @utility btn-primary {
-  @apply bg-primary-500 shadow-1 border-primary-600  text-white dark:border-primary-400;
+  /* Updated text to secondary (#1a1a1c) for WCAG contrast on cyan */
+  @apply bg-primary-500 shadow-1 border-primary-600 text-secondary dark:border-primary-400;
   &::before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='white' viewBox='0 0 256 256'%3E%3Cpath d='M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z'%3E%3C/path%3E%3C/svg%3E");
+    /* Updated SVG fill to dark charcoal (#1a1a1c) for contrast */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='%231a1a1c' viewBox='0 0 256 256'%3E%3Cpath d='M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z'%3E%3C/path%3E%3C/svg%3E");
   }
 }
 
 @utility btn-white {
-  @apply bg-background-1 border-stroke-3 shadow-1  text-secondary;
+  @apply bg-background-1 border-stroke-3 shadow-1 text-secondary;
   &::before {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='%231a1a1c' viewBox='0 0 256 256'%3E%3Cpath d='M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z'%3E%3C/path%3E%3C/svg%3E");
   }
@@ -46,14 +48,14 @@ NextSaaS Buttons Styles
 }
 
 @utility btn-white-v2 {
-  @apply bg-white border-stroke-3 shadow-1  text-secondary;
+  @apply bg-white border-stroke-3 shadow-1 text-secondary;
   &::before {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='%231a1a1c' viewBox='0 0 256 256'%3E%3Cpath d='M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z'%3E%3C/path%3E%3C/svg%3E");
   }
 }
 
 @utility btn-accent {
-  @apply bg-accent border-stroke-3 shadow-1  text-secondary;
+  @apply bg-accent border-stroke-3 shadow-1 text-secondary;
   &::before {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='%231a1a1c' viewBox='0 0 256 256'%3E%3Cpath d='M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z'%3E%3C/path%3E%3C/svg%3E");
   }
@@ -104,7 +106,7 @@ NextSaaS Buttons Styles
 }
 
 @utility btn-gray {
-  @apply bg-background-4  border-none text-secondary font-medium;
+  @apply bg-background-4 border-none text-secondary font-medium;
 }
 
 /* btn size variants */
@@ -175,9 +177,11 @@ NextSaaS Buttons Styles
 
 /* color variants  */
 @utility btn-primary-v2 {
-  @apply bg-primary-500 text-white;
+  /* Updated to text-secondary for WCAG compliance on cyan */
+  @apply bg-primary-500 text-secondary;
   .btn-v2-icon {
-    @apply fill-white;
+    /* Updated icon fill to secondary (#1a1a1c) for contrast */
+    @apply fill-secondary;
   }
 }
 

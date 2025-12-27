@@ -1,174 +1,473 @@
 'use client';
 
-import { CheckIcon } from '@/icons';
-import { cn } from '@/utils/cn';
 import Link from 'next/link';
 import { useState } from 'react';
 import RevealAnimation from '../animation/RevealAnimation';
 
-interface PricingFeature {
-  id: string;
-  text: string;
-  isActive: boolean;
-}
-
-interface PricingCard {
-  id: string;
-  title: string;
-  description: string;
-  monthlyPrice: string;
-  yearlyPrice: string;
-  isFeatured: boolean;
-  features: PricingFeature[];
-}
-
-const pricingData: PricingCard[] = [
-  {
-    id: 'simplified',
-    title: 'Simplified',
-    description: 'For individuals and small teams with unlimited trial access.',
-    monthlyPrice: '19.00',
-    yearlyPrice: '230.00',
-    isFeatured: false,
-    features: [
-      { id: 'single-payment', text: 'Single Payment', isActive: true },
-      { id: 'selling-your-own-items', text: 'Selling your own items', isActive: false },
-      { id: 'powerful-integration', text: 'Powerful integration', isActive: false },
-    ],
-  },
-  {
-    id: 'basic',
-    title: 'Basic',
-    description: 'For individuals and small teams with unlimited trial access.',
-    monthlyPrice: '37.00',
-    yearlyPrice: '4420.00',
-    isFeatured: true,
-    features: [
-      { id: 'unlimited-bandwidth', text: 'Unlimited Bandwidth', isActive: true },
-      { id: 'promotional-tools', text: 'Promotional Tools', isActive: true },
-      { id: 'single-payment', text: 'Single Payment', isActive: true },
-      { id: 'single-payment', text: 'Single Payment', isActive: true },
-      { id: 'selling-your-own-items', text: 'Selling your own items', isActive: false },
-      { id: 'powerful-integration', text: 'Powerful integration', isActive: false },
-    ],
-  },
-  {
-    id: 'enhanced',
-    title: 'Enhanced',
-    description: 'For individuals and small teams with unlimited trial access.',
-    monthlyPrice: '37.00',
-    yearlyPrice: '4420.00',
-    isFeatured: false,
-    features: [
-      { id: 'selling-on-your-own-conditions', text: 'Selling on your own conditions', isActive: true },
-      { id: 'seamless-integrations', text: 'Seamless integrations', isActive: true },
-      { id: 'real-time-streaming', text: 'Real-time streaming', isActive: false },
-    ],
-  },
-];
-
 const Pricing = () => {
-  const [isAnnual, setIsAnnual] = useState(false);
+  const [isMonthly, setIsMonthly] = useState(true);
   return (
-    <section className="relative overflow-hidden py-24 xl:py-[200px]">
-      <div className="main-container space-y-[70px]">
-        <div className="flex flex-col items-center text-center">
-          <RevealAnimation delay={0.1}>
-            <span className="badge badge-yellow-v2 mb-5">Our Pricing</span>
-          </RevealAnimation>
-          <RevealAnimation delay={0.2}>
-            <h2 className="mx-auto mb-8 max-w-[650px]">Select the pricing plan that best suits your needs.</h2>
-          </RevealAnimation>
-          <RevealAnimation delay={0.3}>
-            <div className="dark:bg-background-7 relative rounded-[160px] bg-white px-14 py-6">
-              <RevealAnimation delay={1} duration={1} direction="up" offset={200}>
-                <span className="bg-secondary dark:bg-accent text-accent dark:text-secondary text-tagline-2 absolute -top-2.5 -right-6 z-11 inline-block w-[90px] rotate-[20deg] rounded-[36px] px-3.5 py-1.5 font-normal capitalize shadow-xs">
-                  save 40%
-                </span>
-              </RevealAnimation>
-              <label className="relative z-[10] inline-flex cursor-pointer items-center">
-                <span className="text-secondary dark:text-accent mr-2.5 text-base font-normal">Monthly</span>
-                <input
-                  type="checkbox"
-                  id="priceCheck"
-                  checked={isAnnual}
-                  onChange={(e) => setIsAnnual(e.target.checked)}
-                  className="peer sr-only"
-                  aria-label="Toggle between monthly and yearly pricing"
-                />
-                <span className="bg-secondary after:bg-accent dark:border-accent relative h-[28px] w-13 rounded-[34px] after:absolute after:start-[2px] after:top-1/2 after:h-6 after:w-6 after:-translate-y-1/2 after:rounded-full after:transition-all after:content-[''] peer-checked:after:start-[2px] peer-checked:after:translate-x-[99%] dark:border" />
-                <span className="text-secondary dark:text-accent ms-2.5 text-base font-normal">Yearly</span>
-              </label>
-            </div>
-          </RevealAnimation>
-        </div>
-        <div className="relative">
-          <div className="flex items-center gap-8 max-lg:flex-col">
-            {pricingData.map((card, index) => (
-              <RevealAnimation key={card.id} delay={0.4 + index * 0.2}>
-                <div
-                  className={cn(
-                    'flex-1 rounded-[20px] max-lg:w-full',
-                    card.isFeatured
-                      ? "bg-[url('/images/ns-img-25.png')] bg-cover bg-center bg-no-repeat p-2.5"
-                      : 'bg-background-3 dark:bg-background-7 w-full max-w-full p-8 lg:max-w-[420px]',
-                  )}>
-                  <div className={cn(card.isFeatured && 'rounded-xl bg-white p-8 dark:bg-black')}>
-                    <h3 className={cn('text-heading-5 font-normal', card.isFeatured ? 'mb-2.5' : 'mb-2')}>
-                      {card.title}
-                    </h3>
-                    <p className="mb-6 max-w-[250px]">{card.description}</p>
-                    <div className="price-month mb-7">
-                      <h4 className="text-heading-4 font-normal">
-                        $<span>{isAnnual ? card.yearlyPrice : card.monthlyPrice}</span>
-                      </h4>
-                      <p className="text-secondary dark:text-accent">{isAnnual ? 'Per Year' : 'Per Month'}</p>
-                    </div>
-
-                    <Link
-                      href="/contact-us"
-                      className={cn(
-                        'btn btn-md mb-8 block w-full text-center first-letter:uppercase before:content-none',
-                        card.isFeatured
-                          ? 'btn-secondary dark:btn-accent hover:btn-primary'
-                          : 'btn-white dark:btn-white-dark hover:btn-secondary dark:hover:btn-accent',
-                      )}>
-                      Get started
-                    </Link>
-                    <ul className="relative list-none space-y-2.5">
-                      {card.features.map((feature) => {
-                        return (
-                          <li key={feature.id} className="flex items-center gap-2.5">
-                            <span
-                              className={cn(
-                                'size-5 rounded-full',
-                                feature.isActive ? 'bg-secondary dark:bg-accent' : 'dark:bg-background-9 bg-white',
-                              )}>
-                              <CheckIcon
-                                className={cn(
-                                  feature.isActive
-                                    ? 'dark:fill-secondary fill-white'
-                                    : 'fill-secondary/60 dark:fill-accent/60',
-                                )}
-                              />
+    <section className="pt-[100px] pb-[100px] md:pb-[200px]">
+      <div className="mx-5 max-w-[1440px] sm:mx-auto">
+        <div className="bg-background-3 dark:bg-background-7 rounded-[30px]">
+          <div className="main-container">
+            <div className="flex flex-col gap-5 py-[100px]">
+              <div className="flex flex-col items-center text-center">
+                {/* heading  */}
+                <RevealAnimation delay={0.2}>
+                  <span className="badge badge-primary-light mb-5">Pricing plans</span>
+                </RevealAnimation>
+                <RevealAnimation delay={0.3}>
+                  <h2 className="mx-auto mb-8 md:max-w-[442px]">Flexible pricing for every stage.</h2>
+                </RevealAnimation>
+                {/* price change toggle  */}
+                <RevealAnimation delay={0.4}>
+                  <div className="rounded-[160px] px-14 py-6">
+                    <label className="relative z-[10] inline-flex cursor-pointer items-center" htmlFor="priceCheck">
+                      <span className="text-tagline-1 text-secondary dark:text-accent mr-2.5 font-normal">Monthly</span>
+                      <input
+                        checked={!isMonthly}
+                        onChange={() => setIsMonthly(!isMonthly)}
+                        type="checkbox"
+                        id="priceCheck"
+                        className="peer sr-only"
+                        aria-label="Toggle between monthly and yearly pricing"
+                      />
+                      <div className="border-primary-400 dark:border-stroke-8 after:bg-accent after:border-primary-500 dark:after:border-stroke-8 before:bg-primary-500 dark:before:bg-stroke-7 relative h-[28px] w-13 rounded-[34px] border bg-transparent before:absolute before:-top-[5px] before:-left-[6px] before:-z-10 before:h-[36px] before:w-[62px] before:rounded-[34px] before:p-[5px] before:transition-all before:content-[''] after:absolute after:start-[2px] after:top-1/2 after:size-6 after:-translate-y-1/2 after:rounded-full after:transition-all after:content-[''] peer-checked:after:start-[2px] peer-checked:after:translate-x-[94%]" />
+                      <span className="text-secondary dark:text-accent text-tagline-1 ms-2.5 font-normal">Yearly</span>
+                    </label>
+                  </div>
+                </RevealAnimation>
+              </div>
+              {/* pricing cards  */}
+              <div className="relative">
+                <div className="flex items-center justify-center gap-8 max-lg:flex-col lg:gap-4 xl:gap-8">
+                  {/* Price Card 1 */}
+                  <RevealAnimation delay={0.6}>
+                    <div className="bg-background-2 dark:bg-background-5 basis-[408px] rounded-[20px] px-5 py-[60px] md:px-14 lg:px-6 xl:px-14">
+                      {/* pricing info  */}
+                      <div className="border-b-stroke-2 dark:border-b-stroke-6 border-b pb-[47px]">
+                        <h3 id="startup-plan" className="text-heading-5 mb-4 font-normal">
+                          Startup plan.
+                        </h3>
+                        {/* monthly plan  */}
+                        <div className="price-month mb-7">
+                          <h4 className="text-heading-4 font-normal">
+                            $<span>{isMonthly ? '2500' : '30000'}</span>
+                            <span className="text-tagline-2 text-secondary dark:text-accent/60">
+                              /{isMonthly ? 'Month' : 'Year'}
                             </span>
-                            <span
-                              className={cn(
-                                'text-tagline-1 font-normal',
-                                feature.isActive
-                                  ? 'text-secondary dark:text-accent'
-                                  : 'text-secondary/60 dark:text-accent/60',
-                              )}>
-                              {feature.text}
+                          </h4>
+                        </div>
+
+                        <Link
+                          href="/contact-us"
+                          className="btn btn-md dark:btn-white-dark btn-white hover:btn-primary block w-full text-center first-letter:uppercase before:content-none">
+                          Get started
+                        </Link>
+                      </div>
+                      {/*  pricing feature list  */}
+                      <ul className="space-y-4 pt-[47px]">
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Core features meeting
+                          </span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            UI/UX wireframes for main flows
+                          </span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Emphasize core functions.
+                          </span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Quick launch (2–3 weeks)
+                          </span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Great for quick validation and pitches.
+                          </span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            1 revision + basic QA.
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </RevealAnimation>
+                  {/* Price Card 2 */}
+                  <RevealAnimation delay={0.7}>
+                    <div className="basis-[408px] rounded-[20px] bg-[url('/images/ns-img-25.png')] bg-cover bg-center bg-no-repeat p-2.5">
+                      <div className="bg-background-1 dark:bg-background-6 rounded-[14px] px-5 py-[60px] md:px-14 lg:px-6 xl:px-14">
+                        <div className="border-b-stroke-2 dark:border-b-stroke-6 border-b pb-[47px]">
+                          <h3 id="growth-plan" className="text-heading-5 mb-4 font-normal">
+                            Growth plan.
+                          </h3>
+                          {/* monthly plan  */}
+                          <div className="price-month mb-7">
+                            <h4 className="text-heading-4 font-normal">
+                              $<span>{isMonthly ? '4300' : '51600'}</span>
+                              <span className="text-tagline-2 text-secondary dark:text-accent/60">
+                                /{isMonthly ? 'Month' : 'Year'}
+                              </span>
+                            </h4>
+                          </div>
+
+                          <Link
+                            href="/contact-us"
+                            className="btn btn-lg btn-primary hover:btn-secondary dark:hover:btn-accent block w-full text-center first-letter:uppercase before:content-none">
+                            Get started
+                          </Link>
+                        </div>
+                        {/*  pricing feature list  */}
+                        <ul className="space-y-4 pt-[47px]">
+                          <li className="flex items-center gap-3">
+                            <span className="bg-secondary dark:bg-accent flex size-5 shrink-0 items-center justify-center rounded-full">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={10}
+                                height={7}
+                                viewBox="0 0 10 7"
+                                fill="none"
+                                className="shrink-0">
+                                <path
+                                  d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                  className="dark:fill-secondary fill-white"
+                                />
+                              </svg>
+                            </span>
+                            <span className="text-tagline-1 text-secondary dark:text-accent">
+                              Strategy &amp; feature planning
                             </span>
                           </li>
-                        );
-                      })}
-                    </ul>
-                  </div>
+                          <li className="flex items-center gap-3">
+                            <span className="bg-secondary dark:bg-accent flex size-5 shrink-0 items-center justify-center rounded-full">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={10}
+                                height={7}
+                                viewBox="0 0 10 7"
+                                fill="none"
+                                className="shrink-0">
+                                <path
+                                  d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                  className="dark:fill-secondary fill-white"
+                                />
+                              </svg>
+                            </span>
+                            <span className="text-tagline-1 text-secondary dark:text-accent">
+                              UI/UX (15–20 screens)
+                            </span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <span className="bg-secondary dark:bg-accent flex size-5 shrink-0 items-center justify-center rounded-full">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={10}
+                                height={7}
+                                viewBox="0 0 10 7"
+                                fill="none"
+                                className="shrink-0">
+                                <path
+                                  d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                  className="dark:fill-secondary fill-white"
+                                />
+                              </svg>
+                            </span>
+                            <span className="text-tagline-1 text-secondary dark:text-accent">Full app development</span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <span className="bg-secondary dark:bg-accent flex size-5 shrink-0 items-center justify-center rounded-full">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={10}
+                                height={7}
+                                viewBox="0 0 10 7"
+                                fill="none"
+                                className="shrink-0">
+                                <path
+                                  d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                  className="dark:fill-secondary fill-white"
+                                />
+                              </svg>
+                            </span>
+                            <span className="text-tagline-1 text-secondary dark:text-accent">
+                              API &amp; payment integration
+                            </span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <span className="bg-secondary dark:bg-accent flex size-5 shrink-0 items-center justify-center rounded-full">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={10}
+                                height={7}
+                                viewBox="0 0 10 7"
+                                fill="none">
+                                <path
+                                  d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                  className="dark:fill-secondary fill-white"
+                                />
+                              </svg>
+                            </span>
+                            <span className="text-tagline-1 text-secondary dark:text-accent">
+                              Speed &amp; performance optimized
+                            </span>
+                          </li>
+                          <li className="flex items-center gap-3">
+                            <span className="bg-secondary dark:bg-accent flex size-5 shrink-0 items-center justify-center rounded-full">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width={10}
+                                height={7}
+                                viewBox="0 0 10 7"
+                                fill="none"
+                                className="shrink-0">
+                                <path
+                                  d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                  className="dark:fill-secondary fill-white"
+                                />
+                              </svg>
+                            </span>
+                            <span className="text-tagline-1 text-secondary dark:text-accent">3 revision rounds</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </RevealAnimation>
+                  {/* Price Card 3 */}
+                  <RevealAnimation delay={0.8}>
+                    <div className="bg-background-2 dark:bg-background-5 basis-[408px] rounded-[20px] px-5 py-[60px] md:px-14 lg:px-6 xl:px-14">
+                      {/* pricing info  */}
+                      <div className="border-b-stroke-2 dark:border-stroke-6 border-b pb-[47px]">
+                        <h3 id="enterprise-plan" className="text-heading-5 mb-4 font-normal">
+                          Startup plan.
+                        </h3>
+                        {/* monthly plan  */}
+                        <div className="price-month mb-7">
+                          <h4 className="text-heading-4 font-normal">
+                            $<span>{isMonthly ? '7500' : '85000'}</span>
+                            <span className="text-tagline-2 text-secondary dark:text-accent/60">
+                              /{isMonthly ? 'Month' : 'Year'}
+                            </span>
+                          </h4>
+                        </div>
+                        <Link
+                          href="/contact-us"
+                          className="btn btn-md dark:btn-white-dark btn-white hover:btn-primary block w-full text-center first-letter:uppercase before:content-none">
+                          Get started
+                        </Link>
+                      </div>
+                      {/*  pricing feature list  */}
+                      <ul className="space-y-4 pt-[47px]">
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Product strategy &amp; roadmap
+                          </span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Unlimited screens &amp; features
+                          </span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Cross-platform development
+                          </span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Advanced integrations
+                          </span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Dedicated project manager
+                          </span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                          <span className="bg-secondary/40 dark:bg-accent/40 flex size-5 shrink-0 items-center justify-center rounded-full">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width={10}
+                              height={7}
+                              viewBox="0 0 10 7"
+                              fill="none"
+                              className="shrink-0">
+                              <path
+                                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                                className="dark:fill-secondary fill-white"
+                              />
+                            </svg>
+                          </span>
+                          <span className="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Security &amp; scalability focused
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </RevealAnimation>
                 </div>
-              </RevealAnimation>
-            ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>

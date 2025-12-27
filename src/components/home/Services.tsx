@@ -7,15 +7,15 @@ const Services = () => {
       <div className="main-container">
         <div className="mx-auto mb-14 max-w-[750px] space-y-5 text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-green">Services</span>
+            <span className="badge badge-green">AI &amp; Automation</span>
           </RevealAnimation>
           <div>
             <RevealAnimation delay={0.3}>
-              <h2 className="mb-3">AI services that deliver real results.</h2>
+              <h2 className="mb-3">Intelligent AI solutions for modern enterprise.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[600px]">
-                From consulting to implementation, our solutions are built to transform the way you work.
+                We integrate cutting-edge AI and machine learning to automate complex workflows, unlock hidden business value, and give your agency the competitive edge.
               </p>
             </RevealAnimation>
           </div>
@@ -28,10 +28,9 @@ const Services = () => {
                 <span className="ns-shape-8 text-secondary dark:text-accent text-[52px]" />
               </div>
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">Real-time data analytics and visualization.</h5>
+                <h5 className="max-sm:text-heading-6">Advanced AI implementation &amp; data intelligence.</h5>
                 <p className="max-w-[430px]">
-                  Speed up your journey with real-time data analytics to bring your ideas to life and make informed
-                  decisions.
+                  Harness the power of predictive analytics and real-time data processing to drive smarter business decisions and gain a clear insight into your market trends.
                 </p>
               </div>
             </div>
@@ -42,8 +41,8 @@ const Services = () => {
                 <span className="ns-shape-35 text-secondary dark:text-accent text-[52px]" />
               </div>
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">AI-powered apps.</h5>
-                <p>Use AI applications to boost workflow automation and improve efficiency.</p>
+                <h5 className="max-sm:text-heading-6">Custom AI-driven applications.</h5>
+                <p>We develop bespoke software solutions that leverage LLMs and neural networks to solve specific business challenges and improve user engagement.</p>
               </div>
             </div>
           </RevealAnimation>
@@ -53,9 +52,9 @@ const Services = () => {
                 <span className="ns-shape-41 text-secondary dark:text-accent text-[52px]" />
               </div>
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">End-to-end AI consulting.</h5>
+                <h5 className="max-sm:text-heading-6">Strategic AI consulting.</h5>
                 <p className="max-w-[430px]">
-                  Discover your business&apos;s potential with our AI consulting services.
+                  Our experts guide your digital transformation journey, identifying high-ROI opportunities for automation across your entire organisation.
                 </p>
               </div>
             </div>
@@ -66,9 +65,9 @@ const Services = () => {
                 <span className="ns-shape-19 text-secondary dark:text-accent text-[52px]" />
               </div>
               <div className="space-y-2">
-                <h5 className="max-sm:text-heading-6">Machine learning model development.</h5>
+                <h5 className="max-sm:text-heading-6">Workflow automation &amp; machine learning.</h5>
                 <p className="max-w-[430px]">
-                  Quickly develop tools, platforms, and educational applications for machine learning model creation.
+                  Streamline repetitive tasks with custom-trained machine learning models that evolve with your business, significantly reducing overhead and operational friction.
                 </p>
               </div>
             </div>
@@ -79,7 +78,7 @@ const Services = () => {
             <LinkButton
               href="/contact-us"
               className="btn btn-secondary hover:btn-primary dark:btn-transparent dark:border-primary-50 btn-md mx-auto w-[85%] md:w-auto">
-              Talk to an expert
+              Speak to our AI specialists
             </LinkButton>
           </div>
         </RevealAnimation>

@@ -1,9 +1,7 @@
 ---
 title: 'Retail analytics for better insights'
-thumbnail: '/images/ns-img-324.png'
 description: 'Transforming retail operations with data-driven insights and intelligent automation.'
-result: Increased sales efficiency by 35% and reduced overstock by 45%
-showHomePage: true
+newFeature: true
 
 before:
   - 'Fragmented customer data across systems'
@@ -15,7 +13,7 @@ after:
   - 'Automated demand forecasting and inventory management'
   - 'Real-time sales performance dashboards'
   - 'Data-backed pricing and promotion optimization'
-
+thumbnail: '/images/ns-img-412.jpg'
 keyFeatures:
   - 'AI-powered sales and inventory forecasting'
   - 'Real-time analytics dashboards'
@@ -27,6 +25,7 @@ userReview:
   userImage: '/images/ns-avatar-20.png'
   userRole: 'Chief Data Officer, ShopSmart Retail'
   reviewText: 'With AI-driven analytics, our decisions are faster and smarter. We’ve improved stock management, boosted margins, and truly understand our customers now.'
+result: Increased sales efficiency by 35% and reduced overstock by 45%
 ---
 
 - **Company**: ShopSmart Retail

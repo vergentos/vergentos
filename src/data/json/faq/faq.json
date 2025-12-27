@@ -1,22 +1,27 @@
 [
   {
     "id": 1,
-    "question": "What is the primary role of a business agency?",
-    "answer": "A business agency helps companies grow by offering strategic services like branding, digital marketing, business consulting, and customer experience optimization. Their goal is to improve performance and scalability."
+    "question": "How much does a bespoke website cost in Bristol?",
+    "answer": "Bespoke web design costs vary depending on complexity, but high-performance Next.js platforms typically range from £3,500 to £25,000+. We provide fixed-price quotes based on your specific commercial goals and technical requirements."
   },
   {
     "id": 2,
-    "question": "What kinds of services should I anticipate from a business agency?",
-    "answer": "Typical services include market research, brand strategy, SEO and content marketing, web development, paid advertising, and ongoing performance analytics to track growth and ROI."
+    "question": "Can you integrate Sage 50 with a custom Next.js website?",
+    "answer": "Yes. We specialise in custom API synchronisation between Sage 50 and bespoke web platforms. This automates your financial data flow, eliminates manual entry, and ensures real-time accuracy across your entire business infrastructure."
   },
   {
     "id": 3,
-    "question": "How often should I consider updating my website?",
-    "answer": "A website should be reviewed every 6–12 months for performance, design trends, SEO updates, and new technology. Major updates are recommended at least every 2–3 years to stay competitive."
+    "question": "What are the benefits of using Next.js for my business platform?",
+    "answer": "Next.js offers superior speed, enterprise-grade security, and best-in-class SEO performance. Unlike standard builders, it allows for bespoke functionality and faster load times, which directly improves your Google rankings and user conversion rates."
   },
   {
     "id": 4,
-    "question": "Why is digital marketing essential for modern businesses?",
-    "answer": "Digital marketing allows businesses to reach targeted audiences, build brand awareness, and drive conversions through channels like social media, email marketing, SEO, and PPC."
+    "question": "How does AI automation help my company save time?",
+    "answer": "Our custom AI and LLM implementations automate repetitive tasks such as data processing, customer support, and predictive reporting. This allows your team to focus on growth while our intelligent systems handle high-volume operational work."
+  },
+  {
+    "id": 5,
+    "question": "Do you provide managed UK hosting and support?",
+    "answer": "Absolutely. We provide secure, high-speed UK-based hosting with proactive 24/7 monitoring, daily backups, and dedicated technical support. We ensure your mission-critical platform remains fast, safe, and online at all times."
   }
 ]

@@ -3,7 +3,6 @@ title: 'SkyLogix – logistics & supply chain optimization'
 description: 'Logistics companies are leveraging AI and predictive analytics to optimize routes, reduce fuel costs, and improve on-time delivery rates across global supply chains.'
 thumbnail: '/images/ns-img-415.jpg'
 result: Increased on-time deliveries by 40% and reduced operational costs by 25%
-
 before:
   - '25% delayed shipments'
   - '60% route efficiency'

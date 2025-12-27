@@ -1,9 +1,6 @@
 ---
 title: 'GreenVolt – renewable energy analytics'
 description: 'Energy providers are turning to AI-driven analytics to maximize renewable output, predict demand, and reduce operational inefficiencies in solar and wind energy production.'
-thumbnail: '/images/ns-img-410.jpg'
-result: Increased renewable energy utilization by 35% and reduced downtime by 40%
-
 before:
   - 'Unpredictable energy output'
   - '70% grid efficiency'
@@ -14,6 +11,7 @@ after:
   - '95% grid efficiency'
   - '25% lower maintenance costs'
   - 'Accurate real-time demand forecasting'
+thumbnail: '/images/ns-img-410.jpg'
 keyFeatures:
   - 'AI-powered energy output prediction'
   - 'Real-time grid efficiency monitoring'
@@ -25,6 +23,7 @@ userReview:
   userImage: '/images/ns-avatar-5.png'
   userRole: 'Sustainability Director, GreenVolt'
   reviewText: 'By using AI analytics, we’ve optimized renewable output and cut maintenance costs dramatically. Our energy production is now cleaner, more predictable, and cost-efficient.'
+result: Increased renewable energy utilization by 35% and reduced downtime by 40%
 ---
 
 - **Company**: GreenVolt

@@ -1,4 +1,6 @@
 import Counter from '@/components/home/Counter';
+import Faq from '@/components/home/Faq';
+import IntegrationCloud from '@/components/home/IntegrationCloud';
 import CTA from '@/components/home/CTA';
 import Feature from '@/components/home/Feature';
 import Hero from '@/components/home/Hero';
@@ -20,12 +22,14 @@ const page = () => {
     <main className="bg-background-2 dark:bg-background-5">
       <Hero />
       <Feature />
+      <IntegrationCloud />
       <Services />
       <Integration />
       <Projects />
       <Counter />
       <Testimonial />
       <Pricing />
+      <Faq />
       <CTA />
     </main>
   );

@@ -1,9 +1,10 @@
+
 ---
+showHomePage: true
 title: 'AI-powered patient care solutions in healthcare'
-thumbnail: '/images/ns-img-323.png'
+thumbnail: '/images/ns-img-405.jpg'
 description: 'Empowering healthcare providers with smart, scalable solutions.'
 result: Improved learning outcomes by 40% and reduced administrative workload by 50%
-showHomePage: true
 before:
   - 'Low student engagement'
   - 'One-size-fits-all curriculum'

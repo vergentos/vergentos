@@ -1,9 +1,9 @@
 ---
+showHomePage: true
 title: 'BrightPath – customer engagement & retention'
 thumbnail: '/images/ns-img-416.jpg'
 description: 'Retailers are embracing data-driven strategies to enhance personalization, improve customer satisfaction, and optimize loyalty programs—transforming the way they interact with shoppers.'
 result: Increased customer retention by 55% within 12 months
-
 before:
   - '15+ hours/week'
   - '~85%'

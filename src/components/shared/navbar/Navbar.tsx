@@ -20,9 +20,9 @@ import ResourcesMenu from './ResourcesMenu';
 
 const dropdownNavItems = [
   { label: 'Company', dataMenu: 'company-mega-menu', MenuComponent: CompanyMenu },
-  { label: 'Collaborate', dataMenu: 'partnership-dropdown-menu', MenuComponent: PartnershipMenu },
-  { label: 'Resources', dataMenu: 'resources-mega-menu', MenuComponent: ResourcesMenu },
-  { label: 'People & Culture', dataMenu: 'people-dropdown-menu', MenuComponent: PeopleAndCultureMenu },
+  { label: 'Insights', dataMenu: 'partnership-dropdown-menu', MenuComponent: PartnershipMenu },
+  { label: 'Services', dataMenu: 'resources-mega-menu', MenuComponent: ResourcesMenu },
+  { label: 'Collaborate', dataMenu: 'people-dropdown-menu', MenuComponent: PeopleAndCultureMenu },
 ];
 
 const Navbar = () => {
@@ -90,14 +90,14 @@ const Navbar = () => {
                   <Link
                     href="/pricing"
                     className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                    <span>Pricing</span>
+                    <span>Login</span>
                   </Link>
                 </li>
               </ul>
             </nav>
             <div className="hidden items-center justify-center xl:flex">
               <Link href="/signup" className="btn btn-md btn-primary hover:btn-white-dark dark:hover:btn-white">
-                <span>Get started</span>
+                <span>Start Project</span>
               </Link>
             </div>
             <MobileMenuButton />

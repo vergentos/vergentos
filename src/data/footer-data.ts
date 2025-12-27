@@ -2,31 +2,30 @@ import { FooterData } from '@/interface';
 
 export const footerLinks: FooterData[] = [
   {
-    title: 'Company',
+    title: 'Technical Services',
     links: [
-      { label: 'About Us', href: '/about' },
-      { label: 'Career', href: '/career' },
-      { label: 'Case Studies', href: '/case-study' },
-      { label: 'Contact Us', href: '/contact-us' },
+      { label: 'Next.js & React Builds', href: '/about' },
+      { label: 'Bespoke CMS Integration', href: '/career' },
+      { label: 'Sage 50 API Sync', href: '/case-study' },
+      { label: 'AI & Systems Automation', href: '/contact-us' },
     ],
   },
   {
-    title: 'Support',
+    title: 'Our Consultancy',
     links: [
-      { label: 'FAQ', href: '/faq' },
-      { label: 'Documentation', href: '/documentation' },
-      { label: 'Tutorial', href: '/tutorial' },
-      { label: 'Community', href: '/community' },
+      { label: 'Engineering Process', href: '/faq' },
+      { label: 'Bespoke Consultancy', href: '/documentation' },
+      { label: 'Client Success Stories', href: '/tutorial' },
+      { label: 'Technical Roadmap', href: '/community' },
     ],
   },
   {
-    title: 'Legal Policies',
+    title: 'Expert Insights',
     links: [
-      { label: 'Terms & Conditions', href: '/terms-conditions' },
-      { label: 'Privacy Policy', href: '/privacy-policy' },
-      { label: 'Refund Policy', href: '/refund-policy' },
-      { label: 'GDPR Compliance', href: '/gdpr' },
-      { label: 'Affiliate Policy', href: '/affiliate-policy' },
+      { label: 'Technical Blog', href: '/terms-conditions' },
+      { label: 'Technical FAQs', href: '/privacy-policy' },
+      { label: 'Integration Guides', href: '/refund-policy' },
+      { label: 'Privacy & Compliance', href: '/gdpr' },
     ],
   },
 ];

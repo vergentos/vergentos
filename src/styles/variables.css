@@ -5,43 +5,52 @@ All the varaiables are added here
   /* =============== FONTS =============== */
   --font-inter-tight: 'Inter Tight', sans-serif;
   /* =============== COLORS =============== */
+  /* Brand Accents - Using Cyan for technical authority */
   --color-primary-50: #f4f2fe;
   --color-primary-100: #ece8ff;
   --color-primary-200: #dcd4ff;
   --color-primary-300: #c3b1ff;
   --color-primary-400: #a585ff;
-  --color-primary-500: #864ffe;
+  --color-primary-500: #83e7ee; /* Key Branding & Buttons */
   --color-primary-600: #7c31f6;
   --color-primary-700: #6d1fe2;
   --color-primary-800: #5a19be;
+
+  /* Secondary & Typography */
   --color-secondary: #1a1a1c;
-  --color-accent: #fcfcfc;
+  --color-accent: #fcfcfc; /* Pure White for Headings */
   --color-split-text: #1a1a1c;
+
+  /* Background Layers - Optimized for Dark Mode UX */
   --color-background-1: #fcfcfd;
   --color-background-2: #f9fafb;
   --color-background-3: #f4f5f8;
   --color-background-4: #f0f2f6;
   --color-background-5: #13171e;
   --color-background-6: #0f1217;
-  --color-background-7: #181d26;
-  --color-background-8: #070b10;
+  --color-background-7: #181d26; /* Card & Accordion Backgrounds */
+  --color-background-8: #070b10; /* Main Hero & Page Background */
   --color-background-9: #1f252f;
   --color-background-10: #ebebeb;
-  --color-background-11: #b5b5b9;
+  --color-background-11: #b5b5b9; /* Soft Grey for Body/Sub-text */
   --color-background-12: #eaeceb;
+
+  /* Borders & Dividers */
   --color-stroke-1: #dfe4eb;
   --color-stroke-2: #e3e7ed;
   --color-stroke-3: #d7dde5;
   --color-stroke-4: #eceff4;
   --color-stroke-5: #1b232f;
   --color-stroke-6: #202731;
-  --color-stroke-7: #2a333e;
+  --color-stroke-7: #2a333e; /* Defining strokes for technical elements */
   --color-stroke-8: #303b49;
   --color-stroke-9: var(--color-background-8);
-  --color-ns-yellow: #f9eb57;
-  --color-ns-green: #c6f56f;
+
+  /* Functional UI Markers */
+  --color-ns-yellow: #f9eb57; /* Consultancy Marker */
+  --color-ns-green: #c6f56f; /* AI/Automation Marker */
   --color-ns-red: #ffb9a2;
-  --color-ns-cyan: #83e7ee;
+  --color-ns-cyan: #83e7ee; /* Web Development Marker */
   --color-ns-green-light: #e8fbc6;
   --color-ns-cyan-light: #cdf5f8;
   --color-ns-yellow-light: #fdf7bc;

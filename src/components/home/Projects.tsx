@@ -13,16 +13,15 @@ const Projects = () => {
       <div className="main-container">
         <div className="mb-10 space-y-5 text-center md:mb-[70px]">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-green">Projects</span>
+            <span className="badge badge-yellow-v2">Featured Work</span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.3}>
-              <h2>Proven AI solutions in action.</h2>
+              <h2>Digital excellence in action.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[680px]">
-                Discover how NextSaaS is transforming businesses with tailored automation strategies. Explore our
-                portfolio to see the real-world impact we&apos;ve made for clients across various industries.
+                Explore our portfolio of bespoke web design, custom software development, and AI-powered platforms. We help ambitious brands bridge the gap between complex technology and intuitive user experiences.
               </p>
             </RevealAnimation>
           </div>
