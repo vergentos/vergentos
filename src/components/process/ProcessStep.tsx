@@ -63,16 +63,15 @@ const ProcessStep = () => {
       <div className="main-container">
         <div className="mb-[70px] space-y-5 text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green">Process</span>
+            <span className="badge badge-green">Our Process</span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.2}>
-              <h2>How we’ll work together</h2>
+              <h2>How we engineer your success</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[610px]">
-                I follow a process that’s transparent, collaborative, and results-driven—built around clear
-                communication and creative problem-solving.
+                A transparent, collaborative process built around clear communication, technical excellence, and measurable commercial outcomes.
               </p>
             </RevealAnimation>
           </div>
@@ -122,10 +121,9 @@ const ProcessStep = () => {
                   <div className="card-item dark:bg-background-6 max-sm:bg-background-4 absolute top-1/2 left-1/2 w-full max-w-[370px] -translate-x-1/2 -translate-y-1/2 space-y-3 rounded-[20px] p-6 lg:top-0 lg:left-0 lg:translate-x-0 lg:translate-y-0 lg:rounded-none lg:bg-none lg:p-0 lg:dark:bg-transparent">
                     <p className="text-tagline-2 text-primary-500">STEP 1</p>
                     <div className="space-y-2">
-                      <h3 className="text-heading-6 lg:text-heading-5">Kickoff call &amp; brand discovery</h3>
+                      <h3 className="text-heading-6 lg:text-heading-5">Technical discovery &amp; requirements</h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We begin with a detailed technical consultation to understand your business objectives, existing infrastructure, and commercial goals. This shapes everything that follows.
                       </p>
                     </div>
                   </div>
@@ -174,11 +172,10 @@ const ProcessStep = () => {
                     <p className="text-tagline-2 text-primary-500">STEP 2</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[293px]">
-                        Strategy, wireframes &amp; creative direction
+                        Architecture &amp; technical specification
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We design the technical architecture, create detailed wireframes, and produce a fixed-price specification document. You know exactly what you're getting before we write a line of code.
                       </p>
                     </div>
                   </div>
@@ -227,11 +224,10 @@ const ProcessStep = () => {
                     <p className="text-tagline-2 text-primary-500">STEP 3</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[236px]">
-                        Design &amp; development in sprints
+                        Agile development &amp; weekly reviews
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We build in focused sprints with weekly progress reviews. You see working code regularly, can provide feedback, and stay in complete control of the project direction.
                       </p>
                     </div>
                   </div>
@@ -280,11 +276,10 @@ const ProcessStep = () => {
                     <p className="text-tagline-2 text-primary-500">STEP 4</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[236px]">
-                        Feedback, refinement &amp; final delivery
+                        Testing, QA &amp; performance tuning
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        Rigorous testing across devices, browsers, and load conditions. We optimise for Core Web Vitals, security hardening, and ensure everything performs flawlessly before launch.
                       </p>
                     </div>
                   </div>
@@ -304,11 +299,10 @@ const ProcessStep = () => {
                     <p className="text-tagline-2 text-primary-500">STEP 5</p>
                     <div className="space-y-2">
                       <h3 className="text-heading-6 lg:text-heading-5 max-w-[203px]">
-                        Post-launch support &amp; handoff
+                        Launch &amp; ongoing support
                       </h3>
                       <p>
-                        We begin by understanding your vision and goals through a detailed discovery call to align on
-                        the project’s direction.
+                        We handle deployment, DNS, and go-live. Then we stay with you—providing managed hosting, proactive monitoring, and technical support to keep your platform running at peak performance.
                       </p>
                     </div>
                   </div>

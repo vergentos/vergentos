@@ -9,16 +9,15 @@ const ProcessOperation = () => {
       <div className="main-container space-y-[70px]">
         <div className="mx-auto max-w-[804px] space-y-5 text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-cyan-v2">Process</span>
+            <span className="badge badge-cyan-v2">Getting Started</span>
           </RevealAnimation>
           <div className="space-y-3 text-center">
             <RevealAnimation delay={0.2}>
-              <h2 className="mx-auto max-w-[624px]">What are the steps involved in its operation?</h2>
+              <h2 className="mx-auto max-w-[624px]">Three simple steps to begin your project</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[802px]">
-                The operation of instantaneous data insights and analytics involves several key steps. It begins with
-                data collection, where information is gathered in real-time from various sources such as sensors
+                Starting a technical project with Mediatopia is straightforward. We've streamlined the initial engagement process so you can move from enquiry to kickoff quickly and confidently.
               </p>
             </RevealAnimation>
           </div>
@@ -49,11 +48,10 @@ const ProcessOperation = () => {
                   </div>
                   <div className="space-y-1">
                     <h3 className="text-secondary dark:text-accent text-lg leading-[27px] font-medium">
-                      Choose domain
+                      Book a free consultation
                     </h3>
                     <p>
-                      Choose a domain name that reflects your website&apos;s purpose, content, or the nature of your
-                      business.
+                      Schedule a 30-minute call with our lead engineer. We'll discuss your project, technical requirements, and whether we're the right fit for your business.
                     </p>
                   </div>
                 </div>
@@ -65,11 +63,10 @@ const ProcessOperation = () => {
                   </div>
                   <div className="space-y-1">
                     <h3 className="text-secondary dark:text-accent text-lg leading-[27px] font-medium">
-                      Login/register
+                      Receive your fixed-price proposal
                     </h3>
                     <p>
-                      Take the first step towards creating your website and reaching a wider audience by registering
-                      today.
+                      Within 48 hours, you'll receive a detailed technical specification and fixed-price quote. No surprises, no hourly rate anxiety—just clarity.
                     </p>
                   </div>
                 </div>
@@ -80,10 +77,9 @@ const ProcessOperation = () => {
                     3
                   </div>
                   <div className="space-y-1">
-                    <h3 className="text-secondary dark:text-accent text-lg leading-[27px] font-medium">Make payment</h3>
+                    <h3 className="text-secondary dark:text-accent text-lg leading-[27px] font-medium">Kick off your project</h3>
                     <p>
-                      We offer a variety of secure payment methods to make your payment process convenient and
-                      hassle-free.
+                      Once approved, we schedule a kickoff call, set up your project workspace, and begin the technical discovery phase. You're assigned a dedicated engineer from day one.
                     </p>
                   </div>
                 </div>

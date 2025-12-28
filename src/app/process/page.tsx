@@ -6,7 +6,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Process - AI Agency || NextSaaS',
+  title: 'Our Technical Process | Mediatopia.agency',
+  description: 'From discovery to deployment, discover how Mediatopia engineers your digital future. A transparent, collaborative process built for Bristol businesses.',
 };
 
 const page = () => {
@@ -16,12 +17,14 @@ const page = () => {
       <ProcessOperation />
       <CTA
         className="dark:bg-background-5 bg-white"
-        badgeText="Get started"
+        badgeText="Start Your Project"
         badgeClass="!badge-cyan-v2"
-        ctaHeading="Build a complete website using the assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
-        ctaBtnText="Get started"
+        ctaHeading="Ready to engineer your digital future?"
+        description="Book a free technical consultation with our Bristol team. No obligation, just expert advice."
+        ctaBtnText="Book a Call"
         btnClass="hover:btn-secondary dark:hover:btn-accent"
+        inputType="tel"
+        inputPlaceholder="Enter your phone number"
       />
     </main>
   );
