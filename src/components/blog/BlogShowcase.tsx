@@ -11,13 +11,13 @@ const BlogShowcase = () => {
         <div className="mb-10 space-y-3 text-center md:mb-[70px]">
           <RevealAnimation delay={0.1}>
             <h2>
-              Our recent <span className="text-primary-500 inline-block">news &amp; insights</span>
+              Latest <span className="text-primary-500 inline-block">articles</span>
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <p className="mx-auto max-w-[738px]">
-              Our recent news and insights highlight the latest developments, achievements, and thought leadership
-              shaping our journey forward. From product innovations and strategic partnerships to industry trends
+              Technical guides, case studies, and insights on web development, Sage 50 integration, 
+              AI automation, and digital strategy for UK businesses.
             </p>
           </RevealAnimation>
         </div>
