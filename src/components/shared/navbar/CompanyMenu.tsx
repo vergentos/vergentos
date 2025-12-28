@@ -30,13 +30,13 @@ const companyLinks: CompanyLink[] = [
   {
     title: 'Our Technical Process',
     description: 'From discovery to deployment, how we engineer your digital future.',
-    href: '/features', // Keep as features or point to a specific service
+    href: '/process', // Keep as features or point to a specific service
     icon: FeatureIcon,
   },
   {
     title: 'Case Studies',
     description: 'Commercial success stories from our high-end technical project partners.',
-    href: '/blog',
+    href: '/case-study',
     icon: BlogIcon,
   },
 ];

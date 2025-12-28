@@ -12,12 +12,12 @@ const Success = () => {
           {/* heading  */}
           <div className="space-y-3 text-center">
             <RevealAnimation delay={0.1}>
-              <h2 className="text-heading-3">More success stories</h2>
+              <h2 className="text-heading-3">More client success stories</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p className="mx-auto max-w-[738px]">
-                Our recent news and insights highlight the latest developments, achievements, and thought leadership
-                shaping our journey forward. From product innovations and strategic partnerships to industry trends
+                From Sage 50 integrations to AI-powered automation, explore how we've helped businesses 
+                across the Southwest streamline operations and accelerate growth.
               </p>
             </RevealAnimation>
           </div>

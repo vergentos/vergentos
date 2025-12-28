@@ -8,23 +8,23 @@ import RevealAnimation from '../animation/RevealAnimation';
 const featureList = [
   {
     id: 1,
-    text: 'Centralized analytics for leadership teams',
+    text: 'Bespoke web platforms built for speed and SEO',
   },
   {
     id: 2,
-    text: 'Workflow automation across sales, ops, and product',
+    text: 'Sage 50 and WooCommerce real-time synchronisation',
   },
   {
     id: 3,
-    text: 'Improved onboarding and client management',
+    text: 'AI automation reducing manual data entry by 80%',
   },
   {
     id: 4,
-    text: 'Marketing attribution and ROI reporting',
+    text: 'Custom CMS giving clients full content control',
   },
   {
     id: 5,
-    text: 'Secure and compliant data access',
+    text: 'Managed hosting with 99.9% uptime guarantee',
   },
 ];
 
@@ -47,14 +47,14 @@ const Feature = () => {
             <div className="grid grid-cols-2 gap-5 px-6 py-14 max-sm:grid-cols-1 max-sm:gap-10 md:px-11">
               <div className="max-w-[500px]">
                 <h2 className="text-accent text-heading-5 mb-8">
-                  Here are some of the use cases we&apos;ve successfully addressed: optimizing workflow efficiency,
-                  enhancing customer
+                  We specialise in solving complex technical challenges for ambitious UK businesses—from API 
+                  integrations to AI-powered automation.
                 </h2>
                 <div>
                   <Link
-                    href="/services"
+                    href="/contact-us"
                     className="btn btn-md dark:btn-dark dark:hover:btn-white hover:btn-primary btn-white border-0">
-                    <span>Get started</span>
+                    <span>Discuss Your Project</span>
                   </Link>
                 </div>
               </div>

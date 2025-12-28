@@ -9,13 +9,13 @@ const CaseStudy = () => {
         <div className="space-y-[70px]">
           <div className="max-w-[900px] space-y-3">
             <RevealAnimation delay={0.2}>
-              <h1 className="text-heading-3 md:text-heading-2 font-normal">How leading teams grow with NextSaaS</h1>
+              <h1 className="text-heading-3 md:text-heading-2 font-normal">Real results for ambitious UK businesses</h1>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p>
-                From fast-moving startups to established enterprises, businesses around the world use NextSaaS to
-                streamline operations, increase visibility, and accelerate growth. Explore how our platform delivers
-                real-world impact.
+                From bespoke web platforms to AI-driven automation, we help Bristol and Southwest businesses 
+                transform their digital presence. Explore how our technical expertise delivers measurable 
+                commercial impact.
               </p>
             </RevealAnimation>
           </div>
@@ -26,23 +26,25 @@ const CaseStudy = () => {
             <ul className="max-w-[435px] space-y-2">
               <RevealAnimation delay={0.5}>
                 <li className="text-secondary dark:text-accent text-lg leading-[150%] font-medium">
-                  Client:
+                  Client:{' '}
                   <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                    VelocityFinance
+                    Sparks Transport
                   </span>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.6}>
                 <li className="text-secondary dark:text-accent text-lg leading-[150%] font-medium">
-                  Industry:
-                  <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">Fintech</span>
+                  Industry:{' '}
+                  <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
+                    Logistics & Haulage
+                  </span>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.7}>
                 <li className="text-secondary dark:text-accent text-lg leading-[150%] font-medium">
-                  Use case:
+                  Use case:{' '}
                   <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                    Automating financial reporting &amp; real-time analytics
+                    Complete digital rebrand, website, photography & SEO
                   </span>
                 </li>
               </RevealAnimation>
@@ -52,7 +54,7 @@ const CaseStudy = () => {
             <figure className="max-w-[1288px] overflow-hidden rounded-4xl">
               <Image
                 src={caseStudyImg}
-                alt="VelocityFinance case study dashboard showing financial reporting interface"
+                alt="Sparks Transport website showcasing electric trucks and modern fleet"
                 width={1290}
                 height={800}
                 className="h-full w-full object-cover"
@@ -65,8 +67,9 @@ const CaseStudy = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p className="max-w-[705px]">
-                VelocityFinance was managing its financial operations manually, using a combination of spreadsheets and
-                disconnected tools. Their reporting process was slow, error-prone, and difficult to scale.
+                Sparks Transport had an outdated website that didn't reflect their modern fleet or commitment to 
+                sustainability. They needed a complete digital transformation to attract new commercial clients 
+                and showcase their investment in electric vehicles.
               </p>
             </RevealAnimation>
           </div>
@@ -77,28 +80,35 @@ const CaseStudy = () => {
                   <h4 className="text-heading-4">The Solution</h4>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
-                  <p>NextSaaS helped them:</p>
+                  <p>Mediatopia delivered:</p>
                 </RevealAnimation>
               </div>
               <ul className="space-y-2">
                 <RevealAnimation delay={0.3}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Set up real-time dashboards with custom financial KPIs
+                      Bespoke website design with careers portal and quote request system
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Automate monthly reporting for leadership and investors
+                      Professional photoshoot featuring their new electric truck fleet
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.5}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Integrate their accounting tools and CRM into one platform
+                      Sales brochure design and complete brand collateral refresh
+                    </p>
+                  </li>
+                </RevealAnimation>
+                <RevealAnimation delay={0.6}>
+                  <li>
+                    <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
+                      Full SEO strategy targeting Southwest logistics keywords
                     </p>
                   </li>
                 </RevealAnimation>
@@ -110,28 +120,28 @@ const CaseStudy = () => {
                   <h4 className="text-heading-4">The results</h4>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
-                  <p>NextSaaS helped them:</p>
+                  <p>Within 6 months:</p>
                 </RevealAnimation>
               </div>
               <ul className="space-y-2">
                 <RevealAnimation delay={0.3}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      82% reduction in reporting time
+                      340% increase in organic search traffic
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      95% accuracy increase across all financial statements
+                      Page 1 rankings for "Bristol haulage" and "Southwest logistics"
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.5}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      4x faster decision-making during strategic reviews
+                      45+ qualified leads through the new quote request system
                     </p>
                   </li>
                 </RevealAnimation>
