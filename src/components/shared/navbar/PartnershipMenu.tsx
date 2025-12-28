@@ -23,37 +23,37 @@ const partnershipLinks: PartnershipLink[] = [
   {
     title: 'Technical Blog',
     description: 'Expert insights on Next.js, AI automation, and digital engineering.',
-    href: '/affiliates',
+    href: '/blog', // Pointing to standard blog route
     icon: AffiliateIcon,
   },
   {
     title: 'Commercial Case Studies',
-    description: 'Invite friends',
-    href: '/referral-program',
+    description: 'Real-world results from our high-end technical project partners.',
+    href: '/blog', // Consistency with CompanyMenu
     icon: ReferralProgramIcon,
   },
   {
     title: 'Technical FAQs',
     description: 'Direct answers to your common project, cost, and hosting questions.',
-    href: '/login',
+    href: '/faq', // Pointing to standard FAQ route
     icon: LoginIcon,
   },
   {
     title: 'Sage 50 Integration Guide',
     description: 'How to automate your workflows with custom API synchronisation.',
-    href: '/signup',
+    href: '/services/sage-50-sync', // Correct dynamic slug
     icon: SignUpIcon,
   },
   {
     title: 'AI for UK Business',
     description: 'Harnessing private LLM models for operational efficiency.',
-    href: '/download',
+    href: '/services/ai-implementation', // Correct dynamic slug
     icon: DownloadIcon,
   },
   {
     title: 'Consultancy Knowledge Base',
     description: 'Explore our full library of technical resources and whitepapers.',
-    href: '/integration',
+    href: '/services/bespoke-consultancy', // Correct dynamic slug
     icon: IntegrationIcon,
   },
 ];

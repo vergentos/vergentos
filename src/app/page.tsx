@@ -1,7 +1,7 @@
 import Counter from '@/components/home/Counter';
 import Faq from '@/components/home/Faq';
 import IntegrationCloud from '@/components/home/IntegrationCloud';
-import CTA from '@/components/home/CTA';
+import AboutCTA from '@/components/home/CTA';
 import Feature from '@/components/home/Feature';
 import Hero from '@/components/home/Hero';
 import Integration from '@/components/home/Integration';
@@ -14,10 +14,11 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'AI Agency - NextSaaS',
+  title: 'Mediatopia | Bristol Web Engineering & AI Consultancy',
+  description: 'High-performance Next.js development, Sage 50 API integrations, and bespoke AI solutions for ambitious UK brands.',
 };
 
-const page = () => {
+const Page = () => {
   return (
     <main className="bg-background-2 dark:bg-background-5">
       <Hero />
@@ -30,9 +31,9 @@ const page = () => {
       <Testimonial />
       <Pricing />
       <Faq />
-      <CTA />
+      <AboutCTA />
     </main>
   );
 };
 
-export default page;
+export default Page;

@@ -18,19 +18,19 @@ const companyLinks: CompanyLink[] = [
   {
     title: 'Bespoke Consultancy',
     description: 'Expert digital strategy to align technical infrastructure with commercial growth.',
-    href: '/about',
+    href: '/services/bespoke-consultancy', // Updated to point to dynamic route
     icon: AboutIcon,
   },
   {
     title: 'Web Engineering',
     description: 'High-performance Next.js and React development for ambitious UK brands.',
-    href: '/services',
+    href: '/services/nextjs-react', // Updated to point to dynamic route
     icon: ServiceIcon,
   },
   {
     title: 'Our Technical Process',
     description: 'From discovery to deployment, how we engineer your digital future.',
-    href: '/features',
+    href: '/features', // Keep as features or point to a specific service
     icon: FeatureIcon,
   },
   {
@@ -73,11 +73,12 @@ const CompanyMenu = ({
         </ul>
         <figure className="flex-1 space-y-3">
           <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 font-medium">Featured Solution</p>
-          <Link href="/blog" className="block">
+          {/* Updated Featured Solution to point to your dynamic Hosting page */}
+          <Link href="/services/secure-uk-hosting" className="block">
             <figure className="group relative min-h-[272px] w-full max-w-full overflow-hidden rounded-[14px]">
               <Image
                 src={nsImg419}
-                alt="What's New"
+                alt="Managed Hosting"
                 className="h-full w-full rounded-[14px] object-cover transition-all duration-500 ease-in-out group-hover:scale-105"
               />
               <div className="absolute top-4 left-4 size-full space-y-1 transition-all duration-500 ease-in-out group-hover:top-5 group-hover:left-5">

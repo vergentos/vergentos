@@ -1,4 +1,3 @@
-
 ---
 showHomePage: true
 title: 'AI-powered patient care solutions in healthcare'

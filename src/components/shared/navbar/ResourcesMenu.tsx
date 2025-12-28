@@ -1,23 +1,17 @@
 'use client';
 import {
-  AffiliatePolicyIcon,
   AnalyticsIcon,
-  CaseStudyICon,
-  ChangeLogIcon,
   DocsIcon,
-  FaqIcon,
+  FaqIcon, // Added missing import
   GDPRIcon,
-  GlossaryIcon,
   LegalNoticeIcon,
   PressIcon,
   PrivacyIcon,
   RefundPolicyIcon,
   SecurityIcon,
   SuccessIcon,
-  SupportIcon,
   TutorialIcon,
   UseCaseIcon,
-  WhitePaperIcon,
 } from '@/icons/menu-icon';
 import { cn } from '@/utils/cn';
 import type { ComponentType } from 'react';
@@ -43,25 +37,25 @@ const resourceSections: ResourceSection[] = [
       {
         title: 'Next.js & React',
         description: 'High-performance, SEO-optimised web applications built for speed.',
-        href: '/documentation',
+        href: '/services/nextjs-react',
         icon: DocsIcon,
       },
       {
         title: 'Bespoke CMS Integration',
         description: 'Custom management systems designed for total content control.',
-        href: '/tutorial',
+        href: '/services/bespoke-cms',
         icon: TutorialIcon,
       },
       {
         title: 'UI/UX Design',
         description: 'Conversion-driven interfaces balancing aesthetics and performance.',
-        href: '/faq',
+        href: '/services/ui-ux-design',
         icon: FaqIcon,
       },
       {
         title: 'E-commerce Engineering',
         description: 'Scalable online stores engineered for long-term commercial growth.',
-        href: '/faq',
+        href: '/services/ecommerce-engineering',
         icon: FaqIcon,
       },
     ],
@@ -72,25 +66,25 @@ const resourceSections: ResourceSection[] = [
       {
         title: 'Sage 50 Sync',
         description: 'Automate financial data flow between Sage and your platform.',
-        href: '/use-case',
+        href: '/services/sage-50-sync',
         icon: UseCaseIcon,
       },
       {
         title: 'AI Implementation',
         description: 'Private LLM solutions to automate complex business workflows.',
-        href: '/success-stories',
+        href: '/services/ai-implementation',
         icon: SuccessIcon,
       },
       {
         title: 'API Engineering',
         description: 'Custom bridges to connect and synchronise disparate software.',
-        href: '/analytics',
+        href: '/services/api-engineering',
         icon: AnalyticsIcon,
       },
       {
         title: 'Technical Strategy',
         description: 'Expert consulting to align your technology with business goals.',
-        href: '/analytics',
+        href: '/services/technical-strategy',
         icon: AnalyticsIcon,
       },
     ],
@@ -101,27 +95,27 @@ const resourceSections: ResourceSection[] = [
     links: [
       {
         title: 'Secure UK Hosting',
-        href: '/security',
+        href: '/services/secure-uk-hosting',
         icon: SecurityIcon,
       },
       {
         title: 'Cyber Security & WAF',
-        href: '/gdpr',
+        href: '/services/cyber-security',
         icon: GDPRIcon,
       },
       {
         title: 'Daily Health Audits',
-        href: '/privacy-policy',
+        href: '/services/health-audits',
         icon: PrivacyIcon,
       },
       {
         title: '24/7 Technical Support',
-        href: '/terms-conditions',
+        href: '/services/technical-support',
         icon: RefundPolicyIcon,
       },
       {
         title: 'Performance Monitoring',
-        href: '/press',
+        href: '/services/performance-monitoring',
         icon: PressIcon,
       },
       {

@@ -15,37 +15,37 @@ const peopleAndCultureLinks: PeopleAndCultureLink[] = [
   {
     title: 'Technical Consultation',
     description: 'Book a strategic session with a lead web design consultant.',
-    href: '/process',
+    href: '/services/bespoke-consultancy', // Pointing to dynamic route
     icon: ProcessICon,
   },
   {
     title: 'Project Discovery',
     description: 'How we define your technical requirements and commercial goals.',
-    href: '/team',
+    href: '/services/technical-strategy', // Pointing to dynamic route
     icon: TeamIcon,
   },
   {
     title: 'Partnership Models',
     description: 'Flexible engagement options for long-term digital growth.',
-    href: '/career',
+    href: '/services/bespoke-consultancy', // Consistent with consultancy focus
     icon: CareerIcon,
   },
   {
     title: 'Client Support Portal',
     description: 'Dedicated access for our ongoing technical project partners.',
-    href: '/testimonial',
+    href: '/services/technical-support', // Pointing to dynamic route
     icon: TestimonialIcon,
   },
   {
     title: 'Technical Roadmap',
     description: 'Visualise the timeline and milestones of your bespoke build.',
-    href: '/customer',
+    href: '/services/technical-strategy', // Consistent with strategy focus
     icon: CustomersIcon,
   },
   {
     title: 'Contact Mediatopia',
     description: 'Get in touch to discuss your Sage 50 or AI integration needs.',
-    href: '/contact-us',
+    href: '/contact-us', // Standard contact route
     icon: ContactIcon,
   },
 ];

@@ -1,38 +1,99 @@
-import Contents from '@/components/service-details/Contents';
-import CTA from '@/components/shared/cta/CTA';
-import { defaultMetadata } from '@/utils/generateMetaData';
-import getMarkDownData from '@/utils/getMarkDownData';
-import { Metadata } from 'next';
+import CTA from '@/components/service-detail/CTA';
+import Feature from '@/components/service-detail/Feature';
+import FeatureV2 from '@/components/service-detail/FeatureV2';
+import Hero from '@/components/service-detail/Hero';
+import Integration from '@/components/service-detail/Integration';
+import Publish from '@/components/service-detail/Publish';
+import Steps from '@/components/service-detail/Steps';
 
-export async function generateStaticParams() {
-  const services = getMarkDownData('src/data/services');
-  return services.map((service) => ({
-    slug: service.slug,
-  }));
+// Standard shared components and data library
+import ReviewsV3 from '@/components/shared/reviews/ReviewsV3';
+import { servicesData } from '@/data/services-data'; 
+import { notFound } from 'next/navigation';
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const service = servicesData[slug];
+  if (!service) return { title: 'Service | Mediatopia' };
+  return { title: service.title };
 }
 
-export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Services Details - AI Agency || NextSaaS',
-};
+const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
+  const { slug } = await params;
+  const service = servicesData[slug];
 
-const page = async ({ params }: { params: Promise<{ slug: string }> }) => {
-  const slug = (await params).slug;
+  // If the service doesn't exist in our data library, show 404
+  if (!service) notFound();
 
   return (
-    <main className="bg-background-3 dark:bg-background-7">
-      <Contents slug={slug} />
-      <CTA
-        className="dark:bg-background-6 bg-white"
-        badgeClass="hidden"
-        ctaHeading="Build a complete website using the"
-        spanText="assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
-        btnClass="hover:btn-secondary dark:hover:btn-accent"
-        ctaBtnText="Get started"
+    <main className="dark:bg-background-6">
+      {/* 1. Hero Section */}
+      <Hero title={service.heroTitle} subtitle={service.heroSub} />
+      
+      {/* 2. Integration Section */}
+      <Integration 
+        badge={service.intBadge}
+        title={service.intTitle}
+        description={service.intDesc}
       />
+      
+      {/* 3. Feature Bento Grid */}
+      <Feature 
+        title={service.bentoTitle}
+        box1Title={service.box1Title} 
+        box1Sub={service.box1Sub} 
+        box2Title={service.box2Title} 
+        box2Sub={service.box2Sub}
+        c1Title={service.c1Title} c1Desc={service.c1Desc}
+        c2Title={service.c2Title} c2Desc={service.c2Desc}
+        c3Title={service.c3Title} c3Desc={service.c3Desc}
+        c4Title={service.c4Title} c4Desc={service.c4Desc}
+      />
+      
+      {/* 4. Steps Section */}
+      <Steps 
+        title={service.stepsTitle}
+        step1Title={service.step1Title} step1Desc={service.step1Desc}
+        step2Title={service.step2Title} step2Desc={service.step2Desc}
+        step3Title={service.step3Title} step3Desc={service.step3Desc}
+      />
+
+      {/* 5. FeatureV2 Section */}
+      <FeatureV2 
+        title={service.v2Title}
+        desc={service.v2Desc}
+        p1Title={service.v2P1Title} p1Desc={service.v2P1Desc}
+        p2Title={service.v2P2Title} p2Desc={service.v2P2Desc}
+      />
+      
+      {/* 6. Reviews Section */}
+      <ReviewsV3
+        className="bg-background-3 dark:bg-background-5"
+        badgeText="Customer Success"
+        badgeColor="badge-green"
+        title={service.reviewTitle}
+        description={service.reviewDesc}
+        buttonText="View all reviews"
+      />
+      
+      {/* 7. Publish Section */}
+      <Publish 
+        title={service.pubTitle}
+        desc={service.pubDesc}
+        f1Title={service.f1Title}
+        f1Desc={service.f1Desc}
+        f2Title={service.f2Title}
+        f2Desc={service.f2Desc}
+        f3Title={service.f3Title}
+        f3Desc={service.f3Desc}
+        f4Title={service.f4Title}
+        f4Desc={service.f4Desc}
+      />
+
+      {/* 8. Call to Action */}
+      <CTA />
     </main>
   );
 };
 
-export default page;
+export default Page;
