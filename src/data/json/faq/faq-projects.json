@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "How long does a typical project take?",
+    "answer": "Timelines vary by complexity. A brochure website typically takes 4-6 weeks, a custom web application 8-12 weeks, and complex integrations or AI implementations 12-16 weeks. We provide accurate timelines in our fixed-price proposals before any work begins."
+  },
+  {
+    "id": 2,
+    "question": "Do you offer fixed-price quotes?",
+    "answer": "Yes. We provide detailed fixed-price proposals based on your specific requirements. No hourly rate anxiety, no surprise invoices. You know exactly what you're paying before we start, and that price doesn't change unless you request additional scope."
+  },
+  {
+    "id": 3,
+    "question": "What happens after my project launches?",
+    "answer": "We offer ongoing support and maintenance packages to keep your platform secure, fast, and up-to-date. This includes security patches, performance monitoring, content updates, and priority technical support. Many clients choose our monthly retainer for peace of mind."
+  },
+  {
+    "id": 4,
+    "question": "Do you work with clients outside Bristol?",
+    "answer": "Absolutely. While we're based in Bristol and love working with Southwest businesses, we have clients across the UK. Most of our communication happens via video calls and project management tools, so location is rarely a barrier."
+  },
+  {
+    "id": 5,
+    "question": "What do you need from me to get started?",
+    "answer": "We start with a free consultation to understand your goals. From there, we'll need access to any existing systems, brand assets, and content. We guide you through the entire process and have a clear onboarding workflow to make it as smooth as possible."
+  }
+]

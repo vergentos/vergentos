@@ -1,8 +1,7 @@
 import TabContent from '../ui/tab/TabContent';
-import ChangelogTab from './ChangelogTab';
 import GeneralTab from './GeneralTab';
-import PrivacyTab from './PrivacyTab';
-import TermsConditionsTab from './TermsConditionsTab';
+import TechnicalTab from './TechnicalTab';
+import ProjectsTab from './ProjectsTab';
 
 const data = [
   {
@@ -12,18 +11,13 @@ const data = [
   },
   {
     id: 2,
-    tabTitle: 'Changelog',
-    tabContent: <ChangelogTab />,
+    tabTitle: 'Technical',
+    tabContent: <TechnicalTab />,
   },
   {
     id: 3,
-    tabTitle: 'Privacy',
-    tabContent: <PrivacyTab />,
-  },
-  {
-    id: 4,
-    tabTitle: 'Terms & Conditions',
-    tabContent: <TermsConditionsTab />,
+    tabTitle: 'Projects',
+    tabContent: <ProjectsTab />,
   },
 ];
 

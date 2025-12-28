@@ -6,7 +6,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'FAQ - AI Agency || NextSaaS',
+  title: 'FAQ | Bristol Web Design & Technical Questions | Mediatopia.agency',
+  description: 'Answers to common questions about web development costs, Sage 50 integration, AI automation, and managed hosting services in Bristol.',
 };
 
 const FAQ = () => {
@@ -17,11 +18,13 @@ const FAQ = () => {
       <CTA
         className="dark:bg-background-6 bg-white"
         badgeClass="!badge-cyan"
-        badgeText="Get Started"
-        ctaHeading="Ready to start earning with NextSaaS?"
-        description="If you have any questions, feel free to reach out to our team."
+        badgeText="Still Have Questions?"
+        ctaHeading="Let's talk through your project"
+        description="Can't find what you're looking for? Book a free consultation and we'll answer all your technical questions."
         btnClass="hover:btn-secondary dark:hover:btn-accent"
-        ctaBtnText="Get started"
+        ctaBtnText="Book a Call"
+        inputType="tel"
+        inputPlaceholder="Enter your phone number"
       />
     </main>
   );

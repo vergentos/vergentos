@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "How does Sage 50 integration work with my website?",
+    "answer": "We build a custom API bridge that connects your Sage 50 accounting software directly to your website or e-commerce platform. This enables real-time synchronisation of stock levels, pricing, invoices, and customer data—eliminating manual data entry and reducing errors."
+  },
+  {
+    "id": 2,
+    "question": "What AI and automation services do you offer?",
+    "answer": "We implement private LLM deployments, conversational AI agents, workflow automation, and intelligent data extraction systems. Our solutions handle tasks like automated customer support, document processing, sales call handling, and predictive analytics."
+  },
+  {
+    "id": 3,
+    "question": "Why do you use Next.js instead of WordPress?",
+    "answer": "Next.js delivers significantly faster load times, better SEO performance, and enterprise-grade security compared to WordPress. It's ideal for businesses that need custom functionality, high performance, and scalability without the security vulnerabilities of plugin-heavy CMS platforms."
+  },
+  {
+    "id": 4,
+    "question": "What does your managed hosting include?",
+    "answer": "Our UK-based hosting includes 99.9% uptime guarantee, daily automated backups, SSL certificates, CDN integration, proactive security monitoring, performance optimisation, and 24/7 technical support. We handle all server maintenance so you can focus on your business."
+  },
+  {
+    "id": 5,
+    "question": "Can you integrate with other systems like CRMs or ERPs?",
+    "answer": "Yes. We specialise in custom API integrations connecting websites to CRMs (HubSpot, Salesforce), ERPs, payment gateways, shipping providers, and accounting software. If it has an API, we can integrate it."
+  }
+]

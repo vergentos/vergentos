@@ -9,16 +9,15 @@ const Contact = () => {
           {/* heading  */}
           <div className="main-w-[850px] mx-auto space-y-5 text-center md:w-full">
             <RevealAnimation delay={0.2}>
-              <span className="badge badge-cyan">Contact</span>
+              <span className="badge badge-cyan">Get in Touch</span>
             </RevealAnimation>
             <div className="space-y-3">
               <RevealAnimation delay={0.3}>
-                <h2 id="contact-heading">Still have questions?</h2>
+                <h2 id="contact-heading">Can't find your answer?</h2>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p className="mx-auto max-w-[442px] sm:w-full">
-                  If your question isn&apos;t listed here, feel free to contact us or start a live chat with our team.
-                  We&apos;re happy to help!
+                  Send us your question and we'll get back to you within 24 hours. Or call us directly on 0117 332 6021.
                 </p>
               </RevealAnimation>
             </div>
@@ -62,13 +61,13 @@ const Contact = () => {
                 {/* message */}
                 <div className="mb-4 space-y-2">
                   <label htmlFor="message" className="text-tagline-1 text-secondary dark:text-accent block font-medium">
-                    Messages
+                    Your question
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     rows={4}
-                    placeholder="Enter your messages"
+                    placeholder="What would you like to know?"
                     required
                     className="dark:bg-background-6 dark:text-accent border-stroke-3 dark:border-stroke-6 bg-background-1 text-tagline-1 dark:placeholder:text-accent/60 placeholder:text-secondary/60 focus:border-primary-500 placeholder:text-tagline-1 w-full rounded-xl border px-[18px] py-2 font-normal placeholder:font-normal focus:outline-none"
                     defaultValue={''}
@@ -79,16 +78,16 @@ const Contact = () => {
                   <label
                     htmlFor="terms"
                     className="flex items-center gap-x-3"
-                    aria-label="Agree to terms and conditions">
+                    aria-label="Agree to privacy policy">
                     <input id="terms" type="checkbox" className="peer sr-only" required />
                     <span className="border-stroke-3 dark:border-stroke-7 after:bg-primary-500 peer-checked:border-primary-500 relative size-4 cursor-pointer rounded-full border after:absolute after:top-1/2 after:left-1/2 after:size-2.5 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:opacity-0 peer-checked:after:opacity-100" />
                   </label>
                   <label
                     htmlFor="terms"
                     className="text-tagline-3 text-secondary/60 dark:text-accent/60 cursor-pointer">
-                    I agree with the
-                    <Link href="/terms-conditions" className="text-primary-500 text-tagline-3 underline">
-                      terms and conditions
+                    I agree with the{' '}
+                    <Link href="/privacy-policy" className="text-primary-500 text-tagline-3 underline">
+                      privacy policy
                     </Link>
                   </label>
                 </fieldset>
@@ -96,7 +95,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   className="btn btn-md btn-secondary dark:btn-accent hover:btn-primary w-full first-letter:uppercase before:content-none">
-                  Submit
+                  Send Question
                 </button>
               </form>
             </div>
