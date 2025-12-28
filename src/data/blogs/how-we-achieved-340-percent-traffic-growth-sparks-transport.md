@@ -4,7 +4,7 @@ author: 'Duncan Maund'
 authorImage: '/images/ns-avatar-1.png'
 publishDate: 'December 15, 2024'
 title: 'How We Achieved 340% Traffic Growth for Sparks Transport'
-description: 'A case study on transforming a Bristol haulage company's digital presence through website redesign, professional photography, and targeted SEO strategy.'
+description: 'A case study on transforming a Bristol haulage company digital presence through website redesign, professional photography, and targeted SEO strategy.'
 thumbnail: '/images/ns-img-151.png'
 readTime: '7 min read'
 featured: true
