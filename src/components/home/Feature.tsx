@@ -29,13 +29,13 @@ const Feature = () => {
           </div>
         </div>
         {/* feature Items */}
-        <div className="mb-10 grid grid-cols-12 space-y-8 md:gap-8 md:space-y-0 xl:mb-18">
-          <RevealAnimation delay={0.5}>
-            <div className="bg-background-3 dark:bg-background-7 col-span-12 space-y-6 rounded-[20px] p-8 md:col-span-6 lg:col-span-8">
+        <div className="mb-10 grid grid-cols-12 gap-8 xl:mb-18">
+          <RevealAnimation delay={0.5} className="col-span-12 md:col-span-6 lg:col-span-8">
+            <div className="bg-background-3 dark:bg-background-7 space-y-6 rounded-[20px] p-8">
               <div className="space-y-2">
                 <h5 className="max-sm:text-heading-6">Bespoke CMS & Application Development.</h5>
                 <p className="max-w-[450px]">
-                  We build custom content management systems and web applications tailored to your unique workflow, ensuring total control, speed, and unlimited scalability..
+                  We build custom content management systems and web applications tailored to your unique workflow, ensuring total control, speed, and unlimited scalability.
                 </p>
               </div>
               <figure className="w-full">
@@ -52,8 +52,8 @@ const Feature = () => {
               </figure>
             </div>
           </RevealAnimation>
-          <RevealAnimation delay={0.6}>
-            <div className="bg-background-3 dark:bg-background-7 col-span-12 space-y-6 rounded-[20px] p-8 md:col-span-6 lg:col-span-4">
+          <RevealAnimation delay={0.6} className="col-span-12 md:col-span-6 lg:col-span-4">
+            <div className="bg-background-3 dark:bg-background-7 space-y-6 rounded-[20px] p-8 h-full">
               <div className="space-y-2">
                 <h5 className="max-sm:text-heading-6">API & Sage Integrations.</h5>
                 <p className="max-w-[220px]">Connect your digital ecosystem with robust API developments and Sage 50 online integrations for real-time data sync.</p>
@@ -72,11 +72,11 @@ const Feature = () => {
               </figure>
             </div>
           </RevealAnimation>
-          <RevealAnimation delay={0.7}>
-            <div className="bg-background-3 dark:bg-background-7 col-span-12 space-y-6 rounded-[20px] p-8 md:col-span-6 lg:col-span-4">
+          <RevealAnimation delay={0.7} className="col-span-12 md:col-span-6 lg:col-span-4">
+            <div className="bg-background-3 dark:bg-background-7 space-y-6 rounded-[20px] p-8 h-full">
               <div className="space-y-2">
                 <h5 className="max-sm:text-heading-6">Conversion-Driven UI/UX Design.</h5>
-                <p className="">Transform visitors into customers with intuitive user interfaces and branding that commands authority and professional trust.</p>
+                <p>Transform visitors into customers with intuitive user interfaces and branding that commands authority and professional trust.</p>
               </div>
               <figure className="w-full">
                 <Image
@@ -92,8 +92,8 @@ const Feature = () => {
               </figure>
             </div>
           </RevealAnimation>
-          <RevealAnimation delay={0.8}>
-            <div className="bg-background-3 dark:bg-background-7 col-span-12 space-y-6 rounded-[20px] p-8 md:col-span-6 lg:col-span-8">
+          <RevealAnimation delay={0.8} className="col-span-12 md:col-span-6 lg:col-span-8">
+            <div className="bg-background-3 dark:bg-background-7 space-y-6 rounded-[20px] p-8">
               <div className="max-w-[285px] space-y-2">
                 <h5 className="max-sm:text-heading-6">Managed Hosting & Proactive Support.</h5>
                 <p className="max-w-[311px]">

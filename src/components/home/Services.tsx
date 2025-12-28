@@ -23,10 +23,10 @@ const Services = () => {
         </div>
 
         {/* feature Items */}
-        <div className="mx-auto mb-10 grid max-w-[1010px] grid-cols-12 space-y-8 md:gap-8 md:space-y-0 lg:mb-18">
-          <RevealAnimation delay={0.5}>
+        <div className="mx-auto mb-10 grid max-w-[1010px] grid-cols-12 gap-8 lg:mb-18">
+          <RevealAnimation delay={0.5} className="col-span-12 md:col-span-6 lg:col-span-7">
             <Link href="/services/ai-implementation" className="group block h-full">
-              <div className="dark:bg-background-6 col-span-12 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] md:col-span-6 lg:col-span-7 transition-all duration-300 hover:shadow-xl">
+              <div className="dark:bg-background-6 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] transition-all duration-300 hover:shadow-xl">
                 <div className="w-full">
                   <span className="ns-shape-8 text-secondary dark:text-accent text-[52px]" />
                 </div>
@@ -40,9 +40,9 @@ const Services = () => {
             </Link>
           </RevealAnimation>
 
-          <RevealAnimation delay={0.6}>
+          <RevealAnimation delay={0.6} className="col-span-12 md:col-span-6 lg:col-span-5">
             <Link href="/services/ai-implementation" className="group block h-full">
-              <div className="dark:bg-background-6 col-span-12 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] md:col-span-6 lg:col-span-5 transition-all duration-300 hover:shadow-xl">
+              <div className="dark:bg-background-6 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] transition-all duration-300 hover:shadow-xl">
                 <div className="w-full">
                   <span className="ns-shape-35 text-secondary dark:text-accent text-[52px]" />
                 </div>
@@ -54,9 +54,9 @@ const Services = () => {
             </Link>
           </RevealAnimation>
 
-          <RevealAnimation delay={0.7}>
+          <RevealAnimation delay={0.7} className="col-span-12 md:col-span-6 lg:col-span-5">
             <Link href="/services/technical-strategy" className="group block h-full">
-              <div className="dark:bg-background-6 col-span-12 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] md:col-span-6 lg:col-span-5 transition-all duration-300 hover:shadow-xl">
+              <div className="dark:bg-background-6 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] transition-all duration-300 hover:shadow-xl">
                 <div className="w-full">
                   <span className="ns-shape-41 text-secondary dark:text-accent text-[52px]" />
                 </div>
@@ -70,9 +70,9 @@ const Services = () => {
             </Link>
           </RevealAnimation>
 
-          <RevealAnimation delay={0.8}>
+          <RevealAnimation delay={0.8} className="col-span-12 md:col-span-6 lg:col-span-7">
             <Link href="/services/ai-implementation" className="group block h-full">
-              <div className="dark:bg-background-6 col-span-12 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] md:col-span-6 lg:col-span-7 transition-all duration-300 hover:shadow-xl">
+              <div className="dark:bg-background-6 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] transition-all duration-300 hover:shadow-xl">
                 <div className="w-full">
                   <span className="ns-shape-19 text-secondary dark:text-accent text-[52px]" />
                 </div>
