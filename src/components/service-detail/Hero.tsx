@@ -1,77 +1,138 @@
-import heroBg from '@public/images/ns-img-150.png';
-import heroImage from '@public/images/ns-img-151.png';
-import heroBgDark from '@public/images/ns-img-dark-104.png';
-import heroImageDark from '@public/images/ns-img-dark-105.png';
+import ClientLogo1 from '@public/images/icons/client-logo-1.svg';
+import ClientLogo2 from '@public/images/icons/client-logo-2.svg';
+import ClientLogo3 from '@public/images/icons/client-logo-3.svg';
+import ClientLogo4 from '@public/images/icons/client-logo-4.svg';
+import ClientLogo5 from '@public/images/icons/client-logo-5.svg';
+import ClientLogoDark1 from '@public/images/icons/client-logo-dark-1.svg';
+import ClientLogoDark2 from '@public/images/icons/client-logo-dark-2.svg';
+import ClientLogoDark3 from '@public/images/icons/client-logo-dark-3.svg';
+import ClientLogoDark4 from '@public/images/icons/client-logo-dark-4.svg';
+import ClientLogoDark5 from '@public/images/icons/client-logo-dark-5.svg';
+import avatar1 from '@public/images/ns-avatar-1.png';
+import avatar2 from '@public/images/ns-avatar-2.png';
+import avatar3 from '@public/images/ns-avatar-3.png';
+import heroDotVectorBg from '@public/images/ns-img-161.svg';
+import heroThumbnail from '@public/images/ns-img-162.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
-// Added props to make this work for all 14 services
-const Hero = ({ title, subtitle }: { title?: string; subtitle?: string }) => {
+const clientLogos = [
+  { src: ClientLogo1, darkSrc: ClientLogoDark1, alt: 'Client company logo 1' },
+  { src: ClientLogo2, darkSrc: ClientLogoDark2, alt: 'Client company logo 2' },
+  { src: ClientLogo3, darkSrc: ClientLogoDark3, alt: 'Client company logo 3' },
+  { src: ClientLogo4, darkSrc: ClientLogoDark4, alt: 'Client company logo 4' },
+  { src: ClientLogo5, darkSrc: ClientLogoDark5, alt: 'Client company logo 5' },
+];
+
+interface HeroProps {
+  title?: string;
+  subtitle?: string;
+}
+
+const Hero = ({ title, subtitle }: HeroProps) => {
   return (
-    <section className="relative overflow-hidden pt-[150px] md:pt-[190px] lg:pt-[230px]">
-      <RevealAnimation delay={0.3}>
-        <div className="absolute top-20 left-1/2 -translate-x-1/2">
-          <Image src={heroBg} alt="Hero background pattern" className="block object-cover dark:hidden" />
-          <Image src={heroBgDark} alt="Hero background pattern" className="hidden object-cover dark:block" />
-        </div>
-      </RevealAnimation>
-      <div className="main-container relative z-10">
-        <div className="mb-14 flex flex-col items-center justify-center">
-          <div className="mx-auto mb-14 w-full max-w-[1075px] space-y-4 text-center">
-            <RevealAnimation delay={0.2}>
-              <h1>
-                {/* Dynamically renders your technical headline */}
-                {title || (
-                   <>Build <span className="text-primary-500">powerful apps</span> without writing a single line of code</>
-                )}
-              </h1>
-            </RevealAnimation>
-            <RevealAnimation delay={0.3}>
-              <p className="mx-auto max-w-[650px]">
-                {/* Dynamically renders your consultancy description */}
-                {subtitle || "Whether you're launching a new startup, digitising internal workflows, or building an MVP, App Builder gives you all the tools you need—no developers required."}
-              </p>
-            </RevealAnimation>
+    <section className="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]" aria-label="Hero Section">
+      <div className="mx-auto max-w-[1440px]">
+        <RevealAnimation delay={0.1}>
+          <div className="relative top-4 h-auto overflow-hidden rounded-[20px] bg-linear-[180deg,_#B3C3DA_0%,_#93A5BE_100%] lg:top-8">
+            <figure
+              className="absolute inset-0 z-0 translate-x-3 animate-pulse lg:translate-x-4 xl:translate-x-[75px]"
+              aria-hidden="true">
+              <Image src={heroDotVectorBg} alt="Decorative background pattern" />
+            </figure>
+            <div className="main-container relative z-10">
+              <div className="flex flex-col items-center justify-center gap-y-16 pt-36 md:flex-row md:pt-40 lg:pt-[150px] xl:pt-[170px]">
+                <div>
+                  <div className="mb-6 space-y-2 text-center md:mb-8 md:space-y-4 md:text-left">
+                    <RevealAnimation delay={0.2}>
+                      <h1 className="dark:text-secondary max-w-full lg:max-w-[507px]">
+                        {title || 'Apps made for the future!'}
+                      </h1>
+                    </RevealAnimation>
+                    <RevealAnimation delay={0.4}>
+                      <p className="text-secondary/60 md:max-w-[429px]">
+                        {subtitle || 'From concept to launch, we design and develop mobile and web apps that drive real results.'}
+                      </p>
+                    </RevealAnimation>
+                  </div>
+                  <div className="mb-10 flex flex-col items-center justify-center gap-y-5 sm:flex-row sm:gap-x-4 md:justify-start lg:mb-14">
+                    <div className="flex -space-x-3.5">
+                      <RevealAnimation delay={0.2} direction="right" offset={50}>
+                        <figure>
+                          <Image
+                            className="bg-ns-yellow inline-block size-12 rounded-full ring-2 ring-white dark:ring-black"
+                            src={avatar1}
+                            alt="User avatar 1"
+                          />
+                        </figure>
+                      </RevealAnimation>
+                      <RevealAnimation delay={0.3} direction="right" offset={50}>
+                        <figure>
+                          <Image
+                            className="bg-ns-red inline-block size-12 rounded-full ring-2 ring-white dark:ring-black"
+                            src={avatar2}
+                            alt="User avatar 2"
+                          />
+                        </figure>
+                      </RevealAnimation>
+                      <RevealAnimation delay={0.4} direction="right" offset={50}>
+                        <figure>
+                          <Image
+                            className="bg-ns-green inline-block size-12 rounded-full ring-2 ring-white dark:ring-black"
+                            src={avatar3}
+                            alt="User avatar 3"
+                          />
+                        </figure>
+                      </RevealAnimation>
+                      <RevealAnimation delay={0.5} direction="right" offset={50}>
+                        <div className="text-tagline-3 inline-flex size-12 cursor-pointer items-center justify-center rounded-full bg-[#9DAEC6] font-medium text-white ring-2 ring-white dark:text-black dark:ring-black">
+                          99+
+                        </div>
+                      </RevealAnimation>
+                    </div>
+                    <div>
+                      <RevealAnimation delay={0.6} offset={40}>
+                        <p className="text-secondary text-tagline-2 block text-left font-medium">Trusted by 20k+</p>
+                      </RevealAnimation>
+                      <RevealAnimation delay={0.7} offset={40}>
+                        <p className="text-tagline-3 dark:text-secondary/60">Customers across the globe</p>
+                      </RevealAnimation>
+                    </div>
+                  </div>
+                  <RevealAnimation delay={0.8}>
+                    <div className="mx-auto w-[95%] md:mx-0 md:w-full">
+                      <LinkButton
+                        href="/contact-us"
+                        className="btn btn-white btn-xl hover:btn-secondary dark:btn-black dark:hover:btn-accent w-full md:w-auto"
+                        aria-label="Book a free consultation call">
+                        Book a free call
+                      </LinkButton>
+                    </div>
+                  </RevealAnimation>
+                </div>
+                <RevealAnimation delay={0.9}>
+                  <figure className="w-full max-w-[643px]">
+                    <Image src={heroThumbnail} alt="App showcase illustration" className="size-full object-cover" />
+                  </figure>
+                </RevealAnimation>
+              </div>
+            </div>
           </div>
-          <ul className="flex w-[90%] flex-col gap-4 text-center max-md:items-center max-md:justify-center md:w-auto md:flex-row">
-            <RevealAnimation delay={0.4}>
-              <li className="w-full sm:w-auto">
-                <LinkButton
-                  href="/contact-us"
-                  className="btn btn-xl btn-secondary dark:btn-accent hover:btn-white dark:hover:btn-white-dark w-[90%] md:w-auto"
-                  aria-label="Start building free">
-                  Start Your Project
-                </LinkButton>
-              </li>
-            </RevealAnimation>
-            <RevealAnimation delay={0.5}>
-              <li className="w-full sm:w-auto">
-                <LinkButton
-                  href="/homepage-02"
-                  className="btn btn-xl dark:btn-white-dark hover:btn-secondary btn-white dark:hover:btn-accent w-[90%] md:w-auto"
-                  aria-label="Watch demo video">
-                  <span>View Portfolio</span>
-                </LinkButton>
-              </li>
-            </RevealAnimation>
-          </ul>
-        </div>
-        <RevealAnimation delay={0.6}>
-          <figure className="w-full max-w-[1290px]">
-            <Image
-              src={heroImage}
-              alt="hero-image"
-              className="size-full scale-[150%] object-cover md:scale-100 dark:hidden"
-            />
-            <Image
-              src={heroImageDark}
-              alt="hero-image"
-              className="hidden size-full scale-[150%] object-cover md:scale-100 dark:block"
-            />
-          </figure>
         </RevealAnimation>
       </div>
+      <aside className="main-container relative z-10 mt-[64px] lg:mt-[120px]" aria-label="Our Clients">
+        <RevealAnimation delay={0.2}>
+          <div className="flex flex-wrap items-center justify-center gap-4 md:flex-nowrap md:gap-x-4 lg:gap-x-8">
+            {clientLogos.map((logo) => (
+              <figure className="lg:ml-8 lg:min-w-36" key={logo.alt}>
+                <Image src={logo.src} alt={logo.alt} className="inline-block lg:w-auto dark:hidden" />
+                <Image src={logo.darkSrc} alt={logo.alt} className="hidden lg:w-auto dark:inline-block" />
+              </figure>
+            ))}
+          </div>
+        </RevealAnimation>
+      </aside>
     </section>
   );
 };
