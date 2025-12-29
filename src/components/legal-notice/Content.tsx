@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
 
-// legal notice content
 const Content = () => {
   return (
     <section className="xl:pb-28 lg:pb-20 pb-16">
@@ -9,57 +8,119 @@ const Content = () => {
         <div className="max-w-[950px] mx-auto w-full">
           <RevealAnimation delay={0.1}>
             <div className="py-8 space-y-3">
-              <h2 className="text-heading-4 font-normal">Publisher:</h2>
+              <h2 className="text-heading-4 font-normal">Company Information</h2>
               <p>
                 The{' '}
                 <Link href="/" className="text-primary-500">
-                  https://www.nextsaas.ai
+                  https://www.mediatopia.agency
                 </Link>{' '}
                 website is published by: <br />
-                NextSaaS is registered in the Trade and Companies Register under number 000000000. <br />
-                Registered office: 45 Innovation Avenue, Level 3 – San Francisco, CA 94107, USA <br />
-                Intracommunity VAT number: US000000000 <br />
-                E-mail address:
-                <a href="mailto:contact@nextsaas.ai" className="text-primary-500">
-                  contact@nextsaas.ai
+                <br />
+                <strong>Mediatopia</strong> <br />
+                12 Whiteladies Road <br />
+                Bristol BS8 1PD <br />
+                United Kingdom <br />
+                <br />
+                Telephone:{' '}
+                <a href="tel:+441173326021" className="text-primary-500">
+                  0117 332 6021
+                </a>
+                <br />
+                Email:{' '}
+                <a href="mailto:hello@mediatopia.co.uk" className="text-primary-500">
+                  hello@mediatopia.co.uk
                 </a>
               </p>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <div className="py-8 space-y-3">
-              <h2 className="text-heading-4 font-normal">Director of publication :</h2>
-              <p>Mr. Alex Turner, Chief Executive Officer</p>
+              <h2 className="text-heading-4 font-normal">Managing Director</h2>
+              <p>Duncan Maund</p>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <div className="py-8 space-y-3">
-              <h2 className="text-heading-4 font-normal">Hosting provider:</h2>
+              <h2 className="text-heading-4 font-normal">Hosting Provider</h2>
               <p>
-                The{' '}
-                <Link href="/" className="text-primary-500">
-                  https://www.nextsaas.ai
-                </Link>
-                <br />
-                website is hosted by: Vercel, Inc. <br />
+                This website is hosted by Vercel, Inc. <br />
                 Headquarters: 440 N Barranca Ave #4133, Covina, CA 91723, USA
                 <br />
-                Email:
-                <a href="mailto:support@vercel.com" className="text-primary-500">
-                  support@vercel.com
-                </a>
+                <br />
+                Client websites hosted by Mediatopia are hosted on secure UK-based servers.
               </p>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <div className="py-8 space-y-3">
-              <h2 className="text-heading-4 font-normal">Development:</h2>
+              <h2 className="text-heading-4 font-normal">Intellectual Property</h2>
               <p>
-                This website has been designed and developed by NextSaaS Design Studio. <br />
-                Website:{' '}
-                <Link href="/" className="text-primary-500">
-                  https://www.nextsaas.design
-                </Link>
+                All content on this website, including text, graphics, logos, images, and software, 
+                is the property of Mediatopia or its content suppliers and is protected by UK and 
+                international copyright laws.
+                <br />
+                <br />
+                The Mediatopia name and logo are trademarks of Mediatopia. Unauthorised use of any 
+                content from this website is strictly prohibited.
+              </p>
+            </div>
+          </RevealAnimation>
+          <RevealAnimation delay={0.5}>
+            <div className="py-8 space-y-3">
+              <h2 className="text-heading-4 font-normal">Limitation of Liability</h2>
+              <p>
+                While we strive to ensure the information on this website is accurate and up-to-date, 
+                Mediatopia makes no warranties or representations about the accuracy or completeness 
+                of the content. We shall not be liable for any damages arising from the use of this website.
+                <br />
+                <br />
+                This website may contain links to external websites. Mediatopia is not responsible 
+                for the content or privacy practices of these external sites.
+              </p>
+            </div>
+          </RevealAnimation>
+          <RevealAnimation delay={0.6}>
+            <div className="py-8 space-y-3">
+              <h2 className="text-heading-4 font-normal">Data Protection</h2>
+              <p>
+                For information about how we collect, use, and protect your personal data, 
+                please see our{' '}
+                <Link href="/privacy-policy" className="text-primary-500">
+                  Privacy Policy
+                </Link>.
+                <br />
+                <br />
+                Mediatopia is committed to complying with the UK General Data Protection Regulation 
+                (UK GDPR) and the Data Protection Act 2018.
+              </p>
+            </div>
+          </RevealAnimation>
+          <RevealAnimation delay={0.7}>
+            <div className="py-8 space-y-3">
+              <h2 className="text-heading-4 font-normal">Governing Law</h2>
+              <p>
+                These terms and conditions are governed by and construed in accordance with 
+                the laws of England and Wales. Any disputes arising from the use of this website 
+                shall be subject to the exclusive jurisdiction of the courts of England and Wales.
+              </p>
+            </div>
+          </RevealAnimation>
+          <RevealAnimation delay={0.8}>
+            <div className="py-8 space-y-3">
+              <h2 className="text-heading-4 font-normal">Contact</h2>
+              <p>
+                If you have any questions about this legal notice, please contact us:
+                <br />
+                <br />
+                Email:{' '}
+                <a href="mailto:hello@mediatopia.co.uk" className="text-primary-500">
+                  hello@mediatopia.co.uk
+                </a>
+                <br />
+                Telephone:{' '}
+                <a href="tel:+441173326021" className="text-primary-500">
+                  0117 332 6021
+                </a>
               </p>
             </div>
           </RevealAnimation>

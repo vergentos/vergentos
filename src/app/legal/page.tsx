@@ -1,11 +1,10 @@
 import Content from '@/components/legal-notice/Content';
 import Hero from '@/components/legal-notice/Hero';
-import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Legal Notice - AI Agency || NextSaaS',
+  title: 'Legal Notice | Mediatopia - Bristol Web Design',
+  description: 'Legal information for Mediatopia including company details, intellectual property, and liability information.',
 };
 
 const page = () => {
@@ -16,4 +15,5 @@ const page = () => {
     </main>
   );
 };
+
 export default page;
