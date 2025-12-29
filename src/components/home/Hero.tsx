@@ -5,10 +5,18 @@ import heroImageDark from '@public/images/ns-img-dark-105.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
+import GradientAnimation from './GradientAnimation';
 
 const Hero = ({ title, subtitle }: { title?: any; subtitle?: string }) => {
   return (
     <section className="relative overflow-hidden pt-[150px] md:pt-[190px] lg:pt-[230px]">
+      {/* Animated gradient lines background */}
+      <RevealAnimation delay={0.6} offset={0}>
+        <figure className="absolute top-0 left-1/2 z-0 h-full w-full max-w-[1390px] -translate-x-1/2 opacity-30">
+          <GradientAnimation />
+        </figure>
+      </RevealAnimation>
+      
       <RevealAnimation delay={0.3}>
         <div className="absolute top-20 left-1/2 -translate-x-1/2">
           <Image src={heroBg} alt="pattern" className="block object-cover dark:hidden" />
