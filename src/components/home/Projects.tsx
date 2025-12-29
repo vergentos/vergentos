@@ -2,31 +2,30 @@ import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
-// Hard-coded for stability to remove gray placeholders
 const featuredProjects = [
   {
-    slug: "sage-integration",
-    title: "Sage 50 Real-time Synchronisation",
-    description: "Engineering a secure API bridge for a leading UK retailer, automating thousands of weekly transactions.",
-    thumbnail: "/images/ns-img-151.png" // Using existing template images to ensure they load
+    slug: "sparks-transport-seo-growth",
+    title: "Sparks Transport – 340% Traffic Growth",
+    description: "Comprehensive SEO and website strategy delivering exceptional organic growth for a Bristol haulage company.",
+    thumbnail: "/images/case-study-sparks.png"
   },
   {
-    slug: "nextjs-platform",
-    title: "Enterprise Next.js Architecture",
-    description: "Building a high-performance React application for a Bristol consultancy, achieving 100/100 Core Web Vitals.",
-    thumbnail: "/images/ns-img-dark-105.png"
+    slug: "chongz-ecommerce-sage-integration",
+    title: "Chongz – E-commerce & Sage 50 Integration",
+    description: "Complete e-commerce overhaul with Sage 50 API integration, advanced filtering, and automated stock sync.",
+    thumbnail: "/images/case-study-chongz.png"
   },
   {
-    slug: "ai-automation",
-    title: "AI-Driven Workflow Automation",
-    description: "Integrating private LLMs to automate research and data entry for a technical engineering firm.",
-    thumbnail: "/images/ns-img-151.png"
+    slug: "bottleman-website-redesign",
+    title: "Bottleman – 20 Years, 5 Websites",
+    description: "Fifth website redesign for a client we've partnered with for over two decades.",
+    thumbnail: "/images/case-study-bottleman.png"
   },
   {
-    slug: "cyber-security",
-    title: "Secure Infrastructure Hardening",
-    description: "Deploying enterprise-grade WAF and security shielding for a high-traffic e-commerce platform.",
-    thumbnail: "/images/ns-img-dark-105.png"
+    slug: "morris-and-perry-quarry-website",
+    title: "Morris & Perry – 15 Year Partnership",
+    description: "Website refresh for a prestigious Bath-based quarry, our client for over 15 years.",
+    thumbnail: "/images/case-study-morris.png"
   }
 ];
 
@@ -44,7 +43,8 @@ const Projects = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[680px]">
-                Explore our portfolio of bespoke web design, custom software development, and AI-powered platforms. We help ambitious brands bridge the gap between complex technology and intuitive user experiences.
+                Real results from real clients. Explore our portfolio of bespoke web design, 
+                Sage 50 integrations, and high-performance platforms built for ambitious UK brands.
               </p>
             </RevealAnimation>
           </div>
@@ -64,7 +64,7 @@ const Projects = () => {
                     />
                     <div className="absolute inset-0 bg-black/0 transition-all duration-500 ease-in-out group-hover:bg-black/40" />
                     <LinkButton
-                      href={`/blog`} // Directing to your case studies section
+                      href={`/case-study/${project.slug}`}
                       className="btn btn-md hover:btn-primary dark:btn-accent btn-secondary absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-95 transform-gpu opacity-0 transition-all duration-500 group-hover:scale-110 group-hover:opacity-100">
                       View Project
                     </LinkButton>
@@ -84,9 +84,9 @@ const Projects = () => {
         <RevealAnimation delay={0.9}>
           <div className="text-center">
             <LinkButton
-              href="/blog"
+              href="/case-study"
               className="btn btn-secondary btn-md hover:btn-primary dark:btn-transparent mx-auto">
-              View full portfolio
+              View all case studies
             </LinkButton>
           </div>
         </RevealAnimation>
