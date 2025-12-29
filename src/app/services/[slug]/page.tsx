@@ -3,6 +3,11 @@ import Feature from '@/components/service-detail/Feature';
 import FeatureV2 from '@/components/service-detail/FeatureV2';
 import Hero from '@/components/service-detail/Hero';
 import HeroHosting from '@/components/service-detail/heroes/HeroHosting';
+import HeroDashboard from '@/components/service-detail/heroes/HeroDashboard';
+import HeroSupport from '@/components/service-detail/heroes/HeroSupport';
+import HeroAudit from '@/components/service-detail/heroes/HeroAudit';
+import HeroSecurity from '@/components/service-detail/heroes/HeroSecurity';
+import HeroPortfolio from '@/components/service-detail/heroes/HeroPortfolio';
 import Integration from '@/components/service-detail/Integration';
 import Publish from '@/components/service-detail/Publish';
 import Steps from '@/components/service-detail/Steps';
@@ -25,19 +30,24 @@ const getHeroComponent = (heroType: string, service: any) => {
     case 'hosting':
       return <HeroHosting title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
     case 'security':
-      // TODO: Create HeroSecurity component
+      return <HeroSecurity title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
+      // HeroSecurity component
       return <HeroHosting title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
     case 'dashboard':
-      // TODO: Create HeroDashboard component
+      return <HeroDashboard title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
+      // HeroDashboard component
       return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
     case 'portfolio':
-      // TODO: Create HeroPortfolio component
+      return <HeroPortfolio title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
+      // HeroPortfolio component
       return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
     case 'support':
-      // TODO: Create HeroSupport component
+      return <HeroSupport title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
+      // HeroSupport component
       return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
     case 'audit':
-      // TODO: Create HeroAudit component
+      return <HeroAudit title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
+      // HeroAudit component
       return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
     default:
       return <Hero title={service.heroTitle} subtitle={service.heroSub} />;

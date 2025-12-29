@@ -8,6 +8,7 @@ import { cn } from '@/utils/cn';
 import logoDark from '@public/images/shared/logo-dark.svg';
 import logoIcon from '@public/images/shared/logo.svg';
 import mainLogo from '@public/images/mediatopia-logo.png';
+import mainLogoDark from '@public/images/mediatopia-logo-dark.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -51,7 +52,8 @@ const Navbar = () => {
               <Link href="/" className="inline-flex items-center">
                 <span className="sr-only">Home</span>
                 <figure className="hidden lg:block lg:max-w-[198px]">
-                  <Image src={mainLogo} alt="Mediatopia" className="h-auto w-full pl-4" priority />
+                  <Image src={mainLogoDark} alt="Mediatopia" className="h-auto w-full pl-4 block dark:hidden" priority />
+                  <Image src={mainLogo} alt="Mediatopia" className="h-auto w-full pl-4 hidden dark:block" priority />
                 </figure>
                 <figure className="block max-w-[44px] lg:hidden">
                   <Image src={logoIcon} alt="Mediatopia" className="block h-auto w-full dark:hidden" priority />
