@@ -11,41 +11,44 @@ type PeopleAndCultureLink = {
   icon: ComponentType;
 };
 
-const peopleAndCultureLinks: PeopleAndCultureLink[] = [
+const leftColumnLinks: PeopleAndCultureLink[] = [
   {
     title: 'Technical Consultation',
-    description: 'Book a strategic session with a lead web design consultant.',
-    href: '/services/bespoke-consultancy', // Pointing to dynamic route
+    description: 'Book a strategic session with our lead consultant.',
+    href: '/contact-us',
     icon: ProcessICon,
   },
   {
-    title: 'Project Discovery',
-    description: 'How we define your technical requirements and commercial goals.',
-    href: '/services/technical-strategy', // Pointing to dynamic route
+    title: 'Our Process',
+    description: 'How we define requirements and deliver your project.',
+    href: '/process',
     icon: TeamIcon,
   },
   {
-    title: 'Partnership Models',
-    description: 'Flexible engagement options for long-term digital growth.',
-    href: '/services/bespoke-consultancy', // Consistent with consultancy focus
+    title: 'About Mediatopia',
+    description: '20+ years of web engineering expertise in Bristol.',
+    href: '/about',
     icon: CareerIcon,
   },
+];
+
+const rightColumnLinks: PeopleAndCultureLink[] = [
   {
     title: 'Client Support Portal',
-    description: 'Dedicated access for our ongoing technical project partners.',
-    href: '/services/technical-support', // Pointing to dynamic route
+    description: 'Dedicated access for our technical project partners.',
+    href: '/support',
     icon: TestimonialIcon,
   },
   {
-    title: 'Technical Roadmap',
-    description: 'Visualise the timeline and milestones of your bespoke build.',
-    href: '/services/technical-strategy', // Consistent with strategy focus
+    title: 'Technical FAQs',
+    description: 'Common questions about projects, costs, and timelines.',
+    href: '/faq',
     icon: CustomersIcon,
   },
   {
-    title: 'Contact Mediatopia',
-    description: 'Get in touch to discuss your Sage 50 or AI integration needs.',
-    href: '/contact-us', // Standard contact route
+    title: 'Contact Us',
+    description: 'Get in touch to discuss your next project.',
+    href: '/contact-us',
     icon: ContactIcon,
   },
 ];
@@ -63,24 +66,33 @@ const PeopleAndCultureMenu = ({
     <div>
       <div
         className={cn(
-          'pointer-events-none absolute top-full left-1/2 z-40 h-3 w-full min-w-[320px] -translate-x-1/2 bg-transparent opacity-0',
+          'pointer-events-none absolute top-full left-1/2 z-40 h-3 w-full min-w-[640px] -translate-x-1/2 bg-transparent opacity-0',
           menuDropdownId === 'people-dropdown-menu'
             ? '!pointer-events-auto opacity-100'
             : 'pointer-events-none opacity-0',
         )}
       />
-      <ul
+      <div
         id="people-dropdown-menu"
         className={cn(
-          'dark:bg-background-6 shadow-14 border-stroke-1 dark:border-background- pointer-events-none absolute top-full left-1/2 z-50 mt-2 w-[320px] -translate-x-1/2 rounded-3xl border bg-white p-2 opacity-0 transition-all duration-300 dark:border-white/10',
+          'dark:bg-background-6 shadow-14 border-stroke-1 dark:border-background-7 pointer-events-none absolute top-full left-1/2 z-50 mt-2 w-[640px] -translate-x-1/2 rounded-[20px] border bg-white p-4 opacity-0 transition-all duration-300',
           menuDropdownId === 'people-dropdown-menu'
             ? '!pointer-events-auto translate-y-0 opacity-100'
             : 'pointer-events-none translate-y-2.5 opacity-0',
         )}>
-        {peopleAndCultureLinks.map((link) => (
-          <PeopleAndCultureMenuLink key={link.title} {...link} onClose={handleClose} />
-        ))}
-      </ul>
+        <div className="flex gap-4">
+          <ul className="flex-1 space-y-1">
+            {leftColumnLinks.map((link) => (
+              <PeopleAndCultureMenuLink key={link.title} {...link} onClose={handleClose} />
+            ))}
+          </ul>
+          <ul className="flex-1 space-y-1">
+            {rightColumnLinks.map((link) => (
+              <PeopleAndCultureMenuLink key={link.title} {...link} onClose={handleClose} />
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

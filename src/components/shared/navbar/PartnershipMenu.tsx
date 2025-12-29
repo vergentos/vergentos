@@ -19,41 +19,44 @@ type PartnershipLink = {
   icon: ComponentType;
 };
 
-const partnershipLinks: PartnershipLink[] = [
+const leftColumnLinks: PartnershipLink[] = [
   {
     title: 'Technical Blog',
     description: 'Expert insights on Next.js, AI automation, and digital engineering.',
-    href: '/blog', // Pointing to standard blog route
+    href: '/blog',
     icon: AffiliateIcon,
   },
   {
     title: 'Commercial Case Studies',
     description: 'Real-world results from our high-end technical project partners.',
-    href: '/blog', // Consistency with CompanyMenu
+    href: '/case-study',
     icon: ReferralProgramIcon,
   },
   {
     title: 'Technical FAQs',
     description: 'Direct answers to your common project, cost, and hosting questions.',
-    href: '/faq', // Pointing to standard FAQ route
+    href: '/faq',
     icon: LoginIcon,
   },
+];
+
+const rightColumnLinks: PartnershipLink[] = [
   {
     title: 'Sage 50 Integration Guide',
     description: 'How to automate your workflows with custom API synchronisation.',
-    href: '/services/sage-50-sync', // Correct dynamic slug
+    href: '/services/sage-50-sync',
     icon: SignUpIcon,
   },
   {
     title: 'AI for UK Business',
     description: 'Harnessing private LLM models for operational efficiency.',
-    href: '/services/ai-implementation', // Correct dynamic slug
+    href: '/services/ai-implementation',
     icon: DownloadIcon,
   },
   {
-    title: 'Consultancy Knowledge Base',
-    description: 'Explore our full library of technical resources and whitepapers.',
-    href: '/services/bespoke-consultancy', // Correct dynamic slug
+    title: 'Our Products',
+    description: 'AI-powered tools and platforms built by Mediatopia.',
+    href: '/products',
     icon: IntegrationIcon,
   },
 ];
@@ -71,24 +74,33 @@ const PartnershipMenu = ({
     <div>
       <div
         className={cn(
-          'dropdown-menu-bridge pointer-events-none absolute top-full left-1/2 z-40 h-3 w-full min-w-[320px] -translate-x-1/2 bg-transparent opacity-0 transition-all duration-300',
+          'dropdown-menu-bridge pointer-events-none absolute top-full left-1/2 z-40 h-3 w-full min-w-[640px] -translate-x-1/2 bg-transparent opacity-0 transition-all duration-300',
           menuDropdownId === 'partnership-dropdown-menu'
             ? '!pointer-events-auto opacity-100'
             : 'pointer-events-none opacity-0',
         )}
       />
-      <ul
+      <div
         id="partnership-dropdown-menu"
         className={cn(
-          'dropdown-menu dark:bg-background-6 shadow-14 border-stroke-1 dark:border-background-7 pointer-events-none absolute top-full left-1/2 z-50 mt-2 w-[320px] -translate-x-1/2 rounded-[20px] border bg-white p-2 opacity-0 transition-all duration-300',
+          'dropdown-menu dark:bg-background-6 shadow-14 border-stroke-1 dark:border-background-7 pointer-events-none absolute top-full left-1/2 z-50 mt-2 w-[640px] -translate-x-1/2 rounded-[20px] border bg-white p-4 opacity-0 transition-all duration-300',
           menuDropdownId === 'partnership-dropdown-menu'
             ? '!pointer-events-auto translate-y-0 opacity-100'
             : 'pointer-events-none translate-y-2.5 opacity-0',
         )}>
-        {partnershipLinks.map((link) => (
-          <PartnershipMenuLink key={link.title} {...link} onClose={handleClose} />
-        ))}
-      </ul>
+        <div className="flex gap-4">
+          <ul className="flex-1 space-y-1">
+            {leftColumnLinks.map((link) => (
+              <PartnershipMenuLink key={link.title} {...link} onClose={handleClose} />
+            ))}
+          </ul>
+          <ul className="flex-1 space-y-1">
+            {rightColumnLinks.map((link) => (
+              <PartnershipMenuLink key={link.title} {...link} onClose={handleClose} />
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

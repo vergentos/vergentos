@@ -26,7 +26,7 @@ const page = () => {
         buttonText="View all reviews"
         badgeColor="badge-cyan"
         title="Real people. Real results."
-        description="“Mediatopia transformed our digital presence—exceptional technical delivery and genuine partnership.”"
+        description="“The team delivered exactly what we needed—on time, on budget, and with zero fuss.”"
       />
       <AboutCTA />
     </main>

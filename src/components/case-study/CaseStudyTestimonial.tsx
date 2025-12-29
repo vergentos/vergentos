@@ -11,17 +11,9 @@ const CaseStudyTestimonial = ({ userReview }: { userReview: ICaseStudy['userRevi
           <div className="space-y-3">
             <RevealAnimation delay={0.1}>
               <h4 className="text-heading-2" id="testimonials-title">
-                What our users say
+                About this project
               </h4>
             </RevealAnimation>
-            <blockquote>
-              <RevealAnimation delay={0.2}>
-                <p>
-                  &quot;Mediatopia transformed our digital presence—exceptional technical delivery and genuine
-                  partnership.&quot;
-                </p>
-              </RevealAnimation>
-            </blockquote>
           </div>
           {/* testimonial card  */}
           <RevealAnimation delay={0.3}>
@@ -36,7 +28,7 @@ const CaseStudyTestimonial = ({ userReview }: { userReview: ICaseStudy['userRevi
                   alt={userReview.userName}
                 />
               </figure>
-              <blockquote cite="https://velocityfinance.com">
+              <blockquote>
                 <p className="text-white dark:text-accent/60">{userReview.reviewText}</p>
               </blockquote>
               <div className="pb-4">

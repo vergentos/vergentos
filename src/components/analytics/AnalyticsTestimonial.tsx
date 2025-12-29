@@ -9,11 +9,11 @@ const AnalyticsTestimonial = () => {
       <div className="mx-auto flex w-[95%] max-w-[950px] flex-col space-y-14">
         <div className="space-y-3">
           <RevealAnimation delay={0.1}>
-            <h2>What our users say</h2>
+            <h2>What our clients say</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <p className="text-secondary/60">
-              “Mediatopia transformed our digital presence—exceptional technical delivery and genuine partnership.”
+              “The team delivered exactly what we needed—on time, on budget, and with zero fuss.”
             </p>
           </RevealAnimation>
         </div>
