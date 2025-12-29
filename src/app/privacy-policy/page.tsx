@@ -1,11 +1,10 @@
 import PrivacyContent from '@/components/privacy/PrivacyContent';
 import CTA from '@/components/shared/cta/CTA';
-import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Privacy Policy - AI Agency || NextSaaS',
+  title: 'Privacy Policy | Mediatopia - Bristol Web Design',
+  description: 'How Mediatopia collects, uses, and protects your personal data. GDPR compliant privacy policy for our web design and development services.',
 };
 
 const page = () => {
@@ -15,11 +14,13 @@ const page = () => {
       <CTA
         className="dark:bg-background-5 bg-white"
         badgeClass="badge-yellow-v2"
-        badgeText="Get Started"
-        ctaHeading="Ready to start earning with NextSaaS?"
-        description="If you have any questions, feel free to reach out to our team."
+        badgeText="Get In Touch"
+        ctaHeading="Ready to discuss your project?"
+        description="Contact us for a free consultation and fixed-price quote."
         btnClass="hover:btn-secondary dark:hover:btn-accent"
-        ctaBtnText="Get started"
+        ctaBtnText="Contact us"
+        btnHref="/contact-us"
+        showPhoneInput={true}
       />
     </main>
   );

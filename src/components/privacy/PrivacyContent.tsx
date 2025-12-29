@@ -1,6 +1,3 @@
-import privacy from '@public/images/ns-img-391.png';
-import Image from 'next/image';
-import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
 
 interface PrivacySection {
@@ -17,31 +14,19 @@ interface ListSection {
 interface ListItem {
   title?: string;
   content: string;
-  link?: {
-    url: string;
-    text: string;
-  };
-}
-
-interface FormField {
-  id: string;
-  name: string;
-  label: string;
-  placeholder: string;
-  type: string;
 }
 
 const personalInfoSection: PrivacySection = {
   title: 'Personal information we collect',
   content:
-    'When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and cookies installed on your device. Additionally, as you browse the Site, we collect information about the individual pages you view, what websites or search terms referred you to the Site, and how you interact with the Site. We call this automatically-collected information <span class="text-secondary dark:text-accent">"Device Information."</span>',
+    'When you visit our website, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and cookies installed on your device. Additionally, as you browse the Site, we collect information about the individual pages you view, what websites or search terms referred you to the Site, and how you interact with the Site. We call this automatically-collected information <span class="text-secondary dark:text-accent">"Device Information."</span>',
 };
 
 const deviceInfoItems: ListItem[] = [
   {
     title: 'Cookies',
     content:
-      'Data files placed on your device, often including an anonymous unique identifier. ( Learn more about cookies and how to disable them: <a href="http://www.allaboutcookies.org" class="text-secondary">http://www.allaboutcookies.org</a> )',
+      'Data files placed on your device, often including an anonymous unique identifier. Learn more about cookies and how to disable them at <a href="http://www.allaboutcookies.org" class="text-secondary dark:text-accent">allaboutcookies.org</a>',
   },
   {
     title: 'Log Files',
@@ -53,107 +38,83 @@ const deviceInfoItems: ListItem[] = [
     content: 'Electronic files to monitor site usage and interaction.',
   },
   {
-    title: 'Google Analytics and Pixels',
-    content: 'Collect traffic-related information and interaction behavior.',
+    title: 'Google Analytics',
+    content: 'Collect traffic-related information and interaction behaviour to help us improve our services.',
   },
 ];
 
-const orderInfoText =
-  'When you make or attempt to purchase through the Site, we collect information such as your name, email address, billing address, shipping address, payment details, and any other relevant data necessary to process your order.';
-
-const formFields: FormField[] = [
-  {
-    id: 'name',
-    name: 'name',
-    label: 'Your name',
-    placeholder: 'Enter your name',
-    type: 'text',
-  },
-  {
-    id: 'billing-shipping-addresses',
-    name: 'billing-shipping-addresses',
-    label: 'Billing and shipping addresses',
-    placeholder: 'Billing and shipping addresses',
-    type: 'text',
-  },
-  {
-    id: 'payment-information',
-    name: 'payment-information',
-    label: 'Payment information',
-    placeholder: 'credit card, PayPal, or bank details',
-    type: 'text',
-  },
-  {
-    id: 'email',
-    name: 'email',
-    label: 'Email address',
-    placeholder: 'Enter your email address',
-    type: 'email',
-  },
+const contactInfoItems: ListItem[] = [
+  { content: 'Your name' },
+  { content: 'Email address' },
+  { content: 'Phone number' },
+  { content: 'Business name and website' },
+  { content: 'Project requirements and messages you send us' },
 ];
 
 const useInfoSection: ListSection = {
   title: 'How we use your personal information',
-  description: 'We use the collected Order Information to:',
+  description: 'We use the collected information to:',
   items: [
-    { content: 'Process your orders, payments, and generate invoices' },
-    { content: 'Communicate with you' },
-    { content: 'Screen for potential fraud or risks' },
-    {
-      content: 'Provide you with information or promotions related to our services, when aligned with your preferences',
-    },
+    { content: 'Respond to your enquiries and provide quotes' },
+    { content: 'Deliver the services you have requested' },
+    { content: 'Communicate with you about your project' },
+    { content: 'Send invoices and process payments' },
+    { content: 'Provide ongoing support and maintenance services' },
+    { content: 'Improve and optimise our website experience' },
+    { content: 'Send you information about our services, where you have opted in to receive this' },
   ],
 };
-
-const deviceInfoUsage: ListItem[] = [
-  { content: 'Improve and optimize the Site experience' },
-  { content: 'Analyze customer interactions for performance tracking' },
-  { content: 'Screen for potential risk and fraud' },
-];
 
 const sharingInfoSection: ListSection = {
   title: 'Sharing your personal information',
   description:
     'We share your Personal Information with trusted third-party service providers to help us operate effectively:',
   items: [
-    {
-      content:
-        'Google Analytics: To understand customer interactions and optimize experience (Learn more: <a href="#" class="text-secondary dark:text-accent">Google Privacy Policy</a>)',
-    },
-    { content: 'Payment processors (PayPal, Stripe)' },
+    { content: 'Google Analytics – to understand how visitors use our website' },
+    { content: 'Payment processors (Stripe, PayPal) – to process payments securely' },
+    { content: 'Email service providers – to send project communications' },
+    { content: 'Hosting providers – to deliver our website and client services' },
   ],
 };
 
 const rightsSection: ListSection = {
-  title: 'Your rights',
-  description: 'If you are a resident of the European Economic Area (EEA):',
+  title: 'Your rights under GDPR',
+  description: 'Under the General Data Protection Regulation (GDPR), you have the right to:',
   items: [
-    { content: 'You have the right to access, update, or delete your personal information.' },
-    {
-      content:
-        'If you wish to exercise these rights, please contact us at <a href="mailto:support@nextsaas.com" class="text-secondary dark:text-accent">support@nextsaas.com</a>',
-    },
+    { content: 'Access the personal data we hold about you' },
+    { content: 'Request correction of inaccurate personal data' },
+    { content: 'Request deletion of your personal data' },
+    { content: 'Object to processing of your personal data' },
+    { content: 'Request restriction of processing your personal data' },
+    { content: 'Request transfer of your personal data' },
+    { content: 'Withdraw consent at any time' },
   ],
 };
 
 const simpleSections: PrivacySection[] = [
   {
-    title: 'Do not track',
-    content:
-      'Please note, we do not alter our Site\'s data collection practices when we detect a "Do Not Track" signal from your browser.',
-  },
-  {
     title: 'Data retention',
-    content: 'We will retain your Order Information for our records unless you ask us to delete this information.',
+    content: 'We retain your personal information for as long as necessary to provide our services and comply with legal obligations. Project files and communications are typically retained for 7 years for legal and accounting purposes. You may request deletion of your data at any time by contacting us.',
   },
   {
-    title: 'Minors',
-    content: 'Our Site is not intended for individuals under the age of 18.',
+    title: 'Data security',
+    content: 'We implement appropriate technical and organisational measures to protect your personal information against unauthorised access, alteration, disclosure, or destruction. This includes secure hosting, encrypted communications, and restricted access to personal data.',
   },
   {
-    title: 'Changes',
-    content:
-      'We may update this Privacy Policy periodically to reflect changes to our practices or for other operational, legal, or regulatory reasons.',
+    title: 'Cookies',
+    content: 'Our website uses cookies to enhance your browsing experience. You can control cookies through your browser settings. Disabling cookies may affect some functionality of our website.',
+  },
+  {
+    title: 'Third-party links',
+    content: 'Our website may contain links to third-party websites. We are not responsible for the privacy practices of these external sites. We encourage you to read the privacy policies of any websites you visit.',
+  },
+  {
+    title: 'Children',
+    content: 'Our website and services are not intended for individuals under the age of 18.',
+  },
+  {
+    title: 'Changes to this policy',
+    content: 'We may update this Privacy Policy periodically to reflect changes to our practices or for legal, operational, or regulatory reasons. The updated policy will be posted on this page with a revised effective date.',
   },
 ];
 
@@ -161,46 +122,35 @@ const PrivacyContent = () => {
   return (
     <section className="pt-32 pb-[100px] sm:pt-36 md:pt-42 xl:pt-[180px]">
       <div className="main-container">
-        <div className="privacy-policy space-y-[75px]">
+        <div className="privacy-policy space-y-[75px] max-w-4xl">
           {/* Header Section */}
           <div className="space-y-2">
             <RevealAnimation delay={0.1}>
-              <h2>Data protection guidelines</h2>
+              <h2>Privacy Policy</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p>
-                <span className="text-secondary dark:text-accent">NextSaaS</span> is a product operated by
-                <span className="text-secondary dark:text-accent">NextSaaS Technologies LLC</span>. We specialize in
-                property management solutions, empowering businesses worldwide to streamline their operations
-                efficiently. We are committed to protecting your privacy and handling your information transparently.
+                <span className="text-secondary dark:text-accent">Mediatopia</span> is committed to protecting your privacy and handling your information transparently. This policy explains how we collect, use, and protect your personal data.
+              </p>
+              <p className="mt-4">
+                <strong>Effective date:</strong> January 2025<br />
+                <strong>Data Controller:</strong> Mediatopia, 12 Whiteladies Road, Bristol BS8 1PD<br />
+                <strong>Contact:</strong> <a href="mailto:hello@mediatopia.co.uk" className="text-secondary dark:text-accent">hello@mediatopia.co.uk</a>
               </p>
             </RevealAnimation>
           </div>
 
-          {/* Policy Intro */}
-          <RevealAnimation delay={0.3}>
-            <div className="space-y-2">
-              <h4>NextSaaS privacy policy</h4>
-              <p>
-                This Privacy Policy describes how your personal information is collected, used, and shared when you
-                visit, subscribe, register, or make a purchase from
-                <Link href="https://nextsaas.com" className="text-secondary dark:text-accent">
-                  https://nextsaas.com
-                </Link>
-                (the &quot;Site&quot;).
-              </p>
-            </div>
-          </RevealAnimation>
           {/* Personal Information Collection */}
           <div className="space-y-6">
-            <RevealAnimation delay={0.4}>
+            <RevealAnimation delay={0.3}>
               <div className="space-y-2">
                 <h4>{personalInfoSection.title}</h4>
                 <p dangerouslySetInnerHTML={{ __html: personalInfoSection.content }} />
               </div>
             </RevealAnimation>
-            <RevealAnimation delay={0.5}>
-              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
+            <RevealAnimation delay={0.4}>
+              <p className="text-secondary dark:text-accent">We collect Device Information using:</p>
+              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal mt-3">
                 {deviceInfoItems.map((item, index) => (
                   <li key={index + 1}>
                     <strong className="text-secondary dark:text-accent font-normal">{item.title} – </strong>
@@ -210,69 +160,24 @@ const PrivacyContent = () => {
               </ul>
             </RevealAnimation>
           </div>
-          {/* Order Information Section with Form */}
-          <div>
-            <div className="grid grid-cols-12 gap-y-[100px] lg:gap-[100px]">
-              <div className="col-span-12 lg:col-span-6">
-                <RevealAnimation delay={0.6}>
-                  <div className="mb-[70px] text-left">
-                    <p className="max-w-[550px]">{orderInfoText}</p>
-                  </div>
-                </RevealAnimation>
-                <RevealAnimation delay={0.7}>
-                  <figure className="w-full max-w-[595px] self-end overflow-hidden rounded-[20px]">
-                    <Image src={privacy} className="size-full object-cover" alt="support-contact" />
-                  </figure>
-                </RevealAnimation>
-              </div>
-              <RevealAnimation delay={0.8}>
-                <div className="col-span-12 lg:col-span-6">
-                  <form className="dark:bg-background-8 rounded-[20px] bg-white p-6 lg:p-[42px]">
-                    {formFields.map((field, index) => (
-                      <fieldset key={field.id} className={`space-y-2 ${index < formFields.length - 1 ? 'mb-8' : ''}`}>
-                        <label
-                          htmlFor={field.id}
-                          className="text-tagline-1 text-secondary dark:text-accent block font-medium">
-                          {field.label}
-                        </label>
-                        <input
-                          type={field.type}
-                          name={field.name}
-                          id={field.id}
-                          placeholder={field.placeholder}
-                          className="dark:text-accent dark:bg-background-6 border-stroke-3 dark:border-stroke-7 bg-background-1 focus-visible:outline-primary-500 placeholder:text-tagline-1 placeholder:text-secondary/60 dark:placeholder:text-accent/60 shadow-1 block h-12 w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus-visible:outline"
-                        />
-                      </fieldset>
-                    ))}
-                    <fieldset className="mt-4 mb-4 flex items-center gap-2">
-                      <label
-                        htmlFor="agree-terms"
-                        className="flex items-center gap-x-3"
-                        aria-label="Agree to terms and conditions">
-                        <input id="agree-terms" type="checkbox" className="peer sr-only" required />
-                        <span className="border-stroke-3 dark:border-stroke-7 after:bg-primary-500 peer-checked:border-primary-500 relative size-4 cursor-pointer rounded-full border after:absolute after:top-1/2 after:left-1/2 after:size-2.5 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:opacity-0 peer-checked:after:opacity-100" />
-                      </label>
-                      <label
-                        htmlFor="agree-terms"
-                        className="text-tagline-3 text-secondary/60 dark:text-accent/60 cursor-pointer">
-                        I agree with the{' '}
-                        <Link href="/terms-conditions" className="text-primary-500 text-tagline-3 underline">
-                          terms and conditions
-                        </Link>
-                      </label>
-                    </fieldset>
-                    <button
-                      type="submit"
-                      className="btn dark:btn-accent btn-md btn-secondary hover:btn-primary w-full first-letter:uppercase before:content-none">
-                      Submit
-                    </button>
-                  </form>
-                </div>
-              </RevealAnimation>
-            </div>
-          </div>
-          {/* How We Use Information */}
+
+          {/* Contact Information */}
           <RevealAnimation delay={0.5}>
+            <div className="space-y-6">
+              <div className="space-y-2">
+                <h4>Information you provide to us</h4>
+                <p>When you contact us through our website, request a quote, or engage our services, we collect:</p>
+              </div>
+              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
+                {contactInfoItems.map((item, index) => (
+                  <li key={index + 1}>{item.content}</li>
+                ))}
+              </ul>
+            </div>
+          </RevealAnimation>
+
+          {/* How We Use Information */}
+          <RevealAnimation delay={0.6}>
             <div className="space-y-6">
               <div className="space-y-2">
                 <h4>{useInfoSection.title}</h4>
@@ -283,37 +188,43 @@ const PrivacyContent = () => {
                   <li key={index + 1}>{item.content}</li>
                 ))}
               </ul>
-              <div>
-                <p className="text-secondary dark:text-accent">We use the collected Device Information to:</p>
-                <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                  {deviceInfoUsage.map((item, index) => (
-                    <li key={index + 1}>{item.content}</li>
-                  ))}
-                </ul>
-              </div>
             </div>
           </RevealAnimation>
 
-          {/* Sharing Information */}
-          <RevealAnimation delay={0.6}>
+          {/* Legal Basis */}
+          <RevealAnimation delay={0.65}>
             <div className="space-y-6">
               <div className="space-y-2">
-                <h4>Sharing your personal information</h4>
-                <p>
-                  We share your Personal Information with trusted third-party service providers to help us operate
-                  effectively:
-                </p>
+                <h4>Legal basis for processing</h4>
+                <p>We process your personal data on the following legal bases:</p>
               </div>
               <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                {sharingInfoSection.items.map((item, index) => (
-                  <li key={index + 1} dangerouslySetInnerHTML={{ __html: item.content }} />
-                ))}
+                <li><strong className="text-secondary dark:text-accent font-normal">Contract –</strong> To perform our contractual obligations to you</li>
+                <li><strong className="text-secondary dark:text-accent font-normal">Legitimate interests –</strong> To operate and improve our business</li>
+                <li><strong className="text-secondary dark:text-accent font-normal">Consent –</strong> Where you have given explicit consent for marketing communications</li>
+                <li><strong className="text-secondary dark:text-accent font-normal">Legal obligation –</strong> To comply with legal requirements</li>
               </ul>
             </div>
           </RevealAnimation>
 
+          {/* Sharing Information */}
+          <RevealAnimation delay={0.7}>
+            <div className="space-y-6">
+              <div className="space-y-2">
+                <h4>{sharingInfoSection.title}</h4>
+                <p>{sharingInfoSection.description}</p>
+              </div>
+              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
+                {sharingInfoSection.items.map((item, index) => (
+                  <li key={index + 1}>{item.content}</li>
+                ))}
+              </ul>
+              <p className="mt-4">We do not sell your personal information to third parties. We may also share your information to comply with applicable laws, respond to legal requests, or protect our rights.</p>
+            </div>
+          </RevealAnimation>
+
           {/* Your Rights */}
-          <RevealAnimation delay={0.8}>
+          <RevealAnimation delay={0.75}>
             <div className="space-y-6">
               <div className="space-y-2">
                 <h4>{rightsSection.title}</h4>
@@ -321,15 +232,16 @@ const PrivacyContent = () => {
               </div>
               <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
                 {rightsSection.items.map((item, index) => (
-                  <li key={index + 1} dangerouslySetInnerHTML={{ __html: item.content }} />
+                  <li key={index + 1}>{item.content}</li>
                 ))}
               </ul>
+              <p className="mt-4">To exercise any of these rights, please contact us at <a href="mailto:hello@mediatopia.co.uk" className="text-secondary dark:text-accent">hello@mediatopia.co.uk</a>. We will respond to your request within 30 days.</p>
             </div>
           </RevealAnimation>
 
           {/* Simple Sections */}
           {simpleSections.map((section, index) => (
-            <RevealAnimation key={section.title} delay={0.7 + index * 0.1}>
+            <RevealAnimation key={section.title} delay={0.8 + index * 0.05}>
               <div className="space-y-6">
                 <div className="space-y-2">
                   <h4>{section.title}</h4>
@@ -338,6 +250,24 @@ const PrivacyContent = () => {
               </div>
             </RevealAnimation>
           ))}
+
+          {/* Contact Section */}
+          <RevealAnimation delay={1.1}>
+            <div className="space-y-6">
+              <div className="space-y-2">
+                <h4>Contact us</h4>
+                <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
+                <p className="mt-4">
+                  <strong>Mediatopia</strong><br />
+                  12 Whiteladies Road<br />
+                  Bristol BS8 1PD<br />
+                  <a href="mailto:hello@mediatopia.co.uk" className="text-secondary dark:text-accent">hello@mediatopia.co.uk</a><br />
+                  <a href="tel:+441173326021" className="text-secondary dark:text-accent">0117 332 6021</a>
+                </p>
+                <p className="mt-4">You also have the right to lodge a complaint with the Information Commissioner&apos;s Office (ICO) if you believe your data protection rights have been violated.</p>
+              </div>
+            </div>
+          </RevealAnimation>
         </div>
       </div>
     </section>
