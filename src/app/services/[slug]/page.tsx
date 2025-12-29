@@ -12,7 +12,6 @@ import Integration from '@/components/service-detail/Integration';
 import Publish from '@/components/service-detail/Publish';
 import Steps from '@/components/service-detail/Steps';
 
-// Standard shared components and data library
 import ReviewsV3 from '@/components/shared/reviews/ReviewsV3';
 import { servicesData } from '@/data/services-data'; 
 import { notFound } from 'next/navigation';
@@ -24,31 +23,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: service.title };
 }
 
-// Hero component selector based on heroType
 const getHeroComponent = (heroType: string, service: any) => {
   switch (heroType) {
     case 'hosting':
       return <HeroHosting title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
     case 'security':
       return <HeroSecurity title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
-      // HeroSecurity component
-      return <HeroHosting title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
     case 'dashboard':
       return <HeroDashboard title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
-      // HeroDashboard component
-      return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
     case 'portfolio':
       return <HeroPortfolio title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
-      // HeroPortfolio component
-      return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
     case 'support':
       return <HeroSupport title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
-      // HeroSupport component
-      return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
     case 'audit':
       return <HeroAudit title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
-      // HeroAudit component
-      return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
     default:
       return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
   }
@@ -58,22 +46,26 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const { slug } = await params;
   const service = servicesData[slug];
 
-  // If the service doesn't exist in our data library, show 404
   if (!service) notFound();
 
   return (
     <main className="dark:bg-background-6">
-      {/* 1. Hero Section */}
       {getHeroComponent(service.heroType || 'default', service)}
       
-      {/* 2. Integration Section */}
       <Integration 
         badge={service.intBadge}
         title={service.intTitle}
         description={service.intDesc}
+        card1Title={service.int1Title}
+        card1Desc={service.int1Desc}
+        card2Title={service.int2Title}
+        card2Desc={service.int2Desc}
+        card3Title={service.int3Title}
+        card3Desc={service.int3Desc}
+        card4Title={service.int4Title}
+        card4Desc={service.int4Desc}
       />
       
-      {/* 3. Feature Bento Grid */}
       <Feature 
         title={service.bentoTitle}
         box1Title={service.box1Title} 
@@ -86,7 +78,6 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
         c4Title={service.c4Title} c4Desc={service.c4Desc}
       />
       
-      {/* 4. Steps Section */}
       <Steps 
         title={service.stepsTitle}
         step1Title={service.step1Title} step1Desc={service.step1Desc}
@@ -94,7 +85,6 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
         step3Title={service.step3Title} step3Desc={service.step3Desc}
       />
       
-      {/* 5. Feature V2 Section */}
       <FeatureV2
         title={service.v2Title}
         description={service.v2Desc}
@@ -104,10 +94,8 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
         point2Desc={service.v2P2Desc}
       />
       
-      {/* 6. Reviews Section */}
       <ReviewsV3 />
       
-      {/* 7. Publish Section */}
       <Publish
         title={service.pubTitle}
         description={service.pubDesc}
@@ -121,7 +109,6 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
         f4Desc={service.f4Desc}
       />
       
-      {/* 8. CTA Section */}
       <CTA />
     </main>
   );

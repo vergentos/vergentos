@@ -1,5 +1,9 @@
 export const servicesData: Record<string, any> = {
   "nextjs-react": {
+    int1Title: "Server-Side Rendering", int1Desc: "Pre-rendered pages that load instantly and rank higher in Google search results.",
+    int2Title: "Component Architecture", int2Desc: "Reusable React components that scale with your business and reduce development time.",
+    int3Title: "API Route Handlers", int3Desc: "Built-in backend functionality without the complexity of separate server infrastructure.",
+    int4Title: "Edge Deployment", int4Desc: "Global CDN distribution ensuring sub-100ms response times for users worldwide.",
     heroType: "portfolio",
     title: "Next.js & React Engineering | Mediatopia.agency",
     heroTitle: "High-Performance Next.js & React Engineering",
@@ -27,6 +31,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Performance Tuning", f4Desc: "Core Web Vitals optimisation for top Google rankings."
   },
   "sage-50-sync": {
+    int1Title: "Invoice Automation", int1Desc: "Automatic transfer of sales data from your website directly into Sage 50 accounts.",
+    int2Title: "Stock Level Syncing", int2Desc: "Real-time inventory updates across e-commerce and accounting systems.",
+    int3Title: "Payment Reconciliation", int3Desc: "Automated matching of online payments to outstanding invoices in Sage.",
+    int4Title: "VAT Compliance", int4Desc: "Accurate tax calculations synced between platforms for HMRC-ready reporting.",
     heroType: "dashboard",
     title: "Sage 50 API Integration | Mediatopia.agency",
     heroTitle: "Bespoke Sage 50 API Synchronisation",
@@ -54,6 +62,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Financial Reporting", f4Desc: "Unified dashboards pulling live data from Sage 50."
   },
   "bespoke-cms": {
+    int1Title: "Custom Content Types", int1Desc: "Tailored data structures that match exactly how your business organises information.",
+    int2Title: "Visual Page Builder", int2Desc: "Drag-and-drop editing for marketing teams without touching any code.",
+    int3Title: "Media Optimisation", int3Desc: "Automatic image compression and responsive delivery for faster page loads.",
+    int4Title: "Publishing Workflows", int4Desc: "Draft, review, and scheduled publishing with role-based approval chains.",
     heroType: "portfolio",
     title: "Bespoke CMS Integration | Mediatopia.agency",
     heroTitle: "Custom Management Systems",
@@ -81,6 +93,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Multi-User Access", f4Desc: "Role-based permissions for editors, admins, and reviewers."
   },
   "ui-ux-design": {
+    int1Title: "User Journey Mapping", int1Desc: "Data-driven flow design that guides visitors from landing to conversion.",
+    int2Title: "Mobile-First Design", int2Desc: "Interfaces built for thumb navigation and touch interactions as standard.",
+    int3Title: "Accessibility Compliance", int3Desc: "WCAG 2.1 AA compliant designs ensuring your site works for everyone.",
+    int4Title: "Design System Creation", int4Desc: "Scalable component libraries that maintain brand consistency across all pages.",
     heroType: "portfolio",
     title: "UI/UX Design for Engineering | Mediatopia.agency",
     heroTitle: "Conversion-Driven UI/UX Design",
@@ -108,6 +124,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Usability Testing", f4Desc: "Real user feedback to validate design decisions before launch."
   },
   "ecommerce-engineering": {
+    int1Title: "Checkout Optimisation", int1Desc: "Streamlined purchase flows that reduce cart abandonment and increase conversions.",
+    int2Title: "Multi-Channel Selling", int2Desc: "Unified inventory management across website, marketplaces, and POS systems.",
+    int3Title: "Dynamic Pricing", int3Desc: "Automated price rules for sales, bulk discounts, and customer-specific rates.",
+    int4Title: "Subscription Commerce", int4Desc: "Recurring billing and membership features for predictable revenue streams.",
     heroType: "portfolio",
     title: "E-commerce Engineering | Mediatopia.agency",
     heroTitle: "Scalable E-commerce Architecture",
@@ -135,6 +155,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Order Management", f4Desc: "End-to-end tracking from purchase to delivery."
   },
   "api-engineering": {
+    int1Title: "RESTful Architecture", int1Desc: "Clean, documented endpoints following industry standards for easy third-party integration.",
+    int2Title: "GraphQL Flexibility", int2Desc: "Query exactly the data you need, reducing payload sizes and improving performance.",
+    int3Title: "Webhook Automation", int3Desc: "Real-time event notifications triggering actions across connected systems.",
+    int4Title: "Authentication Layers", int4Desc: "OAuth 2.0 and JWT security protecting your data with enterprise-grade protocols.",
     heroType: "dashboard",
     title: "Custom API Engineering | Mediatopia.agency",
     heroTitle: "Bespoke API Architecture & Engineering",
@@ -162,6 +186,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Rate Limiting", f4Desc: "Protected endpoints that scale without breaking."
   },
   "technical-strategy": {
+    int1Title: "Technology Audit", int1Desc: "Comprehensive review of your current stack identifying risks and opportunities.",
+    int2Title: "Roadmap Planning", int2Desc: "Phased development plans aligning technical milestones with business goals.",
+    int3Title: "Vendor Evaluation", int3Desc: "Unbiased assessment of platforms, tools, and partners for your specific needs.",
+    int4Title: "Team Upskilling", int4Desc: "Training recommendations to build internal capabilities and reduce dependencies.",
     heroType: "dashboard",
     title: "Technical Strategy & Roadmaps | Mediatopia.agency",
     heroTitle: "Strategic Technical Consulting",
@@ -189,6 +217,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Risk Mitigation", f4Desc: "Identifying and addressing technical debt early."
   },
   "ai-implementation": {
+    int1Title: "Private LLM Deployment", int1Desc: "Secure AI models running on your infrastructure, keeping sensitive data internal.",
+    int2Title: "Document Processing", int2Desc: "Automated extraction and classification of information from PDFs, emails, and forms.",
+    int3Title: "Conversational Agents", int3Desc: "Custom chatbots and voice assistants trained on your business knowledge.",
+    int4Title: "Workflow Automation", int4Desc: "AI-powered task handling that reduces manual work by up to 80%.",
     heroType: "dashboard",
     title: "AI & LLM Implementation for UK Business | Mediatopia.agency",
     heroTitle: "Enterprise AI & Machine Learning",
@@ -216,6 +248,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Voice & Chat Agents", f4Desc: "24/7 customer support powered by custom AI."
   },
   "bespoke-consultancy": {
+    int1Title: "Technical Discovery", int1Desc: "Deep-dive sessions to understand your challenges and identify the optimal solutions.",
+    int2Title: "Architecture Review", int2Desc: "Expert assessment of your systems with actionable recommendations for improvement.",
+    int3Title: "Fractional CTO", int3Desc: "Senior technical leadership and decision-making without full-time overhead.",
+    int4Title: "Team Mentoring", int4Desc: "Hands-on guidance to elevate your developers and improve code quality.",
     heroType: "default",
     title: "Lead Web Design Consultancy Bristol | Mediatopia.agency",
     heroTitle: "Bespoke Technical Consultancy",
@@ -243,6 +279,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Fractional CTO", f4Desc: "Senior technical leadership without the full-time cost."
   },
   "cyber-security": {
+    int1Title: "WAF Configuration", int1Desc: "Custom firewall rules blocking SQL injection, XSS, and other attack vectors.",
+    int2Title: "Penetration Testing", int2Desc: "Proactive vulnerability scanning to find weaknesses before attackers do.",
+    int3Title: "DDoS Protection", int3Desc: "Traffic filtering and rate limiting to keep your site online during attacks.",
+    int4Title: "GDPR Compliance", int4Desc: "Data handling practices and documentation meeting UK regulatory requirements.",
     heroType: "security",
     title: "Cyber Security & WAF Solutions | Mediatopia.agency",
     heroTitle: "Enterprise-Grade Security Shielding",
@@ -270,6 +310,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Incident Response", f4Desc: "Rapid containment and recovery when threats emerge."
   },
   "secure-uk-hosting": {
+    int1Title: "UK Data Centres", int1Desc: "Your data stored on British soil, ensuring GDPR compliance and data sovereignty.",
+    int2Title: "Auto-Scaling Resources", int2Desc: "Server capacity that expands automatically during traffic spikes.",
+    int3Title: "Managed Backups", int3Desc: "Daily automated snapshots with instant restore capability for disaster recovery.",
+    int4Title: "SSL and CDN Included", int4Desc: "Enterprise encryption and global content delivery as standard on all plans.",
     heroType: "hosting",
     title: "Secure UK Web Hosting | Mediatopia.agency",
     heroTitle: "Mission-Critical Secure Hosting",
@@ -297,6 +341,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "24/7 Monitoring", f4Desc: "Round-the-clock oversight with instant alert response."
   },
   "health-audits": {
+    int1Title: "Daily Error Scanning", int1Desc: "Automated log analysis catching issues before they impact your users.",
+    int2Title: "Database Maintenance", int2Desc: "Query optimisation and index tuning keeping your data retrieval fast.",
+    int3Title: "Security Patching", int3Desc: "Timely updates to dependencies and frameworks closing vulnerability windows.",
+    int4Title: "Performance Baselines", int4Desc: "Continuous benchmarking to detect speed degradation immediately.",
     heroType: "audit",
     title: "Daily Technical Health Audits | Mediatopia.agency",
     heroTitle: "Proactive Daily Health Audits",
@@ -324,6 +372,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Performance Reports", f4Desc: "Weekly summaries with actionable recommendations."
   },
   "technical-support": {
+    int1Title: "Priority Response SLA", int1Desc: "Guaranteed turnaround times with critical issues addressed within hours, not days.",
+    int2Title: "Direct Engineer Access", int2Desc: "Talk to the developers who know your codebase, not a helpdesk queue.",
+    int3Title: "Proactive Monitoring", int3Desc: "24/7 oversight with instant alerts when something needs attention.",
+    int4Title: "Change Management", int4Desc: "Peer-reviewed updates with full version control and rollback capability.",
     heroType: "support",
     title: "Engineering Support & Maintenance | Mediatopia.agency",
     heroTitle: "24/7 Engineering Support",
@@ -351,6 +403,10 @@ export const servicesData: Record<string, any> = {
     f4Title: "Code Reviews", f4Desc: "Quality assurance before any change goes live."
   },
   "performance-monitoring": {
+    int1Title: "Core Web Vitals Tracking", int1Desc: "Continuous monitoring of LCP, FID, and CLS scores affecting your Google rankings.",
+    int2Title: "Real User Metrics", int2Desc: "Performance data from actual visitor sessions across devices and locations.",
+    int3Title: "Speed Regression Alerts", int3Desc: "Instant notifications when page load times exceed acceptable thresholds.",
+    int4Title: "Optimisation Roadmap", int4Desc: "Prioritised recommendations to improve performance based on impact analysis.",
     heroType: "audit",
     title: "Performance Monitoring & Core Web Vitals | Mediatopia.agency",
     heroTitle: "Advanced Performance Monitoring",
