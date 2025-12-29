@@ -1,4 +1,4 @@
-import caseStudyImg from '@public/images/ns-img-380.png';
+import caseStudyImg from '@public/images/case-study-sparks.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 

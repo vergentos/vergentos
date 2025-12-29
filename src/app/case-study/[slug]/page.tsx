@@ -30,10 +30,12 @@ const CaseStudyDetailsPage = async ({ params }: CaseStudyDetailsPageProps) => {
         className="dark:bg-background-5 bg-white"
         badgeClass="badge-yellow-v2"
         badgeText="Get started"
-        ctaHeading="Build a complete website using the assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
-        ctaBtnText="Get started"
+        ctaHeading="Ready to be our next success story?"
+        description="Let's discuss how we can deliver similar results for your business."
+        ctaBtnText="Book a Consultation"
         btnClass="hover:btn-secondary dark:hover:btn-accent"
+        inputType="tel"
+        inputPlaceholder="Enter your phone number"
       />
     </main>
   );

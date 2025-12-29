@@ -1,7 +1,7 @@
 ---
 showHomePage: true
 title: 'Bottleman – Fifth Website Redesign Over 20 Years'
-thumbnail: '/images/ns-img-427.jpg'
+thumbnail: '/images/case-study-bottleman.png'
 description: 'The fifth website iteration for a client we have partnered with for over 20 years. Featuring a fresh colour scheme, new video content, and completely rewritten copy—a testament to long-term client relationships.'
 result: 20-year client partnership with fifth website redesign
 before:

@@ -1,7 +1,7 @@
 ---
 showHomePage: true
 title: 'Mediatopia – Next.js Website Rebuild'
-thumbnail: '/images/ns-img-419.jpg'
+thumbnail: '/images/case-study-mediatopia.png'
 description: 'Our own website rebuilt from the ground up using Next.js and React, migrating from WordPress to a high-performance platform. A showcase of modern web engineering with sub-second load times and perfect Core Web Vitals.'
 result: 90%+ performance scores with modern Next.js architecture
 before:

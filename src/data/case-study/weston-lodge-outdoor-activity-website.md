@@ -1,7 +1,7 @@
 ---
 showHomePage: true
 title: 'Weston Lodge – Outdoor Activity Website Design'
-thumbnail: '/images/ns-img-416.jpg'
+thumbnail: '/images/case-study-weston.png'
 description: 'A modern, responsive WordPress website for Weston Lodge Shooting Ground featuring professional imagery, custom content, and a user-friendly CMS for complete in-house control.'
 result: Professional online presence launched March 2023
 before:

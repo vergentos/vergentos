@@ -1,7 +1,7 @@
 ---
 showHomePage: true
 title: 'Morris & Perry – Quarry Website Redesign'
-thumbnail: '/images/ns-img-419.jpg'
+thumbnail: '/images/case-study-morris.png'
 description: 'A complete website refresh for a prestigious Bath-based quarry with 15+ years as a Mediatopia client. Updated imagery, expanded service content, and modern responsive design for this established UK supplier.'
 result: Refreshed online presence after 15 years of partnership
 before:

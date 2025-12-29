@@ -1,7 +1,7 @@
 ---
 showHomePage: true
 title: 'Sparks Transport – 340% Traffic Growth'
-thumbnail: '/images/ns-img-427.jpg'
+thumbnail: '/images/case-study-sparks.png'
 description: 'A comprehensive SEO and website strategy that delivered 340% organic traffic growth for a Bristol-based haulage company, transforming their digital presence and lead generation.'
 result: 340% increase in organic traffic
 before:

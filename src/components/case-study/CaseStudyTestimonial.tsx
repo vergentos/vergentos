@@ -17,7 +17,7 @@ const CaseStudyTestimonial = ({ userReview }: { userReview: ICaseStudy['userRevi
             <blockquote>
               <RevealAnimation delay={0.2}>
                 <p>
-                  &quot;Nextsaas delivered our entire platform ahead of schedule—flawless execution and real
+                  &quot;Mediatopia transformed our digital presence—exceptional technical delivery and genuine
                   partnership.&quot;
                 </p>
               </RevealAnimation>

@@ -26,7 +26,7 @@ const page = () => {
         buttonText="View all reviews"
         badgeColor="badge-cyan"
         title="Real people. Real results."
-        description="“Nextsaas delivered our entire platform ahead of schedule—flawless execution and real partnership.”"
+        description="“Mediatopia transformed our digital presence—exceptional technical delivery and genuine partnership.”"
       />
       <AboutCTA />
     </main>

@@ -1,7 +1,7 @@
 ---
 showHomePage: true
 title: 'Priority Logistics Support – Recruitment Website Design'
-thumbnail: '/images/ns-img-419.jpg'
+thumbnail: '/images/case-study-priority.png'
 description: 'A striking new website for Priority Logistics Support, a logistics recruitment specialist. Commissioned after seeing our work for Sparks Transport, featuring clean design with a distinctive colour palette and SEO foundations.'
 result: New website launched with full SEO optimisation
 before:
