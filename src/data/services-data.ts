@@ -1,5 +1,6 @@
 export const servicesData: Record<string, any> = {
   "nextjs-react": {
+    heroType: "portfolio",
     title: "Next.js & React Engineering | Mediatopia.agency",
     heroTitle: "High-Performance Next.js & React Engineering",
     heroSub: "Enterprise-grade web applications built for speed, security, and commercial scalability.",
@@ -26,6 +27,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Performance Tuning", f4Desc: "Core Web Vitals optimisation for top Google rankings."
   },
   "sage-50-sync": {
+    heroType: "dashboard",
     title: "Sage 50 API Integration | Mediatopia.agency",
     heroTitle: "Bespoke Sage 50 API Synchronisation",
     heroSub: "Automate your financial workflows with custom-engineered bridges.",
@@ -52,6 +54,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Financial Reporting", f4Desc: "Unified dashboards pulling live data from Sage 50."
   },
   "bespoke-cms": {
+    heroType: "portfolio",
     title: "Bespoke CMS Integration | Mediatopia.agency",
     heroTitle: "Custom Management Systems",
     heroSub: "Total content control without the bloat, tailored to your business.",
@@ -78,6 +81,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Multi-User Access", f4Desc: "Role-based permissions for editors, admins, and reviewers."
   },
   "ui-ux-design": {
+    heroType: "portfolio",
     title: "UI/UX Design for Engineering | Mediatopia.agency",
     heroTitle: "Conversion-Driven UI/UX Design",
     heroSub: "Balancing aesthetics with technical performance for growth.",
@@ -104,6 +108,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Usability Testing", f4Desc: "Real user feedback to validate design decisions before launch."
   },
   "ecommerce-engineering": {
+    heroType: "portfolio",
     title: "E-commerce Engineering | Mediatopia.agency",
     heroTitle: "Scalable E-commerce Architecture",
     heroSub: "High-end online stores engineered for enterprise traffic.",
@@ -130,6 +135,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Order Management", f4Desc: "End-to-end tracking from purchase to delivery."
   },
   "api-engineering": {
+    heroType: "dashboard",
     title: "Custom API Engineering | Mediatopia.agency",
     heroTitle: "Bespoke API Architecture & Engineering",
     heroSub: "Connecting disparate systems with secure technical bridges.",
@@ -156,6 +162,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Rate Limiting", f4Desc: "Protected endpoints that scale without breaking."
   },
   "technical-strategy": {
+    heroType: "dashboard",
     title: "Technical Strategy & Roadmaps | Mediatopia.agency",
     heroTitle: "Strategic Technical Consulting",
     heroSub: "Aligning your tech stack with commercial objectives.",
@@ -182,6 +189,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Risk Mitigation", f4Desc: "Identifying and addressing technical debt early."
   },
   "ai-implementation": {
+    heroType: "dashboard",
     title: "AI & LLM Implementation for UK Business | Mediatopia.agency",
     heroTitle: "Enterprise AI & Machine Learning",
     heroSub: "Harnessing private models to automate complex workflows.",
@@ -208,6 +216,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Voice & Chat Agents", f4Desc: "24/7 customer support powered by custom AI."
   },
   "bespoke-consultancy": {
+    heroType: "default",
     title: "Lead Web Design Consultancy Bristol | Mediatopia.agency",
     heroTitle: "Bespoke Technical Consultancy",
     heroSub: "Direct access to lead engineering talent for partnership.",
@@ -234,6 +243,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Fractional CTO", f4Desc: "Senior technical leadership without the full-time cost."
   },
   "cyber-security": {
+    heroType: "security",
     title: "Cyber Security & WAF Solutions | Mediatopia.agency",
     heroTitle: "Enterprise-Grade Security Shielding",
     heroSub: "Protecting digital assets with advanced WAF architecture.",
@@ -260,6 +270,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Incident Response", f4Desc: "Rapid containment and recovery when threats emerge."
   },
   "secure-uk-hosting": {
+    heroType: "hosting",
     title: "Secure UK Web Hosting | Mediatopia.agency",
     heroTitle: "Mission-Critical Secure Hosting",
     heroSub: "High-speed, UK-based server architecture for uptime.",
@@ -286,6 +297,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "24/7 Monitoring", f4Desc: "Round-the-clock oversight with instant alert response."
   },
   "health-audits": {
+    heroType: "audit",
     title: "Daily Technical Health Audits | Mediatopia.agency",
     heroTitle: "Proactive Daily Health Audits",
     heroSub: "Preventative maintenance to ensure peak performance.",
@@ -312,6 +324,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Performance Reports", f4Desc: "Weekly summaries with actionable recommendations."
   },
   "technical-support": {
+    heroType: "support",
     title: "Engineering Support & Maintenance | Mediatopia.agency",
     heroTitle: "24/7 Engineering Support",
     heroSub: "Direct access to our team for fixes and updates.",
@@ -338,6 +351,7 @@ export const servicesData: Record<string, any> = {
     f4Title: "Code Reviews", f4Desc: "Quality assurance before any change goes live."
   },
   "performance-monitoring": {
+    heroType: "audit",
     title: "Performance Monitoring & Core Web Vitals | Mediatopia.agency",
     heroTitle: "Advanced Performance Monitoring",
     heroSub: "Tracking every millisecond for user experience.",

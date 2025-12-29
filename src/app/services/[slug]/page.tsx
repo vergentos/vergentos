@@ -2,6 +2,7 @@ import CTA from '@/components/service-detail/CTA';
 import Feature from '@/components/service-detail/Feature';
 import FeatureV2 from '@/components/service-detail/FeatureV2';
 import Hero from '@/components/service-detail/Hero';
+import HeroHosting from '@/components/service-detail/heroes/HeroHosting';
 import Integration from '@/components/service-detail/Integration';
 import Publish from '@/components/service-detail/Publish';
 import Steps from '@/components/service-detail/Steps';
@@ -18,6 +19,31 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: service.title };
 }
 
+// Hero component selector based on heroType
+const getHeroComponent = (heroType: string, service: any) => {
+  switch (heroType) {
+    case 'hosting':
+      return <HeroHosting title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
+    case 'security':
+      // TODO: Create HeroSecurity component
+      return <HeroHosting title={service.heroTitle} subtitle={service.heroSub} badge={service.heroBadge} />;
+    case 'dashboard':
+      // TODO: Create HeroDashboard component
+      return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
+    case 'portfolio':
+      // TODO: Create HeroPortfolio component
+      return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
+    case 'support':
+      // TODO: Create HeroSupport component
+      return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
+    case 'audit':
+      // TODO: Create HeroAudit component
+      return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
+    default:
+      return <Hero title={service.heroTitle} subtitle={service.heroSub} />;
+  }
+};
+
 const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const { slug } = await params;
   const service = servicesData[slug];
@@ -28,7 +54,7 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
   return (
     <main className="dark:bg-background-6">
       {/* 1. Hero Section */}
-      <Hero title={service.heroTitle} subtitle={service.heroSub} />
+      {getHeroComponent(service.heroType || 'default', service)}
       
       {/* 2. Integration Section */}
       <Integration 
@@ -57,29 +83,24 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
         step2Title={service.step2Title} step2Desc={service.step2Desc}
         step3Title={service.step3Title} step3Desc={service.step3Desc}
       />
-
-      {/* 5. FeatureV2 Section */}
-      <FeatureV2 
+      
+      {/* 5. Feature V2 Section */}
+      <FeatureV2
         title={service.v2Title}
-        desc={service.v2Desc}
-        p1Title={service.v2P1Title} p1Desc={service.v2P1Desc}
-        p2Title={service.v2P2Title} p2Desc={service.v2P2Desc}
+        description={service.v2Desc}
+        point1Title={service.v2P1Title}
+        point1Desc={service.v2P1Desc}
+        point2Title={service.v2P2Title}
+        point2Desc={service.v2P2Desc}
       />
       
       {/* 6. Reviews Section */}
-      <ReviewsV3
-        className="bg-background-3 dark:bg-background-5"
-        badgeText="Customer Success"
-        badgeColor="badge-green"
-        title={service.reviewTitle}
-        description={service.reviewDesc}
-        buttonText="View all reviews"
-      />
+      <ReviewsV3 />
       
       {/* 7. Publish Section */}
-      <Publish 
+      <Publish
         title={service.pubTitle}
-        desc={service.pubDesc}
+        description={service.pubDesc}
         f1Title={service.f1Title}
         f1Desc={service.f1Desc}
         f2Title={service.f2Title}
@@ -89,8 +110,8 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
         f4Title={service.f4Title}
         f4Desc={service.f4Desc}
       />
-
-      {/* 8. Call to Action */}
+      
+      {/* 8. CTA Section */}
       <CTA />
     </main>
   );
