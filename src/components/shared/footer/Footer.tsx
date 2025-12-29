@@ -8,7 +8,7 @@ import instagram from '@public/images/icons/instagram.svg';
 import linkedin from '@public/images/icons/linkedin.svg';
 import youtube from '@public/images/icons/youtube.svg';
 import gradientImg from '@public/images/ns-img-532.png';
-import darkLogo from '@public/images/shared/logo-dark.svg';
+import darkLogo from '@public/images/mediatopia-logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import ThemeToggle from '../ThemeToggle';
@@ -28,7 +28,7 @@ const Footer = ({ className }: { className?: string }) => {
             <div className="col-span-12 xl:col-span-4">
               <div className="max-w-[306px]">
                 <figure>
-                  <Image src={darkLogo} alt="NextSass Logo" />
+                  <Image src={darkLogo} alt="Mediatopia" />
                 </figure>
                 <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
                   A premier Bristol-based technical engineering shop and lead web design consultancy. We specialise in high-performance Next.js builds, bespoke Sage 50 API synchronisation, and custom AI automation for commercial growth.

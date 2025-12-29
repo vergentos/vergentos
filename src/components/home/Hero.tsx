@@ -1,7 +1,3 @@
-import heroBg from '@public/images/ns-img-150.png';
-import heroImage from '@public/images/ns-img-151.png';
-import heroBgDark from '@public/images/ns-img-dark-104.png';
-import heroImageDark from '@public/images/ns-img-dark-105.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
@@ -9,7 +5,7 @@ import GradientAnimation from './GradientAnimation';
 
 const Hero = ({ title, subtitle }: { title?: any; subtitle?: string }) => {
   return (
-    <section className="relative overflow-hidden pt-[150px] md:pt-[190px] lg:pt-[230px]">
+    <section className="relative overflow-hidden pt-[150px] md:pt-[190px] lg:pt-[230px] pb-[100px]">
       {/* Animated gradient lines background */}
       <RevealAnimation delay={0.6} offset={0}>
         <figure className="absolute top-0 left-1/2 z-0 h-full w-full max-w-[1390px] -translate-x-1/2 opacity-30">
@@ -17,43 +13,68 @@ const Hero = ({ title, subtitle }: { title?: any; subtitle?: string }) => {
         </figure>
       </RevealAnimation>
       
-      <RevealAnimation delay={0.3}>
-        <div className="absolute top-20 left-1/2 -translate-x-1/2">
-          <Image src={heroBg} alt="pattern" className="block object-cover dark:hidden" />
-          <Image src={heroBgDark} alt="pattern" className="hidden object-cover dark:block" />
-        </div>
-      </RevealAnimation>
       <div className="main-container relative z-10">
-        <div className="mb-14 flex flex-col items-center justify-center">
-          <div className="mx-auto mb-14 w-full max-w-[1075px] space-y-4 text-center">
-            <RevealAnimation delay={0.2}>
-              <h1>{title || <>Bespoke <span className="text-primary-500">web design &amp; apps</span> built for growth</>}</h1>
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* Left side - Content */}
+          <div className="space-y-6">
+            <RevealAnimation delay={0.1}>
+              <span className="badge badge-primary">Bristol Web Design & AI</span>
             </RevealAnimation>
+            
+            <RevealAnimation delay={0.2}>
+              <h1 className="text-heading-1">
+                {title || <>Bespoke <span className="text-primary">web design & apps</span> built for growth</>}
+              </h1>
+            </RevealAnimation>
+            
             <RevealAnimation delay={0.3}>
-              <p className="mx-auto max-w-[650px]">
-                {subtitle || "Based in Bristol, Mediatopia.agency delivers high-performance web development and AI-driven digital strategies."}
+              <p className="text-lg max-w-[500px]">
+                {subtitle || "High-performance web development and AI-driven digital strategies for ambitious UK businesses."}
               </p>
             </RevealAnimation>
-          </div>
-          <ul className="flex flex-col gap-4 md:flex-row">
+            
             <RevealAnimation delay={0.4}>
-              <LinkButton href="/services/bespoke-consultancy" className="btn btn-xl btn-secondary dark:btn-accent">
-                Start Your Project
-              </LinkButton>
+              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                <LinkButton href="/contact-us" className="btn btn-xl btn-primary">
+                  Start Your Project
+                </LinkButton>
+                <LinkButton href="/case-study" className="btn btn-xl btn-white dark:btn-white-dark">
+                  View Case Studies
+                </LinkButton>
+              </div>
             </RevealAnimation>
-            <RevealAnimation delay={0.5}>
-              <LinkButton href="/blog" className="btn btn-xl btn-white dark:btn-white-dark">
-                View Portfolio
-              </LinkButton>
-            </RevealAnimation>
-          </ul>
+          </div>
+          
+          {/* Right side - Dashboard image */}
+          <RevealAnimation delay={0.4} direction="left">
+            <div className="relative">
+              {/* Browser frame */}
+              <div className="bg-secondary dark:bg-background-6 rounded-[20px] overflow-hidden shadow-2xl border border-stroke-1 dark:border-stroke-7">
+                {/* Browser header */}
+                <div className="flex items-center gap-2 px-4 py-3 border-b border-stroke-1 dark:border-stroke-7">
+                  <div className="flex gap-1.5">
+                    <span className="size-3 rounded-full bg-red-500"></span>
+                    <span className="size-3 rounded-full bg-yellow-500"></span>
+                    <span className="size-3 rounded-full bg-green-500"></span>
+                  </div>
+                  <div className="flex-1 mx-4">
+                    <div className="bg-background-3 dark:bg-background-7 rounded-md px-3 py-1 text-xs text-secondary/40 dark:text-accent/40">
+                      aisalesvoice.com
+                    </div>
+                  </div>
+                </div>
+                {/* Screenshot */}
+                <Image
+                  src="/images/case-study-ai-sales-voice.png"
+                  alt="AI Sales Voice Dashboard"
+                  width={800}
+                  height={500}
+                  className="w-full object-cover"
+                />
+              </div>
+            </div>
+          </RevealAnimation>
         </div>
-        <RevealAnimation delay={0.6}>
-          <figure className="w-full max-w-[1290px] mx-auto">
-            <Image src={heroImage} alt="hero" className="size-full object-cover dark:hidden" />
-            <Image src={heroImageDark} alt="hero" className="hidden size-full object-cover dark:block" />
-          </figure>
-        </RevealAnimation>
       </div>
     </section>
   );
