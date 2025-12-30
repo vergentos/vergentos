@@ -2,10 +2,10 @@ import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const imageSets = {
-  portfolio: "/images/portfolio-5.png",
+  portfolio: "/images/featurev2-showcase.png",
   dashboard: "/images/ns-img-288.png",
-  abstract: "/images/ns-img-499.png",
-  infrastructure: "/images/ns-img-44.png",
+  abstract: "/images/ns-img-289.png",
+  infrastructure: "/images/ns-img-288.png",
 };
 
 interface FeatureV2Props {

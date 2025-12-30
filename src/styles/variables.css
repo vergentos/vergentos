@@ -48,7 +48,8 @@ All the varaiables are added here
 
   /* Functional UI Markers */
   --color-ns-yellow: #a0f9ff; /* Consultancy Marker */
-  --color-ns-green: #c6f56f; /* AI/Automation Marker */
+  --color-ns-green: #c6f56f;
+  --color-ns-magenta: #E879F9; /* Accent Marker - AA Accessible */ /* AI/Automation Marker */
   --color-ns-red: #ffb9a2;
   --color-ns-cyan: #27affb; /* Web Development Marker - Mediatopia Blue */
   --color-ns-green-light: #e8fbc6;
