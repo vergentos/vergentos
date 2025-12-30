@@ -76,6 +76,7 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
         c2Title={service.c2Title} c2Desc={service.c2Desc}
         c3Title={service.c3Title} c3Desc={service.c3Desc}
         c4Title={service.c4Title} c4Desc={service.c4Desc}
+        imageSet={service.imageSet}
       />
       
       <Steps 
@@ -92,6 +93,7 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
         point1Desc={service.v2P1Desc}
         point2Title={service.v2P2Title}
         point2Desc={service.v2P2Desc}
+        imageSet={service.imageSet}
       />
       
       <ReviewsV3 />

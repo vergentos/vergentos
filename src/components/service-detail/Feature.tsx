@@ -1,9 +1,11 @@
 'use client';
+import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const Feature = ({ 
   title, box1Title, box1Sub, box2Title, box2Sub,
-  c1Title, c1Desc, c2Title, c2Desc, c3Title, c3Desc, c4Title, c4Desc 
+  c1Title, c1Desc, c2Title, c2Desc, c3Title, c3Desc, c4Title, c4Desc,
+  imageSet = "dashboard"
 }: any) => {
   return (
     <section className="bg-background-3 dark:bg-background-7 pt-14 pb-14 md:pt-16 md:pb-16 lg:pt-[88px] lg:pb-[88px]">
@@ -14,29 +16,62 @@ const Feature = ({
         </div>
 
         <div className="grid grid-cols-12 gap-6">
-          <div className="col-span-12 lg:col-span-7 bg-background-8 rounded-[32px] p-8 md:p-12 relative overflow-hidden min-h-[400px] flex flex-col justify-end">
-             <div className="relative z-10">
-                <h2 className="text-white mb-4">{box1Title}</h2>
-                <p className="text-white/70 mb-6 max-w-[400px]">{box1Sub}</p>
-             </div>
+          {/* First bento card - wide with image below text */}
+          <div className="col-span-12 xl:col-span-8">
+            <RevealAnimation delay={0.3}>
+              <div className="w-full p-8 rounded-[20px] bg-background-2 dark:bg-background-5 space-y-6">
+                <div className="space-y-2">
+                  <h3 className="text-heading-5">{box1Title}</h3>
+                  <p className="max-w-[352px] w-full">{box1Sub}</p>
+                </div>
+                <figure className="overflow-hidden rounded-2xl">
+                  <Image 
+                    src="/images/mediatopia-banner-2.png"
+                    alt="Feature visual"
+                    width={785}
+                    height={221}
+                    className="size-full object-cover dark:hidden"
+                  />
+                  <Image 
+                    src="/images/mediatopia-banner-2-dark.png"
+                    alt="Feature visual"
+                    width={785}
+                    height={221}
+                    className="size-full object-cover hidden dark:block"
+                  />
+                </figure>
+              </div>
+            </RevealAnimation>
           </div>
 
-          <div className="col-span-12 lg:col-span-5 bg-background-2 dark:bg-background-8 rounded-[32px] p-8 border border-stroke-1 dark:border-stroke-5">
-             <h4 className="mb-4 text-primary-500">{box2Title}</h4>
-             <p>{box2Sub}</p>
+          {/* Second bento card - narrower */}
+          <div className="col-span-12 xl:col-span-4">
+            <RevealAnimation delay={0.4}>
+              <div className="w-full p-8 rounded-[20px] bg-background-2 dark:bg-background-5 h-full flex flex-col justify-between">
+                <div className="space-y-2">
+                  <h4 className="text-heading-5 text-primary-500">{box2Title}</h4>
+                  <p>{box2Sub}</p>
+                </div>
+              </div>
+            </RevealAnimation>
           </div>
 
-          {/* Corrected Bottom 4 Cards - Mapping c1 to c4 */}
+          {/* Bottom 4 cards with icons */}
           {[
-            { id: "01", t: c1Title, d: c1Desc },
-            { id: "02", t: c2Title, d: c2Desc },
-            { id: "03", t: c3Title, d: c3Desc },
-            { id: "04", t: c4Title, d: c4Desc }
+            { id: "01", t: c1Title, d: c1Desc, icon: "ns-shape-19" },
+            { id: "02", t: c2Title, d: c2Desc, icon: "ns-shape-35" },
+            { id: "03", t: c3Title, d: c3Desc, icon: "ns-shape-4" },
+            { id: "04", t: c4Title, d: c4Desc, icon: "ns-shape-21" }
           ].map((card, i) => (
-            <div key={i} className="col-span-12 md:col-span-6 lg:col-span-3 bg-background-2 dark:bg-background-8 rounded-[32px] p-8 border border-stroke-1 dark:border-stroke-5">
-               <p className="text-primary-500 font-bold mb-2">{card.id}</p>
-               <h4 className="mb-4 text-heading-6">{card.t}</h4>
-               <p className="text-sm opacity-70">{card.d}</p>
+            <div key={i} className="col-span-12 md:col-span-6 xl:col-span-3">
+              <RevealAnimation delay={0.5 + i * 0.1}>
+                <div className="bg-background-2 dark:bg-background-5 rounded-[20px] p-6 h-full">
+                  <span className={`block ${card.icon} text-[48px] text-primary-500 mb-4`} />
+                  <p className="text-primary-500 font-bold mb-2">{card.id}</p>
+                  <h5 className="mb-2 text-heading-6">{card.t}</h5>
+                  <p className="text-sm opacity-70">{card.d}</p>
+                </div>
+              </RevealAnimation>
             </div>
           ))}
         </div>

@@ -1,7 +1,7 @@
 'use client';
 import { AboutIcon, BlogIcon, FeatureIcon, ServiceIcon } from '@/icons/menu-icon';
 import { cn } from '@/utils/cn';
-import nsImg419 from '@public/images/ns-img-419.jpg';
+import nsImg419 from '@public/images/ns-img-374.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { ComponentType } from 'react';
