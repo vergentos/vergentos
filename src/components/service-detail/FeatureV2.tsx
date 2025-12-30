@@ -2,10 +2,10 @@ import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const imageSets = {
-  portfolio: "/images/featurev2-showcase.png",
-  dashboard: "/images/ns-img-288.png",
-  abstract: "/images/ns-img-289.png",
-  infrastructure: "/images/ns-img-288.png",
+  portfolio: "/images/featurev2-mediatopia.png",
+  dashboard: "/images/featurev2-priority.png",
+  abstract: "/images/featurev2-showcase.png",
+  infrastructure: "/images/featurev2-weston.png",
 };
 
 interface FeatureV2Props {
@@ -18,8 +18,8 @@ interface FeatureV2Props {
   imageSet?: string;
 }
 
-const FeatureV2 = ({ title, description, point1Title, point1Desc, point2Title, point2Desc, imageSet = "dashboard" }: FeatureV2Props) => {
-  const image = imageSets[imageSet as keyof typeof imageSets] || imageSets.dashboard;
+const FeatureV2 = ({ title, description, point1Title, point1Desc, point2Title, point2Desc, imageSet = "portfolio" }: FeatureV2Props) => {
+  const image = imageSets[imageSet as keyof typeof imageSets] || imageSets.portfolio;
   
   return (
     <RevealAnimation delay={0.1}>
@@ -72,9 +72,9 @@ const FeatureV2 = ({ title, description, point1Title, point1Desc, point2Title, p
                   <Image
                     src={image}
                     alt="Feature visualization"
-                    width={668}
-                    height={500}
-                    className="h-full w-full object-contain"
+                    width={786}
+                    height={570}
+                    className="h-full w-full object-contain rounded-xl"
                   />
                 </figure>
               </RevealAnimation>
