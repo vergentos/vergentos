@@ -1,17 +1,16 @@
-import confluence from '@public/images/icons/confluence.svg';
-import edge from '@public/images/icons/edge.svg';
+import css3 from '@public/images/icons/css3.svg';
 import figma from '@public/images/icons/figma.svg';
-import framer from '@public/images/icons/framer.svg';
-import gmail from '@public/images/icons/gmail.svg';
-import googleMeet from '@public/images/icons/google-meet.svg';
 import google from '@public/images/icons/google.svg';
-import marvel from '@public/images/icons/marvel.svg';
-import microsoft from '@public/images/icons/microsoft.svg';
-import msYammer from '@public/images/icons/ms_yammer.svg';
-import slack from '@public/images/icons/slack.svg';
-import snapchat from '@public/images/icons/snapchat.svg';
-import vlWhite from '@public/images/icons/vl-white.svg';
-import vl from '@public/images/icons/vl.svg';
+import html5 from '@public/images/icons/html5.svg';
+import javascript from '@public/images/icons/javascript.svg';
+import jquery from '@public/images/icons/jquery.svg';
+import nextjs from '@public/images/icons/nextjs.svg';
+import nodejs from '@public/images/icons/nodejs.svg';
+import python from '@public/images/icons/python.svg';
+import react from '@public/images/icons/react.svg';
+import tailwind from '@public/images/icons/tailwind.svg';
+import typescript from '@public/images/icons/typescript.svg';
+import vercel from '@public/images/icons/vercel.svg';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
@@ -35,20 +34,21 @@ const Integration = () => {
             <RevealAnimation delay={0.4}>
               <div>
                 <LinkButton
-                  href="/pricing"
+                  href="/contact-us"
                   className="btn btn-secondary btn-md hover:btn-primary dark:btn-accent inline-block">
                   See it in Action
                 </LinkButton>
               </div>
             </RevealAnimation>
           </div>
+          {/* Left side icons */}
           <div className="bottom-0 left-5 hidden lg:absolute lg:top-0 lg:bottom-auto lg:left-10 lg:block lg:w-1/2 lg:max-w-[400px] xl:left-20 2xl:left-0 2xl:max-w-[582px]">
             <div className="relative flex h-full flex-row flex-wrap gap-5 py-10 lg:flex-col lg:gap-[40px] lg:py-[70px] 2xl:pl-[70px]">
               <RevealAnimation delay={0.4}>
                 <div className="flex gap-5 lg:ml-[60px] lg:gap-8 xl:ml-[100px] xl:gap-[75px]">
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={googleMeet} className="size-full" alt="integration icon" />
+                      <Image src={nextjs} className="size-full dark:invert" alt="Next.js" />
                     </div>
                   </figure>
                 </div>
@@ -57,27 +57,26 @@ const Integration = () => {
                 <div className="flex gap-5 lg:gap-8 lg:self-start xl:gap-[75px]">
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={gmail} className="size-full" alt="integration icon" />
+                      <Image src={react} className="size-full" alt="React" />
                     </div>
                   </figure>
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={marvel} className="size-full" alt="integration icon" />
+                      <Image src={typescript} className="size-full" alt="TypeScript" />
                     </div>
                   </figure>
                 </div>
               </RevealAnimation>
-
               <RevealAnimation delay={0.6}>
                 <div className="flex gap-5 lg:ml-[60px] lg:gap-8 xl:ml-[100px] xl:gap-[75px]">
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={confluence} className="size-full" alt="integration icon" />
+                      <Image src={python} className="size-full" alt="Python" />
                     </div>
                   </figure>
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={framer} className="size-full" alt="integration icon" />
+                      <Image src={tailwind} className="size-full" alt="Tailwind CSS" />
                     </div>
                   </figure>
                 </div>
@@ -86,71 +85,63 @@ const Integration = () => {
                 <div className="flex gap-5 lg:ml-[100px] lg:gap-8 xl:ml-[185px] xl:gap-[75px]">
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={vl} className="size-full dark:hidden" alt="integration icon" />
-                      <Image src={vlWhite} className="hidden size-full dark:block" alt="integration icon" />
+                      <Image src={html5} className="size-full" alt="HTML5" />
                     </div>
                   </figure>
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={edge} className="size-full" alt="integration icon" />
+                      <Image src={css3} className="size-full" alt="CSS3" />
                     </div>
                   </figure>
                 </div>
               </RevealAnimation>
             </div>
           </div>
+          {/* Right side icons */}
           <div className="right-5 bottom-0 hidden lg:absolute lg:top-0 lg:right-10 lg:bottom-auto lg:block lg:w-1/2 lg:max-w-[400px] xl:right-28 2xl:right-0 2xl:max-w-[582px]">
             <div className="relative flex h-full flex-row flex-wrap gap-5 py-10 lg:flex-col lg:gap-[40px] lg:py-[70px] 2xl:pr-[70px]">
               <RevealAnimation delay={0.4}>
                 <div className="flex lg:mr-[60px] lg:self-end xl:mr-[100px]">
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={confluence} className="size-full" alt="integration icon" />
+                      <Image src={vercel} className="size-full dark:invert" alt="Vercel" />
                     </div>
                   </figure>
                 </div>
               </RevealAnimation>
-
               <RevealAnimation delay={0.5}>
                 <div className="flex gap-8 lg:gap-[50px] lg:self-end xl:gap-[75px]">
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={slack} className="size-full" alt="integration icon" />
+                      <Image src={nodejs} className="size-full" alt="Node.js" />
                     </div>
                   </figure>
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={snapchat} className="size-full" alt="integration icon" />
+                      <Image src={javascript} className="size-full" alt="JavaScript" />
                     </div>
                   </figure>
                 </div>
               </RevealAnimation>
-
               <RevealAnimation delay={0.6}>
                 <div className="flex gap-8 lg:mr-[60px] lg:gap-[50px] lg:self-end xl:mr-[100px] xl:gap-[75px]">
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={google} className="size-full" alt="integration icon" />
+                      <Image src={google} className="size-full" alt="Google" />
                     </div>
                   </figure>
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={msYammer} className="size-full" alt="integration icon" />
+                      <Image src={jquery} className="size-full" alt="jQuery" />
                     </div>
                   </figure>
                 </div>
               </RevealAnimation>
-
               <RevealAnimation delay={0.7}>
                 <div className="flex gap-8 self-end lg:mr-[100px] lg:gap-[50px] xl:mr-[185px] xl:gap-[75px]">
                   <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
                     <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={microsoft} className="size-full" alt="integration icon" />
-                    </div>
-                  </figure>
-                  <figure className="bg-background-2 dark:bg-background-7 flex size-[100px] items-center justify-center rounded-full 2xl:size-[120px]">
-                    <div className="dark:bg-background-8 size-[80px] rounded-full bg-white p-6 2xl:size-[100px]">
-                      <Image src={figma} className="size-full" alt="integration icon" />
+                      <Image src={figma} className="size-full" alt="Figma" />
                     </div>
                   </figure>
                 </div>
@@ -158,109 +149,96 @@ const Integration = () => {
             </div>
           </div>
 
-          {/* mobile view  */}
+          {/* Mobile view */}
           <div className="integration-list-1 mt-8 flex flex-wrap items-center justify-center gap-4 px-6 sm:px-10 md:mt-20 lg:hidden">
             <RevealAnimation delay={0.4}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={googleMeet} className="size-full" alt="integration icon" />
+                  <Image src={nextjs} className="size-full dark:invert" alt="Next.js" />
                 </div>
               </figure>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={gmail} className="size-full" alt="integration icon" />
-                </div>
-              </figure>
-            </RevealAnimation>
-
-            <RevealAnimation delay={0.4}>
-              <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
-                <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={marvel} className="size-full" alt="integration icon" />
+                  <Image src={react} className="size-full" alt="React" />
                 </div>
               </figure>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={confluence} className="size-full" alt="integration icon" />
+                  <Image src={typescript} className="size-full" alt="TypeScript" />
+                </div>
+              </figure>
+            </RevealAnimation>
+            <RevealAnimation delay={0.4}>
+              <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
+                <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
+                  <Image src={python} className="size-full" alt="Python" />
                 </div>
               </figure>
             </RevealAnimation>
             <RevealAnimation delay={0.5}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={framer} className="size-full" alt="integration icon" />
+                  <Image src={tailwind} className="size-full" alt="Tailwind CSS" />
                 </div>
               </figure>
             </RevealAnimation>
             <RevealAnimation delay={0.5}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={vl} className="size-full dark:hidden" alt="integration icon" />
-                  <Image src={vlWhite} className="hidden size-full dark:block" alt="integration icon" />
+                  <Image src={html5} className="size-full" alt="HTML5" />
                 </div>
               </figure>
             </RevealAnimation>
-
             <RevealAnimation delay={0.5}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={edge} className="size-full" alt="integration icon" />
+                  <Image src={css3} className="size-full" alt="CSS3" />
                 </div>
               </figure>
             </RevealAnimation>
-
             <RevealAnimation delay={0.5}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={confluence} className="size-full" alt="integration icon" />
-                </div>
-              </figure>
-            </RevealAnimation>
-
-            <RevealAnimation delay={0.6}>
-              <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
-                <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={slack} className="size-full" alt="integration icon" />
+                  <Image src={vercel} className="size-full dark:invert" alt="Vercel" />
                 </div>
               </figure>
             </RevealAnimation>
             <RevealAnimation delay={0.6}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={snapchat} className="size-full" alt="integration icon" />
+                  <Image src={nodejs} className="size-full" alt="Node.js" />
                 </div>
               </figure>
             </RevealAnimation>
             <RevealAnimation delay={0.6}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={google} className="size-full" alt="integration icon" />
+                  <Image src={javascript} className="size-full" alt="JavaScript" />
                 </div>
               </figure>
             </RevealAnimation>
             <RevealAnimation delay={0.6}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={msYammer} className="size-full" alt="integration icon" />
+                  <Image src={google} className="size-full" alt="Google" />
                 </div>
               </figure>
             </RevealAnimation>
-
-            <RevealAnimation delay={0.7}>
+            <RevealAnimation delay={0.6}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={microsoft} className="size-full" alt="integration icon" />
+                  <Image src={jquery} className="size-full" alt="jQuery" />
                 </div>
               </figure>
             </RevealAnimation>
             <RevealAnimation delay={0.7}>
               <figure className="bg-background-2 dark:bg-background-7 flex size-14 items-center justify-center rounded-full sm:size-[75px]">
                 <div className="dark:bg-background-6 size-10 rounded-full bg-white p-2 sm:size-[60px]">
-                  <Image src={figma} className="size-full" alt="integration icon" />
+                  <Image src={figma} className="size-full" alt="Figma" />
                 </div>
               </figure>
             </RevealAnimation>

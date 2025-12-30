@@ -2,73 +2,49 @@
   {
     "id": 1,
     "quote": "The bespoke CMS and UI/UX design provided by Mediatopia have transformed our digital presence. Their technical expertise made a complex platform migration feel completely effortless.",
-    "avatar": "/images/ns-avatar-1.png",
-    "name": "Sarah Johnson",
+    "initials": "JT",
+    "name": "James Thompson",
     "position": "Marketing Director",
-    "rating": "4.9"
+    "company": "Bristol Manufacturing Ltd"
   },
   {
     "id": 2,
-    "quote": "Mediatopia’s Sage 50 API integration has completely automated our internal financial workflows. We’ve eliminated manual data entry and achieved real-time visibility across our entire platform.",
-    "avatar": "/images/ns-avatar-2.png",
-    "name": "Michael Chen",
-    "position": "Tech Lead",
-    "rating": "5.0"
+    "quote": "Mediatopia's Sage 50 API integration has completely automated our internal financial workflows. We've eliminated manual data entry and achieved real-time visibility across our entire platform.",
+    "initials": "RH",
+    "name": "Rachel Hughes",
+    "position": "Finance Director",
+    "company": "Southwest Logistics"
   },
   {
     "id": 3,
-    "quote": "Implementing custom AI automation through Mediatopia was a game-changer for our logistics team. We are now processing operational data 6x faster with near-perfect precision. ",
-    "avatar": "/images/ns-avatar-3.png",
-    "name": "Emma Rodriguez",
+    "quote": "Implementing custom AI automation through Mediatopia was a game-changer for our operations team. We're now processing data 6x faster with near-perfect precision.",
+    "initials": "DW",
+    "name": "David Williams",
     "position": "Operations Manager",
-    "rating": "4.8"
+    "company": "Avon Distribution"
   },
   {
     "id": 4,
-    "quote": "The high-performance hosting and proactive security monitoring give us total peace of mind. Mediatopia is more than a web design agency; they are our core technical partner.",
-    "avatar": "/images/ns-avatar-4.png",
-    "name": "Jaks Rodriguez",
-    "position": "Software Manager",
-    "rating": "3.8"
+    "quote": "The high-performance hosting and proactive security monitoring give us total peace of mind. Mediatopia is more than a web agency; they're our core technical partner.",
+    "initials": "SE",
+    "name": "Sophie Evans",
+    "position": "Managing Director",
+    "company": "Clifton Retail Group"
   },
   {
     "id": 5,
-    "quote": "The custom dashboards and predictive analytics tools have revolutionized how we understand customer behavior. The technical insight we now have is invaluable for our long-term growth strategy.",
-    "avatar": "/images/ns-avatar-5.png",
-    "name": "Priya Patel",
-    "position": "Data Analyst",
-    "rating": "4.7"
+    "quote": "The custom dashboards and analytics tools have revolutionised how we understand customer behaviour. The technical insight we now have is invaluable for growth.",
+    "initials": "MT",
+    "name": "Mark Taylor",
+    "position": "Head of Digital",
+    "company": "Bath & Somerset Tourism"
   },
   {
     "id": 6,
-    "quote": "From initial discovery to the final launch, the process was seamless. The attention to detail in the custom development phase ensured our platform was built to scale with our business.",
-    "avatar": "/images/ns-avatar-6.png",
-    "name": "Lucas Meyer",
-    "position": "Project Coordinator",
-    "rating": "4.6"
-  },
-  {
-    "id": 7,
-    "quote": "The bespoke CMS and UI/UX design provided by Mediatopia have transformed our digital presence. Their technical expertise made a complex platform migration feel completely effortless.",
-    "avatar": "/images/ns-avatar-1.png",
-    "name": "Sarah Johnson",
-    "position": "Marketing Director",
-    "rating": "4.9"
-  },
-  {
-    "id": 8,
-    "quote": "Mediatopia’s Sage 50 API integration has completely automated our internal financial workflows. We’ve eliminated manual data entry and achieved real-time visibility across our entire platform.",
-    "avatar": "/images/ns-avatar-2.png",
-    "name": "Michael Chen",
-    "position": "Tech Lead",
-    "rating": "5.0"
-  },
-  {
-    "id": 9,
-    "quote": "Implementing custom AI automation through Mediatopia was a game-changer for our logistics team. We are now processing operational data 6x faster with near-perfect precision. ",
-    "avatar": "/images/ns-avatar-3.png",
-    "name": "Emma Rodriguez",
-    "position": "Operations Manager",
-    "rating": "4.8"
+    "quote": "From initial discovery to final launch, the process was seamless. The attention to detail ensured our e-commerce platform was built to scale with our business.",
+    "initials": "LB",
+    "name": "Laura Bennett",
+    "position": "E-commerce Manager",
+    "company": "West Country Crafts"
   }
 ]

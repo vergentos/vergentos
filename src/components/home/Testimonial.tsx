@@ -1,12 +1,20 @@
 'use client';
 import reviews from '@/data/json/testimonials/testimonials.json';
-import Image from 'next/image';
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import RevealAnimation from '../animation/RevealAnimation';
 import GradientOverlay from '../shared/reviews/GradientOverlay';
 import LinkButton from '../ui/button/LinkButton';
+
+const bgColors = [
+  'bg-gradient-to-br from-pink-500 to-purple-600',
+  'bg-gradient-to-br from-cyan-500 to-blue-600',
+  'bg-gradient-to-br from-green-500 to-teal-600',
+  'bg-gradient-to-br from-orange-500 to-red-600',
+  'bg-gradient-to-br from-indigo-500 to-purple-600',
+  'bg-gradient-to-br from-yellow-500 to-orange-600',
+];
 
 const Testimonial = () => {
   return (
@@ -40,27 +48,20 @@ const Testimonial = () => {
               pagination={false}
               scrollbar={false}>
               <div className="swiper-wrapper">
-                {reviews.map((review) => (
+                {reviews.map((review, index) => (
                   <SwiperSlide key={review.id} className="swiper-slide">
-                    <div className="bg-background-2 dark:bg-background-5 relative z-0 mx-1 flex flex-col gap-y-8 overflow-hidden rounded-[20px] p-8 sm:mx-0">
+                    <div className="bg-background-2 dark:bg-background-5 relative z-0 mx-1 flex flex-col gap-y-6 overflow-hidden rounded-[20px] p-8 sm:mx-0">
                       <GradientOverlay />
-                      <figure className="dark:ring-background-5 relative inline-block size-14 overflow-hidden rounded-full bg-linear-[156deg,_#FFF_32.92%,_#83E7EE_91%] ring-4 ring-white">
-                        <Image
-                          src={review.avatar}
-                          height={100}
-                          width={100}
-                          quality={100}
-                          alt="avatar"
-                          className="max-w-full"
-                        />
+                      <figure className={`relative inline-flex size-14 items-center justify-center rounded-full ${bgColors[index % bgColors.length]}`}>
+                        <span className="text-xl font-bold text-white">{review.initials}</span>
                       </figure>
-                      <p className="text-secondary/60 dark:text-accent/60 review-text line-clamp-2">{review.quote}</p>
+                      <p className="text-secondary/60 dark:text-accent/60 review-text line-clamp-3">{review.quote}</p>
                       <div>
                         <p className="text-secondary dark:text-accent review-name text-lg leading-[1.5] font-medium">
                           {review.name}
                         </p>
                         <p className="text-secondary/60 dark:text-accent/60 text-tagline-2 review-title">
-                          {review.position}
+                          {review.position}, {review.company}
                         </p>
                       </div>
                     </div>

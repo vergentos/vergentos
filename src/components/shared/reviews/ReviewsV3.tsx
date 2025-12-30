@@ -84,7 +84,7 @@ const ReviewsV3 = ({ badgeText, title, description, badgeColor, className, butto
 
                           <figure className={`inline-block size-14 rounded-full ${figureBg} relative overflow-hidden`}>
                             <Image
-                              src={review.avatar ?? 'images/ns-avatar-1.png'}
+                              src={review.avatar ?? '/images/ns-avatar-1.png'}
                               alt={review.name ?? 'avatar'}
                               className="max-w-full"
                               width={56}
