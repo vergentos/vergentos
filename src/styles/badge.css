@@ -6,11 +6,11 @@ Site Badges Styles
 }
 
 @utility badge-green {
-  @apply bg-ns-green-light dark:text-ns-yellow dark:bg-accent/10;
+  @apply bg-ns-green-light dark:text-ns-yellow dark:bg-background-7;
 }
 
 @utility badge-green-v2 {
-  @apply bg-ns-green-light dark:text-ns-green dark:bg-accent/10;
+  @apply bg-ns-green-light dark:text-ns-green dark:bg-background-7;
 }
 
 @utility badge-ns-green-light {
@@ -18,27 +18,27 @@ Site Badges Styles
 }
 
 @utility badge-yellow {
-  @apply bg-ns-yellow-light dark:text-ns-yellow dark:bg-accent/10;
+  @apply bg-ns-yellow-light dark:text-ns-yellow dark:bg-background-7;
 }
 
 @utility badge-yellow-v2 {
-  @apply bg-ns-yellow-light dark:text-ns-cyan dark:bg-accent/10;
+  @apply bg-ns-yellow-light dark:text-ns-yellow dark:bg-background-7;
 }
 
 @utility badge-cyan {
-  @apply bg-ns-cyan-light dark:text-ns-green dark:bg-accent/10;
+  @apply bg-ns-cyan-light dark:text-ns-yellow dark:bg-background-7;
 }
 
 @utility badge-cyan-v2 {
-  @apply bg-ns-cyan-light dark:text-ns-cyan dark:bg-accent/10;
+  @apply bg-ns-cyan-light dark:text-ns-yellow dark:bg-background-7;
 }
 
 @utility badge-gray {
-  @apply bg-accent/40 dark:bg-secondary/40 dark:text-accent;
+  @apply bg-accent/40 dark:bg-background-7 dark:text-accent;
 }
 
 @utility badge-gray-light {
-  @apply bg-background-3 dark:bg-accent/10 dark:text-accent/60 text-secondary/60;
+  @apply bg-background-3 dark:bg-background-7 dark:text-accent/60 text-secondary/60;
 }
 @utility badge-gray-light-v2 {
   @apply bg-background-12 font-medium text-secondary;
@@ -49,38 +49,38 @@ Site Badges Styles
 }
 
 @utility badge-metal {
-  @apply bg-accent/10 text-accent/60;
+  @apply bg-background-7 text-accent/60;
 }
 
 @utility badge-white {
-  @apply bg-white text-secondary/60 dark:text-accent/60 dark:bg-accent/10;
+  @apply bg-white text-secondary/60 dark:text-accent/60 dark:bg-background-7;
 }
 @utility badge-white-v2 {
-  @apply bg-white text-secondary/60  font-semibold;
+  @apply bg-white text-secondary/60 font-semibold;
 }
 
 @utility badge-primary {
-  @apply bg-background-4 text-primary-500 dark:bg-accent/10 dark:text-ns-green;
+  @apply bg-background-4 text-primary-500 dark:bg-background-7 dark:text-ns-yellow;
 }
 
 @utility badge-primary-light {
-  @apply bg-primary-100 dark:bg-accent/10 dark:text-accent;
+  @apply bg-primary-100 dark:bg-background-7 dark:text-accent;
 }
 
 @utility badge-blur {
-  @apply bg-accent/10 text-primary-50;
+  @apply bg-background-7 text-primary-50;
 }
 
 @utility badge-blur-v2 {
-  @apply bg-accent/20 text-primary-50 dark:bg-secondary/20 dark:text-accent/60;
+  @apply bg-accent/20 text-primary-50 dark:bg-background-7 dark:text-accent/60;
 }
 
 @utility badge-blur-light {
-  @apply bg-accent/10 text-accent dark:text-ns-yellow;
+  @apply bg-background-7 text-accent dark:text-ns-yellow;
 }
 
 @utility badge-secondary-light {
-  @apply bg-secondary/20 text-primary-50 dark:bg-accent/20 dark:text-accent;
+  @apply bg-secondary/20 text-primary-50 dark:bg-background-7 dark:text-accent;
 }
 
 @utility badge-secondary {
