@@ -18,7 +18,11 @@ const AboutCTA = () => {
               ctaBtnText="Start Project"
               badgeText="Start Your Journey"
               badgeClass="badge badge-blur text-ns-green"
-              description="Our Bristol-based team is ready to build your solution. Contact Mediatopia.agency today." headingClass="text-white dark:text-accent" descriptionClass="text-white/80 dark:text-accent/60"
+              description="Our Bristol-based team is ready to build your solution. Contact Mediatopia.agency today."
+              headingClass="text-white dark:text-accent"
+              descriptionClass="text-white/80 dark:text-accent/60"
+              listTextClass="text-white/60 dark:text-accent/60"
+              inputFieldClass="text-white placeholder:text-white/50 border-white/30"
             />
           </div>
         </RevealAnimation>
