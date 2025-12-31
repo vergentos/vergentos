@@ -3,7 +3,7 @@ import RevealAnimation from '../animation/RevealAnimation';
 
 const Contact = () => {
   return (
-    <section className="pt-[100px] pb-[100px]">
+    <section id="contact-form" className="pt-[100px] pb-[100px]">
       <div className="main-container">
         <div className="grid grid-cols-12 max-lg:gap-y-[50px] lg:gap-[100px]">
           <div className="col-span-12 lg:col-span-6">
