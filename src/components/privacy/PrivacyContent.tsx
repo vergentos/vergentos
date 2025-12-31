@@ -128,7 +128,7 @@ const PrivacyContent = () => {
             <RevealAnimation delay={0.1}>
               <h2>Privacy Policy</h2>
             </RevealAnimation>
-            <RevealAnimation delay={0.2}>
+            <RevealAnimation delay={0.2}><div className="space-y-4">
               <p>
                 <span className="text-secondary dark:text-accent">Mediatopia</span> is committed to protecting your privacy and handling your information transparently. This policy explains how we collect, use, and protect your personal data.
               </p>
@@ -137,7 +137,7 @@ const PrivacyContent = () => {
                 <strong>Data Controller:</strong> Mediatopia, 12 Whiteladies Road, Bristol BS8 1PD<br />
                 <strong>Contact:</strong> <a href="mailto:hello@mediatopia.co.uk" className="text-secondary dark:text-accent">hello@mediatopia.co.uk</a>
               </p>
-            </RevealAnimation>
+            </div></RevealAnimation>
           </div>
 
           {/* Personal Information Collection */}
@@ -148,7 +148,7 @@ const PrivacyContent = () => {
                 <p dangerouslySetInnerHTML={{ __html: personalInfoSection.content }} />
               </div>
             </RevealAnimation>
-            <RevealAnimation delay={0.4}>
+            <RevealAnimation delay={0.4}><div>
               <p className="text-secondary dark:text-accent">We collect Device Information using:</p>
               <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal mt-3">
                 {deviceInfoItems.map((item, index) => (
@@ -158,7 +158,7 @@ const PrivacyContent = () => {
                   </li>
                 ))}
               </ul>
-            </RevealAnimation>
+            </div></RevealAnimation>
           </div>
 
           {/* Contact Information */}

@@ -19,8 +19,6 @@ const page = () => {
         description="Contact us for a free consultation and fixed-price quote."
         btnClass="hover:btn-secondary dark:hover:btn-accent"
         ctaBtnText="Contact us"
-        btnHref="/contact-us"
-        showPhoneInput={true}
       />
     </main>
   );

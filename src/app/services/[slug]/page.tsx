@@ -100,7 +100,7 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
       
       <Publish
         title={service.pubTitle}
-        description={service.pubDesc}
+        desc={service.pubDesc}
         f1Title={service.f1Title}
         f1Desc={service.f1Desc}
         f2Title={service.f2Title}
