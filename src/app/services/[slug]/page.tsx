@@ -15,12 +15,28 @@ import Steps from '@/components/service-detail/Steps';
 import Testimonial from '@/components/home/Testimonial';
 import { servicesData } from '@/data/services-data'; 
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const service = servicesData[slug];
-  if (!service) return { title: 'Service | Mediatopia' };
-  return { title: service.title };
+  if (!service) return { title: "Service | Mediatopia" };
+  
+  const title = service.title || "Service | Mediatopia";
+  const description = service.heroSub || "Bespoke technical services from Bristol web consultancy Mediatopia.";
+  
+  return {
+    title,
+    description,
+    keywords: `${service.heroTitle}, Bristol, web development, Mediatopia`,
+    openGraph: {
+      title,
+      description,
+      locale: "en_GB",
+      type: "website",
+      url: `https://mediatopia.agency/services/${slug}`,
+    },
+  };
 }
 
 const getHeroComponent = (heroType: string, service: any) => {
