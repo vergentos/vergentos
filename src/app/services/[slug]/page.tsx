@@ -12,7 +12,7 @@ import Integration from '@/components/service-detail/Integration';
 import Publish from '@/components/service-detail/Publish';
 import Steps from '@/components/service-detail/Steps';
 
-import ReviewsV3 from '@/components/shared/reviews/ReviewsV3';
+import Testimonial from '@/components/home/Testimonial';
 import { servicesData } from '@/data/services-data'; 
 import { notFound } from 'next/navigation';
 
@@ -96,7 +96,7 @@ const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
         imageSet={service.imageSet}
       />
       
-      <ReviewsV3 />
+      <Testimonial />
       
       <Publish
         title={service.pubTitle}

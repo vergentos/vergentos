@@ -26,10 +26,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Security Shielding", v2P2Desc: "Stateless architecture blocks common vulnerabilities.",
     reviewTitle: "Engineering Success", reviewDesc: "Mediatopia delivered our Next.js platform flawlessly.",
     pubTitle: "Everything you need to", pubDesc: "build & launch faster",
-    f1Title: "Component Architecture", f1Desc: "Modular React components engineered for reusability and scale.",
-    f2Title: "Server-Side Rendering", f2Desc: "Lightning-fast initial loads with Next.js SSR and hydration.",
-    f3Title: "API Integration", f3Desc: "Seamless connection to your backend services and third-party APIs.",
-    f4Title: "Performance Tuning", f4Desc: "Core Web Vitals optimisation for top Google rankings."
+    f1Title: "Component Architecture", f1Desc: "Our modular React components are engineered for maximum reusability across your application. This architecture reduces development time by up to 40%, ensures consistent UI patterns, and makes future feature additions straightforward for Bristol businesses scaling their digital presence.",
+    f2Title: "Server-Side Rendering", f2Desc: "Server-side rendering delivers fully-formed HTML to browsers instantly, eliminating the blank screen users see with traditional React apps. Combined with intelligent hydration, your pages achieve sub-second load times that Google rewards with higher search rankings.",
+    f3Title: "API Integration", f3Desc: "We build robust API integrations connecting your Next.js frontend to any backend system—whether that is your existing CRM, payment processors, inventory management, or custom databases. Every integration is secured, documented, and built for reliability.",
+    f4Title: "Performance Tuning", f4Desc: "Every build is optimised against Google Core Web Vitals metrics including Largest Contentful Paint, First Input Delay, and Cumulative Layout Shift. We ensure your site achieves green scores across all metrics, directly improving your search engine visibility."
   },
   "sage-50-sync": {
     imageSet: "dashboard",
@@ -58,10 +58,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Scalable Growth", v2P2Desc: "Systems that support growth, not hold it back.",
     reviewTitle: "Automation Results", reviewDesc: "Saved our team 20+ hours a week in data entry.",
     pubTitle: "Everything you need to", pubDesc: "automate your accounts",
-    f1Title: "Invoice Syncing", f1Desc: "Automatic transfer of invoices between your platform and Sage 50.",
-    f2Title: "Stock Management", f2Desc: "Real-time inventory updates across all your sales channels.",
-    f3Title: "Payment Reconciliation", f3Desc: "Automated matching of payments to outstanding invoices.",
-    f4Title: "Financial Reporting", f4Desc: "Unified dashboards pulling live data from Sage 50."
+    f1Title: "Invoice Syncing", f1Desc: "Invoices generated on your website flow directly into Sage 50 without manual re-entry. Customer details, line items, VAT calculations, and payment terms sync automatically, eliminating transcription errors and saving your accounts team hours of repetitive data entry every week.",
+    f2Title: "Stock Management", f2Desc: "Stock levels update instantly between your e-commerce platform and Sage 50 accounting. When items sell online, quantities adjust in Sage immediately—preventing overselling, enabling accurate reordering, and giving you true visibility across warehouse and retail operations.",
+    f3Title: "Payment Reconciliation", f3Desc: "Payment reconciliation happens automatically as funds arrive. Bank feeds and payment gateway data match against open invoices in Sage 50, flagging discrepancies for review while clearing the majority without human intervention—dramatically reducing month-end workload.",
+    f4Title: "Financial Reporting", f4Desc: "Custom reporting dashboards pull real-time financial data directly from Sage 50. Track cash flow, monitor aged debtors, analyse sales by product or region—all updated live without exporting spreadsheets or waiting for batch reports."
   },
   "bespoke-cms": {
     imageSet: "portfolio",
@@ -90,10 +90,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Lightning Speed", v2P2Desc: "Generation ensures content loads instantly.",
     reviewTitle: "Content Excellence", reviewDesc: "A CMS that finally works the way we do.",
     pubTitle: "Everything you need to", pubDesc: "manage your content",
-    f1Title: "Custom Fields", f1Desc: "Tailored data structures that match your exact content needs.",
-    f2Title: "Media Library", f2Desc: "Centralised asset management with automatic optimisation.",
-    f3Title: "Version Control", f3Desc: "Full history of every edit with instant rollback capability.",
-    f4Title: "Multi-User Access", f4Desc: "Role-based permissions for editors, admins, and reviewers."
+    f1Title: "Custom Fields", f1Desc: "We build custom field configurations that mirror how your business actually organises information. Whether you need complex product specifications, multi-language content, or structured case studies, your CMS adapts to your workflow—not the other way around.",
+    f2Title: "Media Library", f2Desc: "All images, videos, and documents live in one searchable media library with automatic compression and responsive delivery. Upload once at full resolution and the system generates optimised versions for every device, improving page speed without manual resizing.",
+    f3Title: "Version Control", f3Desc: "Every content change is tracked with timestamps and author details. Made a mistake or need to restore last months version? Roll back any page instantly without IT support. Complete audit trails give you confidence and compliance documentation.",
+    f4Title: "Multi-User Access", f4Desc: "Control exactly who can edit what across your organisation. Marketing updates blog posts while only managers approve pricing changes. Granular permissions protect sensitive content and create approval workflows that match your internal processes."
   },
   "ui-ux-design": {
     imageSet: "portfolio",
@@ -122,10 +122,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Systematic Design", v2P2Desc: "Reusable components for consistent brand growth.",
     reviewTitle: "Design Impact", reviewDesc: "Significantly improved our retention and journeys.",
     pubTitle: "Everything you need to", pubDesc: "convert visitors to customers",
-    f1Title: "User Research", f1Desc: "Data-driven insights into how your customers actually behave.",
-    f2Title: "Wireframing", f2Desc: "Structural blueprints that map the optimal user journey.",
-    f3Title: "Visual Design", f3Desc: "Pixel-perfect interfaces that reflect your brand authority.",
-    f4Title: "Usability Testing", f4Desc: "Real user feedback to validate design decisions before launch."
+    f1Title: "User Research", f1Desc: "We analyse real user behaviour through heatmaps, session recordings, and analytics to understand how visitors navigate your site. This research identifies friction points, drop-off moments, and opportunities to guide users toward conversion more effectively.",
+    f2Title: "Wireframing", f2Desc: "Before any visual design begins, we create detailed wireframes mapping every screen and interaction. These blueprints define information hierarchy, navigation flow, and conversion pathways—ensuring the final design serves your business goals, not just aesthetics.",
+    f3Title: "Visual Design", f3Desc: "Our visual designers craft interfaces that communicate professionalism and trust at first glance. Every colour choice, typography decision, and spacing detail is intentional—creating a cohesive brand experience that positions you above competitors in your market.",
+    f4Title: "Usability Testing", f4Desc: "We test designs with real users from your target audience before development begins. Watching people interact with prototypes reveals usability issues that internal teams miss, saving expensive post-launch fixes and ensuring the final product truly works for customers."
   },
   "ecommerce-engineering": {
     imageSet: "portfolio",
@@ -154,10 +154,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Global Ready", v2P2Desc: "Multi-currency and multi-language support as standard.",
     reviewTitle: "Commercial Growth", reviewDesc: "Performance doubled, leading to 30% more sales.",
     pubTitle: "Everything you need to", pubDesc: "sell at scale",
-    f1Title: "Product Catalogues", f1Desc: "Dynamic inventory management with variant support.",
-    f2Title: "Payment Gateways", f2Desc: "Secure checkout with Stripe, PayPal, and more.",
-    f3Title: "Shipping Logic", f3Desc: "Automated carrier selection and rate calculation.",
-    f4Title: "Order Management", f4Desc: "End-to-end tracking from purchase to delivery."
+    f1Title: "Product Catalogues", f1Desc: "Manage thousands of products with complex variants—sizes, colours, materials, bundles—all from one intuitive interface. Bulk import from suppliers, set low-stock alerts, and sync inventory across multiple warehouses or retail locations in real-time.",
+    f2Title: "Payment Gateways", f2Desc: "We integrate the payment gateways your customers trust—Stripe, PayPal, Apple Pay, Google Pay, and UK-specific options like Klarna. All transactions are PCI-DSS compliant with fraud detection, ensuring secure payments that convert browsers into buyers.",
+    f3Title: "Shipping Logic", f3Desc: "Shipping logic automatically selects the best carrier based on weight, destination, and delivery speed. Real-time rate calculations from Royal Mail, DPD, DHL, and others display accurate costs at checkout—reducing abandoned carts caused by surprise shipping fees.",
+    f4Title: "Order Management", f4Desc: "Customers receive automated updates at every stage—order confirmed, dispatched, out for delivery. Backend dashboards give your team complete visibility over fulfilment status, returns processing, and delivery exceptions requiring attention."
   },
   "api-engineering": {
     imageSet: "dashboard",
@@ -186,10 +186,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "High Availability", v2P2Desc: "Built to handle enterprise loads without failure.",
     reviewTitle: "Integration Success", reviewDesc: "Finally unified our CRM and database perfectly.",
     pubTitle: "Everything you need to", pubDesc: "connect your systems",
-    f1Title: "REST Endpoints", f1Desc: "Clean, documented APIs following industry best practices.",
-    f2Title: "GraphQL Queries", f2Desc: "Flexible data fetching for complex frontend requirements.",
-    f3Title: "Webhook Events", f3Desc: "Real-time notifications when data changes across systems.",
-    f4Title: "Rate Limiting", f4Desc: "Protected endpoints that scale without breaking."
+    f1Title: "REST Endpoints", f1Desc: "We build RESTful APIs with clear endpoint naming, consistent response formats, and comprehensive documentation. Every API includes Swagger or OpenAPI specs, authentication examples, and error handling guides—making integration straightforward for your team or third-party developers.",
+    f2Title: "GraphQL Queries", f2Desc: "GraphQL endpoints let frontends request exactly the data they need in a single query—no over-fetching, no multiple round trips. Ideal for complex dashboards, mobile apps, or any interface where bandwidth and speed matter for user experience.",
+    f3Title: "Webhook Events", f3Desc: "Webhook integrations push instant notifications when events occur—new orders, payment confirmations, stock changes, customer updates. Your connected systems react immediately rather than polling for changes, enabling true real-time automation across your tech stack.",
+    f4Title: "Rate Limiting", f4Desc: "Every API includes intelligent rate limiting to prevent abuse and ensure fair usage during traffic spikes. Automatic throttling protects your infrastructure while maintaining service for legitimate requests—essential for public APIs or high-volume integrations."
   },
   "technical-strategy": {
     imageSet: "dashboard",
@@ -218,10 +218,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "ROI Focus", v2P2Desc: "Maximising every pound spent on engineering.",
     reviewTitle: "Strategic Impact", reviewDesc: "The roadmap gave our board confidence to scale.",
     pubTitle: "Everything you need to", pubDesc: "plan your technical future",
-    f1Title: "Stack Assessment", f1Desc: "Comprehensive review of your current technical architecture.",
-    f2Title: "Growth Roadmap", f2Desc: "Phased plan aligning technology with business milestones.",
-    f3Title: "Vendor Selection", f3Desc: "Expert guidance on tools, platforms, and partners.",
-    f4Title: "Risk Mitigation", f4Desc: "Identifying and addressing technical debt early."
+    f1Title: "Stack Assessment", f1Desc: "We audit your entire tech stack—hosting, frameworks, databases, integrations, and security posture. You receive a detailed report identifying technical debt, scalability bottlenecks, security vulnerabilities, and opportunities to reduce costs or improve performance.",
+    f2Title: "Growth Roadmap", f2Desc: "Your growth roadmap plots technical investments against business goals over 12-36 months. Each phase delivers measurable capabilities—whether launching new markets, handling traffic increases, or integrating acquisitions—with clear budgets and dependencies mapped.",
+    f3Title: "Vendor Selection", f3Desc: "Choosing the wrong platform costs years of rework. We evaluate vendors objectively against your specific requirements—comparing hosting providers, CMS platforms, payment systems, and development partners with real-world performance data and total cost analysis.",
+    f4Title: "Risk Mitigation", f4Desc: "Technical debt compounds like financial debt—ignored problems become expensive crises. We identify risks before they impact revenue: outdated dependencies, scaling limitations, security gaps, and architectural decisions that will block future growth."
   },
   "ai-implementation": {
     imageSet: "abstract",
@@ -250,10 +250,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Agentic Workflows", v2P2Desc: "Build agents that handle support autonomously.",
     reviewTitle: "AI Success", reviewDesc: "Processing time dropped from hours to seconds.",
     pubTitle: "Everything you need to", pubDesc: "automate with AI",
-    f1Title: "Private LLM Deployment", f1Desc: "Secure AI models running on your own infrastructure.",
-    f2Title: "Workflow Automation", f2Desc: "Intelligent agents handling repetitive business tasks.",
-    f3Title: "Data Extraction", f3Desc: "AI-powered parsing of documents, emails, and forms.",
-    f4Title: "Voice & Chat Agents", f4Desc: "24/7 customer support powered by custom AI."
+    f1Title: "Private LLM Deployment", f1Desc: "Deploy large language models on your private servers or secure cloud instances—your sensitive business data never leaves your control. We configure models fine-tuned for your industry terminology, ensuring accurate outputs while maintaining complete data sovereignty and GDPR compliance.",
+    f2Title: "Workflow Automation", f2Desc: "AI agents automate the repetitive work consuming your team—processing invoices, categorising support tickets, extracting data from documents, generating reports. These workflows run 24/7 without fatigue, freeing skilled staff for high-value work that requires human judgment.",
+    f3Title: "Data Extraction", f3Desc: "Extract structured data from unstructured sources automatically. PDFs, scanned documents, email attachments, and handwritten forms become searchable, sortable database records. Accuracy rates exceed 95% on trained document types, with exceptions flagged for human review.",
+    f4Title: "Voice & Chat Agents", f4Desc: "Voice and chat agents trained on your products, policies, and brand voice handle customer enquiries around the clock. They answer questions, book appointments, qualify leads, and escalate complex issues—ensuring no customer waits while reducing support costs significantly."
   },
   "bespoke-consultancy": {
     imageSet: "dashboard",
@@ -282,10 +282,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Agile Thinking", v2P2Desc: "Adapting to your specific project and team needs.",
     reviewTitle: "Consultancy Impact", reviewDesc: "Having a lead on call changed how we grow.",
     pubTitle: "Everything you need to", pubDesc: "accelerate your growth",
-    f1Title: "Technical Audits", f1Desc: "Deep-dive analysis of your current systems and processes.",
-    f2Title: "Architecture Planning", f2Desc: "Scalable blueprints for your next phase of growth.",
-    f3Title: "Team Mentoring", f3Desc: "Upskilling your developers with best practices.",
-    f4Title: "Fractional CTO", f4Desc: "Senior technical leadership without the full-time cost."
+    f1Title: "Technical Audits", f1Desc: "We examine your entire technical operation—codebase quality, infrastructure costs, team workflows, and vendor relationships. You receive an honest assessment of what is working, what is holding you back, and where investment will deliver the greatest returns.",
+    f2Title: "Architecture Planning", f2Desc: "Architecture planning documents your ideal future state and the steps to reach it. We design systems that handle 10x your current load, integrate planned acquisitions, and support new product lines—so growth never stalls waiting for technical catch-up.",
+    f3Title: "Team Mentoring", f3Desc: "Your internal team gains capability through paired working sessions, code reviews, and structured training. We transfer knowledge on modern frameworks, testing strategies, and deployment practices—building lasting competence rather than creating consultant dependency.",
+    f4Title: "Fractional CTO", f4Desc: "Access CTO-level expertise for strategic decisions without a six-figure salary commitment. We join board meetings, evaluate major investments, negotiate with vendors, and provide the technical authority your leadership team needs—on retainer or project basis."
   },
   "cyber-security": {
     imageSet: "infrastructure",
@@ -314,10 +314,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Compliance", v2P2Desc: "Meeting technical GDPR and ISO requirements.",
     reviewTitle: "Security Confidence", reviewDesc: "Site uptime and safety have been flawless.",
     pubTitle: "Everything you need to", pubDesc: "protect your business",
-    f1Title: "WAF Configuration", f1Desc: "Custom firewall rules blocking malicious traffic patterns.",
-    f2Title: "SSL Management", f2Desc: "Enterprise-grade encryption for all data in transit.",
-    f3Title: "Penetration Testing", f3Desc: "Proactive vulnerability scanning before attackers find them.",
-    f4Title: "Incident Response", f4Desc: "Rapid containment and recovery when threats emerge."
+    f1Title: "WAF Configuration", f1Desc: "Web Application Firewall rules tailored to your specific application block SQL injection, cross-site scripting, and emerging attack vectors. We analyse your traffic patterns to create rules that stop threats without blocking legitimate users or impacting site performance.",
+    f2Title: "SSL Management", f2Desc: "SSL certificates with automatic renewal protect every connection to your site. We configure HSTS headers, perfect forward secrecy, and TLS 1.3—achieving A+ ratings on security scans and meeting the encryption standards required by payment processors and enterprise clients.",
+    f3Title: "Penetration Testing", f3Desc: "Regular penetration testing simulates real attack scenarios against your infrastructure. We identify vulnerabilities in your code, server configuration, and third-party integrations—providing prioritised remediation steps before malicious actors exploit these weaknesses.",
+    f4Title: "Incident Response", f4Desc: "When security incidents occur, response speed determines damage. Our incident protocols isolate compromised systems, preserve forensic evidence, restore services from clean backups, and document everything required for regulatory reporting and insurance claims."
   },
   "secure-uk-hosting": {
     imageSet: "infrastructure",
@@ -346,10 +346,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Scalability", v2P2Desc: "Server resources that expand during traffic peaks.",
     reviewTitle: "Hosting Uptime", reviewDesc: "Significantly improved our page load speeds.",
     pubTitle: "Everything you need to", pubDesc: "host with confidence",
-    f1Title: "UK Data Centres", f1Desc: "GDPR-compliant hosting on British soil.",
-    f2Title: "Auto-Scaling", f2Desc: "Resources that expand automatically during traffic spikes.",
-    f3Title: "Daily Backups", f3Desc: "Automated snapshots with instant restore capability.",
-    f4Title: "24/7 Monitoring", f4Desc: "Round-the-clock oversight with instant alert response."
+    f1Title: "UK Data Centres", f1Desc: "Your data resides in UK data centres with full GDPR compliance and data sovereignty guarantees. No transatlantic data transfers, no complex legal frameworks—just straightforward compliance that satisfies enterprise clients, government contracts, and regulatory requirements.",
+    f2Title: "Auto-Scaling", f2Desc: "Auto-scaling infrastructure handles viral moments, seasonal peaks, and marketing campaign surges without manual intervention. Additional server capacity spins up within seconds when traffic increases, then scales down to control costs when demand normalises.",
+    f3Title: "Daily Backups", f3Desc: "Daily automated backups capture your entire application state—database, files, configurations. Stored redundantly across multiple UK locations, these snapshots enable point-in-time recovery within minutes if disaster strikes or changes need reverting.",
+    f4Title: "24/7 Monitoring", f4Desc: "Monitoring systems watch server health, application performance, and security events continuously. When anomalies occur—high CPU, memory leaks, failed services—alerts reach our engineering team immediately for investigation and resolution, often before users notice issues."
   },
   "health-audits": {
     imageSet: "infrastructure",
@@ -378,10 +378,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Auto-Patching", v2P2Desc: "Applying critical security updates instantly.",
     reviewTitle: "Reliability Success", reviewDesc: "Zero downtime since starting the health program.",
     pubTitle: "Everything you need to", pubDesc: "stay ahead of problems",
-    f1Title: "Error Log Review", f1Desc: "Daily analysis of application and server errors.",
-    f2Title: "Database Optimisation", f2Desc: "Query tuning and index maintenance for speed.",
-    f3Title: "Security Patches", f3Desc: "Timely updates to dependencies and frameworks.",
-    f4Title: "Performance Reports", f4Desc: "Weekly summaries with actionable recommendations."
+    f1Title: "Error Log Review", f1Desc: "Every morning our team reviews error logs from your application and server infrastructure. We identify recurring issues, trace root causes, and fix problems proactively—often resolving errors before they impact enough users to generate support tickets.",
+    f2Title: "Database Optimisation", f2Desc: "Database performance degrades over time as data grows and usage patterns shift. We analyse slow queries, optimise indexes, clean orphaned records, and tune configuration settings—keeping your database responsive as your business scales.",
+    f3Title: "Security Patches", f3Desc: "Outdated software creates security vulnerabilities and compatibility issues. We monitor your dependency stack for security patches and updates, testing changes in staging environments before applying them to production—keeping you protected without risking stability.",
+    f4Title: "Performance Reports", f4Desc: "You receive clear weekly reports summarising site health, performance trends, resolved issues, and recommended improvements. No technical jargon—just plain English explanations of what we found, what we fixed, and what deserves attention in future sprints."
   },
   "technical-support": {
     imageSet: "infrastructure",
@@ -410,10 +410,10 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Reliability", v2P2Desc: "Consistent care to keep your platform stable.",
     reviewTitle: "Support Impact", reviewDesc: "Responsive support like having an in-house team.",
     pubTitle: "Everything you need to", pubDesc: "keep your site running",
-    f1Title: "Priority Response", f1Desc: "SLA-backed turnaround times for critical issues.",
-    f2Title: "Bug Fixes", f2Desc: "Rapid diagnosis and resolution of technical problems.",
-    f3Title: "Feature Updates", f3Desc: "Ongoing enhancements to keep your platform current.",
-    f4Title: "Code Reviews", f4Desc: "Quality assurance before any change goes live."
+    f1Title: "Priority Response", f1Desc: "Critical issues get immediate attention with guaranteed response times written into your support agreement. Site down situations trigger emergency protocols within 15 minutes, ensuring your business never waits in a helpdesk queue when revenue is at stake.",
+    f2Title: "Bug Fixes", f2Desc: "When bugs appear, our engineers diagnose root causes quickly using application monitoring, error tracking, and deep familiarity with your codebase. Most issues resolve within hours, not days—with clear communication throughout so you know exactly what happened and why.",
+    f3Title: "Feature Updates", f3Desc: "Your platform evolves alongside your business needs. We implement new features, improve existing functionality, and modernise legacy sections—all managed through a prioritised backlog so development hours focus on changes delivering the greatest business value.",
+    f4Title: "Code Reviews", f4Desc: "Every code change undergoes peer review by a second engineer before deployment. We catch bugs, security issues, and performance problems in review—not production. Staging environment testing confirms changes work correctly before reaching your live users."
   },
   "performance-monitoring": {
     imageSet: "infrastructure",
@@ -442,9 +442,9 @@ export const servicesData: Record<string, any> = {
     v2P2Title: "Compression", v2P2Desc: "Keeping your site assets light and fast.",
     reviewTitle: "Performance Gain", reviewDesc: "Core Web Vitals are all green now. Fantastic.",
     pubTitle: "Everything you need to", pubDesc: "maximise your speed",
-    f1Title: "Core Web Vitals", f1Desc: "Continuous tracking of LCP, FID, and CLS scores.",
-    f2Title: "Real User Metrics", f2Desc: "Performance data from actual visitor sessions.",
-    f3Title: "Speed Alerts", f3Desc: "Instant notifications when metrics drop below threshold.",
-    f4Title: "Optimisation Reports", f4Desc: "Actionable insights to improve load times."
+    f1Title: "Core Web Vitals", f1Desc: "Core Web Vitals determine your Google search rankings. We monitor Largest Contentful Paint, First Input Delay, and Cumulative Layout Shift continuously—alerting immediately if scores drop and identifying exactly which page elements cause degradation.",
+    f2Title: "Real User Metrics", f2Desc: "Synthetic tests only tell part of the story. We capture real user metrics from actual visitors across different devices, browsers, and connection speeds—revealing performance issues that only appear in real-world conditions your customers actually experience.",
+    f3Title: "Speed Alerts", f3Desc: "When page speed degrades beyond acceptable limits, alerts reach our team immediately. Whether a new plugin slowed rendering or a server issue increased response times, we investigate and resolve performance regressions before they impact your search rankings.",
+    f4Title: "Optimisation Reports", f4Desc: "Monthly optimisation reports identify specific opportunities to improve speed—images needing compression, scripts requiring lazy loading, server configurations to tune. Each recommendation includes expected impact and implementation effort, helping you prioritise improvements."
   }
 };
