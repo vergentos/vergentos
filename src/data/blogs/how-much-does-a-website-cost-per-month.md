@@ -1,11 +1,11 @@
 ---
 tag: 'web-design'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'May 5, 2024'
 title: 'How Much Does a Website Cost Per Month in 2024?'
 description: 'A breakdown of monthly website costs in the UK—from hosting and maintenance to security and marketing. Budget effectively for your online presence.'
-thumbnail: '/images/ns-img-464.png'
+thumbnail: '/images/blog/website-cost.jpg'
 readTime: '6 min read'
 featured: false
 ---

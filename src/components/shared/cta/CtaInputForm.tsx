@@ -30,7 +30,7 @@ const CtaInputForm = ({
           placeholder={inputPlaceholder}
           required
           className={cn(
-            'placeholder:text-white/50 dark:placeholder:text-accent/60 text-white dark:text-accent border-white/30 dark:border-stroke-7 focus-visible:outline-stroke-7 focus:border-primary-400 dark:focus:border-primary-400 h-12 w-[85%] rounded-full border bg-transparent px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none focus-visible:outline-1 md:w-[430px] lg:w-[340px]',
+            'placeholder:text-secondary/50 dark:placeholder:text-accent/60 text-secondary dark:text-accent border-secondary/30 dark:border-stroke-7 focus-visible:outline-stroke-7 focus:border-primary-400 dark:focus:border-primary-400 h-12 w-[85%] rounded-full border bg-transparent px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none focus-visible:outline-1 md:w-[430px] lg:w-[340px]',
             inputFieldClass,
           )}
           aria-label="cta-input"

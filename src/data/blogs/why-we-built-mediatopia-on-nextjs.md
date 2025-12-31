@@ -1,11 +1,11 @@
 ---
 tag: 'engineering'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'December 28, 2024'
 title: 'Why We Built Mediatopia.agency on Next.js'
 description: 'A technical deep-dive into why we chose Next.js for our own platform, and why we recommend it for ambitious UK businesses looking for speed, SEO, and scalability.'
-thumbnail: '/images/ns-img-405.jpg'
+thumbnail: '/images/blog/why-we-built-mediatopia.jpg'
 readTime: '5 min read'
 featured: true
 ---

@@ -1,11 +1,11 @@
 ---
 tag: 'e-commerce'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'July 26, 2023'
 title: 'Designing Your E-commerce Website: A Complete Guide'
 description: 'Everything you need to know about designing an e-commerce website that converts—from colour schemes and typography to navigation and mobile responsiveness.'
-thumbnail: '/images/ns-img-427.jpg'
+thumbnail: '/images/blog/ecommerce.jpg'
 readTime: '7 min read'
 featured: false
 ---

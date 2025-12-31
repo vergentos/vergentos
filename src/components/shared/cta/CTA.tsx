@@ -51,13 +51,13 @@ const CTA = ({
 
             <div className="space-y-3">
               <RevealAnimation delay={badgeText ? 0.4 : 0.3}>
-                <h2 className={cn('md:text-heading-2 text-heading-5 text-white dark:text-accent', headingClass)} aria-label="cta-heading">
+                <h2 className={cn('md:text-heading-2 text-heading-5 text-secondary dark:text-accent', headingClass)} aria-label="cta-heading">
                   {ctaHeading}
                   {spanText && <span className="text-primary-500"> {spanText}</span>}
                 </h2>
               </RevealAnimation>
               <RevealAnimation delay={badgeText ? 0.5 : 0.4}>
-                <p aria-label="cta-description" className={cn('text-white/80 dark:text-accent/60', descriptionClass)}>
+                <p aria-label="cta-description" className={cn('text-secondary/80 dark:text-accent/60', descriptionClass)}>
                   {description}
                 </p>
               </RevealAnimation>
@@ -88,7 +88,7 @@ const CTA = ({
                   text: 'Bespoke Fixed-Price Proposals',
                 },
               ]}
-              listTextClass={cn('text-white/60 dark:text-accent/60', listTextClass)}
+              listTextClass={cn('text-secondary/60 dark:text-accent/60', listTextClass)}
               checkListVariant={checkListVariant}
             />
           </div>

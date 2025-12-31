@@ -1,11 +1,11 @@
 ---
 tag: 'web-design'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'August 15, 2023'
 title: 'Why Responsive Design Matters for Small Business Websites'
 description: 'Understanding why responsive web design is essential for small businesses—from improved Google rankings to higher conversion rates and better user experience.'
-thumbnail: '/images/ns-img-405.jpg'
+thumbnail: '/images/blog/responsive-design-small-business.jpg'
 readTime: '8 min read'
 featured: false
 ---

@@ -1,11 +1,11 @@
 ---
 tag: 'web-design'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'May 10, 2024'
 title: 'Understanding UK Website Development Costs in 2024'
 description: 'A comprehensive guide to website development pricing in the UK—from simple brochure sites to complex e-commerce platforms. What to expect and how to budget effectively.'
-thumbnail: '/images/ns-img-405.jpg'
+thumbnail: '/images/blog/web-dev-cost.jpg'
 readTime: '7 min read'
 featured: false
 ---

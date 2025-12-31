@@ -1,11 +1,11 @@
 ---
 tag: 'integration'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'October 31, 2023'
 title: 'What is Sage eCommerce? A Complete Integration Guide'
 description: 'Everything you need to know about Sage eCommerce integration—connecting your online store to Sage 50 for seamless inventory, order, and customer data synchronisation.'
-thumbnail: '/images/ns-img-427.jpg'
+thumbnail: '/images/blog/sage.jpg'
 readTime: '8 min read'
 featured: false
 ---

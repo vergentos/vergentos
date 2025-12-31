@@ -1,11 +1,11 @@
 ---
 tag: 'ai'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'October 29, 2025'
 title: 'Remember When SEO Mattered? AI Just Changed the Rules Forever'
 description: 'After 25 years in digital marketing, here is my take on why traditional SEO is becoming obsolete and what businesses need to do instead in the age of AI.'
-thumbnail: '/images/ns-img-464.png'
+thumbnail: '/images/blog/ai-chnaged-rules.jpg'
 readTime: '5 min read'
 featured: true
 ---

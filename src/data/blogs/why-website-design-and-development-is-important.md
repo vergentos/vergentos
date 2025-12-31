@@ -1,11 +1,11 @@
 ---
 tag: 'web-design'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'March 15, 2024'
 title: 'Why Website Design and Development is Important for Your Business'
 description: 'Understanding the importance of web design and development for business success—from attracting customers and improving SEO to building trust and increasing profits.'
-thumbnail: '/images/ns-img-405.jpg'
+thumbnail: '/images/blog/web-design-development.jpg'
 readTime: '9 min read'
 featured: false
 ---

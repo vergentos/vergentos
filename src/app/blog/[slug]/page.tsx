@@ -27,10 +27,12 @@ const page = async ({ params }: { params: Promise<{ slug: string }> }) => {
       <CTA
         className="dark:bg-background-7 bg-white"
         badgeClass="!badge-yellow-v2"
-        badgeText="Get started"
-        ctaHeading="Build a complete website using the assistance"
-        description="Start your free trial today and see your ideas come to life easily and creatively."
-        ctaBtnText="Get started"
+        badgeText="Start Your Project"
+        ctaHeading="Ready to discuss your technical challenge?"
+        description="Book a free consultation with our Bristol team. No obligation, just expert advice."
+        ctaBtnText="Book a Call"
+        inputType="tel"
+        inputPlaceholder="Enter your phone number"
       />
     </main>
   );

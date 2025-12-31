@@ -1,11 +1,11 @@
 ---
 tag: 'security'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'February 9, 2024'
 title: 'Tips to Protect Your Website From Getting Hacked'
 description: 'Essential security practices every website owner should implement—from password security to software updates and phishing awareness.'
-thumbnail: '/images/ns-img-427.jpg'
+thumbnail: '/images/blog/hacker2.jpg'
 readTime: '6 min read'
 featured: false
 ---

@@ -1,11 +1,11 @@
 ---
 tag: 'seo'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'August 10, 2023'
 title: 'How to Increase Your SEO Using Structured Data & Schema Markup'
 description: 'A comprehensive guide to structured data and schema markup—what it is, why it matters for SEO, and how it can boost your visibility in search results.'
-thumbnail: '/images/ns-img-405.jpg'
+thumbnail: '/images/blog/schema.jpg'
 readTime: '7 min read'
 featured: false
 ---

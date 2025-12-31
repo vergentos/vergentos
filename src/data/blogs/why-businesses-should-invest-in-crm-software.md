@@ -1,11 +1,11 @@
 ---
 tag: 'software'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'February 15, 2024'
 title: 'Why Your Business Should Invest in CRM Software'
 description: 'A comprehensive guide to CRM software—what it is, the benefits for your business, and how to choose and implement the right solution for your needs.'
-thumbnail: '/images/ns-img-427.jpg'
+thumbnail: '/images/blog/crm-dashboard.jpg'
 readTime: '7 min read'
 featured: false
 ---

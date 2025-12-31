@@ -1,11 +1,11 @@
 ---
 tag: 'seo'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'October 6, 2023'
 title: 'What is Google Looking For on Your Website?'
 description: 'Understanding how Google ranks websites—the key factors from content quality and user experience to mobile-friendliness and backlinks that determine your search visibility.'
-thumbnail: '/images/ns-img-405.jpg'
+thumbnail: '/images/blog/what-is-google-searching-for.JPG'
 readTime: '9 min read'
 featured: false
 ---

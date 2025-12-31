@@ -1,11 +1,11 @@
 ---
 tag: 'integration'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'December 20, 2024'
 title: 'A Complete Guide to Sage 50 WooCommerce Integration'
 description: 'Everything you need to know about connecting Sage 50 to WooCommerce: real-time stock sync, automated invoicing, and eliminating manual data entry.'
-thumbnail: '/images/ns-img-427.jpg'
+thumbnail: '/images/blog/sage.jpg'
 readTime: '8 min read'
 featured: true
 ---

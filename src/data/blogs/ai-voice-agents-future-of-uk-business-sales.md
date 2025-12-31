@@ -1,11 +1,11 @@
 ---
 tag: 'ai'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'December 25, 2024'
 title: 'AI Voice Agents: The Future of UK Business Sales'
 description: 'How conversational AI is transforming inbound sales calls for UK businesses—handling enquiries 24/7, qualifying leads, and booking appointments automatically.'
-thumbnail: '/images/ns-img-464.png'
+thumbnail: '/images/blog/aivoiceagent.jpg'
 readTime: '6 min read'
 featured: true
 ---

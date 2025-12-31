@@ -1,11 +1,11 @@
 ---
 tag: 'ai'
 author: 'Duncan Maund'
-authorImage: '/images/ns-avatar-1.png'
+authorImage: '/images/duncan.jpeg'
 publishDate: 'March 15, 2024'
 title: 'Will AI Take Over Web Development and Web Design?'
 description: 'Exploring how artificial intelligence is transforming web development and design—what it means for businesses and whether AI will replace human developers.'
-thumbnail: '/images/ns-img-464.png'
+thumbnail: '/images/blog/ai.jpg'
 readTime: '8 min read'
 featured: false
 ---
