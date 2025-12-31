@@ -33,13 +33,13 @@ const Faq = () => {
           <RevealAnimation delay={0.4}>
             <div>
               <Accordion
-                className=" max-w-[786px] mx-auto"
+                className="max-w-[786px] mx-auto space-y-4"
                 defaultValue="1"
                 enableScrollAnimation={true}
                 animationDelay={0.1}>
                 {faqData.map((item) => (
                   <AccordionItem
-                    className="bg-background-1 dark:bg-background-6 rounded-[20px] px-8"
+                    className="bg-background-1 dark:bg-background-7 rounded-[20px] px-8"
                     key={item.id}
                     value={item.id.toString()}>
                     <AccordionTrigger

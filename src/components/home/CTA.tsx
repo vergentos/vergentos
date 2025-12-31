@@ -8,7 +8,7 @@ const AboutCTA = () => {
     <section className="py-[50px] md:py-20 lg:py-[100px]">
       <div className="mx-auto px-5 lg:max-w-[980px] xl:max-w-[1260px]">
         <RevealAnimation delay={0.1}>
-          <div className="bg-secondary dark:bg-background-8 relative overflow-hidden rounded-[20px] px-6 md:px-10 xl:px-20">
+          <div className="bg-secondary dark:bg-background-7 relative overflow-hidden rounded-[20px] px-6 md:px-10 xl:px-20">
             <div className="pointer-events-none absolute -bottom-52 left-7 -z-0 h-[600px] w-[600px] -translate-x-1/2 rotate-[120deg]">
               <Image src={gradient5} alt="cta-bg" className="h-full w-full object-cover" />
             </div>
