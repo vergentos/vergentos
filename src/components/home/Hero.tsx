@@ -18,7 +18,7 @@ const Hero = ({ title, subtitle }: { title?: any; subtitle?: string }) => {
           {/* Left side - Content */}
           <div className="space-y-6">
             <RevealAnimation delay={0.1}>
-              <span className="badge badge-primary">Bristol Web Design & AI</span>
+              <span className="badge badge-secondary">Bristol Web Design & AI</span>
             </RevealAnimation>
             
             <RevealAnimation delay={0.2}>
