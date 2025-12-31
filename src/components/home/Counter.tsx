@@ -19,7 +19,7 @@ const Counter = () => {
           <div className="flex flex-col max-md:gap-y-10 max-lg:gap-x-4 md:flex-row justify-between bg-secondary dark:bg-background-8 rounded-[20px] px-3 lg:px-[60px] py-14">
             <div className="space-y-2 text-center">
               <h3 className="text-white flex items-center justify-center">
-                <NumberAnimation number={3000} speed={2000} interval={200} rooms={3} heightSpaceRatio={2} />+
+                <NumberAnimation number={3000} speed={2000} interval={200} rooms={4} heightSpaceRatio={2} />+
               </h3>
               <p className="text-white/60">successful digital projects launched.</p>
             </div>
