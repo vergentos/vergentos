@@ -35,7 +35,7 @@ const Testimonial = () => {
             <Swiper
               className="swiper reviews-swiper"
               spaceBetween={30}
-              slidesPerView={3}
+              slidesPerView={1} breakpoints={{ 768: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }}
               centeredSlides={true}
               loop={true}
               speed={1500}
