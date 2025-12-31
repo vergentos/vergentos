@@ -50,7 +50,7 @@ export const mobileMenuData: MobileMenuGroup[] = [
     id: 'plans-support',
     title: 'Plans & Support',
     submenu: [
-      { id: 'pricing', label: 'Pricing', href: './pricing' },
+      
       { id: 'login', label: 'Login', href: './login' },
       { id: 'create-account', label: 'Create Account', href: './signup' },
       { id: 'referral-program', label: 'Referral Program', href: './referral-program' },

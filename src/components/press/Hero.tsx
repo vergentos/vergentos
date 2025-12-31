@@ -38,7 +38,7 @@ const Hero = () => {
             <RevealAnimation delay={0.5} direction="left" offset={50} instant>
               <div>
                 <Link
-                  href="/pricing"
+                  href="/signup"
                   className="btn btn-white hover:btn-secondary dark:hover:btn-primary dark:btn-accent btn-lg md:btn-xl mx-auto w-full md:mx-0 md:w-auto">
                   <span>Build Ai</span>
                 </Link>
