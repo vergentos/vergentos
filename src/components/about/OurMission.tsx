@@ -1,8 +1,8 @@
 import authorAvatarBgImg from '@public/images/ns-author-avatar-bg.png';
-import avatar1Img from '@public/images/ns-avatar-1.png';
-import avatar2Img from '@public/images/ns-avatar-2.png';
-import avatar3Img from '@public/images/ns-avatar-3.png';
-import avatar7Img from '@public/images/ns-avatar-7.png';
+import duncanImg from '@public/images/duncan.jpeg';
+
+
+
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 
@@ -37,7 +37,7 @@ const OurMission = () => {
                   </h5>
                   <div className="mb-7 flex items-center gap-4">
                     <figure className="relative inline-block size-14 overflow-hidden rounded-full bg-linear-[135deg,#ffffff_0%,#a585ff_100%] ring-4 ring-white">
-                      <Image src={avatar7Img} alt="avatar" className="max-w-full" />
+                      <Image src={duncanImg} alt="avatar" className="max-w-full" />
                       <Image src={authorAvatarBgImg} alt="avatar" className="absolute top-0 left-0 -z-10" />
                     </figure>
                     <div>
@@ -113,7 +113,7 @@ const OurMission = () => {
                       </defs>
                     </svg>
                     <figure className="absolute top-1/2 left-1/2 inline-block size-14 -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full bg-linear-[135deg,#ffffff_0%,#a585ff_100%] ring-4 ring-white">
-                      <Image src={avatar2Img} alt="avatar" className="max-w-full" />
+                      <Image src={duncanImg} alt="avatar" className="max-w-full" />
                     </figure>
                   </div>
                 </div>
@@ -122,17 +122,17 @@ const OurMission = () => {
                 <div className="flex cursor-pointer -space-x-3.5">
                   <Image
                     className="ring-ns-yellow inline-block size-14 rounded-full bg-linear-[156deg,_#FFF_32.92%,_#A585FF_91%] ring-4"
-                    src={avatar1Img}
+                    src={duncanImg}
                     alt="Avatar 1"
                   />
                   <Image
                     className="ring-ns-yellow inline-block size-14 rounded-full bg-linear-[156deg,_#FFF_32.92%,_#A585FF_91%] ring-4"
-                    src={avatar2Img}
+                    src={duncanImg}
                     alt="Avatar 2"
                   />
                   <Image
                     className="ring-ns-yellow inline-block size-14 rounded-full bg-linear-[156deg,_#FFF_32.92%,_#A585FF_91%] ring-4"
-                    src={avatar3Img}
+                    src={duncanImg}
                     alt="Avatar 3"
                   />
                 </div>

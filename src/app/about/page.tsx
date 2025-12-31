@@ -1,33 +1,22 @@
 import AboutCTA from '@/components/about/CTA';
-import OurMission from '@/components/about/OurMission';
+import AboutHero from '@/components/about/AboutHero';
 import OurSuccess from '@/components/about/OurSuccess';
-import Team from '@/components/about/Team';
-import VisionStatement from '@/components/about/VisionStatement';
-import WhyChooseUs from '@/components/about/WhyChooseUs';
-import ReviewsV3 from '@/components/shared/reviews/ReviewsV3';
+import Testimonial from '@/components/home/Testimonial';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'About Us - AI Agency || NextSaaS',
+  title: 'About Mediatopia | Bristol Web Design & AI Consultancy',
+  description: 'Meet Duncan Maund, founder of Mediatopia. 22+ years building websites, 3000+ projects delivered. Now specialising in Next.js, Sage 50 integrations, and AI automation.',
 };
 
 const page = () => {
   return (
     <main className="bg-background-3 dark:bg-background-7">
-      <VisionStatement />
-      <OurMission />
+      <AboutHero />
       <OurSuccess />
-      <WhyChooseUs />
-      <Team className="bg-background-3 dark:bg-background-7 py-[100px]" badgeColor="badge-cyan" />
-      <ReviewsV3
-        badgeText="Customer Success"
-        buttonText="View all reviews"
-        badgeColor="badge-cyan"
-        title="Real people. Real results."
-        description="“The team delivered exactly what we needed—on time, on budget, and with zero fuss.”"
-      />
+      <Testimonial />
       <AboutCTA />
     </main>
   );

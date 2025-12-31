@@ -8,12 +8,11 @@ const OurSuccess = () => {
       <div className="main-container">
         <div className="mb-14 space-y-3 text-center md:mb-[70px]">
           <RevealAnimation delay={0.2}>
-            <h2>Over a decade of experience in this field.</h2>
+            <h2>Two decades of building the web.</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="mx-auto max-w-[744px]">
-              With more than ten years of hands-on experience, we’ve built a strong foundation of knowledge, skill, and
-              trust in our industry. Over the years, we’ve navigated evolving trends, embraced new technologies, and
+              From award-winning WordPress builds to high-performance Next.js platforms, Mediatopia has been helping UK businesses dominate online since 2003. Now we are pivoting to AI-first development, Sage 50 integrations, and intelligent automation for ambitious brands.
             </p>
           </RevealAnimation>
         </div>
