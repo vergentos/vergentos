@@ -55,9 +55,9 @@ const Navbar = () => {
                   <Image src={mainLogoDark} alt="Mediatopia" className="h-auto w-full pl-4 block dark:hidden" priority />
                   <Image src={mainLogo} alt="Mediatopia" className="h-auto w-full pl-4 hidden dark:block" priority />
                 </figure>
-                <figure className="block max-w-[44px] lg:hidden">
-                  <Image src={logoIcon} alt="Mediatopia" className="block h-auto w-full dark:hidden" priority />
-                  <Image src={logoDark} alt="Mediatopia" className="hidden h-auto w-full dark:block" priority />
+                <figure className="block max-w-[120px] lg:hidden">
+                  <Image src={mainLogoDark} alt="Mediatopia" className="block h-auto w-full pl-2 dark:hidden" priority />
+                  <Image src={mainLogo} alt="Mediatopia" className="hidden h-auto w-full pl-2 dark:block" priority />
                 </figure>
               </Link>
             </div>
