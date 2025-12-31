@@ -7,7 +7,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Support - AI Agency || NextSaaS',
+  title: 'Support | Mediatopia - Bristol Web Design & AI Consultancy',
+  description: 'Get technical support from Mediatopia. Contact our Bristol team for hosting issues, website queries, or to discuss your next project.',
 };
 
 const Support = () => {
@@ -19,11 +20,12 @@ const Support = () => {
       <CTA
         className="dark:bg-background-5 bg-white"
         badgeClass="badge-green"
-        badgeText="Get Started"
-        ctaHeading="Ready to start earning with NextSaaS?"
-        description="If you have any questions, feel free to reach out to our team."
-        btnClass="hover:btn-secondary dark:hover:btn-accent"
-        ctaBtnText="Get started"
+        badgeText="Start Your Project"
+        ctaHeading="Ready to discuss your next project?"
+        description="Whether you need technical support or want to explore a new build, our Bristol team is here to help."
+        ctaBtnText="Book a Call"
+        inputType="tel"
+        inputPlaceholder="Enter your phone number"
       />
     </main>
   );

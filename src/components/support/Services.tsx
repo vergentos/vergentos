@@ -46,8 +46,7 @@ const Services = () => {
                 </div>
                 <div className="text-center">
                   <LinkButton
-                    href="https://clients.mediatopia.co.uk"
-                    target="_blank"
+                    href="#contact"
                     className="btn btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md">
                     Access Control Panel
                   </LinkButton>
@@ -69,15 +68,14 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="space-y-2 text-center">
-                  <h3 className="text-heading-5">Support Tickets</h3>
+                  <h3 className="text-heading-5">Submit a Ticket</h3>
                   <p className="line-clamp-2">
                     Submit a support request for technical issues. Our team typically responds within 4 hours.
                   </p>
                 </div>
                 <div className="text-center">
                   <LinkButton
-                    href="https://support.mediatopia.co.uk"
-                    target="_blank"
+                    href="#contact"
                     className="btn btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md">
                     Submit a Ticket
                   </LinkButton>
@@ -106,7 +104,7 @@ const Services = () => {
                 </div>
                 <div className="text-center">
                   <LinkButton
-                    href="https://webmail.mediatopia.co.uk"
+                    href="https://webmail.brixly.uk"
                     target="_blank"
                     className="btn btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md">
                     Open Webmail
