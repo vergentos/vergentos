@@ -3,7 +3,7 @@ import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 import GradientAnimation from './GradientAnimation';
 
-const Hero = ({ title, subtitle }: { title?: any; subtitle?: string }) => {
+const Hero = () => {
   return (
     <section className="relative overflow-hidden pt-[150px] md:pt-[190px] lg:pt-[230px] pb-[100px]">
       {/* Animated gradient lines background */}
@@ -18,24 +18,24 @@ const Hero = ({ title, subtitle }: { title?: any; subtitle?: string }) => {
           {/* Left side - Content */}
           <div className="space-y-6">
             <RevealAnimation delay={0.1}>
-              <span className="badge badge-secondary">Bristol Web Design & AI</span>
+              <span className="badge badge-secondary">22 Years of Web Excellence | Bristol & Somerset</span>
             </RevealAnimation>
             
             <RevealAnimation delay={0.2}>
               <h1 className="text-heading-1">
-                {title || <>Bespoke <span className="text-primary">web design & apps</span> built for growth</>}
+                Bristol&apos;s <span className="text-primary-500">Next.js & SaaS</span> Development Experts
               </h1>
             </RevealAnimation>
             
             <RevealAnimation delay={0.3}>
-              <p className="text-lg max-w-[500px]">
-                {subtitle || "High-performance web development and AI-driven digital strategies for ambitious UK businesses."}
+              <p className="text-lg max-w-[540px] text-[#6b7280] dark:text-[#9ca3af]">
+                From our roots in Taunton to 15 years in Bristol, we build high-performance web applications that outpace WordPress. Bespoke Next.js platforms, SaaS products, and AI automation for ambitious businesses across Bristol, Bath, and the South West.
               </p>
             </RevealAnimation>
             
             <RevealAnimation delay={0.4}>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <LinkButton href="/contact-us" className="btn btn-xl btn-primary">
+                <LinkButton href="/signup" className="btn btn-xl btn-primary">
                   Start Your Project
                 </LinkButton>
                 <LinkButton href="/case-study" className="btn btn-xl btn-white dark:btn-white-dark">
@@ -58,7 +58,7 @@ const Hero = ({ title, subtitle }: { title?: any; subtitle?: string }) => {
                     <span className="size-3 rounded-full bg-green-500"></span>
                   </div>
                   <div className="flex-1 mx-4">
-                    <div className="bg-background-3 dark:bg-background-7 rounded-md px-3 py-1 text-xs text-secondary/40 dark:text-accent/40">
+                    <div className="bg-background-3 dark:bg-background-7 rounded-md px-3 py-1 text-xs text-[#6b7280] dark:text-[#9ca3af]">
                       aisalesvoice.com
                     </div>
                   </div>
@@ -66,7 +66,7 @@ const Hero = ({ title, subtitle }: { title?: any; subtitle?: string }) => {
                 {/* Screenshot */}
                 <Image
                   src="/images/case-study-ai-sales-voice.png"
-                  alt="AI Sales Voice Dashboard"
+                  alt="AI Sales Voice - Next.js SaaS Platform Built by Mediatopia Bristol"
                   width={800}
                   height={500}
                   className="w-full object-cover"

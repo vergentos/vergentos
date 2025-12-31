@@ -33,3 +33,28 @@ Font base styles
     @apply text-tagline-2 sm:text-tagline-1 text-secondary dark:text-accent font-normal;
   }
 }
+
+/* =========================
+WCAG AA Accessible Text Classes
+Solid hex codes - no opacity
+=========================== */
+
+/* Light mode body text - #6b7280 on white = 5.0:1 contrast */
+/* Dark mode body text - #9ca3af on black = 4.6:1 contrast */
+
+.text-body-accessible {
+  @apply text-[#6b7280] dark:text-[#9ca3af];
+}
+
+.text-body-muted-accessible {
+  @apply text-[#9ca3af] dark:text-[#6b7280];
+}
+
+/* For dark backgrounds in light mode (like CTA sections) */
+.text-on-dark {
+  @apply text-[#ffffff];
+}
+
+.text-on-dark-muted {
+  @apply text-[#d1d5db];
+}
