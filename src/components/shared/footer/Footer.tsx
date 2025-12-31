@@ -1,12 +1,12 @@
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import { footerLinks } from '@/data/footer-data';
 import { cn } from '@/utils/cn';
-import behance from '@public/images/icons/behance.svg';
-import dribbble from '@public/images/icons/dribbble.svg';
+import clutch from '@public/images/icons/clutch.svg';
 import facebook from '@public/images/icons/facebook.svg';
+import github from '@public/images/icons/github.svg';
 import instagram from '@public/images/icons/instagram.svg';
 import linkedin from '@public/images/icons/linkedin.svg';
-import youtube from '@public/images/icons/youtube.svg';
+import x from '@public/images/icons/x.png';
 import gradientImg from '@public/images/ns-img-532.png';
 import darkLogo from '@public/images/mediatopia-logo.png';
 import Image from 'next/image';
@@ -34,34 +34,34 @@ const Footer = ({ className }: { className?: string }) => {
                   A premier Bristol-based technical engineering shop and lead web design consultancy. We specialise in high-performance Next.js builds, bespoke Sage 50 API synchronisation, and custom AI automation for commercial growth.
                 </p>
                 <div className="flex items-center gap-3">
-                  <Link target="_blank" href="https://www.facebook.com">
-                    <span className="sr-only">Facebook</span>
-                    <Image className="size-6" src={facebook} alt="Facebook" />
-                  </Link>
-                  <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://www.instagram.com">
+                  <Link target="_blank" href="https://www.instagram.com/mediatopiauk/">
                     <span className="sr-only">Instagram</span>
                     <Image className="size-6" src={instagram} alt="Instagram" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://www.youtube.com">
-                    <span className="sr-only">Youtube</span>
-                    <Image className="size-6" src={youtube} alt="Youtube" />
-                  </Link>
-                  <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://www.linkedin.com">
+                  <Link target="_blank" href="https://www.linkedin.com/in/duncanmaund/">
                     <span className="sr-only">LinkedIn</span>
                     <Image className="size-6" src={linkedin} alt="LinkedIn" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://www.dribbble.com">
-                    <span className="sr-only">Dribbble</span>
-                    <Image className="size-6" src={dribbble} alt="Dribbble" />
+                  <Link target="_blank" href="https://www.facebook.com/mediatopiainternational">
+                    <span className="sr-only">Facebook</span>
+                    <Image className="size-6" src={facebook} alt="Facebook" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://www.behance.net">
-                    <span className="sr-only">Behance</span>
-                    <Image className="size-6" src={behance} alt="Behance" />
+                  <Link target="_blank" href="https://github.com/mediatopiauk">
+                    <span className="sr-only">GitHub</span>
+                    <Image className="size-6" src={github} alt="GitHub" />
+                  </Link>
+                  <div className="bg-stroke-1/20 h-6 w-px" />
+                  <Link target="_blank" href="https://x.com/mediatweetia">
+                    <span className="sr-only">X</span>
+                    <Image className="size-6" src={x} alt="X" />
+                  </Link>
+                  <div className="bg-stroke-1/20 h-6 w-px" />
+                  <Link target="_blank" href="https://clutch.co/profile/mediatopia">
+                    <span className="sr-only">Clutch</span>
+                    <Image className="size-6" src={clutch} alt="Clutch" />
                   </Link>
                 </div>
               </div>
