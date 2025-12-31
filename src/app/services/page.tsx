@@ -147,7 +147,7 @@ const Page = () => {
           <CTA
             className="py-[50px] md:py-20"
             badgeText="Start Your Project"
-            badgeClass="badge badge-secondary"
+            badgeClass="badge badge-cyan"
             ctaHeading="Ready to discuss your technical requirements?"
             description="Book a free consultation with our Bristol team. We will assess your needs and propose a solution."
             ctaBtnText="Get in Touch"
