@@ -23,12 +23,12 @@ const Integration = () => {
           <div className="relative z-10 mx-auto w-fit max-w-[410px] text-center lg:mt-20">
             <RevealAnimation delay={0.2}>
               <h2 className="mb-3">
-                Expert technical solutions<br className="hidden lg:block" /> for ambitious Bristol brands.
+                Enterprise-Grade Technology Stack<br className="hidden lg:block" /> for Bristol SaaS & Applications
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mb-14">
-                We bridge the gap between enterprise-level technology and commercial growth. By integrating powerful tools like Sage 50 and custom AI engines into bespoke Next.js platforms, we provide the digital infrastructure your business needs to outperform the competition.
+                We connect your custom SaaS platforms with the tools your business already relies on. Our Next.js stack delivers 10x faster load times than WordPress, enterprise-grade security, and seamless integrations with Sage 50, Stripe, and AI engines.
               </p>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>

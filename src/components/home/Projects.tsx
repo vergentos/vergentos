@@ -5,26 +5,26 @@ import LinkButton from '../ui/button/LinkButton';
 const featuredProjects = [
   {
     slug: "sparks-transport-seo-growth",
-    title: "Sparks Transport – 340% Traffic Growth",
-    description: "Comprehensive SEO and website strategy delivering exceptional organic growth for a Bristol haulage company.",
+    title: "Sparks Transport – 340% Organic Traffic Growth",
+    description: "WordPress to high-performance platform migration. Technical SEO overhaul delivering exceptional organic growth for Bristol haulage.",
     thumbnail: "/images/case-study-sparks.png"
   },
   {
     slug: "chongz-ecommerce-sage-integration",
-    title: "Chongz – E-commerce & Sage 50 Integration",
-    description: "Complete e-commerce overhaul with Sage 50 API integration, advanced filtering, and automated stock sync.",
+    title: "Chongz – Real-Time Sage 50 E-commerce Sync",
+    description: "Custom API bridge syncing 3,000+ SKUs with Sage 50. Eliminated manual stock updates, reduced admin overhead by 80%.",
     thumbnail: "/images/case-study-chongz.png"
   },
   {
     slug: "bottleman-website-redesign",
-    title: "Bottleman – 20 Years, 5 Websites",
-    description: "Fifth website redesign for a client we've partnered with for over two decades.",
+    title: "Bottleman – 20 Year Client Partnership",
+    description: "Fifth platform iteration. Migrated from legacy CMS to modern stack with 4x performance improvement.",
     thumbnail: "/images/case-study-bottleman.png"
   },
   {
     slug: "morris-and-perry-quarry-website",
-    title: "Morris & Perry – 15 Year Partnership",
-    description: "Website refresh for a prestigious Bath-based quarry, our client for over 15 years.",
+    title: "Morris & Perry – Enterprise Bristol Client",
+    description: "15-year partnership with Bath's premier quarry. Bespoke quote system and fleet management integration.",
     thumbnail: "/images/case-study-morris.png"
   }
 ];
@@ -35,16 +35,16 @@ const Projects = () => {
       <div className="main-container">
         <div className="mb-10 space-y-5 text-center md:mb-[70px]">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-yellow-v2">Featured Work</span>
+            <span className="badge badge-yellow-v2">Bristol & Somerset Case Studies</span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.3}>
-              <h2>Digital excellence in action.</h2>
+              <h2>22 years of measurable results.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
-              <p className="mx-auto max-w-[680px]">
-                Real results from real clients. Explore our portfolio of bespoke web design, 
-                Sage 50 integrations, and high-performance platforms built for ambitious UK brands.
+              <p className="mx-auto max-w-[680px] text-[#6b7280] dark:text-[#9ca3af]">
+                From WordPress migrations to bespoke SaaS platforms. Real performance gains, 
+                real Sage 50 integrations, and long-term partnerships with Bristol, Bath, and Somerset businesses.
               </p>
             </RevealAnimation>
           </div>
@@ -66,12 +66,12 @@ const Projects = () => {
                     <LinkButton
                       href={`/case-study/${project.slug}`}
                       className="btn btn-md hover:btn-primary dark:btn-accent btn-secondary absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-95 transform-gpu opacity-0 transition-all duration-500 group-hover:scale-110 group-hover:opacity-100">
-                      View Project
+                      View Case Study
                     </LinkButton>
                   </div>
                   <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between md:gap-4">
                     <h3 className="text-heading-6 sm:text-heading-5">{project.title}</h3>
-                    <p className="line-clamp-2 max-w-[400px] text-left md:text-right text-sm opacity-70">
+                    <p className="line-clamp-2 max-w-[400px] text-left md:text-right text-sm text-[#6b7280] dark:text-[#9ca3af]">
                       {project.description}
                     </p>
                   </div>
@@ -86,7 +86,7 @@ const Projects = () => {
             <LinkButton
               href="/case-study"
               className="btn btn-secondary btn-md hover:btn-primary dark:btn-transparent mx-auto">
-              View all case studies
+              View All Case Studies
             </LinkButton>
           </div>
         </RevealAnimation>
