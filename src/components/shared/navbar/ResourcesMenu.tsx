@@ -161,7 +161,7 @@ const ResourcesMenu = ({
                 'col-span-4',
                 section.variant === 'compact' && 'bg-background-2 dark:bg-background-7 rounded-[10px] px-3 pb-3',
               )}>
-              <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 p-3 font-medium">{section.title}</p>
+              <p className="text-tagline-2 text-[#6b7280] dark:text-[#9ca3af] p-3 font-medium">{section.title}</p>
               <ul>
                 {section.links.map((link) => (
                   <ResourcesMenuLink key={link.title} {...link} variant={section.variant} onClose={handleClose} />

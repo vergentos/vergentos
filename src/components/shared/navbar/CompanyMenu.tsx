@@ -72,7 +72,7 @@ const CompanyMenu = ({
           ))}
         </ul>
         <figure className="flex-1 space-y-3">
-          <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 font-medium">Featured Solution</p>
+          <p className="text-tagline-2 text-[#6b7280] dark:text-[#9ca3af] font-medium">Featured Solution</p>
           <Link href="/services/secure-uk-hosting" className="block">
             <figure className="group relative min-h-[272px] w-full max-w-full overflow-hidden rounded-[14px]">
               <Image

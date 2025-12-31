@@ -46,7 +46,7 @@ const ResourcesMenuLink = ({
         <div className="relative z-10">
           <p className="text-tagline-1 text-secondary dark:text-accent font-normal">{title}</p>
           {description && (
-            <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 font-normal">{description}</p>
+            <p className="text-tagline-2 text-[#6b7280] dark:text-[#9ca3af] font-normal">{description}</p>
           )}
         </div>
       </Link>

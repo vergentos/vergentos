@@ -30,7 +30,7 @@ const Footer = ({ className }: { className?: string }) => {
                 <figure>
                   <Image src={darkLogo} alt="Mediatopia" />
                 </figure>
-                <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
+                <p className="text-[#9ca3af] text-tagline-1 mt-4 mb-7 font-normal">
                   A premier Bristol-based technical engineering shop and lead web design consultancy. We specialise in high-performance Next.js builds, bespoke Sage 50 API synchronisation, and custom AI automation for commercial growth.
                 </p>
                 <div className="flex items-center gap-3">
