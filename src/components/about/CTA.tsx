@@ -19,16 +19,16 @@ const AboutCTA = () => {
 
             <CTA
               className="py-[50px] md:py-20 lg:py-[100px]"
-              description="Start your free trial today and see your ideas come to life easily and creatively."
-              headingClass="text-accent"
-              descriptionClass="text-accent/60"
-              ctaHeading="  Build a complete website using the assistance"
-              ctaBtnText="Get started"
-              badgeText="Get started"
+              ctaHeading="Transform your business with bespoke technical engineering."
+              ctaBtnText="Start Project"
+              badgeText="Start Your Journey"
               badgeClass="badge badge-blur text-ns-green"
+              description="Our Bristol-based team is ready to build your solution. Contact Mediatopia.agency today."
+              headingClass="text-white dark:text-accent"
+              descriptionClass="text-white/80 dark:text-accent/60"
+              listTextClass="text-white/60 dark:text-accent/60"
+              inputFieldClass="text-white placeholder:text-white/50 border-white/30"
               btnClass="hover:btn-white"
-              inputFieldClass="sm:w-auto flex-1 bg-accent/5 border-0 px-5 py-3 shadow-1 rounded-full min-h-[48px] h-12 placeholder:text-accent/40 placeholder:text-tagline-1 placeholder:font-normal focus:outline-none focus:border focus:border-primary-600 dark:focus:border-primary-400 text-accent font-normal w-[85%]"
-              listTextClass="text-accent font-normal text-tagline-3 sm:text-tagline-2"
               checkListVariant="gray"
             />
           </div>
