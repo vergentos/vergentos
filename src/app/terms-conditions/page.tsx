@@ -1,11 +1,10 @@
 import CTA from '@/components/shared/cta/CTA';
 import TermsConditionContent from '@/components/terms-conditions/TermsConditionContent';
-import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Terms & Conditions - AI Agency || NextSaaS',
+  title: 'Terms & Conditions | Mediatopia Bristol',
+  description: 'Terms and conditions for Mediatopia web design and development services. Bristol-based technical consultancy.',
 };
 
 const page = () => {
@@ -14,12 +13,12 @@ const page = () => {
       <TermsConditionContent />
       <CTA
         className="dark:bg-background-5 bg-white"
-        badgeClass="badge-yellow-v2"
+        badgeClass="badge-cyan"
         badgeText="Get Started"
-        ctaHeading="Ready to start earning with NextSaaS?"
-        description="If you have any questions, feel free to reach out to our team."
+        ctaHeading="Ready to discuss your project?"
+        description="Contact our Bristol team to discuss your technical requirements."
         btnClass="hover:btn-secondary dark:hover:btn-accent"
-        ctaBtnText="Get started"
+        ctaBtnText="Start Project"
       />
     </main>
   );
