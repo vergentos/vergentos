@@ -1,4 +1,3 @@
-// crypto marketing mobile menu
 'use client';
 import { useMobileMenuContext } from '@/context/MobileMenuContext';
 import { cn } from '@/utils/cn';
@@ -22,7 +21,12 @@ export interface MobileMenuGroup {
 }
 
 const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
-  const { isOpen } = useMobileMenuContext();
+  const { isOpen, closeMenu } = useMobileMenuContext();
+  
+  const handleLinkClick = () => {
+    closeMenu();
+  };
+  
   return (
     <aside
       className={cn(
@@ -31,7 +35,7 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
       )}>
       <div className="space-y-4 p-5 sm:p-8 lg:p-9">
         <div className="flex items-center justify-between">
-          <Link href="/">
+          <Link href="/" onClick={handleLinkClick}>
             <span className="sr-only">Home</span>
             <figure className="max-w-[120px]">
               <Image src={mainLogoDark} alt="Mediatopia" className="block w-full dark:hidden" />
@@ -56,6 +60,7 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
                     <li key={subItem.id}>
                       <Link
                         href={subItem.href}
+                        onClick={handleLinkClick}
                         className="text-tagline-1 text-secondary dark:text-accent ml-4 block py-2.5 text-left font-normal transition-all duration-200">
                         {subItem.label}
                       </Link>
