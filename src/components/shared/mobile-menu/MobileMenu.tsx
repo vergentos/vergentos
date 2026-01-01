@@ -2,8 +2,8 @@
 'use client';
 import { useMobileMenuContext } from '@/context/MobileMenuContext';
 import { cn } from '@/utils/cn';
-import logoDark from '@public/images/shared/logo-dark.svg';
-import logoIcon from '@public/images/shared/logo.svg';
+import mainLogo from '@public/images/mediatopia-logo.png';
+import mainLogoDark from '@public/images/mediatopia-logo-dark.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import MenuCloseButton from './MenuCloseButton';
@@ -33,9 +33,9 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
         <div className="flex items-center justify-between">
           <Link href="/">
             <span className="sr-only">Home</span>
-            <figure className="max-w-[44px]">
-              <Image src={logoIcon} alt="NextSaaS" className="block w-full dark:hidden" />
-              <Image src={logoDark} alt="NextSaaS" className="hidden w-full dark:block" />
+            <figure className="max-w-[120px]">
+              <Image src={mainLogoDark} alt="Mediatopia" className="block w-full dark:hidden" />
+              <Image src={mainLogo} alt="Mediatopia" className="hidden w-full dark:block" />
             </figure>
           </Link>
           {/* close btn  */}
