@@ -46,8 +46,18 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
           <MenuCloseButton />
         </div>
 
+        {/* Start Project Button */}
+        <div className="pt-4">
+          <Link 
+            href="/signup" 
+            onClick={handleLinkClick}
+            className="btn btn-primary btn-md w-full text-center">
+            <span>Start Project</span>
+          </Link>
+        </div>
+
         {/* menu items list  */}
-        <div className="scroll-bar mt-6 h-[85vh] w-full overflow-x-hidden pb-10">
+        <div className="scroll-bar mt-6 h-[75vh] w-full overflow-x-hidden overflow-y-auto pb-10">
           <p className="text-secondary dark:text-accent text-tagline-1 before:bg-stroke-4 dark:before:bg-stroke-6 relative mb-2 block font-normal before:absolute before:top-1/2 before:-right-16 before:h-px before:w-full before:-translate-y-1/2 before:content-['']">
             Menu
           </p>
