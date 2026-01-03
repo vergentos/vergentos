@@ -424,7 +424,7 @@ export const servicesData: Record<string, any> = {
     heroType: "audit",
     title: "Performance Monitoring & Core Web Vitals | Mediatopia",
     heroTitle: "Advanced Performance Monitoring",
-    heroSub: "Tracking every millisecond for user experience.",
+    heroSub: "Website redesign performance tracking. Monitoring every millisecond for optimal user experience and Core Web Vitals.",
     bentoTitle: "Speed Optimization",
     box1Title: "Vitals Tracking", box1Sub: "Monitoring LCP and CLS to maintain rankings.",
     box2Title: "Speed Audits", box2Sub: "Weekly reports with actionable technical insights.",
