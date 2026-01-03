@@ -18,12 +18,12 @@ const HeroSecurity = ({ title, subtitle, badge }: HeroSecurityProps) => {
         {/* Gradient backgrounds */}
         <RevealAnimation delay={0.3} direction="up">
           <div className="pointer-events-none absolute -top-[29%] left-[7%] -z-0 h-full w-full -rotate-[326deg] select-none sm:-top-[50%] sm:-left-[30%]">
-            <Image src={gradient6} alt="gradient" />
+            <Image src={gradient6} alt="" />
           </div>
         </RevealAnimation>
         <RevealAnimation delay={0.3} direction="up">
           <div className="pointer-events-none absolute -top-[65%] -right-[57%] -z-0 h-full w-full -rotate-[75deg] select-none">
-            <Image src={gradient6} alt="gradient" className="rotate-180" />
+            <Image src={gradient6} alt="" className="rotate-180" />
           </div>
         </RevealAnimation>
         

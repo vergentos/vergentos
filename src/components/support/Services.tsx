@@ -34,7 +34,7 @@ const Services = () => {
               <div className="col-span-12 md:col-span-4">
                 <div className="bg-background-2 dark:bg-background-6 relative z-10 space-y-6 overflow-hidden rounded-[20px] px-6 py-8">
                   <figure className="pointer-events-none absolute -top-[66%] -left-[60%] -z-10 size-[410px] rotate-[304deg] select-none">
-                    <Image src={gradient3} className="size-full object-contain" alt="gradient" />
+                    <Image src={gradient3} className="size-full object-contain" alt="" />
                   </figure>
                   <div className="flex items-center justify-center">
                     <svg className="size-12 text-secondary dark:text-accent" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -59,7 +59,7 @@ const Services = () => {
               <div className="col-span-12 md:col-span-4">
                 <div className="bg-background-2 dark:bg-background-6 relative z-10 space-y-6 overflow-hidden rounded-[20px] px-6 py-8">
                   <figure className="pointer-events-none absolute -top-[74%] -right-[70%] -z-10 size-[410px] rotate-[175deg] select-none">
-                    <Image src={gradient27} className="size-full object-contain" alt="gradient" />
+                    <Image src={gradient27} className="size-full object-contain" alt="" />
                   </figure>
                   <div className="flex items-center justify-center">
                     <svg className="size-12 text-secondary dark:text-accent" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -84,7 +84,7 @@ const Services = () => {
               <div className="col-span-12 md:col-span-4">
                 <div className="bg-background-2 dark:bg-background-6 relative z-10 space-y-6 overflow-hidden rounded-[20px] px-6 py-8">
                   <figure className="pointer-events-none absolute -top-[74%] -right-[35%] -z-10 size-[410px] rotate-[175deg] select-none">
-                    <Image src={gradient16} className="size-full object-contain" alt="gradient" />
+                    <Image src={gradient16} className="size-full object-contain" alt="" />
                   </figure>
                   <div className="flex items-center justify-center">
                     <svg className="size-12 text-secondary dark:text-accent" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">

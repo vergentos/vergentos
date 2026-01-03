@@ -11,7 +11,7 @@ const TeamMemberImg = ({ data }: { data: Partial<ITeamMember> }) => {
     <RevealAnimation delay={0.2}>
       <div className="bg-secondary border-background-4 dark:border-background-8 dark:bg-background-8 relative col-span-12 space-y-2.5 overflow-hidden rounded-[20px] border backdrop-blur-[12.5px] md:col-span-5">
         <div className="pointer-events-none absolute -right-[125%] -bottom-[25%] -z-100 size-[860px] -rotate-[75deg] sm:-right-[85%] sm:-bottom-[15%] md:-right-[135%] md:-bottom-[25%] xl:-right-[105%] xl:-bottom-[15%]">
-          <Image src={gradient} alt="gradient" />
+          <Image src={gradient} alt="" />
         </div>
         <figure className="bg-background-1 relative z-1 -ml-[1px] flex justify-center overflow-hidden rounded-b-[20px]">
           {/* gradient bg  */}
