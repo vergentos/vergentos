@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Blog Details - AI Agency || NextSaaS',
+  title: 'Blog | Mediatopia Bristol',
 };
 
 const page = async ({ params }: { params: Promise<{ slug: string }> }) => {

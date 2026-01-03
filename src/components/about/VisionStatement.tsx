@@ -13,11 +13,11 @@ const VisionStatement = () => {
             <span className="badge badge-cyan mb-5">Passion meets purpose</span>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <h2>NextSaaS is defining the future landscape of business.</h2>
+            <h2>22 years of technical excellence in Bristol.</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <p>
-              In a rapidly evolving digital world, NextSaaS stands at the forefront of innovation, transforming how
+              From our roots in Taunton to 15 years in Bristol, Mediatopia has evolved from traditional web design to cutting-edge Next.js development, Sage 50 integration, and AI automation. We transform how
               businesses operate, connect, and grow.By delivering intelligent, scalable, and user-focused SaaS
               solutions,
             </p>
