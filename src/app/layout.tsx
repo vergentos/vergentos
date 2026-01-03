@@ -1,6 +1,7 @@
 import SmoothScrollProvider from '@/components/shared/SmoothScroll';
 import { ThemeProvider } from '@/components/shared/ThemeProvider';
 import Footer from '@/components/shared/footer/Footer';
+import MobileActionSheet from '@/components/shared/MobileActionSheet';
 import Navbar from '@/components/shared/navbar/Navbar';
 import { interTight } from '@/utils/font';
 import { generateMetadata } from '@/utils/generateMetaData';
@@ -93,6 +94,7 @@ export default function RootLayout({
               <Navbar />
               {children}
               <Footer />
+              <MobileActionSheet />
             </SmoothScrollProvider>
           </Suspense>
         </ThemeProvider>
