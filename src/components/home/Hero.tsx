@@ -69,6 +69,7 @@ const Hero = () => {
                   alt="AI Sales Voice - Next.js SaaS Platform Built by Mediatopia Bristol"
                   width={800}
                   height={500}
+                    priority
                   className="w-full object-cover"
                 />
               </div>
