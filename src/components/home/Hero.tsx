@@ -21,7 +21,7 @@ const Hero = () => {
               <span className="badge badge-secondary">22 Years of Web Excellence | Bristol & Somerset</span>
             </RevealAnimation>
             
-            <RevealAnimation delay={0.2}>
+            <RevealAnimation delay={0}>
               <h1 className="text-heading-1">
                 Bristol&apos;s <span className="text-primary-500">Next.js & SaaS</span> Development Experts
               </h1>
@@ -68,6 +68,7 @@ const Hero = () => {
                   src="/images/case-study-ai-sales-voice.png"
                   alt="AI Sales Voice - Next.js SaaS Platform Built by Mediatopia Bristol"
                   width={800}
+                  sizes="(max-width: 768px) 100vw, 800px"
                   height={500}
                     priority
                   className="w-full object-cover"
