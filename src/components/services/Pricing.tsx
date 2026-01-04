@@ -186,7 +186,7 @@ const Pricing = () => {
                   </RevealAnimation>
                   {/* Price Card 2 */}
                   <RevealAnimation delay={0.7}>
-                    <div className="basis-[408px] rounded-[20px] bg-[url('/images/ns-img-25.png')] bg-cover bg-center bg-no-repeat p-2.5">
+                    <div className="basis-[408px] rounded-[20px] bg-[url('/images/ns-img-25.webp')] bg-cover bg-center bg-no-repeat p-2.5">
                       <div className="bg-background-1 dark:bg-background-6 rounded-[14px] px-5 py-[60px] md:px-14 lg:px-6 xl:px-14">
                         <div className="border-b-stroke-2 dark:border-b-stroke-6 border-b pb-[47px]">
                           <h3 id="growth-plan" className="text-heading-5 mb-4 font-normal">
