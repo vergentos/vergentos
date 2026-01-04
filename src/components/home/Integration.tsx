@@ -60,7 +60,7 @@ const Integration = () => {
                     </figure>
                     <figure className="dark:bg-background-5 space-y-6 rounded-xl bg-white p-8">
                       <figcaption className="space-y-2">
-                        <h5>Strategic Discovery &amp; Planning.</h5>
+                        <h3 className="text-heading-5">Strategic Discovery &amp; Planning.</h3>
                         <p className="max-w-[250px]">
                           We define your commercial objectives first, ensuring every technical decision serves your specific business goals and ROI.
                         </p>
@@ -87,7 +87,7 @@ const Integration = () => {
                     </figure>
                     <figure className="dark:bg-background-5 space-y-6 rounded-xl bg-white p-8">
                       <figcaption className="space-y-2">
-                        <h5>Bespoke UI/UX Design.</h5>
+                        <h3 className="text-heading-5">Bespoke UI/UX Design.</h3>
                         <p className="max-w-[250px]">Crafting high-converting, mobile-first interfaces that embody your brand’s authority and deliver seamless user experiences.</p>
                       </figcaption>
                       <div className="w-full max-w-[400px] overflow-hidden rounded-2xl">
@@ -117,7 +117,7 @@ const Integration = () => {
                     </figure>
                     <figure className="dark:bg-background-5 space-y-6 rounded-xl bg-white p-8">
                       <figcaption className="space-y-2">
-                        <h5>Development &amp; AI Integration.</h5>
+                        <h3 className="text-heading-5">Development &amp; AI Integration.</h3>
                         <p className="max-w-[250px]">Engineering robust platforms with custom CMS capabilities and intelligent automation to future-proof your digital infrastructure.</p>
                       </figcaption>
                       <div className="w-full max-w-[400px] overflow-hidden rounded-2xl">
@@ -147,7 +147,7 @@ const Integration = () => {
                     </figure>
                     <figure className="dark:bg-background-5 space-y-6 rounded-xl bg-white p-8">
                       <figcaption className="space-y-2">
-                        <h5>Optimisation &amp; Continuous Growth.</h5>
+                        <h3 className="text-heading-5">Optimisation &amp; Continuous Growth.</h3>
                         <p className="max-w-[250px]">
                           Beyond the launch, we provide proactive support and SEO-driven updates to keep your agency platform ranking and performing.
                         </p>
