@@ -117,7 +117,7 @@ const ReviewsV3 = ({ badgeText, title, description, badgeColor, className, butto
           <RevealAnimation delay={0.5}>
             <div className="mt-10 text-center lg:mt-14">
               <LinkButton
-                href="/testimonial"
+                href="/about"
                 className="btn btn-md btn-secondary dark:btn-transparent hover:btn-white w-full sm:w-auto">
                 {buttonText}
               </LinkButton>

@@ -56,7 +56,7 @@ const rightColumnLinks: PartnershipLink[] = [
   {
     title: 'Our Products',
     description: 'AI-powered tools and platforms built by Mediatopia.',
-    href: '/products',
+    href: '/services',
     icon: IntegrationIcon,
   },
 ];
