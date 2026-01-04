@@ -1,6 +1,5 @@
 import BlogContent from '@/components/blog-details/BlogContent';
 import CTA from '@/components/shared/cta/CTA';
-import { defaultMetadata } from '@/utils/generateMetaData';
 import getMarkDownContent from '@/utils/getMarkDownContent';
 import getMarkDownData from '@/utils/getMarkDownData';
 import { Metadata } from 'next';
@@ -12,10 +11,15 @@ export async function generateStaticParams() {
   }));
 }
 
-export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Blog | Mediatopia Bristol',
-};
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const slug = (await params).slug;
+  const blog = getMarkDownContent('src/data/blogs/', slug);
+  
+  return {
+    title: `${blog.data.title} | Mediatopia Bristol`,
+    description: blog.data.excerpt?.substring(0, 155) || `Read ${blog.data.title} on the Mediatopia blog.`,
+  };
+}
 
 const page = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const slug = (await params).slug;

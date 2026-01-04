@@ -1,6 +1,6 @@
 import CaseStudyDetails from '@/components/case-study/CaseStudyDetails';
 import CTA from '@/components/shared/cta/CTA';
-import { defaultMetadata } from '@/utils/generateMetaData';
+import getMarkDownContent from '@/utils/getMarkDownContent';
 import getMarkDownData from '@/utils/getMarkDownData';
 import { Metadata } from 'next';
 
@@ -11,10 +11,15 @@ export async function generateStaticParams() {
   }));
 }
 
-export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Case Study | Mediatopia Bristol',
-};
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const slug = (await params).slug;
+  const caseStudy = getMarkDownContent('src/data/case-study/', slug);
+  
+  return {
+    title: `${caseStudy.data.title} | Case Study | Mediatopia`,
+    description: caseStudy.data.excerpt?.substring(0, 155) || `${caseStudy.data.title} - See how Mediatopia delivered results.`,
+  };
+}
 
 interface CaseStudyDetailsPageProps {
   params: Promise<{ slug: string }>;
@@ -40,5 +45,6 @@ const CaseStudyDetailsPage = async ({ params }: CaseStudyDetailsPageProps) => {
     </main>
   );
 };
+
 CaseStudyDetailsPage.displayName = 'CaseStudyDetailsPage';
 export default CaseStudyDetailsPage;
