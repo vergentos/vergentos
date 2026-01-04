@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
   images: {
     qualities: [25, 50, 75, 100],
   },
+  reactCompiler: true,
   async redirects() {
     return [
       // HIGH-TRAFFIC BLOG REDIRECTS
