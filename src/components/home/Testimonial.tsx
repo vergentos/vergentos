@@ -18,7 +18,7 @@ const bgColors = [
 
 const Testimonial = () => {
   return (
-    <section className="relative bg-white bg-[url('/images/ns-img-169.png')] bg-cover bg-top bg-no-repeat pt-[100px] pb-[100px] dark:bg-black">
+    <section className="relative bg-white bg-[url('/images/ns-img-169.webp')] bg-cover bg-top bg-no-repeat pt-[100px] pb-[100px] dark:bg-black">
       <div className="main-container">
         <div className="mb-10 flex flex-col items-center text-center md:mb-[70px]">
           <RevealAnimation delay={0.2}>

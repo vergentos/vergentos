@@ -4,7 +4,7 @@ import LinkButton from '../ui/button/LinkButton';
 
 const Services = () => {
   return (
-    <section className="bg-[url('/images/ns-img-169.png')] bg-cover bg-top bg-no-repeat pt-16 pb-16 md:pt-20 md:pb-20 lg:pt-[90px] lg:pb-[90px] xl:pt-[100px] xl:pb-[100px]">
+    <section className="bg-[url('/images/ns-img-169.webp')] bg-cover bg-top bg-no-repeat pt-16 pb-16 md:pt-20 md:pb-20 lg:pt-[90px] lg:pb-[90px] xl:pt-[100px] xl:pb-[100px]">
       <div className="main-container">
         <div className="mx-auto mb-14 max-w-[750px] space-y-5 text-center">
           <RevealAnimation delay={0.2}>
