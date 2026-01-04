@@ -1,7 +1,7 @@
 'use client';
 import { ReactLenis, useLenis } from 'lenis/react';
 import { usePathname, useSearchParams } from 'next/navigation';
-import { ReactNode, useEffect, useRef, useState } from 'react';
+import { ReactNode, useEffect, useRef } from 'react';
 
 interface SmoothScrollingProps {
   children: ReactNode;
@@ -12,17 +12,8 @@ const SmoothScrollProvider = ({ children }: Readonly<SmoothScrollingProps>) => {
   const searchParams = useSearchParams();
   const previousPathnameRef = useRef<string>(pathname);
   const isInitialRender = useRef(true);
-  const [isMobile, setIsMobile] = useState(false);
 
   const lenis = useLenis();
-
-  // Check if mobile on mount
-  useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
-  }, []);
 
   useEffect(() => {
     // Only scroll to top if pathname actually changed (navigation), not on initial render or reload
@@ -59,11 +50,6 @@ const SmoothScrollProvider = ({ children }: Readonly<SmoothScrollingProps>) => {
       });
     };
   }, [lenis, pathname]);
-
-  // On mobile, just return children without Lenis
-  if (isMobile) {
-    return <>{children}</>;
-  }
 
   return (
     <ReactLenis root options={{ duration: 1.1 }}>
