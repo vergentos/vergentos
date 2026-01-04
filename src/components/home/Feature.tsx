@@ -41,12 +41,12 @@ const Feature = () => {
               <figure className="w-full">
                 <Image
                   src={feature1}
-                  alt="feature image"
+                  alt="Bespoke CMS and web application development"
                   className="hidden w-full rounded-2xl object-cover dark:block"
                 />
                 <Image
                   src={feature1Dark}
-                  alt="feature image"
+                  alt="Bespoke CMS and web application development"
                   className="block w-full rounded-2xl object-cover dark:hidden"
                 />
               </figure>
@@ -61,12 +61,12 @@ const Feature = () => {
               <figure className="w-full">
                 <Image
                   src={feature2}
-                  alt="feature image"
+                  alt="API and Sage 50 integration services"
                   className="block w-full rounded-2xl object-cover dark:hidden"
                 />
                 <Image
                   src={feature2Dark}
-                  alt="feature image"
+                  alt="API and Sage 50 integration services"
                   className="hidden w-full rounded-2xl object-cover dark:block"
                 />
               </figure>
@@ -81,12 +81,12 @@ const Feature = () => {
               <figure className="w-full">
                 <Image
                   src={feature3}
-                  alt="feature image"
+                  alt="Conversion-driven UI and UX design"
                   className="block w-full rounded-2xl object-cover dark:hidden"
                 />
                 <Image
                   src={feature3Dark}
-                  alt="feature image"
+                  alt="Conversion-driven UI and UX design"
                   className="hidden w-full rounded-2xl object-cover dark:block"
                 />
               </figure>
@@ -103,12 +103,12 @@ const Feature = () => {
               <figure className="w-full">
                 <Image
                   src={feature4}
-                  alt="feature image"
+                  alt="Managed UK hosting and proactive support"
                   className="block h-full w-full rounded-2xl object-cover dark:hidden"
                 />
                 <Image
                   src={feature4Dark}
-                  alt="feature image"
+                  alt="Managed UK hosting and proactive support"
                   className="hidden h-full w-full rounded-2xl object-cover dark:block"
                 />
               </figure>
