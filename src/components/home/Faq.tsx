@@ -22,8 +22,7 @@ const Faq = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
                 <p className="text-secondary dark:text-accent max-w-[596px] md:w-full mx-auto">
-                  Neque accumsan dolor nullam commodo. Odio massa nisi ullamcorper suspendisse amet amet. Aenean
-                  suspendisse eget est pulvinar. Fames eget eget nascetur ornare
+                  We know that starting a new digital project comes with plenty of questions. We’ve answered the big ones right here to give you a clearer picture of how we work. Still curious? Drop us a message and we'll be happy to chat.
                 </p>
               </RevealAnimation>
             </div>
