@@ -65,6 +65,7 @@ const Projects = () => {
                     <div className="absolute inset-0 bg-black/0 transition-all duration-500 ease-in-out group-hover:bg-black/40" />
                     <LinkButton
                       href={`/case-study/${project.slug}`}
+                      aria-label={`View ${project.title} case study`}
                       className="btn btn-md hover:btn-primary dark:btn-accent btn-secondary absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 scale-95 transform-gpu opacity-0 transition-all duration-500 group-hover:scale-110 group-hover:opacity-100">
                       View Case Study
                     </LinkButton>

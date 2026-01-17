@@ -46,8 +46,7 @@ const Hero = () => {
           </div>
           
           {/* Right side - Dashboard image */}
-          <RevealAnimation delay={0.4} direction="left">
-            <div className="relative">
+          <div className="relative">
               {/* Browser frame */}
               <div className="bg-secondary dark:bg-background-6 rounded-[20px] overflow-hidden shadow-2xl border border-stroke-1 dark:border-stroke-7">
                 {/* Browser header */}
@@ -58,7 +57,7 @@ const Hero = () => {
                     <span className="size-3 rounded-full bg-green-500"></span>
                   </div>
                   <div className="flex-1 mx-4">
-                    <div className="bg-background-3 dark:bg-background-7 rounded-md px-3 py-1 text-xs text-[#6b7280] dark:text-[#9ca3af]">
+                    <div className="bg-background-3 dark:bg-background-7 rounded-md px-3 py-1 text-xs text-[#374151] dark:text-[#d1d5db]">
                       aisalesvoice.com
                     </div>
                   </div>
@@ -69,12 +68,13 @@ const Hero = () => {
                   alt="AI Sales Voice - Next.js SaaS Platform Built by Mediatopia Bristol"
                   width={800}
                   height={500}
-                    priority
+                  priority
+                  fetchPriority="high"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="w-full object-cover"
                 />
               </div>
             </div>
-          </RevealAnimation>
         </div>
       </div>
     </section>

@@ -99,6 +99,8 @@ export default function RootLayout({
             </SmoothScrollProvider>
           </Suspense>
         </ThemeProvider>
+        {/* Google Analytics Tracking Component */}
+        <GoogleAnalytics gaId="G-0S0YYNHZML" />
       </body>
     </html>
   );

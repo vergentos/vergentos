@@ -36,32 +36,32 @@ const Footer = ({ className }: { className?: string }) => {
                 <div className="flex items-center gap-3">
                   <Link target="_blank" href="https://www.instagram.com/mediatopiauk/">
                     <span className="sr-only">Instagram</span>
-                    <Image className="size-6" src={instagram} alt="Instagram" />
+                    <Image className="size-6" src={instagram} alt="" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
                   <Link target="_blank" href="https://www.linkedin.com/in/duncanmaund/">
                     <span className="sr-only">LinkedIn</span>
-                    <Image className="size-6" src={linkedin} alt="LinkedIn" />
+                    <Image className="size-6" src={linkedin} alt="" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
                   <Link target="_blank" href="https://www.facebook.com/mediatopiainternational">
                     <span className="sr-only">Facebook</span>
-                    <Image className="size-6" src={facebook} alt="Facebook" />
+                    <Image className="size-6" src={facebook} alt="" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
                   <Link target="_blank" href="https://github.com/mediatopiauk">
                     <span className="sr-only">GitHub</span>
-                    <Image className="size-6" src={github} alt="GitHub" />
+                    <Image className="size-6" src={github} alt="" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
                   <Link target="_blank" href="https://x.com/mediatweetia">
                     <span className="sr-only">X</span>
-                    <Image className="size-6" src={x} alt="X" />
+                    <Image className="size-6" src={x} alt="" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
                   <Link target="_blank" href="https://clutch.co/profile/mediatopia">
                     <span className="sr-only">Clutch</span>
-                    <Image className="size-6" src={clutch} alt="Clutch" />
+                    <Image className="size-6" src={clutch} alt="" />
                   </Link>
                 </div>
               </div>
