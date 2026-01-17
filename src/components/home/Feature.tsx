@@ -42,11 +42,13 @@ const Feature = () => {
                 <Image
                   src={feature1}
                   alt="Bespoke CMS and web application development"
+                  sizes="(max-width: 768px) 100vw, 66vw"
                   className="hidden w-full rounded-2xl object-cover dark:block"
                 />
                 <Image
                   src={feature1Dark}
                   alt="Bespoke CMS and web application development"
+                  sizes="(max-width: 768px) 100vw, 66vw"
                   className="block w-full rounded-2xl object-cover dark:hidden"
                 />
               </figure>
@@ -62,11 +64,13 @@ const Feature = () => {
                 <Image
                   src={feature2}
                   alt="API and Sage 50 integration services"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="block w-full rounded-2xl object-cover dark:hidden"
                 />
                 <Image
                   src={feature2Dark}
                   alt="API and Sage 50 integration services"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="hidden w-full rounded-2xl object-cover dark:block"
                 />
               </figure>
@@ -82,11 +86,13 @@ const Feature = () => {
                 <Image
                   src={feature3}
                   alt="Conversion-driven UI and UX design"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="block w-full rounded-2xl object-cover dark:hidden"
                 />
                 <Image
                   src={feature3Dark}
                   alt="Conversion-driven UI and UX design"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   className="hidden w-full rounded-2xl object-cover dark:block"
                 />
               </figure>
@@ -104,11 +110,13 @@ const Feature = () => {
                 <Image
                   src={feature4}
                   alt="Managed UK hosting and proactive support"
+                  sizes="(max-width: 768px) 100vw, 66vw"
                   className="block h-full w-full rounded-2xl object-cover dark:hidden"
                 />
                 <Image
                   src={feature4Dark}
                   alt="Managed UK hosting and proactive support"
+                  sizes="(max-width: 768px) 100vw, 66vw"
                   className="hidden h-full w-full rounded-2xl object-cover dark:block"
                 />
               </figure>

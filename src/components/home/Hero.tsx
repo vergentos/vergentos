@@ -21,11 +21,9 @@ const Hero = () => {
               <span className="badge badge-secondary">22 Years of Web Excellence | Bristol & Somerset</span>
             </RevealAnimation>
             
-            <RevealAnimation delay={0.2}>
-              <h1 className="text-heading-1">
-                Bristol&apos;s <span className="text-primary-500">Next.js & SaaS</span> Development Experts
-              </h1>
-            </RevealAnimation>
+            <h1 className="text-heading-3 lg:text-heading-1">
+              Bristol&apos;s <span className="text-primary-500">Next.js & SaaS</span> Development Experts
+            </h1>
             
             <RevealAnimation delay={0.3}>
               <p className="text-lg max-w-[540px] text-[#6b7280] dark:text-[#9ca3af]">
