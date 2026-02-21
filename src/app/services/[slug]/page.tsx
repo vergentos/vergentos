@@ -28,13 +28,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title,
     description,
-    keywords: `${service.heroTitle}, Bristol, web development, Mediatopia`,
+    keywords: `${service.heroTitle}, Bristol, web development, AI Web Designers`,
     openGraph: {
       title,
       description,
       locale: "en_GB",
       type: "website",
-      url: `https://mediatopia.agency/services/${slug}`,
+      url: `https://aiwebdesigners.co.uk/services/${slug}`,
     },
   };
 }

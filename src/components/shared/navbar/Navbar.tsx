@@ -5,11 +5,6 @@ import { MobileMenuProvider } from '@/context/MobileMenuContext';
 import { mobileMenuData } from '@/data/navbar-data';
 import { useNavbarScroll } from '@/hooks/useScrollHeader';
 import { cn } from '@/utils/cn';
-import logoDark from '@public/images/shared/logo-dark.svg';
-import logoIcon from '@public/images/shared/logo.svg';
-import mainLogo from '@public/images/mediatopia-logo.png';
-import mainLogoDark from '@public/images/mediatopia-logo-dark.png';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import MobileMenu from '../mobile-menu/MobileMenu';
@@ -48,19 +43,7 @@ const Navbar = () => {
             className={cn(
               'border-stroke-2 dark:border-stroke-6 bg-accent dark:bg-background-9 mx-auto flex items-center justify-between rounded-full border px-2.5 py-2.5 xl:py-0',
             )}>
-            <div className="flex items-center justify-center">
-              <Link href="/" className="inline-flex items-center">
-                <span className="sr-only">Home</span>
-                <figure className="hidden lg:block lg:max-w-[198px]">
-                  <Image src={mainLogoDark} alt="Mediatopia" className="h-auto w-full pl-4 block dark:hidden" priority />
-                  <Image src={mainLogo} alt="Mediatopia" className="h-auto w-full pl-4 hidden dark:block" priority />
-                </figure>
-                <figure className="block max-w-[120px] lg:hidden">
-                  <Image src={mainLogoDark} alt="Mediatopia" className="block h-auto w-full pl-2 dark:hidden" priority />
-                  <Image src={mainLogo} alt="Mediatopia" className="hidden h-auto w-full pl-2 dark:block" priority />
-                </figure>
-              </Link>
-            </div>
+            <div className="flex items-center justify-center"><Link href="/" className="inline-flex items-center"><span className="sr-only">AI Web Designers homepage</span><span className="pl-4 text-lg font-bold text-secondary dark:text-accent lg:text-xl"><span className="text-primary-500">AI</span> Web Designers</span></Link></div>
             <nav className="hidden items-center xl:flex">
               <ul className="flex items-center">
                 {dropdownNavItems.map(({ label, dataMenu, MenuComponent }) => (

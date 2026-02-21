@@ -1,0 +1,10 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/documents/:path*.pdf", "destination": "/api/gone" },
+    { "source": "/download/:path*.pdf", "destination": "/api/gone" },
+    { "source": "/%24", "destination": "/api/gone" },
+    { "source": "/%26", "destination": "/api/gone" }
+  ]
+}

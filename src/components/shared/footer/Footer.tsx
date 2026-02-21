@@ -8,7 +8,6 @@ import instagram from '@public/images/icons/instagram.svg';
 import linkedin from '@public/images/icons/linkedin.svg';
 import x from '@public/images/icons/x.png';
 import gradientImg from '@public/images/ns-img-532.png';
-import darkLogo from '@public/images/mediatopia-logo.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import ThemeToggle from '../ThemeToggle';
@@ -27,9 +26,7 @@ const Footer = ({ className }: { className?: string }) => {
           <RevealAnimation delay={0.1}>
             <div className="col-span-12 xl:col-span-4">
               <div className="max-w-[306px]">
-                <figure>
-                  <Image src={darkLogo} alt="Mediatopia" />
-                </figure>
+                <div className="flex items-center"><Link href="/"><span className="text-lg font-bold text-accent lg:text-xl"><span className="text-primary-500">AI</span> Web Designers</span></Link></div>
                 <p className="text-[#9ca3af] text-tagline-1 mt-4 mb-7 font-normal">
                   A premier Bristol-based technical engineering shop and lead web design consultancy. We specialise in high-performance Next.js builds, bespoke Sage 50 API synchronisation, and custom AI automation for commercial growth.
                 </p>
@@ -92,7 +89,7 @@ const Footer = ({ className }: { className?: string }) => {
           <FooterDivider className="bg-accent/10 dark:bg-stroke-6" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-tagline-1 text-primary-50 font-normal">
-              Copyright © 2026 Mediatopia.agency — Bristol Web Design Consultancy & Technical Engineering
+              Copyright © 2026 aiwebdesigners.co.uk — Bristol AI Web Design Consultancy & Technical Engineering
             </p>
           </RevealAnimation>
         </div>

@@ -1,9 +1,6 @@
 'use client';
 import { useMobileMenuContext } from '@/context/MobileMenuContext';
 import { cn } from '@/utils/cn';
-import mainLogo from '@public/images/mediatopia-logo.png';
-import mainLogoDark from '@public/images/mediatopia-logo-dark.png';
-import Image from 'next/image';
 import Link from 'next/link';
 import MenuCloseButton from './MenuCloseButton';
 import MobileMenuItem from './MobileMenuItem';
@@ -35,13 +32,7 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
       )}>
       <div className="space-y-4 p-5 sm:p-8 lg:p-9">
         <div className="flex items-center justify-between">
-          <Link href="/" onClick={handleLinkClick}>
-            <span className="sr-only">Home</span>
-            <figure className="max-w-[120px]">
-              <Image src={mainLogoDark} alt="Mediatopia" className="block w-full dark:hidden" />
-              <Image src={mainLogo} alt="Mediatopia" className="hidden w-full dark:block" />
-            </figure>
-          </Link>
+          <Link href="/" onClick={handleLinkClick}><span className="sr-only">AI Web Designers homepage</span><span className="text-lg font-bold text-secondary dark:text-accent"><span className="text-primary-500">AI</span> Web Designers</span></Link>
           <MenuCloseButton />
         </div>
 

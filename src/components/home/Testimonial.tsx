@@ -26,7 +26,7 @@ const Testimonial = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="mx-auto max-w-[872px]">
-              Trusted by industry leaders across the UK to deliver technical excellence. Discover how Mediatopia.agency empowers brands through bespoke web design, custom API integrations, and AI-driven automation that drives real commercial growth.
+              Trusted by industry leaders across the UK to deliver technical excellence. Discover how aiwebdesigners.co.uk empowers brands through bespoke web design, custom API integrations, and AI-driven automation that drives real commercial growth.
             </p>
           </RevealAnimation>
         </div>

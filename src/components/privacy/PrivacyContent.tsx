@@ -135,7 +135,7 @@ const PrivacyContent = () => {
               <p className="mt-4">
                 <strong>Effective date:</strong> January 2025<br />
                 <strong>Data Controller:</strong> Mediatopia, 12 Whiteladies Road, Bristol BS8 1PD<br />
-                <strong>Contact:</strong> <a href="mailto:hello@mediatopia.co.uk" className="text-secondary dark:text-accent">hello@mediatopia.co.uk</a>
+                <strong>Contact:</strong> <a href="mailto:hello@aiwebdesigners.co.uk" className="text-secondary dark:text-accent">hello@aiwebdesigners.co.uk</a>
               </p>
             </div></RevealAnimation>
           </div>
@@ -235,7 +235,7 @@ const PrivacyContent = () => {
                   <li key={index + 1}>{item.content}</li>
                 ))}
               </ul>
-              <p className="mt-4">To exercise any of these rights, please contact us at <a href="mailto:hello@mediatopia.co.uk" className="text-secondary dark:text-accent">hello@mediatopia.co.uk</a>. We will respond to your request within 30 days.</p>
+              <p className="mt-4">To exercise any of these rights, please contact us at <a href="mailto:hello@aiwebdesigners.co.uk" className="text-secondary dark:text-accent">hello@aiwebdesigners.co.uk</a>. We will respond to your request within 30 days.</p>
             </div>
           </RevealAnimation>
 
@@ -261,7 +261,7 @@ const PrivacyContent = () => {
                   <strong>Mediatopia</strong><br />
                   12 Whiteladies Road<br />
                   Bristol BS8 1PD<br />
-                  <a href="mailto:hello@mediatopia.co.uk" className="text-secondary dark:text-accent">hello@mediatopia.co.uk</a><br />
+                  <a href="mailto:hello@aiwebdesigners.co.uk" className="text-secondary dark:text-accent">hello@aiwebdesigners.co.uk</a><br />
                   <a href="tel:+441173326021" className="text-secondary dark:text-accent">0117 332 6021</a>
                 </p>
                 <p className="mt-4">You also have the right to lodge a complaint with the Information Commissioner&apos;s Office (ICO) if you believe your data protection rights have been violated.</p>

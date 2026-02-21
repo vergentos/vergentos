@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-export const DEFAULT_URL = 'https://www.mediatopia.agency';
+export const DEFAULT_URL = 'https://aiwebdesigners.co.uk';
 export const DEFAULT_TITLE = 'Mediatopia | Next.js & SaaS Development Bristol';
 export const DEFAULT_DESCRIPTION =
   'Bristol web design consultancy specialising in Next.js development, Sage 50 API integration, and AI automation. 22 years of technical excellence serving Bristol, Bath, and Somerset businesses.';

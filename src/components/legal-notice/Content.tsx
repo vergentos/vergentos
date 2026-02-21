@@ -12,7 +12,7 @@ const Content = () => {
               <p>
                 The{' '}
                 <Link href="/" className="text-primary-500">
-                  https://www.mediatopia.agency
+                  https://aiwebdesigners.co.uk
                 </Link>{' '}
                 website is published by: <br />
                 <br />
@@ -27,8 +27,8 @@ const Content = () => {
                 </a>
                 <br />
                 Email:{' '}
-                <a href="mailto:hello@mediatopia.co.uk" className="text-primary-500">
-                  hello@mediatopia.co.uk
+                <a href="mailto:hello@aiwebdesigners.co.uk" className="text-primary-500">
+                  hello@aiwebdesigners.co.uk
                 </a>
               </p>
             </div>
@@ -113,8 +113,8 @@ const Content = () => {
                 <br />
                 <br />
                 Email:{' '}
-                <a href="mailto:hello@mediatopia.co.uk" className="text-primary-500">
-                  hello@mediatopia.co.uk
+                <a href="mailto:hello@aiwebdesigners.co.uk" className="text-primary-500">
+                  hello@aiwebdesigners.co.uk
                 </a>
                 <br />
                 Telephone:{' '}
