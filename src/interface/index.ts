@@ -32,6 +32,7 @@ export interface ICaseStudy {
   slug: string;
   showHomePage?: boolean;
   content: string;
+  metrics?: string[];
   before: string[];
   after: string[];
   keyFeatures: string[];

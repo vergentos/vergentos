@@ -43,11 +43,11 @@ const CaseStudyDetails = ({ slug }: CaseStudyDetailsProps) => {
                 <RevealAnimation delay={0.5}>
                   <div className="[&>p]:border-b-stroke-4 dark:[&>p]:border-b-stroke-7 max-w-[306] [&>p]:border-b [&>p]:last:border-b-0">
                     <p className="text-secondary dark:text-accent py-4 font-medium">Metric</p>
-                    <p className="py-4">Manual reporting time</p>
-                    <p className="py-4">Financial statement accuracy</p>
-                    <p className="py-4">Leadership meeting prep time</p>
-                    <p className="py-4">Decision-making speed</p>
-                  </div>
+                    {caseStudy.metrics?.map((item: string, index: number) => (
+                      <p key={index + 1} className="py-4">
+                        {item}
+                      </p>
+                    ))}                  </div>
                 </RevealAnimation>
                 {/* 2nd column  */}
                 <RevealAnimation delay={0.6}>

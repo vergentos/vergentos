@@ -1,4 +1,4 @@
-import caseStudyImg from '@public/images/case-study-sparks.png';
+import caseStudyImg from '@public/images/case-study-ai-sales-voice.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 
@@ -9,13 +9,12 @@ const CaseStudy = () => {
         <div className="space-y-[70px]">
           <div className="max-w-[900px] space-y-3">
             <RevealAnimation delay={0.2}>
-              <h1 className="text-heading-3 md:text-heading-2 font-normal">Real results for ambitious UK businesses</h1>
+              <h1 className="text-heading-3 md:text-heading-2 font-normal">SaaS platforms built to scale</h1>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p>
-                From bespoke web platforms to AI-driven automation, we help Bristol and Southwest businesses 
-                transform their digital presence. Explore how our technical expertise delivers measurable 
-                commercial impact.
+                From autonomous AI systems to enterprise content platforms, we architect and build 
+                production-grade SaaS products. Explore how our engineering delivers real commercial outcomes.
               </p>
             </RevealAnimation>
           </div>
@@ -26,25 +25,25 @@ const CaseStudy = () => {
             <ul className="max-w-[435px] space-y-2">
               <RevealAnimation delay={0.5}>
                 <li className="text-secondary dark:text-accent text-lg leading-[150%] font-medium">
-                  Client:{' '}
+                  Project:{' '}
                   <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                    Sparks Transport
+                    AI Sales Voice
                   </span>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.6}>
                 <li className="text-secondary dark:text-accent text-lg leading-[150%] font-medium">
-                  Industry:{' '}
+                  Category:{' '}
                   <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                    Logistics & Haulage
+                    SaaS Platform / AI Automation
                   </span>
                 </li>
               </RevealAnimation>
               <RevealAnimation delay={0.7}>
                 <li className="text-secondary dark:text-accent text-lg leading-[150%] font-medium">
-                  Use case:{' '}
+                  Outcome:{' '}
                   <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                    Complete digital rebrand, website, photography & SEO
+                    Autonomous AI calling platform — concept to production in 8 weeks
                   </span>
                 </li>
               </RevealAnimation>
@@ -54,7 +53,7 @@ const CaseStudy = () => {
             <figure className="max-w-[1288px] overflow-hidden rounded-4xl">
               <Image
                 src={caseStudyImg}
-                alt="Sparks Transport website showcasing electric trucks and modern fleet"
+                alt="AI Sales Voice autonomous calling platform dashboard showing compliance monitoring and call management"
                 width={1290}
                 height={800}
                 className="h-full w-full object-cover"
@@ -67,9 +66,9 @@ const CaseStudy = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p className="max-w-[705px]">
-                Sparks Transport had an outdated website that didn't reflect their modern fleet or commitment to 
-                sustainability. They needed a complete digital transformation to attract new commercial clients 
-                and showcase their investment in electric vehicles.
+                Businesses spend thousands on manual cold calling with inconsistent scripts, no learning 
+                between calls, and zero compliance automation. Existing AI calling tools offer basic dialers 
+                with scripted responses — none of them learn, adapt, or accumulate intelligence across interactions.
               </p>
             </RevealAnimation>
           </div>
@@ -80,35 +79,35 @@ const CaseStudy = () => {
                   <h4 className="text-heading-4">The Solution</h4>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
-                  <p>Mediatopia delivered:</p>
+                  <p>Mediatopia engineered:</p>
                 </RevealAnimation>
               </div>
               <ul className="space-y-2">
                 <RevealAnimation delay={0.3}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Bespoke website design with careers portal and quote request system
+                      Full-stack SaaS platform with Next.js frontend and FastAPI backend
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Professional photoshoot featuring their new electric truck fleet
+                      Self-learning architecture where every call improves the entire system
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.5}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Sales brochure design and complete brand collateral refresh
+                      Autonomous lead discovery via API integrations with multiple data sources
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.6}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Full SEO strategy targeting Southwest logistics keywords
+                      UK compliance engine with TPS, CTPS, GDPR, and PECR built in
                     </p>
                   </li>
                 </RevealAnimation>
@@ -120,28 +119,28 @@ const CaseStudy = () => {
                   <h4 className="text-heading-4">The results</h4>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
-                  <p>Within 6 months:</p>
+                  <p>Delivered in 8 weeks:</p>
                 </RevealAnimation>
               </div>
               <ul className="space-y-2">
                 <RevealAnimation delay={0.3}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      340% increase in organic search traffic
+                      Production-ready autonomous AI calling platform
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      Page 1 rankings for "Bristol haulage" and "Southwest logistics"
+                      Real-time sentiment analysis and voice cloning capabilities
                     </p>
                   </li>
                 </RevealAnimation>
                 <RevealAnimation delay={0.5}>
                   <li>
                     <p className="before:bg-secondary dark:before:bg-accent before:mr-3 before:inline-block before:size-2 before:rounded-full before:content-['']">
-                      45+ qualified leads through the new quote request system
+                      Multi-industry support with knowledge transfer across all users
                     </p>
                   </li>
                 </RevealAnimation>
