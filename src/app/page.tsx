@@ -8,6 +8,7 @@ import Integration from '@/components/home/Integration';
 import Pricing from '@/components/home/Pricing';
 import Projects from '@/components/home/Projects';
 import Services from '@/components/home/Services';
+import VidgetSection from '@/components/home/VidgetSection';
 import Testimonial from '@/components/home/Testimonial';
 import { Metadata } from 'next';
 
@@ -50,6 +51,7 @@ const Page = () => {
       <Feature />
       <IntegrationCloud />
       <Services />
+      <VidgetSection />
       <Integration />
       <Projects />
       <Counter />
