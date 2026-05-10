@@ -28,7 +28,7 @@ const Footer = ({ className }: { className?: string }) => {
               <div className="max-w-[306px]">
                 <div className="flex items-center"><Link href="/"><span className="text-lg font-bold text-accent lg:text-xl">Vergentos</span></Link></div>
                 <p className="text-[#9ca3af] text-tagline-1 mt-4 mb-7 font-normal">
-                  A premier remote-first technical engineering consultancy. We specialise in high-performance Next.js builds, bespoke Sage 50 API synchronisation, and custom AI automation for commercial growth.
+                  A SaaS development agency for ambitious founders. We engineer bespoke SaaS platforms, AI tools, and data dashboards from MVP through to enterprise scale.
                 </p>
                 <div className="flex items-center gap-3">
                   <Link target="_blank" href="https://www.instagram.com/vergentos/">
@@ -89,7 +89,7 @@ const Footer = ({ className }: { className?: string }) => {
           <FooterDivider className="bg-accent/10 dark:bg-stroke-6" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-tagline-1 text-primary-50 font-normal">
-              Copyright © 2026 vergentos.com — SaaS Development Agency & Technical Development
+              Copyright © 2026 vergentos.com — SaaS Development Agency
             </p>
           </RevealAnimation>
         </div>

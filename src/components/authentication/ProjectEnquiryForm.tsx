@@ -6,23 +6,23 @@ import { useState } from 'react';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const services = [
-  { id: 'brochure', label: 'Marketing Website' },
-  { id: 'ecommerce', label: 'E-commerce Store' },
-  { id: 'saas', label: 'SaaS Application' },
-  { id: 'ai', label: 'AI & Automation' },
-  { id: 'sage', label: 'Sage 50 Integration' },
-  { id: 'seo', label: 'SEO & Search Marketing' },
-  { id: 'content', label: 'Content & Copywriting' },
-  { id: 'video', label: 'Video Production' },
-  { id: 'email', label: 'Email Marketing' },
-  { id: 'hosting', label: 'Managed Hosting' },
+  { id: 'saas-mvp', label: 'SaaS MVP Build' },
+  { id: 'saas-platform', label: 'SaaS Platform Development' },
+  { id: 'ai-integration', label: 'AI Integration' },
+  { id: 'ai-agents', label: 'AI Agent Development' },
+  { id: 'rag', label: 'Vector DB & RAG' },
+  { id: 'dashboard', label: 'Dashboard Design' },
+  { id: 'stripe', label: 'Stripe Billing' },
+  { id: 'auth', label: 'Authentication & SSO' },
+  { id: 'architecture', label: 'Architecture Consulting' },
+  { id: 'migration', label: 'Platform Migration' },
 ];
 
 const budgets = [
-  { id: 'budget-1', label: '3,000 - 5,000' },
-  { id: 'budget-2', label: '5,000 - 10,000' },
-  { id: 'budget-3', label: '10,000 - 25,000' },
-  { id: 'budget-4', label: '25,000+' },
+  { id: 'budget-1', label: '£10,000 - £25,000' },
+  { id: 'budget-2', label: '£25,000 - £50,000' },
+  { id: 'budget-3', label: '£50,000 - £100,000' },
+  { id: 'budget-4', label: '£100,000+' },
 ];
 
 const timelines = [

@@ -10,16 +10,14 @@ const VisionStatement = () => {
       <div className="main-container space-y-14 md:space-y-[70px]">
         <div className="mx-auto max-w-[780px] space-y-3 text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-cyan mb-5">Passion meets purpose</span>
+            <span className="badge badge-cyan mb-5">Engineering Excellence</span>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <h2>22 years of technical excellence .</h2>
+            <h2>SaaS engineered for production from day one.</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <p>
-              Vergentos has evolved from traditional web development to cutting-edge Next.js engineering, Sage 50 integration, and AI automation. We transform how
-              businesses operate, connect, and grow.By delivering intelligent, scalable, and user-focused SaaS
-              solutions,
+              We build SaaS platforms the way they should be built: with proper authentication, real billing infrastructure, AI features grounded in your data, and dashboards engineered for daily use. Every architectural decision is made for the SaaS you intend to become, not just the MVP you need next month.
             </p>
           </RevealAnimation>
         </div>

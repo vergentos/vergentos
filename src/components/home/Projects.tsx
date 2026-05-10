@@ -4,28 +4,28 @@ import LinkButton from '../ui/button/LinkButton';
 
 const featuredProjects = [
   {
-    slug: "sparks-transport-seo-growth",
-    title: "Sparks Transport – 340% Organic Traffic Growth",
-    description: "Legacy CMS to high-performance platform migration. Technical overhaul delivering exceptional organic growth for logistics.",
-    thumbnail: "/images/case-study-sparks.png"
+    slug: "ux-master-chief-website-builder",
+    title: "UX Master Chief — AI Website Builder Platform",
+    description: "Production SaaS platform with multi-tenant architecture, Stripe billing, and AI-powered site generation. Built end to end on Next.js.",
+    thumbnail: "/images/case-study-uxmc.png"
   },
   {
-    slug: "chongz-ecommerce-sage-integration",
-    title: "Chongz – Real-Time Sage 50 E-commerce Sync",
-    description: "Custom API bridge syncing 3,000+ SKUs with Sage 50. Eliminated manual stock updates, reduced admin overhead by 80%.",
-    thumbnail: "/images/case-study-chongz.png"
+    slug: "ai-sales-voice-dashboard",
+    title: "AI Sales Voice — Real-Time Analytics Dashboard",
+    description: "Custom analytics dashboard with real-time call data streaming, sentiment scoring, and conversion tracking for an AI voice platform.",
+    thumbnail: "/images/case-study-aisv.png"
   },
   {
-    slug: "bottleman-website-redesign",
-    title: "Bottleman – 20 Year Client Partnership",
-    description: "Fifth platform iteration. Migrated from legacy CMS to modern stack with 4x performance improvement.",
-    thumbnail: "/images/case-study-bottleman.png"
+    slug: "investment-screener-fintech-dashboard",
+    title: "Investment Screener — Fintech SaaS Dashboard",
+    description: "Data-dense fintech dashboard with sub-second filtering across thousands of equities. Engineered for active trader workflows.",
+    thumbnail: "/images/case-study-screener.png"
   },
   {
-    slug: "morris-and-perry-quarry-website",
-    title: "Morris & Perry – Enterprise  Client",
-    description: "15-year partnership with Bath's premier quarry. Bespoke quote system and fleet management integration.",
-    thumbnail: "/images/case-study-morris.png"
+    slug: "enterprise-cms-platform",
+    title: "Enterprise CMS Platform — Multi-Tenant SaaS",
+    description: "Multi-tenant headless CMS with role-based access, content workflows, and API-first architecture serving enterprise customers.",
+    thumbnail: "/images/case-study-cms.png"
   }
 ];
 
@@ -39,12 +39,11 @@ const Projects = () => {
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.3}>
-              <h2>22 years of measurable results.</h2>
+              <h2>SaaS platforms shipped to production.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[680px] text-[#6b7280] dark:text-[#9ca3af]">
-                From legacy platform migrations to bespoke SaaS platforms. Real performance gains, 
-                real Sage 50 integrations, and long-term partnerships with  businesses.
+                Real SaaS platforms, AI tools, and dashboards engineered for ambitious founders. Production code, real users, measurable outcomes.
               </p>
             </RevealAnimation>
           </div>

@@ -21,39 +21,39 @@ interface PricingCard {
 
 const pricingData: PricingCard[] = [
   {
-    id: 'bespoke-dev',
-    title: 'Bespoke Web Engineering',
-    description: 'Custom Next.js & Tailwind websites designed for maximum speed and search ranking.',
+    id: 'mvp-build',
+    title: 'SaaS MVP Build',
+    description: 'Launch-ready SaaS products engineered to validate quickly and scale cleanly.',
     isFeatured: false,
     features: [
-      { id: 'seo-arch', text: 'SEO-Optimised Architecture', isActive: true },
-      { id: 'nextjs-build', text: 'Custom Next.js & Tailwind Build', isActive: true },
-      { id: 'bespoke-cms', text: 'Bespoke CMS Development', isActive: true },
-      { id: 'ux-design', text: 'Professional UI/UX Design', isActive: true },
+      { id: 'lean-scope', text: 'Lean Scope Definition', isActive: true },
+      { id: 'nextjs-build', text: 'Next.js & TypeScript Build', isActive: true },
+      { id: 'auth-billing', text: 'Auth & Stripe Integration', isActive: true },
+      { id: 'ux-design', text: 'Dashboard UI/UX Design', isActive: true },
     ],
   },
   {
-    id: 'ai-integration',
-    title: 'AI & Systems Integration',
-    description: 'Intelligent automation and Sage 50 API connectivity to bridge data gaps.',
+    id: 'ai-platform',
+    title: 'AI-Native SaaS Platform',
+    description: 'Production AI agents, RAG, and intelligent automation embedded into your SaaS.',
     isFeatured: true,
     features: [
-      { id: 'ai-impl', text: 'Custom LLM & AI Implementation', isActive: true },
-      { id: 'sage-sync', text: 'Sage 50 API Synchronisation', isActive: true },
-      { id: 'workflow-eng', text: 'Automated Workflow Engineering', isActive: true },
-      { id: 'tech-strat', text: 'Technical Strategy & Consulting', isActive: true },
+      { id: 'ai-impl', text: 'LLM Integration & Agents', isActive: true },
+      { id: 'rag-build', text: 'Vector DB & RAG Pipelines', isActive: true },
+      { id: 'workflow-eng', text: 'AI-Native Feature Engineering', isActive: true },
+      { id: 'tech-strat', text: 'Cost Engineering & Eval Suites', isActive: true },
     ],
   },
   {
-    id: 'managed-infra',
-    title: 'Managed Infrastructure',
-    description: 'Mission-critical UK hosting with enterprise-grade security and uptime.',
+    id: 'scale-engineering',
+    title: 'SaaS Scale Engineering',
+    description: 'Architecture, performance, and security engineering for growth-stage SaaS platforms.',
     isFeatured: false,
     features: [
-      { id: 'uk-hosting', text: 'Secure UK-Based Web Hosting', isActive: true },
-      { id: 'sec-waf', text: 'Proactive Security & WAF', isActive: true },
-      { id: 'backups', text: 'Daily Backups & Health Audits', isActive: true },
-      { id: 'support', text: '24/7 Technical Support', isActive: true },
+      { id: 'architecture', text: 'SaaS Architecture Consulting', isActive: true },
+      { id: 'sso-auth', text: 'SSO & Multi-Tenant Auth', isActive: true },
+      { id: 'analytics', text: 'Real-Time Analytics Dashboards', isActive: true },
+      { id: 'performance', text: 'Performance & Migration', isActive: true },
     ],
   },
 ];
@@ -64,14 +64,13 @@ const Pricing = () => {
       <div className="main-container space-y-[70px]">
         <div className="flex flex-col items-center text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-yellow-v2 mb-5">Web Engineering Pricing</span>
+            <span className="badge badge-yellow-v2 mb-5">SaaS Engineering Pricing</span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <h2 className="mx-auto mb-8 max-w-[750px]">Bespoke Web Engineering & AI Development Costs </h2>
+            <h2 className="mx-auto mb-8 max-w-[750px]">SaaS Development & AI Engineering Pricing</h2>
           </RevealAnimation>
           <p className="mx-auto max-w-[872px]">
-            Transparent pricing for bespoke Next.js development, custom AI solutions, and Sage 50 API integrations. 
-            We provide clear, performance-driven digital solutions for UK businesses looking to scale.
+            Transparent fixed-price proposals for bespoke SaaS development, AI integration, and platform scale engineering. From MVP through to enterprise growth, every engagement is scoped, priced, and shipped against clear deliverables.
           </p>
         </div>
         <div className="relative">

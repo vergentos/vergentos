@@ -8,11 +8,11 @@ const OurSuccess = () => {
       <div className="main-container">
         <div className="mb-14 space-y-3 text-center md:mb-[70px]">
           <RevealAnimation delay={0.2}>
-            <h2>Two decades of building the web.</h2>
+            <h2>Engineered for ambitious founders.</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="mx-auto max-w-[744px]">
-              From award-winning early web builds to high-performance Next.js platforms, Vergentos has been helping UK businesses dominate online since 2003. Now we are pivoting to AI-first development, Sage 50 integrations, and intelligent automation for ambitious brands.
+              Vergentos partners with founders building serious SaaS products. From AI-native MVPs to enterprise platform migrations, every engagement is engineered for production from the first commit.
             </p>
           </RevealAnimation>
         </div>

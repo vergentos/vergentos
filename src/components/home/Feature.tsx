@@ -19,11 +19,11 @@ const Feature = () => {
           </RevealAnimation>
           <div>
             <RevealAnimation delay={0.3}>
-              <h2 className="mb-3">Digital solutions that drive business growth.</h2>
+              <h2 className="mb-3">SaaS engineering that ships and scales.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="text-secondary/60 dark:text-accent/60 mx-auto max-w-[600px]">
-                From bespoke web development to AI-driven automation, Vergentos provides the technical infrastructure and creative design needed to dominate your market.
+                From MVP development to AI-native features and production dashboards, Vergentos delivers the engineering depth ambitious SaaS founders need to outpace the competition.
               </p>
             </RevealAnimation>
           </div>
@@ -33,21 +33,21 @@ const Feature = () => {
           <RevealAnimation delay={0.5} className="col-span-12 md:col-span-6 lg:col-span-8">
             <div className="bg-background-3 dark:bg-background-7 space-y-6 rounded-[20px] p-8">
               <div className="space-y-2">
-                <h3 className="text-heading-5 max-sm:text-heading-6">Bespoke CMS & Application Development.</h3>
+                <h3 className="text-heading-5 max-sm:text-heading-6">SaaS MVP & Platform Development.</h3>
                 <p className="max-w-[450px]">
-                  We build custom content management systems and web applications tailored to your unique workflow, ensuring total control, speed, and unlimited scalability.
+                  We build production-grade SaaS platforms from MVP through to scale, with proper auth, billing, and infrastructure foundations engineered to handle real customer load from day one.
                 </p>
               </div>
               <figure className="w-full">
                 <Image
                   src={feature1}
-                  alt="Bespoke CMS and web application development"
+                  alt="SaaS MVP and platform development"
                   sizes="(max-width: 768px) 100vw, 66vw"
                   className="hidden w-full rounded-2xl object-cover dark:block"
                 />
                 <Image
                   src={feature1Dark}
-                  alt="Bespoke CMS and web application development"
+                  alt="SaaS MVP and platform development"
                   sizes="(max-width: 768px) 100vw, 66vw"
                   className="block w-full rounded-2xl object-cover dark:hidden"
                 />
@@ -57,19 +57,19 @@ const Feature = () => {
           <RevealAnimation delay={0.6} className="col-span-12 md:col-span-6 lg:col-span-4">
             <div className="bg-background-3 dark:bg-background-7 space-y-6 rounded-[20px] p-8 h-full">
               <div className="space-y-2">
-                <h3 className="text-heading-5 max-sm:text-heading-6">API & Sage Integrations.</h3>
-                <p className="max-w-[220px]">Connect your digital ecosystem with robust API developments and Sage 50 online integrations for real-time data sync.</p>
+                <h3 className="text-heading-5 max-sm:text-heading-6">AI Integration & Agents.</h3>
+                <p className="max-w-[220px]">Embed LLMs, AI agents, and RAG into your SaaS with cost-engineered architectures built for production scale.</p>
               </div>
               <figure className="w-full">
                 <Image
                   src={feature2}
-                  alt="API and Sage 50 integration services"
+                  alt="AI integration and agent development"
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="block w-full rounded-2xl object-cover dark:hidden"
                 />
                 <Image
                   src={feature2Dark}
-                  alt="API and Sage 50 integration services"
+                  alt="AI integration and agent development"
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="hidden w-full rounded-2xl object-cover dark:block"
                 />
@@ -79,19 +79,19 @@ const Feature = () => {
           <RevealAnimation delay={0.7} className="col-span-12 md:col-span-6 lg:col-span-4">
             <div className="bg-background-3 dark:bg-background-7 space-y-6 rounded-[20px] p-8 h-full">
               <div className="space-y-2">
-                <h3 className="text-heading-5 max-sm:text-heading-6">Conversion-Driven UI/UX Design.</h3>
-                <p>Transform visitors into customers with intuitive user interfaces and branding that commands authority and professional trust.</p>
+                <h3 className="text-heading-5 max-sm:text-heading-6">SaaS Dashboard Design.</h3>
+                <p>Beautiful, fast, data-dense dashboards engineered for activation, retention, and the daily-use habit that defines great SaaS.</p>
               </div>
               <figure className="w-full">
                 <Image
                   src={feature3}
-                  alt="Conversion-driven UI and UX design"
+                  alt="SaaS dashboard design"
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="block w-full rounded-2xl object-cover dark:hidden"
                 />
                 <Image
                   src={feature3Dark}
-                  alt="Conversion-driven UI and UX design"
+                  alt="SaaS dashboard design"
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="hidden w-full rounded-2xl object-cover dark:block"
                 />
@@ -101,21 +101,21 @@ const Feature = () => {
           <RevealAnimation delay={0.8} className="col-span-12 md:col-span-6 lg:col-span-8">
             <div className="bg-background-3 dark:bg-background-7 space-y-6 rounded-[20px] p-8">
               <div className="max-w-[285px] space-y-2">
-                <h3 className="text-heading-5 max-sm:text-heading-6">Managed Hosting & Proactive Support.</h3>
+                <h3 className="text-heading-5 max-sm:text-heading-6">Stripe Billing & Authentication.</h3>
                 <p className="max-w-[311px]">
-                  Benefit from high-speed, secure UK-based hosting with dedicated support and maintenance to keep your platform running at peak performance 24/7.
+                  Production Stripe integration with subscriptions and dunning, plus multi-tenant authentication and SSO that unlocks enterprise contracts and protects revenue at scale.
                 </p>
               </div>
               <figure className="w-full">
                 <Image
                   src={feature4}
-                  alt="Managed UK hosting and proactive support"
+                  alt="Stripe billing and authentication systems"
                   sizes="(max-width: 768px) 100vw, 66vw"
                   className="block h-full w-full rounded-2xl object-cover dark:hidden"
                 />
                 <Image
                   src={feature4Dark}
-                  alt="Managed UK hosting and proactive support"
+                  alt="Stripe billing and authentication systems"
                   sizes="(max-width: 768px) 100vw, 66vw"
                   className="hidden h-full w-full rounded-2xl object-cover dark:block"
                 />

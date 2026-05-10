@@ -201,12 +201,14 @@ const ContactInfo = () => {
                       value={form.subject} onChange={handleChange}
                       className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 text-secondary/60 focus:border-secondary dark:text-accent/60 h-[48px] w-full rounded-full border px-[18px] py-3 font-normal focus:outline-none xl:h-[41px]">
                       <option value="">Select a project type</option>
-                      <option value="web-development">Web Development (Next.js/React)</option>
-                      <option value="cms-integration">Bespoke CMS Integration</option>
-                      <option value="sage-integration">Sage 50 API Integration</option>
-                      <option value="ai-implementation">AI &amp; Automation</option>
-                      <option value="hosting-support">Managed Hosting &amp; Support</option>
-                      <option value="consultancy">Technical Consultancy</option>
+                      <option value="saas-mvp">SaaS MVP Development</option>
+                      <option value="saas-platform">SaaS Platform Build</option>
+                      <option value="ai-integration">AI Integration &amp; Agents</option>
+                      <option value="dashboard-design">Dashboard Design &amp; Engineering</option>
+                      <option value="stripe-billing">Stripe Billing Integration</option>
+                      <option value="rag-vector">Vector DB &amp; RAG Implementation</option>
+                      <option value="architecture">SaaS Architecture Consulting</option>
+                      <option value="migration">Platform Migration</option>
                       <option value="other">Other</option>
                     </select>
                   </div>

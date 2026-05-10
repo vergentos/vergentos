@@ -9,7 +9,7 @@ const FaqTab = () => {
       <div className="main-container">
         <div className="space-y-5 text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-cyan">Technical FAQs</span>
+            <span className="badge badge-cyan">SaaS Development FAQs</span>
           </RevealAnimation>
           <div className="space-y-3 text-center">
             <RevealAnimation delay={0.3}>
@@ -17,8 +17,7 @@ const FaqTab = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[600px]">
-                Answers to common questions about our web development, Sage 50 integrations, AI automation, 
-                and managed hosting services.
+                Common questions about SaaS development pricing, AI integration, dashboard engineering, and how Vergentos works with founders from MVP through to scale.
               </p>
             </RevealAnimation>
           </div>

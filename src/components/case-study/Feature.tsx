@@ -8,23 +8,23 @@ import RevealAnimation from '../animation/RevealAnimation';
 const featureList = [
   {
     id: 1,
-    text: 'Bespoke web platforms built for speed and SEO',
+    text: 'Production SaaS platforms engineered for scale and uptime',
   },
   {
     id: 2,
-    text: 'Sage 50 and e-commerce platform real-time synchronisation',
+    text: 'AI agents and RAG implementations grounded in customer data',
   },
   {
     id: 3,
-    text: 'AI automation reducing manual data entry by 80%',
+    text: 'Real-time analytics dashboards customers pay to access',
   },
   {
     id: 4,
-    text: 'Custom CMS giving clients full content control',
+    text: 'Multi-tenant architectures supporting enterprise contracts',
   },
   {
     id: 5,
-    text: 'Managed hosting with 99.9% uptime guarantee',
+    text: 'Stripe billing with dunning and customer self-service',
   },
 ];
 
@@ -47,8 +47,7 @@ const Feature = () => {
             <div className="grid grid-cols-2 gap-5 px-6 py-14 max-sm:grid-cols-1 max-sm:gap-10 md:px-11">
               <div className="max-w-[500px]">
                 <h2 className="text-accent text-heading-5 mb-8">
-                  We specialise in solving complex technical challenges for ambitious UK businesses—from API 
-                  integrations to AI-powered automation.
+                  We engineer SaaS platforms, AI tools, and data dashboards for ambitious founders ready to scale beyond no-code.
                 </h2>
                 <div>
                   <Link

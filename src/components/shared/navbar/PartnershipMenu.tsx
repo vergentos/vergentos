@@ -21,20 +21,20 @@ type PartnershipLink = {
 
 const leftColumnLinks: PartnershipLink[] = [
   {
-    title: 'Technical Blog',
-    description: 'Expert insights on Next.js, AI automation, and digital engineering.',
+    title: 'SaaS Engineering Blog',
+    description: 'Insights on SaaS development, AI agents, RAG, and dashboard engineering.',
     href: '/blog',
     icon: AffiliateIcon,
   },
   {
-    title: 'Commercial Case Studies',
-    description: 'Real-world results from our high-end technical project partners.',
+    title: 'Case Studies',
+    description: 'Real SaaS platforms, AI tools, and dashboards shipped to production.',
     href: '/case-study',
     icon: ReferralProgramIcon,
   },
   {
-    title: 'Technical FAQs',
-    description: 'Direct answers to your common project, cost, and hosting questions.',
+    title: 'SaaS Development FAQs',
+    description: 'Pricing, timelines, and process for bespoke SaaS development.',
     href: '/faq',
     icon: LoginIcon,
   },
@@ -42,21 +42,21 @@ const leftColumnLinks: PartnershipLink[] = [
 
 const rightColumnLinks: PartnershipLink[] = [
   {
-    title: 'Sage 50 Integration Guide',
-    description: 'How to automate your workflows with custom API synchronisation.',
-    href: '/services/sage-50-sync',
+    title: 'AI Agent Development',
+    description: 'Production AI agents with reasoning loops, tool use, and memory.',
+    href: '/services/ai-agent-development',
     icon: SignUpIcon,
   },
   {
-    title: 'AI for UK Business',
-    description: 'Harnessing private LLM models for operational efficiency.',
-    href: '/services/ai-implementation',
+    title: 'Vector Databases & RAG',
+    description: 'Production RAG using Pinecone, Weaviate, pgvector, or Qdrant.',
+    href: '/services/vector-database-rag',
     icon: DownloadIcon,
   },
   {
-    title: 'Our Products',
-    description: 'AI-powered tools and platforms built by Vergentos.',
-    href: '/services',
+    title: 'Our Process',
+    description: 'How Vergentos builds SaaS products from MVP through to scale.',
+    href: '/process',
     icon: IntegrationIcon,
   },
 ];

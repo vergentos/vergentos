@@ -8,15 +8,15 @@ const Services = () => {
       <div className="main-container">
         <div className="mx-auto mb-14 max-w-[750px] space-y-5 text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-green">SaaS & App Development</span>
+            <span className="badge badge-green">SaaS & AI Engineering</span>
           </RevealAnimation>
           <div>
             <RevealAnimation delay={0.3}>
-              <h2 className="mb-3">Bespoke platforms that outperform legacy CMS.</h2>
+              <h2 className="mb-3">SaaS engineering, end to end.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[600px] text-[#6b7280] dark:text-[#9ca3af]">
-                We build high-performance Next.js applications, SaaS platforms, and AI-integrated systems for ambitious modern teams ready to scale beyond template limitations.
+                We build production-grade SaaS platforms, AI agents, and dashboards for ambitious founders ready to scale beyond no-code limits.
               </p>
             </RevealAnimation>
           </div>
@@ -25,15 +25,15 @@ const Services = () => {
         {/* Service Pillars */}
         <div className="mx-auto mb-10 grid max-w-[1010px] grid-cols-12 gap-8 lg:mb-18">
           <RevealAnimation delay={0.5} className="col-span-12 md:col-span-6 lg:col-span-7">
-            <Link href="/services/next-js-react-development" className="group block h-full">
+            <Link href="/services/saas-mvp-development" className="group block h-full">
               <div className="dark:bg-background-6 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] transition-all duration-300 hover:shadow-xl">
                 <div className="w-full">
                   <span className="ns-shape-8 text-secondary dark:text-accent text-[52px]" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-heading-5 max-sm:text-heading-6 group-hover:text-primary-500 transition-colors">Bespoke SaaS Architectures</h3>
+                  <h3 className="text-heading-5 max-sm:text-heading-6 group-hover:text-primary-500 transition-colors">SaaS MVP Development</h3>
                   <p className="max-w-[430px] text-[#6b7280] dark:text-[#9ca3af]">
-                    Custom-built Next.js platforms with multi-tenant architecture, subscription billing, and enterprise-grade security. Purpose-built for scale from day one.
+                    Production-ready SaaS MVPs with proper auth, billing, and infrastructure foundations. Validate fast, scale clean, never rebuild.
                   </p>
                 </div>
               </div>
@@ -41,29 +41,29 @@ const Services = () => {
           </RevealAnimation>
 
           <RevealAnimation delay={0.6} className="col-span-12 md:col-span-6 lg:col-span-5">
-            <Link href="/services/ai-implementation" className="group block h-full">
+            <Link href="/services/ai-agent-development" className="group block h-full">
               <div className="dark:bg-background-6 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] transition-all duration-300 hover:shadow-xl">
                 <div className="w-full">
                   <span className="ns-shape-35 text-secondary dark:text-accent text-[52px]" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-heading-5 max-sm:text-heading-6 group-hover:text-primary-500 transition-colors">AI-Integrated Web Applications</h3>
-                  <p className="text-[#6b7280] dark:text-[#9ca3af]">Embed LLMs, voice agents, and predictive analytics directly into your platform. Transform customer interactions with intelligent automation.</p>
+                  <h3 className="text-heading-5 max-sm:text-heading-6 group-hover:text-primary-500 transition-colors">AI Agent Development</h3>
+                  <p className="text-[#6b7280] dark:text-[#9ca3af]">Production AI agents with tool use, memory, and evaluation pipelines. Beyond chatbot demos to genuinely automated workflows.</p>
                 </div>
               </div>
             </Link>
           </RevealAnimation>
 
           <RevealAnimation delay={0.7} className="col-span-12 md:col-span-6 lg:col-span-5">
-            <Link href="/services/performance-optimisation" className="group block h-full">
+            <Link href="/services/ui-ux-design" className="group block h-full">
               <div className="dark:bg-background-6 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] transition-all duration-300 hover:shadow-xl">
                 <div className="w-full">
                   <span className="ns-shape-41 text-secondary dark:text-accent text-[52px]" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-heading-5 max-sm:text-heading-6 group-hover:text-primary-500 transition-colors">The Next.js Advantage</h3>
+                  <h3 className="text-heading-5 max-sm:text-heading-6 group-hover:text-primary-500 transition-colors">SaaS Dashboard Design</h3>
                   <p className="max-w-[430px] text-[#6b7280] dark:text-[#9ca3af]">
-                    10x faster than legacy CMS platforms. Server-side rendering, edge caching, and automatic code splitting deliver sub-second load times and boost conversions.
+                    Beautiful, fast, data-dense dashboards engineered for activation and daily-use habit. Design systems built to scale with your roadmap.
                   </p>
                 </div>
               </div>
@@ -71,15 +71,15 @@ const Services = () => {
           </RevealAnimation>
 
           <RevealAnimation delay={0.8} className="col-span-12 md:col-span-6 lg:col-span-7">
-            <Link href="/services/sage-50-api-integration" className="group block h-full">
+            <Link href="/services/saas-architecture-consulting" className="group block h-full">
               <div className="dark:bg-background-6 h-full space-y-6 rounded-[20px] bg-white p-8 sm:min-h-[288px] transition-all duration-300 hover:shadow-xl">
                 <div className="w-full">
                   <span className="ns-shape-19 text-secondary dark:text-accent text-[52px]" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-heading-5 max-sm:text-heading-6 group-hover:text-primary-500 transition-colors">Custom Business Intelligence Dashboards</h3>
+                  <h3 className="text-heading-5 max-sm:text-heading-6 group-hover:text-primary-500 transition-colors">SaaS Architecture Consulting</h3>
                   <p className="max-w-[430px] text-[#6b7280] dark:text-[#9ca3af]">
-                    Real-time Sage 50 sync, live sales analytics, and custom reporting. See your entire operation in one unified dashboard built for decision-makers.
+                    Strategic technical guidance for founders and CTOs. Tenancy models, scaling roadmaps, and cost engineering for SaaS that compounds.
                   </p>
                 </div>
               </div>

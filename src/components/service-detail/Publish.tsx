@@ -16,15 +16,15 @@ interface PublishProps {
 
 const Publish = ({
   title = 'Everything you need to',
-  desc = 'build & launch smarter',
-  f1Title = 'Precision Engineering',
-  f1Desc = 'Bespoke web applications built for speed and commercial scalability.',
-  f2Title = 'Strategic Consultancy',
-  f2Desc = 'Expert technical guidance to align your tech stack with business goals.',
-  f3Title = 'Custom API Bridges',
-  f3Desc = 'Seamless synchronisation between your platform and financial tools like Sage 50.',
-  f4Title = 'Enterprise Security',
-  f4Desc = 'Robust shielding and WAF solutions to protect your digital assets.',
+  desc = 'ship SaaS that scales',
+  f1Title = 'Production Engineering',
+  f1Desc = 'Bespoke SaaS platforms engineered for real customer load from day one.',
+  f2Title = 'AI Integration',
+  f2Desc = 'LLMs, agents, and RAG embedded into your SaaS with proper cost engineering.',
+  f3Title = 'Stripe & Authentication',
+  f3Desc = 'Production billing and multi-tenant auth that scales to enterprise contracts.',
+  f4Title = 'Performance & Scale',
+  f4Desc = 'Architecture, performance engineering, and platform migration done properly.',
 }: PublishProps) => {
   const featureItems = [
     { title: f1Title, description: f1Desc },

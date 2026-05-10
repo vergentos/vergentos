@@ -11,7 +11,7 @@ const TermsConditionContent = () => {
             <div className="space-y-7">
               <p>
                 This website, vergentos.com (hereafter referred to as Vergentos, site, or website) is owned and operated by
-                Vergentos Ltd, a company registered in England and Wales, operating from [ADDRESS-REMOVED].
+                Vergentos Ltd, a company registered in England and Wales.
               </p>
               <p>
                 Please carefully read and understand our Terms and Conditions before engaging our services or
@@ -29,8 +29,7 @@ const TermsConditionContent = () => {
             <div className="space-y-6">
               <h3>1. Services</h3>
               <p>
-                Vergentos provides bespoke web engineering, Next.js development, Sage 50 API integration, AI automation,
-                and related technical consultancy services. All services are provided on a project-by-project basis
+                Vergentos provides bespoke SaaS development, AI integration, dashboard engineering, and related technical consultancy services. All services are provided on a project-by-project basis
                 under individual agreements.
               </p>
               <p>
@@ -133,7 +132,7 @@ const TermsConditionContent = () => {
               <h3>9. Contact</h3>
               <p>
                 For questions regarding these terms, please contact us at hello@vergentos.com or write to
-                Vergentos, [ADDRESS-REMOVED].
+                Vergentos via hello@vergentos.com.
               </p>
             </div>
           </RevealAnimation>

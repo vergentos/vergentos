@@ -23,12 +23,12 @@ const Integration = () => {
           <div className="relative z-10 mx-auto w-fit max-w-[410px] text-center lg:mt-20">
             <RevealAnimation delay={0.2}>
               <h2 className="mb-3">
-                Enterprise-Grade Technology Stack<br className="hidden lg:block" /> for  SaaS & Applications
+                Modern SaaS Engineering Stack<br className="hidden lg:block" /> for Production Workloads
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mb-14">
-                We connect your custom SaaS platforms with the tools your business already relies on. Our Next.js stack delivers 10x faster load times than legacy CMS platforms, enterprise-grade security, and seamless integrations with Sage 50, Stripe, and AI engines.
+                We engineer SaaS platforms on a battle-tested modern stack. Next.js, TypeScript, Postgres, and edge deployment, integrated with Stripe billing, OpenAI and Anthropic APIs, vector databases, and the AI tooling your product depends on.
               </p>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>

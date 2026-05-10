@@ -16,8 +16,7 @@ const BlogShowcase = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
             <p className="mx-auto max-w-[738px]">
-              Technical guides, case studies, and insights on web development, Sage 50 integration, 
-              AI automation, and digital strategy for UK businesses.
+              Practical insights on SaaS development, AI agent engineering, RAG implementation, and dashboard design from the Vergentos engineering team.
             </p>
           </RevealAnimation>
         </div>
