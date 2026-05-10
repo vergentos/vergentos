@@ -2,30 +2,30 @@ import { FooterData } from '@/interface';
 
 export const footerLinks: FooterData[] = [
   {
-    title: 'Technical Services',
+    title: 'SaaS Services',
     links: [
-      { label: 'Next.js & React Builds', href: '/services/nextjs-react' },
-      { label: 'Bespoke CMS Integration', href: '/services/bespoke-cms' },
-      { label: 'Sage 50 API Sync', href: '/services/sage-50-sync' },
-      { label: 'AI & Systems Automation', href: '/services/ai-implementation' },
+      { label: 'SaaS MVP Development', href: '/services/saas-mvp-development' },
+      { label: 'Next.js SaaS Development', href: '/services/nextjs-react' },
+      { label: 'AI Integration for SaaS', href: '/services/ai-implementation' },
+      { label: 'SaaS Dashboard Design', href: '/services/ui-ux-design' },
     ],
   },
   {
-    title: 'Our Consultancy',
+    title: 'Specialist Engineering',
     links: [
-      { label: 'Engineering Process', href: '/process' },
-      { label: 'Bespoke Consultancy', href: '/services/bespoke-consultancy' },
-      { label: 'Client Success Stories', href: '/case-study' },
-      { label: 'Technical Roadmap', href: '/services/technical-strategy' },
+      { label: 'AI Agent Development', href: '/services/ai-agent-development' },
+      { label: 'Vector Databases & RAG', href: '/services/vector-database-rag' },
+      { label: 'Stripe & Billing Integration', href: '/services/stripe-billing-integration' },
+      { label: 'SaaS Authentication Systems', href: '/services/saas-authentication-systems' },
     ],
   },
   {
-    title: 'Expert Insights',
+    title: 'Strategy & Insights',
     links: [
-      { label: 'Technical Blog', href: '/blog' },
-      { label: 'Technical FAQs', href: '/faq' },
-      { label: 'Integration Guides', href: '/services/api-engineering' },
-      { label: 'Privacy & Compliance', href: '/privacy-policy' },
+      { label: 'SaaS Architecture Consulting', href: '/services/saas-architecture-consulting' },
+      { label: 'Our Process', href: '/process' },
+      { label: 'Case Studies', href: '/case-study' },
+      { label: 'FAQs', href: '/faq' },
     ],
   },
 ];

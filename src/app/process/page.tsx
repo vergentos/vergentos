@@ -5,9 +5,35 @@ import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Our Technical Process | Vergentos',
-  description: 'From discovery to deployment, discover how Vergentos engineers your digital future. A transparent, collaborative process built for modern teams.',
+  title: 'Our SaaS Development Process | From MVP to Production',
+  description: 'How Vergentos builds SaaS products. Lean MVP development, iterative sprints, production-grade foundations. From validation to scale.',
+  keywords: 'SaaS MVP development, SaaS development process, build a SaaS, SaaS engineering methodology',
+  authors: [{ name: 'Vergentos', url: 'https://www.vergentos.com' }],
+  creator: 'Vergentos',
+  publisher: 'Vergentos',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    locale: 'en_GB',
+    url: 'https://www.vergentos.com',
+    siteName: 'Vergentos',
+    title: 'SaaS Development Process | Vergentos',
+    description: 'How we build SaaS products. From MVP validation to production scale, with iterative sprints and senior engineering.',
+    images: [
+      {
+        url: 'https://www.vergentos.com/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Vergentos SaaS Development Process',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SaaS Development Process | Vergentos',
+    description: 'How Vergentos builds SaaS products from MVP to production.',
+    images: ['https://www.vergentos.com/images/og-image.png'],
+  },
 };
 
 const page = () => {

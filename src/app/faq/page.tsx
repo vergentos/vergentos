@@ -5,9 +5,35 @@ import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'FAQ |  Web Engineering & Technical Questions | Vergentos',
-  description: 'Answers to common questions about web development costs, Sage 50 integration, AI automation, and managed hosting services .',
+  title: 'SaaS Development FAQs | Pricing, Process & Timelines',
+  description: 'Common questions about SaaS development pricing, timelines, and process at Vergentos. Fixed-price proposals for bespoke SaaS engineering.',
+  keywords: 'SaaS development pricing, SaaS development cost, SaaS development timeline, SaaS development FAQ',
+  authors: [{ name: 'Vergentos', url: 'https://www.vergentos.com' }],
+  creator: 'Vergentos',
+  publisher: 'Vergentos',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    locale: 'en_GB',
+    url: 'https://www.vergentos.com',
+    siteName: 'Vergentos',
+    title: 'SaaS Development FAQs | Vergentos',
+    description: 'Pricing, process, and timelines for bespoke SaaS development at Vergentos.',
+    images: [
+      {
+        url: 'https://www.vergentos.com/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Vergentos FAQs',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SaaS Development FAQs | Vergentos',
+    description: 'Common questions about Vergentos SaaS development services.',
+    images: ['https://www.vergentos.com/images/og-image.png'],
+  },
 };
 
 const FAQ = () => {

@@ -4,14 +4,34 @@ import Link from 'next/link';
 import RevealAnimation from '@/components/animation/RevealAnimation';
 
 export const metadata: Metadata = {
-  title: 'Web Development & AI Services  | Vergentos',
-  description: 'Bespoke Next.js development, Sage 50 API integration, AI automation, and e-commerce solutions. \'s trusted technical consultancy for 22 years.',
-  keywords: 'Next.js development , Sage 50 integration, AI automation , web development Bath, e-commerce ',
+  title: 'SaaS Development, AI Integration & Dashboard Design Services',
+  description: 'Custom SaaS development, AI integration, dashboard design, MVP engineering, and platform migration. End-to-end SaaS engineering services.',
+  keywords: 'custom SaaS development, SaaS platform development, SaaS MVP development, AI integration, dashboard design, SaaS engineering services',
+  authors: [{ name: 'Vergentos', url: 'https://www.vergentos.com' }],
+  creator: 'Vergentos',
+  publisher: 'Vergentos',
+  robots: 'index, follow',
   openGraph: {
-    locale: 'en_GB',
     type: 'website',
-    title: 'Web Development & AI Services | Vergentos',
-    description: 'Bespoke Next.js development, Sage 50 API integration, and AI automation for ambitious UK businesses.',
+    locale: 'en_GB',
+    url: 'https://www.vergentos.com',
+    siteName: 'Vergentos',
+    title: 'SaaS Development & AI Services | Vergentos',
+    description: 'Custom SaaS engineering, AI integration, dashboard design, and MVP development for ambitious founders.',
+    images: [
+      {
+        url: 'https://www.vergentos.com/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Vergentos Services',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SaaS Development & AI Services | Vergentos',
+    description: 'Custom SaaS engineering, AI, and dashboards for modern founders.',
+    images: ['https://www.vergentos.com/images/og-image.png'],
   },
 };
 

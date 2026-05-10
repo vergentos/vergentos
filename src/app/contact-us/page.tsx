@@ -4,9 +4,35 @@ import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Contact Vergentos | SaaS Development & AI Consultancy',
-  description: 'Get in touch with our remote-first technical team. Book a free consultation for web engineering, AI implementation, or Sage 50 integration projects.',
+  title: 'Contact Vergentos | Hire a SaaS Development Agency',
+  description: 'Talk to Vergentos about your SaaS project. Bespoke SaaS development, AI integration, and dashboard engineering for ambitious teams.',
+  keywords: 'hire SaaS development agency, find a SaaS developer, hire SaaS engineers, SaaS development quote',
+  authors: [{ name: 'Vergentos', url: 'https://www.vergentos.com' }],
+  creator: 'Vergentos',
+  publisher: 'Vergentos',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    locale: 'en_GB',
+    url: 'https://www.vergentos.com',
+    siteName: 'Vergentos',
+    title: 'Contact Vergentos | Hire a SaaS Development Agency',
+    description: 'Talk to a senior SaaS engineering team about your bespoke platform, AI tool, or dashboard.',
+    images: [
+      {
+        url: 'https://www.vergentos.com/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Contact Vergentos',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Vergentos | Hire a SaaS Development Agency',
+    description: 'Hire a SaaS development agency for your project.',
+    images: ['https://www.vergentos.com/images/og-image.png'],
+  },
 };
 
 const ContactUs = () => {

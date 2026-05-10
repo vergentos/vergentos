@@ -1,10 +1,12 @@
 ---
-title: 'Next.js & React'
-description: 'High-performance, SEO-optimised web applications built for speed.'
+title: 'Next.js SaaS Development'
+description: 'Production-grade SaaS platforms engineered on Next.js for speed, scalability, and rapid feature shipping.'
 thumbnail: '/images/ns-img-405.jpg'
-category: 'Bespoke Development'
+category: 'Engineering'
 ---
 
-## Next.js & React Development
+## Next.js SaaS Development
 
-High-performance, SEO-optimised web applications built for speed.
+Production-grade SaaS platforms engineered on Next.js for speed, scalability, and rapid feature shipping.
+
+Next.js SaaS development for founders shipping serious products. Server-side rendering, edge deployment, and React component architectures designed for SaaS scale from day one.

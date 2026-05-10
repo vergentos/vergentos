@@ -6,9 +6,35 @@ import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Support | Vergentos -  Web Engineering & AI Consultancy',
-  description: 'Get technical support from Vergentos. Contact our  team for hosting issues, website queries, or to discuss your next project.',
+  title: 'SaaS Platform Support & Maintenance | Vergentos',
+  description: 'Ongoing support and maintenance for SaaS platforms built by Vergentos. Performance monitoring, security patching, feature engineering.',
+  keywords: 'SaaS support, SaaS maintenance, SaaS platform support, SaaS engineering retainer',
+  authors: [{ name: 'Vergentos', url: 'https://www.vergentos.com' }],
+  creator: 'Vergentos',
+  publisher: 'Vergentos',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    locale: 'en_GB',
+    url: 'https://www.vergentos.com',
+    siteName: 'Vergentos',
+    title: 'SaaS Support & Maintenance | Vergentos',
+    description: 'Ongoing SaaS support and engineering retainers for production platforms.',
+    images: [
+      {
+        url: 'https://www.vergentos.com/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Vergentos Support',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'SaaS Support & Maintenance | Vergentos',
+    description: 'Ongoing SaaS support and engineering retainers.',
+    images: ['https://www.vergentos.com/images/og-image.png'],
+  },
 };
 
 const Support = () => {

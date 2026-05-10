@@ -4,7 +4,34 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Terms & Conditions | Vergentos',
-  description: 'Terms and conditions for Vergentos web engineering and development services. remote-first technical consultancy.',
+  description: 'Terms and conditions for using Vergentos services and engaging with our SaaS development engagements.',
+  keywords: 'Vergentos terms, service agreement',
+  authors: [{ name: 'Vergentos', url: 'https://www.vergentos.com' }],
+  creator: 'Vergentos',
+  publisher: 'Vergentos',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    locale: 'en_GB',
+    url: 'https://www.vergentos.com',
+    siteName: 'Vergentos',
+    title: 'Terms & Conditions | Vergentos',
+    description: 'Vergentos terms and conditions for services.',
+    images: [
+      {
+        url: 'https://www.vergentos.com/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Vergentos Terms',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Terms & Conditions | Vergentos',
+    description: 'Vergentos terms and conditions.',
+    images: ['https://www.vergentos.com/images/og-image.png'],
+  },
 };
 
 const page = () => {

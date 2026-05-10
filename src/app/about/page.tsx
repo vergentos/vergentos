@@ -6,9 +6,35 @@ import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'About Vergentos |  Web Engineering & AI Consultancy',
-  description: 'Meet , founder of Vergentos. 22+ years building websites, 3000+ projects delivered. Now specialising in Next.js, Sage 50 integrations, and AI automation.',
+  title: 'About Vergentos | A SaaS Development Agency for Founders',
+  description: 'Vergentos is a remote-first SaaS development agency focused on bespoke platforms, AI tools, and dashboards. Built by senior engineers who ship.',
+  keywords: 'SaaS development company, SaaS engineering team, founder-led SaaS development, custom SaaS agency',
+  authors: [{ name: 'Vergentos', url: 'https://www.vergentos.com' }],
+  creator: 'Vergentos',
+  publisher: 'Vergentos',
+  robots: 'index, follow',
+  openGraph: {
+    type: 'website',
+    locale: 'en_GB',
+    url: 'https://www.vergentos.com',
+    siteName: 'Vergentos',
+    title: 'About Vergentos | SaaS Development Agency',
+    description: 'A remote-first SaaS development agency focused on bespoke platforms, AI tools, and data dashboards.',
+    images: [
+      {
+        url: 'https://www.vergentos.com/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'About Vergentos',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Vergentos | SaaS Development Agency',
+    description: 'A remote-first SaaS development agency for ambitious founders.',
+    images: ['https://www.vergentos.com/images/og-image.png'],
+  },
 };
 
 const page = () => {

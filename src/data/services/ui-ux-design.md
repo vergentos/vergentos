@@ -1,12 +1,12 @@
-<!-- NOINDEXED — overlaps with vergentos.co.uk — do not re-enable without SEO review -->
 ---
-title: 'UI/UX Design'
-description: 'Conversion-driven interfaces balancing aesthetics and performance.'
-noindex: true
-thumbnail: '/images/ns-img-405.jpg'
-category: 'Bespoke Development'
+title: 'SaaS Dashboard Design'
+description: 'Beautiful, fast, data-dense dashboards that turn your SaaS into the product users love opening every day.'
+thumbnail: '/images/ns-img-409.jpg'
+category: 'Design'
 ---
 
-## UI/UX Design
+## SaaS Dashboard Design
 
-Conversion-driven interfaces balancing aesthetics and performance.
+Beautiful, fast, data-dense dashboards that turn your SaaS into the product users love opening every day.
+
+SaaS dashboard design engineered for activation and daily-use habit. Data-dense interfaces, custom data visualisations, and component systems built for scale.

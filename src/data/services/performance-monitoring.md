@@ -1,10 +1,12 @@
 ---
-title: 'Performance Monitoring'
-description: 'Real-time analytics and alerts to keep your systems running smoothly.'
-thumbnail: '/images/ns-img-405.jpg'
-category: 'Managed Infrastructure'
+title: 'SaaS Performance Engineering'
+description: 'Production performance engineering that keeps your SaaS fast as customers, features, and traffic scale.'
+thumbnail: '/images/ns-img-416.jpg'
+category: 'Performance'
 ---
 
-## Performance Monitoring
+## SaaS Performance Engineering
 
-Real-time analytics and alerts to keep your systems running smoothly.
+Production performance engineering that keeps your SaaS fast as customers, features, and traffic scale.
+
+Performance engineering for SaaS. Core Web Vitals monitoring, real user metrics, error tracking, and optimisation roadmaps that protect activation and retention.

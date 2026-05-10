@@ -1,10 +1,12 @@
 ---
-title: 'API Engineering'
-description: 'Custom bridges to connect and synchronise disparate software.'
-thumbnail: '/images/ns-img-405.jpg'
-category: 'Systems Integration'
+title: 'SaaS API Engineering'
+description: 'Public APIs and integrations that turn your SaaS into a platform customers build on.'
+thumbnail: '/images/ns-img-415.jpg'
+category: 'Engineering'
 ---
 
-## API Engineering
+## SaaS API Engineering
 
-Custom bridges to connect and synchronise disparate software.
+Public APIs and integrations that turn your SaaS into a platform customers build on.
+
+SaaS API engineering as a product discipline. REST or GraphQL endpoints, webhook reliability, developer documentation, and rate limiting that scales with your customer base.

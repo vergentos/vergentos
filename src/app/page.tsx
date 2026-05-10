@@ -12,9 +12,9 @@ import Testimonial from '@/components/home/Testimonial';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Vergentos | Bespoke Next.js & AI-Powered Web Engineering ',
-  description: '\'s trusted web engineering consultancy. High-performance Next.js applications, SaaS platforms, and AI automation. Serving  for 22 years.',
-  keywords: 'Next.js development , SaaS development , web engineering , app development Bath, React development , AI automation ',
+  title: 'Vergentos: SaaS Development Agency, AI Tools & Dashboards',
+  description: 'Vergentos is a SaaS development agency building bespoke platforms, AI tools, and data dashboards for ambitious founders. From MVP to production.',
+  keywords: 'SaaS development agency, SaaS development company, build a SaaS, custom SaaS development, AI development agency, dashboard design agency',
   authors: [{ name: 'Vergentos', url: 'https://www.vergentos.com' }],
   creator: 'Vergentos',
   publisher: 'Vergentos',
@@ -24,31 +24,22 @@ export const metadata: Metadata = {
     locale: 'en_GB',
     url: 'https://www.vergentos.com',
     siteName: 'Vergentos',
-    title: 'Vergentos | Bespoke Next.js & SaaS Development ',
-    description: '\'s trusted web engineering consultancy. High-performance Next.js applications, SaaS platforms, and AI automation for ambitious UK businesses.',
+    title: 'Vergentos: SaaS Development Agency for Modern Founders',
+    description: 'SaaS development, AI integration, and dashboard design for ambitious founders. From MVP to production-grade engineering.',
     images: [
       {
         url: 'https://www.vergentos.com/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Vergentos -  Web Engineering & AI Consultancy',
+        alt: 'Vergentos — SaaS Development Agency',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vergentos | Bespoke Next.js & SaaS Development ',
-    description: '\'s trusted web engineering consultancy. 22 years of excellence.',
+    title: 'Vergentos: SaaS Development Agency for Modern Founders',
+    description: 'SaaS development, AI tools, and dashboards for modern founders.',
     images: ['https://www.vergentos.com/images/og-image.png'],
-  },
-  alternates: {
-    canonical: 'https://www.vergentos.com',
-  },
-  other: {
-    'geo.region': 'GB-BST',
-    'geo.placename': '',
-    'geo.position': '51.4545;-2.5879',
-    'ICBM': '51.4545, -2.5879',
   },
 };
 
