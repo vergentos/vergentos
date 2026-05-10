@@ -7,25 +7,25 @@ const featuredProjects = [
     slug: "ux-master-chief-website-builder",
     title: "UX Master Chief — AI Website Builder Platform",
     description: "Production SaaS platform with multi-tenant architecture, Stripe billing, and AI-powered site generation. Built end to end on Next.js.",
-    thumbnail: "/images/case-study-uxmc.png"
+    thumbnail: "/images/case-study-uxmc-website.png"
   },
   {
     slug: "ai-sales-voice-dashboard",
     title: "AI Sales Voice — Real-Time Analytics Dashboard",
     description: "Custom analytics dashboard with real-time call data streaming, sentiment scoring, and conversion tracking for an AI voice platform.",
-    thumbnail: "/images/case-study-aisv.png"
+    thumbnail: "/images/case-study-ai-sales-voice-website.png"
   },
   {
     slug: "investment-screener-fintech-dashboard",
     title: "Investment Screener — Fintech SaaS Dashboard",
     description: "Data-dense fintech dashboard with sub-second filtering across thousands of equities. Engineered for active trader workflows.",
-    thumbnail: "/images/case-study-screener.png"
+    thumbnail: "/images/case-study-investment-screener.png"
   },
   {
     slug: "enterprise-cms-platform",
     title: "Enterprise CMS Platform — Multi-Tenant SaaS",
     description: "Multi-tenant headless CMS with role-based access, content workflows, and API-first architecture serving enterprise customers.",
-    thumbnail: "/images/case-study-cms.png"
+    thumbnail: "/images/case-study-enterprise-cms.png"
   }
 ];
 
