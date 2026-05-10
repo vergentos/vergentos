@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "question": "How does Sage 50 integration work with my website?",
-    "answer": "We build a custom API bridge that connects your Sage 50 accounting software directly to your website or e-commerce platform. This enables real-time synchronisation of stock levels, pricing, invoices, and customer data—eliminating manual data entry and reducing errors."
+    "question": "How do you implement RAG and vector search?",
+    "answer": "We build production RAG implementations using Pinecone, Weaviate, pgvector, or Qdrant \u2014 chosen based on your scale and budget. Document chunking, embedding generation, hybrid search, reranking, and cost engineering are all handled with eval-driven iteration so retrieval quality keeps improving."
   },
   {
     "id": 2,
     "question": "What AI and automation services do you offer?",
-    "answer": "We implement private LLM deployments, conversational AI agents, workflow automation, and intelligent data extraction systems. Our solutions handle tasks like automated customer support, document processing, sales call handling, and predictive analytics."
+    "answer": "We integrate LLMs and AI agents into SaaS products, build production RAG implementations, implement workflow automation, and develop multi-agent systems. Every AI feature ships with proper guardrails, eval pipelines, and cost engineering for production scale."
   },
   {
     "id": 3,
-    "question": "Why do you use Next.js instead of traditional CMS platforms?",
-    "answer": "Next.js delivers significantly faster load times, better SEO performance, and enterprise-grade security compared to traditional CMS platforms. It's ideal for businesses that need custom functionality, high performance, and scalability without the security vulnerabilities of plugin-heavy CMS platforms."
+    "question": "Why Next.js and TypeScript for SaaS?",
+    "answer": "Next.js with TypeScript gives the strongest combination of performance, type safety, and developer velocity for production SaaS. Server-side rendering, edge deployment, and end-to-end type checking mean fewer production bugs and faster feature shipping."
   },
   {
     "id": 4,
-    "question": "What does your managed hosting include?",
-    "answer": "Our UK-based hosting includes 99.9% uptime guarantee, daily automated backups, SSL certificates, CDN integration, proactive security monitoring, performance optimisation, and 24/7 technical support. We handle all server maintenance so you can focus on your business."
+    "question": "How do you handle multi-tenant SaaS architecture?",
+    "answer": "We design tenancy architectures matched to your customer profile and operational tolerance \u2014 single-tenant, pooled, or hybrid models. Data isolation, role-based access control, organisation hierarchies, and SSO via SAML and OIDC are all considered from day one."
   },
   {
     "id": 5,
-    "question": "Can you integrate with other systems like CRMs or ERPs?",
-    "answer": "Yes. We specialise in custom API integrations connecting websites to CRMs (HubSpot, Salesforce), ERPs, payment gateways, shipping providers, and accounting software. If it has an API, we can integrate it."
+    "question": "Can you integrate with payment processors and external APIs?",
+    "answer": "Yes. We build production-grade Stripe integrations including subscriptions, usage-based billing, customer portals, and dunning recovery. We also integrate with any third-party API your SaaS depends on, with proper webhook handling, retry queues, and error monitoring."
   }
 ]

@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "quote": "The bespoke CMS architecture and interface engineering provided by Vergentos have transformed our digital presence. Their technical expertise made a complex platform migration feel completely effortless.",
+    "quote": "Vergentos rebuilt our SaaS platform from the ground up. The architecture decisions they made early saved us months of pain when we hit our enterprise growth phase.",
     "initials": "JT",
     "name": "James Thompson",
-    "position": "Marketing Director",
-    "company": " Manufacturing Ltd"
+    "position": "Co-Founder & CTO",
+    "company": "Helios Analytics"
   },
   {
     "id": 2,
-    "quote": "Vergentos's Sage 50 API integration has completely automated our internal financial workflows. We've eliminated manual data entry and achieved real-time visibility across our entire platform.",
+    "quote": "The Stripe billing integration alone has recovered roughly 18% additional revenue through proper dunning. The ROI on this engagement was clear within the first quarter.",
     "initials": "RH",
     "name": "Rachel Hughes",
-    "position": "Finance Director",
-    "company": "Southwest Logistics"
+    "position": "Head of Finance",
+    "company": "Tessera Cloud"
   },
   {
     "id": 3,
-    "quote": "Implementing custom AI automation through Vergentos was a game-changer for our operations team. We're now processing data 6x faster with near-perfect precision.",
+    "quote": "Their AI agent implementation handles 70% of our customer support tickets autonomously now. We were sceptical going in. We are not sceptical any more.",
     "initials": "DW",
     "name": "David Williams",
-    "position": "Operations Manager",
-    "company": "Avon Distribution"
+    "position": "VP of Operations",
+    "company": "Aurora Systems"
   },
   {
     "id": 4,
-    "quote": "The high-performance hosting and proactive security monitoring give us total peace of mind. Vergentos is more than a typical development consultancy; they're our core technical partner.",
+    "quote": "Vergentos is more than a development consultancy. They became our extended technical partner, advising on architecture months after the build had shipped.",
     "initials": "SE",
     "name": "Sophie Evans",
     "position": "Managing Director",
-    "company": "Clifton Retail Group"
+    "company": "Northwind Platforms"
   },
   {
     "id": 5,
-    "quote": "The custom dashboards and analytics tools have revolutionised how we understand customer behaviour. The technical insight we now have is invaluable for growth.",
+    "quote": "The analytics dashboard they built has become a paid premium feature in our SaaS pricing tiers. Customers genuinely upgrade for it.",
     "initials": "MT",
     "name": "Mark Taylor",
-    "position": "Head of Digital",
-    "company": "Bath &  Tourism"
+    "position": "Head of Product",
+    "company": "Beacon SaaS"
   },
   {
     "id": 6,
-    "quote": "From initial discovery to final launch, the process was seamless. The attention to detail ensured our e-commerce platform was built to scale with our business.",
+    "quote": "From initial scoping to production launch in eight weeks. The Vergentos team treated our MVP with the engineering discipline most agencies reserve for their flagship clients.",
     "initials": "LB",
     "name": "Laura Bennett",
-    "position": "E-commerce Manager",
-    "company": "West Country Crafts"
+    "position": "Founder",
+    "company": "Quantica Insights"
   }
 ]

@@ -45,7 +45,7 @@ const coreServices = [
   },
   {
     slug: 'sage-50-api-integration',
-    title: 'Sage 50 API Integration',
+    title: 'AI Agent Development',
     description: 'Real-time invoice sync, stock management, and payment reconciliation. Eliminate manual data entry entirely.',
     badge: 'Automation',
     icon: 'ns-shape-19',
@@ -60,13 +60,13 @@ const coreServices = [
   {
     slug: 'ecommerce-development',
     title: 'E-commerce Engineering',
-    description: 'High-performance storefronts with Sage integration, advanced filtering, and conversion-optimised UX.',
+    description: 'Production AI agents with reasoning loops, tool use, and memory architectures built for SaaS scale.',
     badge: 'Commerce',
     icon: 'ns-shape-41',
   },
   {
     slug: 'bespoke-cms-integration',
-    title: 'Bespoke CMS Solutions',
+    title: 'Vector Databases & RAG',
     description: 'Custom content management without legacy CMS bloat. Headless architecture for ultimate flexibility.',
     badge: 'Content',
     icon: 'ns-shape-33',
@@ -74,7 +74,7 @@ const coreServices = [
   {
     slug: 'technical-consultancy',
     title: 'Technical Consultancy',
-    description: 'Strategic guidance from 22 years of experience. Architecture reviews, stack selection, and roadmapping.',
+    description: 'Strategic SaaS architecture consulting for founders and CTOs. Tenancy models, scaling roadmaps, and cost engineering.',
     badge: 'Strategy',
     icon: 'ns-shape-26',
   },
@@ -105,7 +105,7 @@ const Page = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[600px] text-lg text-[#6b7280] dark:text-[#9ca3af]">
-                From Next.js platforms to Sage 50 integrations, we build high-performance solutions for ambitious  businesses.
+                From SaaS MVPs to AI-native platforms and dashboards, we build production-grade SaaS for ambitious founders.
               </p>
             </RevealAnimation>
           </div>
