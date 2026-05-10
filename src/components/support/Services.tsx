@@ -123,7 +123,7 @@ const Services = () => {
                 We are currently integrating our new client portal with enhanced webmail access. This feature will be available shortly.
               </p>
               <p className="text-secondary/60 dark:text-accent/60 text-sm">
-                In the meantime, please contact us at <a href="mailto:hello@aiwebdesigners.co.uk" className="text-primary-500 hover:underline">hello@aiwebdesigners.co.uk</a> for email assistance.
+                In the meantime, please contact us at <a href="mailto:hello@vergentos.com" className="text-primary-500 hover:underline">hello@vergentos.com</a> for email assistance.
               </p>
               <button onClick={() => setShowModal(false)} className="btn btn-primary btn-md w-full mt-4">
                 Got it

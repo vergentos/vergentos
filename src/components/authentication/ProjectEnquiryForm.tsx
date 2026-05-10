@@ -6,7 +6,7 @@ import { useState } from 'react';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const services = [
-  { id: 'brochure', label: 'Brochure Website' },
+  { id: 'brochure', label: 'Marketing Website' },
   { id: 'ecommerce', label: 'E-commerce Store' },
   { id: 'saas', label: 'SaaS Application' },
   { id: 'ai', label: 'AI & Automation' },
@@ -80,10 +80,10 @@ const ProjectEnquiryForm = () => {
       if (response.ok) {
         setStep(5);
       } else {
-        alert('Something went wrong. Please try again or call us on 0117 332 6021.');
+        alert('Something went wrong. Please try again or call us on +44 (0) [PHONE-TO-CONFIRM].');
       }
     } catch {
-      alert('Something went wrong. Please try again or call us on 0117 332 6021.');
+      alert('Something went wrong. Please try again or call us on +44 (0) [PHONE-TO-CONFIRM].');
     } finally {
       setIsSubmitting(false);
     }

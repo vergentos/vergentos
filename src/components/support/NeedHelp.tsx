@@ -15,7 +15,7 @@ const NeedHelp = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[600px]">
-                Welcome to the Mediatopia Support Centre. Whether you need technical assistance, 
+                Welcome to the Vergentos Support Centre. Whether you need technical assistance, 
                 have a question about your hosting, or want to discuss a new project, we&apos;re here to help.
               </p>
             </RevealAnimation>
@@ -23,9 +23,9 @@ const NeedHelp = () => {
           <RevealAnimation delay={0.4}>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <LinkButton
-                href="tel:+441173326021"
+                href="tel:+44 (0) [PHONE-TO-CONFIRM]"
                 className="btn btn-xl hover:btn-secondary dark:hover:btn-accent btn-primary">
-                Call 0117 332 6021
+                Call +44 (0) [PHONE-TO-CONFIRM]
               </LinkButton>
               <LinkButton
                 href="/contact-us"

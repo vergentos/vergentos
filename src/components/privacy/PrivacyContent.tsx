@@ -130,12 +130,12 @@ const PrivacyContent = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.2}><div className="space-y-4">
               <p>
-                <span className="text-secondary dark:text-accent">Mediatopia</span> is committed to protecting your privacy and handling your information transparently. This policy explains how we collect, use, and protect your personal data.
+                <span className="text-secondary dark:text-accent">Vergentos</span> is committed to protecting your privacy and handling your information transparently. This policy explains how we collect, use, and protect your personal data.
               </p>
               <p className="mt-4">
                 <strong>Effective date:</strong> January 2025<br />
-                <strong>Data Controller:</strong> Mediatopia, 12 Whiteladies Road, Bristol BS8 1PD<br />
-                <strong>Contact:</strong> <a href="mailto:hello@aiwebdesigners.co.uk" className="text-secondary dark:text-accent">hello@aiwebdesigners.co.uk</a>
+                <strong>Data Controller:</strong> Vergentos, [ADDRESS-REMOVED]<br />
+                <strong>Contact:</strong> <a href="mailto:hello@vergentos.com" className="text-secondary dark:text-accent">hello@vergentos.com</a>
               </p>
             </div></RevealAnimation>
           </div>
@@ -235,7 +235,7 @@ const PrivacyContent = () => {
                   <li key={index + 1}>{item.content}</li>
                 ))}
               </ul>
-              <p className="mt-4">To exercise any of these rights, please contact us at <a href="mailto:hello@aiwebdesigners.co.uk" className="text-secondary dark:text-accent">hello@aiwebdesigners.co.uk</a>. We will respond to your request within 30 days.</p>
+              <p className="mt-4">To exercise any of these rights, please contact us at <a href="mailto:hello@vergentos.com" className="text-secondary dark:text-accent">hello@vergentos.com</a>. We will respond to your request within 30 days.</p>
             </div>
           </RevealAnimation>
 
@@ -258,11 +258,11 @@ const PrivacyContent = () => {
                 <h4>Contact us</h4>
                 <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
                 <p className="mt-4">
-                  <strong>Mediatopia</strong><br />
-                  12 Whiteladies Road<br />
-                  Bristol BS8 1PD<br />
-                  <a href="mailto:hello@aiwebdesigners.co.uk" className="text-secondary dark:text-accent">hello@aiwebdesigners.co.uk</a><br />
-                  <a href="tel:+441173326021" className="text-secondary dark:text-accent">0117 332 6021</a>
+                  <strong>Vergentos</strong><br />
+                  [ADDRESS-REMOVED]<br />
+                   <br />
+                  <a href="mailto:hello@vergentos.com" className="text-secondary dark:text-accent">hello@vergentos.com</a><br />
+                  <a href="tel:+44 (0) [PHONE-TO-CONFIRM]" className="text-secondary dark:text-accent">+44 (0) [PHONE-TO-CONFIRM]</a>
                 </p>
                 <p className="mt-4">You also have the right to lodge a complaint with the Information Commissioner&apos;s Office (ICO) if you believe your data protection rights have been violated.</p>
               </div>

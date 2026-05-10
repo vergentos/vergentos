@@ -20,23 +20,29 @@ import { Metadata } from 'next';
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const service = servicesData[slug];
-  if (!service) return { title: "Service | Mediatopia" };
-  
-  const title = service.title || "Service | Mediatopia";
-  const description = service.heroSub || "Bespoke technical services from Bristol web consultancy Mediatopia.";
-  
-  return {
+  if (!service) return { title: "Service | Vergentos" };
+
+  const title = service.title || "Service | Vergentos";
+  const description = service.heroSub || "Bespoke technical services from  web consultancy Vergentos.";
+
+  const metadata: Metadata = {
     title,
     description,
-    keywords: `${service.heroTitle}, Bristol, web development, AI Web Designers`,
+    keywords: `${service.heroTitle}, , Vergentos, technical consultancy`,
     openGraph: {
       title,
       description,
       locale: "en_GB",
       type: "website",
-      url: `https://aiwebdesigners.co.uk/services/${slug}`,
+      url: `https://www.vergentos.com/services/${slug}`,
     },
   };
+
+  if (slug === 'ui-ux-design') {
+    metadata.robots = { index: false, follow: false };
+  }
+
+  return metadata;
 }
 
 const getHeroComponent = (heroType: string, service: any) => {

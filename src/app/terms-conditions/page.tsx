@@ -3,8 +3,8 @@ import TermsConditionContent from '@/components/terms-conditions/TermsConditionC
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Terms & Conditions | Mediatopia Bristol',
-  description: 'Terms and conditions for Mediatopia web design and development services. Bristol-based technical consultancy.',
+  title: 'Terms & Conditions | Vergentos',
+  description: 'Terms and conditions for Vergentos web engineering and development services. remote-first technical consultancy.',
 };
 
 const page = () => {
@@ -16,7 +16,7 @@ const page = () => {
         badgeClass="badge-cyan"
         badgeText="Get Started"
         ctaHeading="Ready to discuss your project?"
-        description="Contact our Bristol team to discuss your technical requirements."
+        description="Contact our  team to discuss your technical requirements."
         btnClass="hover:btn-secondary dark:hover:btn-accent"
         ctaBtnText="Start Project"
       />

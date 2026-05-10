@@ -23,7 +23,7 @@ const Feature = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="text-secondary/60 dark:text-accent/60 mx-auto max-w-[600px]">
-                From bespoke web development to AI-driven automation, Mediatopia.agency provides the technical infrastructure and creative design needed to dominate your market.
+                From bespoke web development to AI-driven automation, Vergentos provides the technical infrastructure and creative design needed to dominate your market.
               </p>
             </RevealAnimation>
           </div>

@@ -16,8 +16,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const caseStudy = getMarkDownContent('src/data/case-study/', slug);
   
   return {
-    title: `${caseStudy.data.title} | Case Study | Mediatopia`,
-    description: caseStudy.data.excerpt?.substring(0, 155) || `${caseStudy.data.title} - See how Mediatopia delivered results.`,
+    title: `${caseStudy.data.title} | Case Study | Vergentos`,
+    description: caseStudy.data.excerpt?.substring(0, 155) || `${caseStudy.data.title} - See how Vergentos delivered results.`,
   };
 }
 

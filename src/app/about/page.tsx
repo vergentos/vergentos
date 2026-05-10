@@ -7,8 +7,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'About Mediatopia | Bristol Web Design & AI Consultancy',
-  description: 'Meet Duncan Maund, founder of Mediatopia. 22+ years building websites, 3000+ projects delivered. Now specialising in Next.js, Sage 50 integrations, and AI automation.',
+  title: 'About Vergentos |  Web Engineering & AI Consultancy',
+  description: 'Meet , founder of Vergentos. 22+ years building websites, 3000+ projects delivered. Now specialising in Next.js, Sage 50 integrations, and AI automation.',
 };
 
 const page = () => {

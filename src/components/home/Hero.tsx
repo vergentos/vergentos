@@ -18,16 +18,16 @@ const Hero = () => {
           {/* Left side - Content */}
           <div className="space-y-6">
             <RevealAnimation delay={0.1}>
-              <span className="badge badge-secondary">22 Years of Web Excellence | Bristol & Somerset</span>
+              <span className="badge badge-secondary">SaaS Development · AI Integration · Dashboard Design</span>
             </RevealAnimation>
             
             <h1 className="text-heading-3 lg:text-heading-1">
-              Bristol&apos;s <span className="text-primary-500">Next.js & SaaS</span> Development Experts
+              Build Your <span className="text-primary-500">SaaS, AI Tool, or Dashboard</span> with Vergentos
             </h1>
             
             <RevealAnimation delay={0.3}>
               <p className="text-lg max-w-[540px] text-[#6b7280] dark:text-[#9ca3af]">
-                From our roots in Taunton to 15 years in Bristol, we build high-performance web applications that outpace WordPress. Bespoke Next.js platforms, SaaS products, and AI automation for ambitious businesses across Bristol, Bath, and the South West.
+                Vergentos is a SaaS development agency for founders who mean business. We build bespoke SaaS platforms, AI tools, and data dashboards — from MVP to production-grade. Fast to ship. Built to scale. AI-native by default.
               </p>
             </RevealAnimation>
             
@@ -63,7 +63,7 @@ const Hero = () => {
                 {/* Screenshot */}
                 <Image
                   src="/images/case-study-ai-sales-voice.png"
-                  alt="AI Sales Voice - Next.js SaaS Platform Built by Mediatopia Bristol"
+                  alt="AI Sales Voice — Next.js SaaS platform built by Vergentos"
                   width={800}
                   height={500}
                   priority

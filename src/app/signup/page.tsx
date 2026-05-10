@@ -4,8 +4,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Start Your Project | Mediatopia - Bristol Web Design & AI Consultancy',
-  description: 'Tell us about your project. Whether you need a website, SaaS application, AI automation, or Sage integration - get a free consultation with our Bristol team.',
+  title: 'Start Your Project | Vergentos -  Web Engineering & AI Consultancy',
+  description: 'Tell us about your project. Whether you need a website, SaaS application, AI automation, or Sage integration - get a free consultation with our  team.',
 };
 
 const page = () => {

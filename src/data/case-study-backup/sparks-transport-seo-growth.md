@@ -1,8 +1,10 @@
+<!-- NOINDEXED — overlaps with vergentos.co.uk — do not re-enable without SEO review -->
 ---
 showHomePage: true
+noindex: true
 title: 'Sparks Transport – 340% Traffic Growth'
 thumbnail: '/images/case-study-sparks.png'
-description: 'A comprehensive SEO and website strategy that delivered 340% organic traffic growth for a Bristol-based haulage company, transforming their digital presence and lead generation.'
+description: 'A comprehensive SEO and website strategy that delivered 340% organic traffic growth for a remote-first haulage company, transforming their digital presence and lead generation.'
 result: 340% increase in organic traffic
 before:
   - 'Low search visibility'
@@ -17,7 +19,7 @@ after:
 keyFeatures:
   - 'Complete website redesign'
   - 'Technical SEO overhaul'
-  - 'Local SEO optimisation for Bristol & Southwest'
+  - 'Local SEO optimisation for  & Southwest'
   - 'Content strategy and blog implementation'
   - 'Schema markup for enhanced search results'
   - 'Mobile-first responsive design'
@@ -26,13 +28,13 @@ keyFeatures:
 userReview:
   userName: 'Sparks Transport'
   userImage: '/images/ns-avatar-1.png'
-  userRole: 'Sparks Transport, Bristol'
-  reviewText: 'Mediatopia transformed our online presence. The 340% traffic increase has brought us consistent enquiries from across the Southwest—our phone now rings with quality leads.'
+  userRole: 'Sparks Transport, '
+  reviewText: 'Vergentos transformed our online presence. The 340% traffic increase has brought us consistent enquiries from across the Southwest—our phone now rings with quality leads.'
 ---
 
 - **Client**: Sparks Transport
 - **Industry**: Haulage & Logistics
-- **Location**: Bristol, UK
+- **Location**: , UK
 - **Website**: sparkstransport.com
 - **Key Result**: 340% organic traffic growth
 - **Services**: Web Design, SEO, Content Strategy

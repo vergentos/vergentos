@@ -20,7 +20,7 @@ const PATH_IDS = [
   'curve-path-8',
 ] as const;
 
-// Pink/magenta gradient colours to match Mediatopia branding
+// Pink/magenta gradient colours to match Vergentos branding
 const GRADIENTS: Array<[string, string]> = [
   ['#EC4899', '#8B5CF6'],
   ['#8B5CF6', '#EC4899'],

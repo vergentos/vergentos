@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://aiwebdesigners.co.uk/sitemap.xml
+Sitemap: https://mediatopia.agency/sitemap.xml

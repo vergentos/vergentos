@@ -3,8 +3,8 @@ import CTA from '@/components/shared/cta/CTA';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Mediatopia - Bristol Web Design',
-  description: 'How Mediatopia collects, uses, and protects your personal data. GDPR compliant privacy policy for our web design and development services.',
+  title: 'Privacy Policy | Vergentos -  Web Engineering',
+  description: 'How Vergentos collects, uses, and protects your personal data. GDPR compliant privacy policy for our web engineering and development services.',
 };
 
 const page = () => {

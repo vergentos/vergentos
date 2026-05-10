@@ -12,7 +12,7 @@ const featureList = [
   },
   {
     id: 2,
-    text: 'Sage 50 and WooCommerce real-time synchronisation',
+    text: 'Sage 50 and e-commerce platform real-time synchronisation',
   },
   {
     id: 3,

@@ -17,7 +17,7 @@ const Contact = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <p className="mx-auto max-w-[442px] sm:w-full">
-                  Send us your question and we'll get back to you within 24 hours. Or call us directly on 0117 332 6021.
+                  Send us your question and we'll get back to you within 24 hours. Or call us directly on +44 (0) [PHONE-TO-CONFIRM].
                 </p>
               </RevealAnimation>
             </div>

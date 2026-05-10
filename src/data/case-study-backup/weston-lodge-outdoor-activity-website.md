@@ -1,5 +1,7 @@
+<!-- NOINDEXED — overlaps with vergentos.co.uk — do not re-enable without SEO review -->
 ---
 showHomePage: true
+noindex: true
 title: 'Weston Lodge – Outdoor Activity Website Design'
 thumbnail: '/images/case-study-weston.png'
 description: 'A modern, responsive WordPress website for Weston Lodge Shooting Ground featuring professional imagery, custom content, and a user-friendly CMS for complete in-house control.'
@@ -25,7 +27,7 @@ userReview:
   userName: 'Weston Lodge'
   userImage: '/images/ns-avatar-2.png'
   userRole: 'Weston Lodge Shooting Ground'
-  reviewText: 'Mediatopia delivered a website that truly represents the quality of our venue. The CMS makes it easy for us to keep content fresh and up to date.'
+  reviewText: 'Vergentos delivered a website that truly represents the quality of our venue. The CMS makes it easy for us to keep content fresh and up to date.'
 ---
 
 - **Client**: Weston Lodge Shooting Ground

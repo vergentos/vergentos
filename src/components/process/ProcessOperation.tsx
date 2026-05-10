@@ -17,7 +17,7 @@ const ProcessOperation = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[802px]">
-                Starting a technical project with Mediatopia is straightforward. We've streamlined the initial engagement process so you can move from enquiry to kickoff quickly and confidently.
+                Starting a technical project with Vergentos is straightforward. We've streamlined the initial engagement process so you can move from enquiry to kickoff quickly and confidently.
               </p>
             </RevealAnimation>
           </div>

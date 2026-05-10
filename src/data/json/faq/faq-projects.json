@@ -2,7 +2,7 @@
   {
     "id": 1,
     "question": "How long does a typical project take?",
-    "answer": "Timelines vary by complexity. A brochure website typically takes 4-6 weeks, a custom web application 8-12 weeks, and complex integrations or AI implementations 12-16 weeks. We provide accurate timelines in our fixed-price proposals before any work begins."
+    "answer": "Timelines vary by complexity. A marketing website typically takes 4-6 weeks, a custom web application 8-12 weeks, and complex integrations or AI implementations 12-16 weeks. We provide accurate timelines in our fixed-price proposals before any work begins."
   },
   {
     "id": 2,
@@ -16,8 +16,8 @@
   },
   {
     "id": 4,
-    "question": "Do you work with clients outside Bristol?",
-    "answer": "Absolutely. While we're based in Bristol and love working with Southwest businesses, we have clients across the UK. Most of our communication happens via video calls and project management tools, so location is rarely a barrier."
+    "question": "Do you work with clients outside ?",
+    "answer": "Absolutely. While we're based  and love working with Southwest businesses, we have clients across the UK. Most of our communication happens via video calls and project management tools, so location is rarely a barrier."
   },
   {
     "id": 5,

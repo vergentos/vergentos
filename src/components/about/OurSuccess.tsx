@@ -12,7 +12,7 @@ const OurSuccess = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <p className="mx-auto max-w-[744px]">
-              From award-winning WordPress builds to high-performance Next.js platforms, Mediatopia has been helping UK businesses dominate online since 2003. Now we are pivoting to AI-first development, Sage 50 integrations, and intelligent automation for ambitious brands.
+              From award-winning early web builds to high-performance Next.js platforms, Vergentos has been helping UK businesses dominate online since 2003. Now we are pivoting to AI-first development, Sage 50 integrations, and intelligent automation for ambitious brands.
             </p>
           </RevealAnimation>
         </div>

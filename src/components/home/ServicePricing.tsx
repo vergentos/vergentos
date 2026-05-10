@@ -11,15 +11,15 @@ const Services = () => {
       <div className="main-container">
         <div className="mb-[70px] space-y-5 text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-yellow-v2">Web design pricing</span>
+            <span className="badge badge-yellow-v2">Web engineering pricing</span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.3}>
-              <h2 className="mx-auto max-w-[878px]">Bespoke Web Design & AI Development Costs in Bristol</h2>
+              <h2 className="mx-auto max-w-[878px]">Bespoke Web Engineering & AI Development Costs </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[700px]">
-                Trusted by industry leaders across the UK to deliver technical excellence. Discover how Mediatopia.agency empowers brands through bespoke web design, custom API integrations, and AI-driven automation that drives real commercial growth.
+                Trusted by industry leaders across the UK to deliver technical excellence. Discover how Vergentos empowers brands through bespoke web engineering, custom API integrations, and AI-driven automation that drives real commercial growth.
               </p>
             </RevealAnimation>
           </div>

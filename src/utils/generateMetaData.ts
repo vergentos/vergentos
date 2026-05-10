@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 
-export const DEFAULT_URL = 'https://aiwebdesigners.co.uk';
-export const DEFAULT_TITLE = 'Mediatopia | Next.js & SaaS Development Bristol';
+export const DEFAULT_URL = 'https://www.vergentos.com';
+export const DEFAULT_TITLE = 'Vergentos: SaaS Development Agency for Modern Founders';
 export const DEFAULT_DESCRIPTION =
-  'Bristol web design consultancy specialising in Next.js development, Sage 50 API integration, and AI automation. 22 years of technical excellence serving Bristol, Bath, and Somerset businesses.';
+  'Vergentos is a SaaS development agency building bespoke platforms, AI tools, and data dashboards for ambitious teams. From MVP to production-grade engineering.';
 
 export const defaultMetadata: Metadata = {
   metadataBase: new URL(DEFAULT_URL),
@@ -13,7 +13,7 @@ export const defaultMetadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    siteName: 'Mediatopia',
+    siteName: 'Vergentos',
     title: DEFAULT_TITLE,
     description: DEFAULT_DESCRIPTION,
     locale: 'en_GB',

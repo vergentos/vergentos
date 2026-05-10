@@ -43,7 +43,7 @@ const Navbar = () => {
             className={cn(
               'border-stroke-2 dark:border-stroke-6 bg-accent dark:bg-background-9 mx-auto flex items-center justify-between rounded-full border px-2.5 py-2.5 xl:py-0',
             )}>
-            <div className="flex items-center justify-center"><Link href="/" className="inline-flex items-center"><span className="sr-only">AI Web Designers homepage</span><span className="pl-4 text-lg font-bold text-secondary dark:text-accent lg:text-xl"><span className="text-primary-500">AI</span> Web Designers</span></Link></div>
+            <div className="flex items-center justify-center"><Link href="/" className="inline-flex items-center"><span className="sr-only">Vergentos homepage</span><span className="pl-4 text-lg font-bold text-secondary dark:text-accent lg:text-xl">Vergentos</span></Link></div>
             <nav className="hidden items-center xl:flex">
               <ul className="flex items-center">
                 {dropdownNavItems.map(({ label, dataMenu, MenuComponent }) => (

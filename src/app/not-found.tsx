@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: '404 - Page Not Found | Mediatopia',
+  title: '404 - Page Not Found | Vergentos',
 };
 
 const page = () => {

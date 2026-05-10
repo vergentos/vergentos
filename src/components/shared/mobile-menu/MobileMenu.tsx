@@ -32,7 +32,7 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
       )}>
       <div className="space-y-4 p-5 sm:p-8 lg:p-9">
         <div className="flex items-center justify-between">
-          <Link href="/" onClick={handleLinkClick}><span className="sr-only">AI Web Designers homepage</span><span className="text-lg font-bold text-secondary dark:text-accent"><span className="text-primary-500">AI</span> Web Designers</span></Link>
+          <Link href="/" onClick={handleLinkClick}><span className="sr-only">Vergentos homepage</span><span className="text-lg font-bold text-secondary dark:text-accent">Vergentos</span></Link>
           <MenuCloseButton />
         </div>
 
@@ -45,7 +45,7 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
             <span>Start Project</span>
           </Link>
           <a 
-            href="tel:+441173326021" 
+            href="tel:+44 (0) [PHONE-TO-CONFIRM]" 
             onClick={handleLinkClick}
             className="btn btn-secondary btn-md flex-1 text-center">
             <span>Call Us</span>

@@ -17,7 +17,7 @@ const CTA = () => {
           </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <p className="mb-6">
-              Book a technical consultation with Bristol's lead web design consultants to discuss your bespoke engineering requirements.
+              Book a technical consultation with lead technical consultants to discuss your bespoke engineering requirements.
             </p>
           </RevealAnimation>
 

@@ -5,7 +5,7 @@ const loginOptions = [
   {
     title: 'Hosting Control Panel',
     description: 'Manage your website hosting, emails, domains, and server settings.',
-    href: 'https://clients.mediatopia.co.uk',
+    href: 'https://clients.vergentos.co.uk',
     icon: (
       <svg className="size-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 0 1-3-3m3 3a3 3 0 1 0 0 6h13.5a3 3 0 1 0 0-6m-16.5-3a3 3 0 0 1 3-3h13.5a3 3 0 0 1 3 3m-19.5 0a4.5 4.5 0 0 1 .9-2.7L5.737 5.1a3.375 3.375 0 0 1 2.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 0 1 .9 2.7m0 0a3 3 0 0 1-3 3m0 3h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Zm-3 6h.008v.008h-.008v-.008Zm0-6h.008v.008h-.008v-.008Z" />
@@ -15,7 +15,7 @@ const loginOptions = [
   {
     title: 'Support Tickets',
     description: 'Submit a support request or check the status of existing tickets.',
-    href: 'https://support.mediatopia.co.uk',
+    href: 'https://support.vergentos.co.uk',
     icon: (
       <svg className="size-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 0 1 0 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 0 1 0-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375Z" />
@@ -25,7 +25,7 @@ const loginOptions = [
   {
     title: 'Webmail Access',
     description: 'Access your business email via our secure webmail portal.',
-    href: 'https://webmail.mediatopia.co.uk',
+    href: 'https://webmail.vergentos.co.uk',
     icon: (
       <svg className="size-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
@@ -81,8 +81,8 @@ const LoginHero = () => {
                 </svg>
                 <span className="text-secondary/60 dark:text-accent/60 text-sm">
                   Need help? Call us on{' '}
-                  <a href="tel:+441173326021" className="text-primary-500 font-medium">
-                    0117 332 6021
+                  <a href="tel:+44 (0) [PHONE-TO-CONFIRM]" className="text-primary-500 font-medium">
+                    +44 (0) [PHONE-TO-CONFIRM]
                   </a>
                 </span>
               </div>

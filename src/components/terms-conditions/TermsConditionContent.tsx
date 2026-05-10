@@ -10,8 +10,8 @@ const TermsConditionContent = () => {
             <h1>Terms &amp; Conditions</h1>
             <div className="space-y-7">
               <p>
-                This website, aiwebdesigners.co.uk (hereafter referred to as AI Web Designers, site, or website) is owned and operated by
-                AI Web Designers Ltd, a company registered in England and Wales, operating from 12 Whiteladies Road, Bristol BS8 1PD.
+                This website, vergentos.com (hereafter referred to as Vergentos, site, or website) is owned and operated by
+                Vergentos Ltd, a company registered in England and Wales, operating from [ADDRESS-REMOVED].
               </p>
               <p>
                 Please carefully read and understand our Terms and Conditions before engaging our services or
@@ -29,7 +29,7 @@ const TermsConditionContent = () => {
             <div className="space-y-6">
               <h3>1. Services</h3>
               <p>
-                AI Web Designers provides bespoke web design, Next.js development, Sage 50 API integration, AI automation,
+                Vergentos provides bespoke web engineering, Next.js development, Sage 50 API integration, AI automation,
                 and related technical consultancy services. All services are provided on a project-by-project basis
                 under individual agreements.
               </p>
@@ -44,7 +44,7 @@ const TermsConditionContent = () => {
               <h3>2. Intellectual Property</h3>
               <p>
                 Upon full payment, clients receive ownership of bespoke code, designs, and assets created specifically
-                for their project. AI Web Designers retains the right to use anonymised examples of work in portfolios and
+                for their project. Vergentos retains the right to use anonymised examples of work in portfolios and
                 case studies unless otherwise agreed in writing.
               </p>
               <p>
@@ -61,7 +61,7 @@ const TermsConditionContent = () => {
                 before commencement with the balance due upon completion or in agreed milestones.
               </p>
               <p>
-                Invoices are due within 14 days of issue unless otherwise agreed. AI Web Designers reserves the right to
+                Invoices are due within 14 days of issue unless otherwise agreed. Vergentos reserves the right to
                 suspend work on projects with outstanding payments.
               </p>
             </div>
@@ -70,7 +70,7 @@ const TermsConditionContent = () => {
             <div className="space-y-6">
               <h3>4. Limitation of Liability</h3>
               <p>
-                AI Web Designers shall not be liable for any indirect, incidental, special, or consequential damages
+                Vergentos shall not be liable for any indirect, incidental, special, or consequential damages
                 arising from the use of our services or deliverables. Our total liability is limited to the
                 fees paid for the specific service in question.
               </p>
@@ -88,7 +88,7 @@ const TermsConditionContent = () => {
                 These services are typically billed monthly or annually in advance.
               </p>
               <p>
-                AI Web Designers reserves the right to suspend hosting services for accounts with payments overdue by more
+                Vergentos reserves the right to suspend hosting services for accounts with payments overdue by more
                 than 30 days, after providing reasonable notice.
               </p>
             </div>
@@ -101,7 +101,7 @@ const TermsConditionContent = () => {
                 a project. This includes business strategies, technical specifications, and client data.
               </p>
               <p>
-                AI Web Designers will not share client information with third parties except where necessary to deliver
+                Vergentos will not share client information with third parties except where necessary to deliver
                 the agreed services (e.g., domain registrars, hosting providers).
               </p>
             </div>
@@ -114,7 +114,7 @@ const TermsConditionContent = () => {
                 the client is liable for payment of all work completed up to the termination date.
               </p>
               <p>
-                Upon termination, AI Web Designers will provide reasonable assistance in transitioning services
+                Upon termination, Vergentos will provide reasonable assistance in transitioning services
                 to the client or an alternative provider.
               </p>
             </div>
@@ -132,8 +132,8 @@ const TermsConditionContent = () => {
             <div className="space-y-6">
               <h3>9. Contact</h3>
               <p>
-                For questions regarding these terms, please contact us at hello@aiwebdesigners.co.uk or write to
-                AI Web Designers, 12 Whiteladies Road, Bristol BS8 1PD.
+                For questions regarding these terms, please contact us at hello@vergentos.com or write to
+                Vergentos, [ADDRESS-REMOVED].
               </p>
             </div>
           </RevealAnimation>

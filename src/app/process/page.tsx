@@ -6,8 +6,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Our Technical Process | Mediatopia.agency',
-  description: 'From discovery to deployment, discover how Mediatopia engineers your digital future. A transparent, collaborative process built for Bristol businesses.',
+  title: 'Our Technical Process | Vergentos',
+  description: 'From discovery to deployment, discover how Vergentos engineers your digital future. A transparent, collaborative process built for modern teams.',
 };
 
 const page = () => {
@@ -20,7 +20,7 @@ const page = () => {
         badgeText="Start Your Project"
         badgeClass="!badge-cyan-v2"
         ctaHeading="Ready to engineer your digital future?"
-        description="Book a free technical consultation with our Bristol team. No obligation, just expert advice."
+        description="Book a free technical consultation with our  team. No obligation, just expert advice."
         ctaBtnText="Book a Call"
         btnClass="hover:btn-secondary dark:hover:btn-accent"
         inputType="tel"

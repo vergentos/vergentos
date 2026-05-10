@@ -2,7 +2,7 @@ import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const imageSets = {
-  portfolio: "/images/featurev2-mediatopia.png",
+  portfolio: "/images/featurev2-vergentos.png",
   dashboard: "/images/featurev2-priority.png",
   abstract: "/images/featurev2-showcase.png",
   infrastructure: "/images/featurev2-weston.png",

@@ -55,7 +55,7 @@ const rightColumnLinks: PartnershipLink[] = [
   },
   {
     title: 'Our Products',
-    description: 'AI-powered tools and platforms built by Mediatopia.',
+    description: 'AI-powered tools and platforms built by Vergentos.',
     href: '/services',
     icon: IntegrationIcon,
   },

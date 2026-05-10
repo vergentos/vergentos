@@ -9,19 +9,19 @@ const AboutHero = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           <div className="w-full lg:w-1/2 space-y-6">
             <RevealAnimation delay={0.1}>
-              <span className="badge badge-cyan">About Mediatopia</span>
+              <span className="badge badge-cyan">About Vergentos</span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
-              <h1>Bristol-born. Globally trusted.</h1>
+              <h1>-born. Globally trusted.</h1>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p>
-                I am Duncan Maund, founder of Mediatopia. My career in web development spans over 22 years, starting at a major Somerset-based agency before acquiring the business and launching Mediatopia in August 2010 - right at the start of the credit crunch.
+                I am , founder of Vergentos. My career in web development spans over 22 years, starting at a major -based agency before acquiring the business and launching Vergentos in August 2010 - right at the start of the credit crunch.
               </p>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p>
-                Someone once told me that of 100 businesses starting at the same time, 90% would fail within the first year. Of those remaining, another 90% would be gone by year ten. Reaching our tenth anniversary put Mediatopia in the top 1% of companies that survive and thrive.
+                Someone once told me that of 100 businesses starting at the same time, 90% would fail within the first year. Of those remaining, another 90% would be gone by year ten. Reaching our tenth anniversary put Vergentos in the top 1% of companies that survive and thrive.
               </p>
             </RevealAnimation>
             <RevealAnimation delay={0.5}>
@@ -31,7 +31,7 @@ const AboutHero = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.6}>
               <p>
-                Today, Mediatopia is evolving again. We now specialise in high-performance Next.js platforms, bespoke Sage 50 API integrations, and AI-powered automation for businesses ready to scale. The technology changes, but the expertise and commitment to quality remain constant.
+                Today, Vergentos is evolving again. We now specialise in high-performance Next.js platforms, bespoke Sage 50 API integrations, and AI-powered automation for businesses ready to scale. The technology changes, but the expertise and commitment to quality remain constant.
               </p>
             </RevealAnimation>
           </div>
@@ -39,7 +39,7 @@ const AboutHero = () => {
             <figure className="relative mx-auto max-w-[400px]">
               <Image
                 src={duncanImg}
-                alt="Duncan Maund - Founder of Mediatopia"
+                alt=" - Founder of Vergentos"
                 className="rounded-2xl w-full"
               />
             </figure>

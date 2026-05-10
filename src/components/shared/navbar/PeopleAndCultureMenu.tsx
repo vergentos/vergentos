@@ -25,8 +25,8 @@ const leftColumnLinks: PeopleAndCultureLink[] = [
     icon: TeamIcon,
   },
   {
-    title: 'About Mediatopia',
-    description: '20+ years of web engineering expertise in Bristol.',
+    title: 'About Vergentos',
+    description: '20+ years of web engineering expertise .',
     href: '/about',
     icon: CareerIcon,
   },

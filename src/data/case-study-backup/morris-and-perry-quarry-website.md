@@ -1,8 +1,10 @@
+<!-- NOINDEXED — overlaps with vergentos.co.uk — do not re-enable without SEO review -->
 ---
 showHomePage: true
+noindex: true
 title: 'Morris & Perry – Quarry Website Redesign'
 thumbnail: '/images/case-study-morris.png'
-description: 'A complete website refresh for a prestigious Bath-based quarry with 15+ years as a Mediatopia client. Updated imagery, expanded service content, and modern responsive design for this established UK supplier.'
+description: 'A complete website refresh for a prestigious Bath-based quarry with 15+ years as a Vergentos client. Updated imagery, expanded service content, and modern responsive design for this established UK supplier.'
 result: Refreshed online presence after 15 years of partnership
 before:
   - 'Tired, outdated design'
@@ -25,7 +27,7 @@ userReview:
   userName: 'Morris & Perry'
   userImage: '/images/ns-avatar-3.png'
   userRole: 'Morris & Perry Quarry, Bath'
-  reviewText: 'Mediatopia have looked after our website for 15 years. The latest refresh has given us a modern, professional presence that reflects the quality of our products and services.'
+  reviewText: 'Vergentos have looked after our website for 15 years. The latest refresh has given us a modern, professional presence that reflects the quality of our products and services.'
 ---
 
 - **Client**: Morris & Perry

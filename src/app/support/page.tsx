@@ -7,8 +7,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Support | Mediatopia - Bristol Web Design & AI Consultancy',
-  description: 'Get technical support from Mediatopia. Contact our Bristol team for hosting issues, website queries, or to discuss your next project.',
+  title: 'Support | Vergentos -  Web Engineering & AI Consultancy',
+  description: 'Get technical support from Vergentos. Contact our  team for hosting issues, website queries, or to discuss your next project.',
 };
 
 const Support = () => {
@@ -22,7 +22,7 @@ const Support = () => {
         badgeClass="badge-green"
         badgeText="Start Your Project"
         ctaHeading="Ready to discuss your next project?"
-        description="Whether you need technical support or want to explore a new build, our Bristol team is here to help."
+        description="Whether you need technical support or want to explore a new build, our  team is here to help."
         ctaBtnText="Book a Call"
         inputType="tel"
         inputPlaceholder="Enter your phone number"

@@ -18,7 +18,7 @@ const AboutCTA = () => {
               ctaBtnText="Start Project"
               badgeText="Start Your Journey"
               badgeClass="badge badge-blur text-ns-green"
-              description="Our Bristol-based team is ready to build your solution. Contact Mediatopia.agency today."
+              description="Our remote-first team is ready to build your solution. Contact Vergentos today."
               headingClass="text-white dark:text-accent"
               descriptionClass="text-white/80 dark:text-accent/60"
               listTextClass="text-white/60 dark:text-accent/60"

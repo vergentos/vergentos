@@ -1,20 +1,18 @@
 import ContactInfo from '@/components/contact-page/ContactInfo';
-import ContactMap from '@/components/contact-page/ContactMap';
 import CTA from '@/components/shared/cta/CTA';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Contact Us | Bristol Web Design & AI Consultancy | Mediatopia.agency',
-  description: 'Get in touch with our Bristol-based technical team. Book a free consultation for web engineering, AI implementation, or Sage 50 integration projects.',
+  title: 'Contact Vergentos | SaaS Development & AI Consultancy',
+  description: 'Get in touch with our remote-first technical team. Book a free consultation for web engineering, AI implementation, or Sage 50 integration projects.',
 };
 
 const ContactUs = () => {
   return (
     <main className="bg-background-3 dark:bg-background-7">
       <ContactInfo />
-      <ContactMap />
       <CTA
         className="dark:bg-background-5 bg-white"
         badgeClass="badge-yellow-v2"

@@ -12,23 +12,23 @@ const Content = () => {
               <p>
                 The{' '}
                 <Link href="/" className="text-primary-500">
-                  https://aiwebdesigners.co.uk
+                  https://www.vergentos.com
                 </Link>{' '}
                 website is published by: <br />
                 <br />
-                <strong>Mediatopia</strong> <br />
-                12 Whiteladies Road <br />
-                Bristol BS8 1PD <br />
+                <strong>Vergentos</strong> <br />
+                [ADDRESS-REMOVED] <br />
+                  <br />
                 United Kingdom <br />
                 <br />
                 Telephone:{' '}
-                <a href="tel:+441173326021" className="text-primary-500">
-                  0117 332 6021
+                <a href="tel:+44 (0) [PHONE-TO-CONFIRM]" className="text-primary-500">
+                  +44 (0) [PHONE-TO-CONFIRM]
                 </a>
                 <br />
                 Email:{' '}
-                <a href="mailto:hello@aiwebdesigners.co.uk" className="text-primary-500">
-                  hello@aiwebdesigners.co.uk
+                <a href="mailto:hello@vergentos.com" className="text-primary-500">
+                  hello@vergentos.com
                 </a>
               </p>
             </div>
@@ -36,7 +36,7 @@ const Content = () => {
           <RevealAnimation delay={0.2}>
             <div className="py-8 space-y-3">
               <h2 className="text-heading-4 font-normal">Managing Director</h2>
-              <p>Duncan Maund</p>
+              <p></p>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
@@ -47,7 +47,7 @@ const Content = () => {
                 Headquarters: 440 N Barranca Ave #4133, Covina, CA 91723, USA
                 <br />
                 <br />
-                Client websites hosted by Mediatopia are hosted on secure UK-based servers.
+                Client websites hosted by Vergentos are hosted on secure UK-based servers.
               </p>
             </div>
           </RevealAnimation>
@@ -56,11 +56,11 @@ const Content = () => {
               <h2 className="text-heading-4 font-normal">Intellectual Property</h2>
               <p>
                 All content on this website, including text, graphics, logos, images, and software, 
-                is the property of Mediatopia or its content suppliers and is protected by UK and 
+                is the property of Vergentos or its content suppliers and is protected by UK and 
                 international copyright laws.
                 <br />
                 <br />
-                The Mediatopia name and logo are trademarks of Mediatopia. Unauthorised use of any 
+                The Vergentos name and logo are trademarks of Vergentos. Unauthorised use of any 
                 content from this website is strictly prohibited.
               </p>
             </div>
@@ -70,11 +70,11 @@ const Content = () => {
               <h2 className="text-heading-4 font-normal">Limitation of Liability</h2>
               <p>
                 While we strive to ensure the information on this website is accurate and up-to-date, 
-                Mediatopia makes no warranties or representations about the accuracy or completeness 
+                Vergentos makes no warranties or representations about the accuracy or completeness 
                 of the content. We shall not be liable for any damages arising from the use of this website.
                 <br />
                 <br />
-                This website may contain links to external websites. Mediatopia is not responsible 
+                This website may contain links to external websites. Vergentos is not responsible 
                 for the content or privacy practices of these external sites.
               </p>
             </div>
@@ -90,7 +90,7 @@ const Content = () => {
                 </Link>.
                 <br />
                 <br />
-                Mediatopia is committed to complying with the UK General Data Protection Regulation 
+                Vergentos is committed to complying with the UK General Data Protection Regulation 
                 (UK GDPR) and the Data Protection Act 2018.
               </p>
             </div>
@@ -113,13 +113,13 @@ const Content = () => {
                 <br />
                 <br />
                 Email:{' '}
-                <a href="mailto:hello@aiwebdesigners.co.uk" className="text-primary-500">
-                  hello@aiwebdesigners.co.uk
+                <a href="mailto:hello@vergentos.com" className="text-primary-500">
+                  hello@vergentos.com
                 </a>
                 <br />
                 Telephone:{' '}
-                <a href="tel:+441173326021" className="text-primary-500">
-                  0117 332 6021
+                <a href="tel:+44 (0) [PHONE-TO-CONFIRM]" className="text-primary-500">
+                  +44 (0) [PHONE-TO-CONFIRM]
                 </a>
               </p>
             </div>

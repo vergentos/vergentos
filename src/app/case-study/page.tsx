@@ -7,7 +7,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Case Studies | Bristol Web Design & AI Projects | Mediatopia.agency',
+  title: 'Case Studies |  Web Engineering & AI Projects | Vergentos',
   description: 'Explore our portfolio of web development, Sage 50 integrations, and AI automation projects. Real results for ambitious UK businesses.',
 };
 

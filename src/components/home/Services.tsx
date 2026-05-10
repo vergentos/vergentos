@@ -8,15 +8,15 @@ const Services = () => {
       <div className="main-container">
         <div className="mx-auto mb-14 max-w-[750px] space-y-5 text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-green">Bristol SaaS & App Development</span>
+            <span className="badge badge-green">SaaS & App Development</span>
           </RevealAnimation>
           <div>
             <RevealAnimation delay={0.3}>
-              <h2 className="mb-3">Bespoke platforms that outperform WordPress.</h2>
+              <h2 className="mb-3">Bespoke platforms that outperform legacy CMS.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[600px] text-[#6b7280] dark:text-[#9ca3af]">
-                We build high-performance Next.js applications, SaaS platforms, and AI-integrated systems for ambitious Bristol businesses ready to scale beyond template limitations.
+                We build high-performance Next.js applications, SaaS platforms, and AI-integrated systems for ambitious modern teams ready to scale beyond template limitations.
               </p>
             </RevealAnimation>
           </div>
@@ -63,7 +63,7 @@ const Services = () => {
                 <div className="space-y-2">
                   <h3 className="text-heading-5 max-sm:text-heading-6 group-hover:text-primary-500 transition-colors">The Next.js Advantage</h3>
                   <p className="max-w-[430px] text-[#6b7280] dark:text-[#9ca3af]">
-                    10x faster than WordPress. Server-side rendering, edge caching, and automatic code splitting deliver sub-second load times that boost SEO and conversions.
+                    10x faster than legacy CMS platforms. Server-side rendering, edge caching, and automatic code splitting deliver sub-second load times and boost conversions.
                   </p>
                 </div>
               </div>

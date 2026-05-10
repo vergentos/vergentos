@@ -6,7 +6,7 @@ const featuredProjects = [
   {
     slug: "sparks-transport-seo-growth",
     title: "Sparks Transport – 340% Organic Traffic Growth",
-    description: "WordPress to high-performance platform migration. Technical SEO overhaul delivering exceptional organic growth for Bristol haulage.",
+    description: "Legacy CMS to high-performance platform migration. Technical overhaul delivering exceptional organic growth for logistics.",
     thumbnail: "/images/case-study-sparks.png"
   },
   {
@@ -23,7 +23,7 @@ const featuredProjects = [
   },
   {
     slug: "morris-and-perry-quarry-website",
-    title: "Morris & Perry – Enterprise Bristol Client",
+    title: "Morris & Perry – Enterprise  Client",
     description: "15-year partnership with Bath's premier quarry. Bespoke quote system and fleet management integration.",
     thumbnail: "/images/case-study-morris.png"
   }
@@ -35,7 +35,7 @@ const Projects = () => {
       <div className="main-container">
         <div className="mb-10 space-y-5 text-center md:mb-[70px]">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-yellow-v2">Bristol & Somerset Case Studies</span>
+            <span className="badge badge-yellow-v2">Case Studies</span>
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.3}>
@@ -43,8 +43,8 @@ const Projects = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[680px] text-[#6b7280] dark:text-[#9ca3af]">
-                From WordPress migrations to bespoke SaaS platforms. Real performance gains, 
-                real Sage 50 integrations, and long-term partnerships with Bristol, Bath, and Somerset businesses.
+                From legacy platform migrations to bespoke SaaS platforms. Real performance gains, 
+                real Sage 50 integrations, and long-term partnerships with  businesses.
               </p>
             </RevealAnimation>
           </div>

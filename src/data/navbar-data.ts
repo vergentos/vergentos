@@ -29,7 +29,6 @@ export const mobileMenuData: MobileMenuGroup[] = [
     submenu: [
       { id: 'nextjs-react', label: 'Next.js & React Builds', href: '/services/nextjs-react' },
       { id: 'bespoke-cms', label: 'Bespoke CMS Integration', href: '/services/bespoke-cms' },
-      { id: 'ui-ux', label: 'UI/UX Design', href: '/services/ui-ux-design' },
       { id: 'ecommerce', label: 'E-commerce Engineering', href: '/services/ecommerce-engineering' },
       { id: 'sage-50', label: 'Sage 50 Sync', href: '/services/sage-50-sync' },
       { id: 'ai', label: 'AI Implementation', href: '/services/ai-implementation' },
@@ -48,7 +47,7 @@ export const mobileMenuData: MobileMenuGroup[] = [
     submenu: [
       { id: 'consultation', label: 'Technical Consultation', href: '/contact-us' },
       { id: 'process', label: 'Our Process', href: '/process' },
-      { id: 'about', label: 'About Mediatopia', href: '/about' },
+      { id: 'about', label: 'About Vergentos', href: '/about' },
       { id: 'support-portal', label: 'Client Support Portal', href: '/support' },
       { id: 'faqs', label: 'Technical FAQs', href: '/faq' },
       { id: 'contact', label: 'Contact Us', href: '/contact-us' },

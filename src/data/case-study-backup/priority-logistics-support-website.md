@@ -1,5 +1,7 @@
+<!-- NOINDEXED — overlaps with vergentos.co.uk — do not re-enable without SEO review -->
 ---
 showHomePage: true
+noindex: true
 title: 'Priority Logistics Support – Recruitment Website Design'
 thumbnail: '/images/case-study-priority.png'
 description: 'A striking new website for Priority Logistics Support, a logistics recruitment specialist. Commissioned after seeing our work for Sparks Transport, featuring clean design with a distinctive colour palette and SEO foundations.'
@@ -25,7 +27,7 @@ userReview:
   userName: 'Priority Logistics Support'
   userImage: '/images/ns-avatar-3.png'
   userRole: 'Priority Logistics Support'
-  reviewText: 'We saw the Sparks Transport website and knew we wanted something similar. Mediatopia delivered exactly what we were looking for.'
+  reviewText: 'We saw the Sparks Transport website and knew we wanted something similar. Vergentos delivered exactly what we were looking for.'
 ---
 
 - **Client**: Priority Logistics Support

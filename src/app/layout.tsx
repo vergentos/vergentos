@@ -16,62 +16,37 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'ProfessionalService',
-  name: 'AI Web Designers',
-  alternateName: 'aiwebdesigners.co.uk',
-  description: 'Bristol web design consultancy specialising in Next.js development, AI automation, and bespoke digital solutions for ambitious UK businesses.',
-  url: 'https://aiwebdesigners.co.uk',
-  logo: 'https://aiwebdesigners.co.uk/images/og-image.png',
-  image: 'https://aiwebdesigners.co.uk/images/og-image.png',
-  telephone: '+441173326021',
-  email: 'hello@aiwebdesigners.co.uk',
-  foundingDate: '2003',
-  founder: {
-    '@type': 'Person',
-    name: 'Duncan Maund',
-  },
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: '12 Whiteladies Road',
-    addressLocality: 'Bristol',
-    addressRegion: 'Bristol',
-    postalCode: 'BS8 1PD',
-    addressCountry: 'GB',
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 51.4545,
-    longitude: -2.5879,
-  },
-  areaServed: [
-    { '@type': 'City', name: 'Bristol' },
-    { '@type': 'City', name: 'Bath' },
-    { '@type': 'AdministrativeArea', name: 'Somerset' },
-    { '@type': 'Country', name: 'United Kingdom' },
-  ],
-  serviceType: [
+  '@type': 'Organization',
+  name: 'Vergentos',
+  alternateName: 'vergentos.com',
+  description: 'SaaS development agency building bespoke platforms, AI tools, and data dashboards for modern founders. Custom SaaS engineering, AI integration, and dashboard design for ambitious teams.',
+  url: 'https://www.vergentos.com',
+  logo: 'https://www.vergentos.com/images/og-image.png',
+  image: 'https://www.vergentos.com/images/og-image.png',
+  email: 'hello@vergentos.com',
+  areaServed: 'Worldwide',
+  knowsAbout: [
+    'SaaS Development',
+    'SaaS MVP Development',
+    'Custom SaaS Platforms',
+    'AI Integration',
+    'AI Agents',
+    'AI Automation',
     'Next.js Development',
     'React Development',
-    'SaaS Development',
-    'Sage 50 API Integration',
-    'AI Implementation',
-    'Web Design',
-    'E-commerce Development',
+    'Dashboard Design',
+    'Data Visualisation',
+    'API Engineering',
+    'Web Application Engineering',
+    'Custom Software Development',
   ],
-  priceRange: '££££',
-  openingHoursSpecification: {
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-    opens: '09:00',
-    closes: '17:30',
-  },
-  sameAs: [
-    'https://www.instagram.com/mediatopiauk/',
-    'https://www.facebook.com/mediatopiainternational',
-    'https://www.linkedin.com/in/duncanmaund/',
-    'https://github.com/mediatopiauk',
-    'https://x.com/mediatweetia',
-    'https://clutch.co/profile/mediatopia',
+  serviceType: [
+    'SaaS Development',
+    'AI Development',
+    'Dashboard Design',
+    'Next.js Development',
+    'API Integration',
+    'Custom Software Engineering',
   ],
 };
 
@@ -99,7 +74,7 @@ export default function RootLayout({
             </SmoothScrollProvider>
           </Suspense>
         </ThemeProvider>
-        {/* Google Analytics Tracking Component */}
+        {/* Google Analytics — TODO: replace G-0S0YYNHZML with new Vergentos GA4 property */}
         <GoogleAnalytics gaId="G-0S0YYNHZML" />
       </body>
     </html>

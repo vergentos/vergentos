@@ -6,8 +6,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Technical Blog | Web Development & AI Insights | Mediatopia.agency',
-  description: 'Expert insights on Next.js development, Sage 50 integrations, AI automation, and web engineering from our Bristol-based technical team.',
+  title: 'Technical Blog | Web Development & AI Insights | Vergentos',
+  description: 'Expert insights on Next.js development, Sage 50 integrations, AI automation, and web engineering from our remote-first technical team.',
 };
 
 const page = () => {
@@ -20,7 +20,7 @@ const page = () => {
         badgeClass="!badge-yellow-v2"
         badgeText="Start Your Project"
         ctaHeading="Ready to discuss your technical challenge?"
-        description="Book a free consultation with our Bristol team. No obligation, just expert advice."
+        description="Book a free consultation with our  team. No obligation, just expert advice."
         ctaBtnText="Book a Call"
         inputType="tel"
         inputPlaceholder="Enter your phone number"

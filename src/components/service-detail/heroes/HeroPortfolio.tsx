@@ -65,7 +65,7 @@ const HeroPortfolio = ({ title, subtitle, badge }: HeroPortfolioProps) => {
         <div className="space-y-14 text-center">
           <div className="space-y-4">
             <RevealAnimation delay={0.1}>
-              <span className="badge badge-primary">{badge || 'Web Design'}</span>
+              <span className="badge badge-primary">{badge || 'Web Engineering'}</span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h1 className="mx-auto w-full max-w-[886px]">
@@ -74,7 +74,7 @@ const HeroPortfolio = ({ title, subtitle, badge }: HeroPortfolioProps) => {
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto w-full max-w-[700px]">
-                {subtitle || 'Bespoke web design and development that combines stunning aesthetics with high-performance code to create digital experiences that drive results.'}
+                {subtitle || 'Bespoke web engineering and development that combines stunning aesthetics with high-performance code to create digital experiences that drive results.'}
               </p>
             </RevealAnimation>
           </div>

@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "quote": "The bespoke CMS and UI/UX design provided by Mediatopia have transformed our digital presence. Their technical expertise made a complex platform migration feel completely effortless.",
+    "quote": "The bespoke CMS architecture and interface engineering provided by Vergentos have transformed our digital presence. Their technical expertise made a complex platform migration feel completely effortless.",
     "initials": "JT",
     "name": "James Thompson",
     "position": "Marketing Director",
-    "company": "Bristol Manufacturing Ltd"
+    "company": " Manufacturing Ltd"
   },
   {
     "id": 2,
-    "quote": "Mediatopia's Sage 50 API integration has completely automated our internal financial workflows. We've eliminated manual data entry and achieved real-time visibility across our entire platform.",
+    "quote": "Vergentos's Sage 50 API integration has completely automated our internal financial workflows. We've eliminated manual data entry and achieved real-time visibility across our entire platform.",
     "initials": "RH",
     "name": "Rachel Hughes",
     "position": "Finance Director",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "quote": "Implementing custom AI automation through Mediatopia was a game-changer for our operations team. We're now processing data 6x faster with near-perfect precision.",
+    "quote": "Implementing custom AI automation through Vergentos was a game-changer for our operations team. We're now processing data 6x faster with near-perfect precision.",
     "initials": "DW",
     "name": "David Williams",
     "position": "Operations Manager",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "quote": "The high-performance hosting and proactive security monitoring give us total peace of mind. Mediatopia is more than a web agency; they're our core technical partner.",
+    "quote": "The high-performance hosting and proactive security monitoring give us total peace of mind. Vergentos is more than a typical development consultancy; they're our core technical partner.",
     "initials": "SE",
     "name": "Sophie Evans",
     "position": "Managing Director",
@@ -37,7 +37,7 @@
     "initials": "MT",
     "name": "Mark Taylor",
     "position": "Head of Digital",
-    "company": "Bath & Somerset Tourism"
+    "company": "Bath &  Tourism"
   },
   {
     "id": 6,

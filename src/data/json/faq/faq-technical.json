@@ -11,8 +11,8 @@
   },
   {
     "id": 3,
-    "question": "Why do you use Next.js instead of WordPress?",
-    "answer": "Next.js delivers significantly faster load times, better SEO performance, and enterprise-grade security compared to WordPress. It's ideal for businesses that need custom functionality, high performance, and scalability without the security vulnerabilities of plugin-heavy CMS platforms."
+    "question": "Why do you use Next.js instead of traditional CMS platforms?",
+    "answer": "Next.js delivers significantly faster load times, better SEO performance, and enterprise-grade security compared to traditional CMS platforms. It's ideal for businesses that need custom functionality, high performance, and scalability without the security vulnerabilities of plugin-heavy CMS platforms."
   },
   {
     "id": 4,

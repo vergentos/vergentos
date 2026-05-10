@@ -4,13 +4,13 @@ import Link from 'next/link';
 import RevealAnimation from '@/components/animation/RevealAnimation';
 
 export const metadata: Metadata = {
-  title: 'Web Development & AI Services Bristol | Mediatopia',
-  description: 'Bespoke Next.js development, Sage 50 API integration, AI automation, and e-commerce solutions. Bristol\'s trusted technical consultancy for 22 years.',
-  keywords: 'Next.js development Bristol, Sage 50 integration, AI automation Bristol, web development Bath, e-commerce Somerset',
+  title: 'Web Development & AI Services  | Vergentos',
+  description: 'Bespoke Next.js development, Sage 50 API integration, AI automation, and e-commerce solutions. \'s trusted technical consultancy for 22 years.',
+  keywords: 'Next.js development , Sage 50 integration, AI automation , web development Bath, e-commerce ',
   openGraph: {
     locale: 'en_GB',
     type: 'website',
-    title: 'Web Development & AI Services | Mediatopia Bristol',
+    title: 'Web Development & AI Services | Vergentos',
     description: 'Bespoke Next.js development, Sage 50 API integration, and AI automation for ambitious UK businesses.',
   },
 };
@@ -19,7 +19,7 @@ const coreServices = [
   {
     slug: 'next-js-react-development',
     title: 'Next.js & React Development',
-    description: '10x faster than WordPress. Server-side rendering, edge deployment, and component architecture built for scale.',
+    description: '10x faster than legacy CMS. Server-side rendering, edge deployment, and component architecture built for scale.',
     badge: 'Core Platform',
     icon: 'ns-shape-8',
   },
@@ -47,7 +47,7 @@ const coreServices = [
   {
     slug: 'bespoke-cms-integration',
     title: 'Bespoke CMS Solutions',
-    description: 'Custom content management without WordPress bloat. Headless architecture for ultimate flexibility.',
+    description: 'Custom content management without legacy CMS bloat. Headless architecture for ultimate flexibility.',
     badge: 'Content',
     icon: 'ns-shape-33',
   },
@@ -75,7 +75,7 @@ const Page = () => {
         <div className="main-container">
           <div className="mx-auto max-w-[800px] text-center">
             <RevealAnimation delay={0.1}>
-              <span className="badge badge-secondary">Bristol & Somerset Technical Services</span>
+              <span className="badge badge-secondary"> Technical Services</span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h1 className="mt-6 mb-4 text-heading-2 md:text-heading-1">
@@ -85,7 +85,7 @@ const Page = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[600px] text-lg text-[#6b7280] dark:text-[#9ca3af]">
-                From Next.js platforms to Sage 50 integrations, we build high-performance solutions for ambitious Bristol, Bath, and Somerset businesses.
+                From Next.js platforms to Sage 50 integrations, we build high-performance solutions for ambitious  businesses.
               </p>
             </RevealAnimation>
           </div>
@@ -149,7 +149,7 @@ const Page = () => {
             badgeText="Start Your Project"
             badgeClass="badge badge-cyan"
             ctaHeading="Ready to discuss your technical requirements?"
-            description="Book a free consultation with our Bristol team. We will assess your needs and propose a solution."
+            description="Book a free consultation with our  team. We will assess your needs and propose a solution."
             ctaBtnText="Get in Touch"
             btnClass="hover:btn-secondary dark:hover:btn-accent"
           />

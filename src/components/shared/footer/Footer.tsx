@@ -26,37 +26,37 @@ const Footer = ({ className }: { className?: string }) => {
           <RevealAnimation delay={0.1}>
             <div className="col-span-12 xl:col-span-4">
               <div className="max-w-[306px]">
-                <div className="flex items-center"><Link href="/"><span className="text-lg font-bold text-accent lg:text-xl"><span className="text-primary-500">AI</span> Web Designers</span></Link></div>
+                <div className="flex items-center"><Link href="/"><span className="text-lg font-bold text-accent lg:text-xl">Vergentos</span></Link></div>
                 <p className="text-[#9ca3af] text-tagline-1 mt-4 mb-7 font-normal">
-                  A premier Bristol-based technical engineering shop and lead web design consultancy. We specialise in high-performance Next.js builds, bespoke Sage 50 API synchronisation, and custom AI automation for commercial growth.
+                  A premier remote-first technical engineering consultancy. We specialise in high-performance Next.js builds, bespoke Sage 50 API synchronisation, and custom AI automation for commercial growth.
                 </p>
                 <div className="flex items-center gap-3">
-                  <Link target="_blank" href="https://www.instagram.com/mediatopiauk/">
+                  <Link target="_blank" href="https://www.instagram.com/vergentos/">
                     <span className="sr-only">Instagram</span>
                     <Image className="size-6" src={instagram} alt="" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://www.linkedin.com/in/duncanmaund/">
+                  <Link target="_blank" href="https://www.linkedin.com/in/vergentos/">
                     <span className="sr-only">LinkedIn</span>
                     <Image className="size-6" src={linkedin} alt="" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://www.facebook.com/mediatopiainternational">
+                  <Link target="_blank" href="https://www.facebook.com/vergentos/">
                     <span className="sr-only">Facebook</span>
                     <Image className="size-6" src={facebook} alt="" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://github.com/mediatopiauk">
+                  <Link target="_blank" href="https://github.com/vergentos/">
                     <span className="sr-only">GitHub</span>
                     <Image className="size-6" src={github} alt="" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://x.com/mediatweetia">
+                  <Link target="_blank" href="https://x.com/vergentos/">
                     <span className="sr-only">X</span>
                     <Image className="size-6" src={x} alt="" />
                   </Link>
                   <div className="bg-stroke-1/20 h-6 w-px" />
-                  <Link target="_blank" href="https://clutch.co/profile/mediatopia">
+                  <Link target="_blank" href="https://clutch.co/profile/vergentos/">
                     <span className="sr-only">Clutch</span>
                     <Image className="size-6" src={clutch} alt="" />
                   </Link>
@@ -89,7 +89,7 @@ const Footer = ({ className }: { className?: string }) => {
           <FooterDivider className="bg-accent/10 dark:bg-stroke-6" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-tagline-1 text-primary-50 font-normal">
-              Copyright © 2026 aiwebdesigners.co.uk — Bristol AI Web Design Consultancy & Technical Engineering
+              Copyright © 2026 vergentos.com — SaaS Development Agency & Technical Development
             </p>
           </RevealAnimation>
         </div>

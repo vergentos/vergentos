@@ -22,7 +22,7 @@ interface PricingCard {
 const pricingData: PricingCard[] = [
   {
     id: 'bespoke-dev',
-    title: 'Bespoke Web Design',
+    title: 'Bespoke Web Engineering',
     description: 'Custom Next.js & Tailwind websites designed for maximum speed and search ranking.',
     isFeatured: false,
     features: [
@@ -64,10 +64,10 @@ const Pricing = () => {
       <div className="main-container space-y-[70px]">
         <div className="flex flex-col items-center text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-yellow-v2 mb-5">Web Design Pricing</span>
+            <span className="badge badge-yellow-v2 mb-5">Web Engineering Pricing</span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <h2 className="mx-auto mb-8 max-w-[750px]">Bespoke Web Design & AI Development Costs in Bristol</h2>
+            <h2 className="mx-auto mb-8 max-w-[750px]">Bespoke Web Engineering & AI Development Costs </h2>
           </RevealAnimation>
           <p className="mx-auto max-w-[872px]">
             Transparent pricing for bespoke Next.js development, custom AI solutions, and Sage 50 API integrations. 

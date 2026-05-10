@@ -6,8 +6,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'FAQ | Bristol Web Design & Technical Questions | Mediatopia.agency',
-  description: 'Answers to common questions about web development costs, Sage 50 integration, AI automation, and managed hosting services in Bristol.',
+  title: 'FAQ |  Web Engineering & Technical Questions | Vergentos',
+  description: 'Answers to common questions about web development costs, Sage 50 integration, AI automation, and managed hosting services .',
 };
 
 const FAQ = () => {

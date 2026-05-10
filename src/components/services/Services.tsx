@@ -15,7 +15,7 @@ const Services = () => {
           </RevealAnimation>
           <div className="space-y-3">
             <RevealAnimation delay={0.3}>
-              <h2 className="mx-auto max-w-[878px]">Enterprise-Grade Technology Stack for Bristol SaaS & Applications.</h2>
+              <h2 className="mx-auto max-w-[878px]">Enterprise-Grade Technology Stack for  SaaS & Applications.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[700px]">

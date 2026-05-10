@@ -1,5 +1,7 @@
+<!-- NOINDEXED — overlaps with vergentos.co.uk — do not re-enable without SEO review -->
 ---
 showHomePage: true
+noindex: true
 title: 'Chongz – E-commerce & Sage 50 Integration'
 thumbnail: '/images/case-study-chongz.png'
 description: 'A complete e-commerce overhaul featuring Sage 50 integration via third-party API, advanced product filtering, tagging systems, and comprehensive search functionality for a high-volume online retailer.'

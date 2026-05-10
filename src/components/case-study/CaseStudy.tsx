@@ -79,7 +79,7 @@ const CaseStudy = () => {
                   <h4 className="text-heading-4">The Solution</h4>
                 </RevealAnimation>
                 <RevealAnimation delay={0.4}>
-                  <p>Mediatopia engineered:</p>
+                  <p>Vergentos engineered:</p>
                 </RevealAnimation>
               </div>
               <ul className="space-y-2">

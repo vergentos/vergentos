@@ -34,8 +34,8 @@ const Contact = () => {
                   <div>
                     <h4 className="text-secondary dark:text-accent font-semibold">Phone Support</h4>
                     <p className="text-secondary/60 dark:text-accent/60 mb-1">Monday to Friday, 9am - 5pm</p>
-                    <a href="tel:+441173326021" className="text-primary-500 font-medium hover:underline">
-                      0117 332 6021
+                    <a href="tel:+44 (0) [PHONE-TO-CONFIRM]" className="text-primary-500 font-medium hover:underline">
+                      +44 (0) [PHONE-TO-CONFIRM]
                     </a>
                   </div>
                 </div>
@@ -48,8 +48,8 @@ const Contact = () => {
                   <div>
                     <h4 className="text-secondary dark:text-accent font-semibold">Email Support</h4>
                     <p className="text-secondary/60 dark:text-accent/60 mb-1">We respond within 4 hours</p>
-                    <a href="mailto:hello@aiwebdesigners.co.uk" className="text-primary-500 font-medium hover:underline">
-                      hello@aiwebdesigners.co.uk
+                    <a href="mailto:hello@vergentos.com" className="text-primary-500 font-medium hover:underline">
+                      hello@vergentos.com
                     </a>
                   </div>
                 </div>
@@ -63,9 +63,9 @@ const Contact = () => {
                   <div>
                     <h4 className="text-secondary dark:text-accent font-semibold">Office Address</h4>
                     <p className="text-secondary/60 dark:text-accent/60">
-                      Mediatopia<br />
-                      12 Whiteladies Road<br />
-                      Bristol BS8 1PD
+                      Vergentos<br />
+                      [ADDRESS-REMOVED]<br />
+                       
                     </p>
                   </div>
                 </div>
